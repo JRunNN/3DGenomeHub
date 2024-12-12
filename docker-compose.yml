@@ -1,0 +1,281 @@
+version: "3"
+
+volumes: # 自定义数据卷
+  db_vol: 
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/Projects/ActiveLoops/volumes/db_vol_annotate' #定义数据卷同步存放容器内mysql数据
+  redis_vol: 
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/Projects/ActiveLoops/volumes/redis_vol'
+  media_vol:  #定义数据卷同步存放web项目用户上传到media文件夹的数据
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/Projects/ActiveLoops/volumes/media_vol'
+  static_vol:  #定义数据卷同步存放web项目static文件夹的数据
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/Projects/ActiveLoops/volumes/static_vol'
+  # elasticsearch_vol:  #定义数据卷同步存放web项目static文件夹的数据
+  #   driver: local
+  #   driver_opts:
+  #     type: 'none'
+  #     o: 'bind'
+  #     device: '/mnt/Projects/ActiveLoops/volumes/elasticsearch_vol'
+  others_vol:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/Projects/ActiveLoops/volumes/others'
+  # vue_vol:
+  #   driver: local
+  #   driver_opts:
+  #     type: 'none'
+  #     o: 'bind'
+  #     device: '/home/lycai/Projects/ActiveLoops_docker/front_end'
+  # file_server_vol:
+  #   driver: local
+  #   driver_opts:
+  #     type: 'none'
+  #     o: 'bind'
+  #     device: '/mnt/Projects/ActiveLoops/file_server'
+
+networks: # 自定义网络(默认桥接), 不使用links通信
+  nginx_network:
+    driver: bridge
+  # db_network:
+  #   driver: bridge
+  # redis_network: 
+  #   driver: bridge
+  # elasticsearch_network:
+  #   driver: bridge
+  # vue_network: # Network for Vue app
+  #   driver: bridge
+  # file_server_network: # Network for Vue app
+  #   driver: bridge
+  # download_file_server_network: # Network for Vue app
+  #   driver: bridge
+
+services:
+  redis:
+    image: redis:latest
+    command: redis-server /etc/redis/redis.conf 
+    # command: redis-server /etc/redis/redis.conf --requirepass "saddsAsd9" # 容器启动后启动redis服务器
+    networks:
+      # - redis_network
+      - nginx_network
+    volumes:
+      - redis_vol:/data # 通过挂载给redis数据备份
+      - ./compose/redis/redis.conf:/etc/redis/redis.conf # 挂载redis配置文件
+    expose:
+      - "6379"
+    ports:
+      - "6379:6379"
+    restart: always # always表容器运行发生错误时一直重
+    
+  db:
+    image: mysql
+    env_file:  
+      - ./myproject/.env # 使用了环境变量文件
+    networks:  
+      - nginx_network
+    volumes:
+      - db_vol:/var/lib/mysql:rw # 挂载数据库数据, 可读可写
+      - ./compose/mysql/conf/my.cnf:/etc/mysql/my.cnf # 挂载配置文件
+      - ./compose/mysql/init:/docker-entrypoint-initdb.d/ # 挂载数据初始化sql脚本
+      - others_vol:/mnt//others #  其他数据
+    ports:
+      - "3307:3306" # 与配置文件保持一致
+    restart: always
+
+  web:
+    build: ./myproject
+    environment:
+      CONTAINER_ROLE: django
+      DJANGO_ENV: production
+      PYTHONPATH: "/var/www/html/myproject"
+      DJANGO_SETTINGS_MODULE: "myproject.settings"
+      # CELERY_BROKER_URL: "redis://:sad*$ds@Asd9@redis:6379/0"
+      # CELERY_RESULT_BACKEND: "redis://:sad*$ds@Asd9@redis:6379/0"
+      ANNOTATION_SCRIPT_PATH: "/var/www/html/myproject/others/loop_annotation/0.annotate_promoters.sh,/var/www/html/myproject/others/loop_annotation/1.annotate_encode_atacseq.sh,/var/www/html/myproject/others/loop_annotation/2.annotate_tcga_atacseq.sh,/var/www/html/myproject/others/loop_annotation/3.annotate_tabix.sh,/var/www/html/myproject/others/loop_annotation/4.annotate_stat.sh"
+    expose:
+      - "8080"
+    ports:
+      - "8080:8000"
+    volumes:
+      - ./myproject:/var/www/html/myproject # 挂载项目代码
+      - static_vol:/var/www/html/myproject/static # 以数据卷挂载容器内static文件
+      - media_vol:/var/www/html/myproject/media # 以数据卷挂载容器内用户上传媒体文件
+      - others_vol:/var/www/html/myproject/others #  其他数据
+      - ./compose/uwsgi:/tmp # 挂载uwsgi日志
+    networks:
+      - nginx_network
+      # - db_network  
+      # - redis_network 
+    depends_on:
+      - db
+      - redis
+      # - elasticsearch
+    restart: always
+    # tty: true
+    # stdin_open: true
+
+  # celery:
+  #   build: ./myproject
+  #   volumes:
+  #     - ./myproject:/usr/src/app # 挂载项目代码
+  #     - ./compose/celery/log:/usr/src/app/logs # 挂载项目代码
+  #     - media_vol:/var/www/html/myproject/media # 以数据卷挂载容器内用户上传媒体文件
+  #     - others_vol:/var/www/html/myproject/others #  其他数据
+  #   command: celery  -A myproject  worker --loglevel=info
+  #   environment:
+  #     CONTAINER_ROLE: celery
+  #     # DJANGO_ENV: production
+  #     # CELERY_BROKER_URL: "redis://:saddsAsd9@redis:6379/0"
+  #     # CELERY_RESULT_BACKEND: "redis://:saddsAsd9@redis:6379/0"
+  #     CELERY_BROKER_URL: "redis://47.107.91.5:6379/0"
+  #     CELERY_RESULT_BACKEND: "redis://47.107.91.5:6379/0"
+  #     ANNOTATION_SCRIPT_PATH: "/var/www/html/myproject/others/loop_annotation/0.annotate_promoters.sh,/var/www/html/myproject/others/loop_annotation/1.annotate_encode_atacseq.sh,/var/www/html/myproject/others/loop_annotation/2.annotate_tcga_atacseq.sh,/var/www/html/myproject/others/loop_annotation/3.annotate_tabix.sh,/var/www/html/myproject/others/loop_annotation/4.annotate_stat.sh"
+  #   depends_on:
+  #     - web
+  #     - redis
+  #     - db
+  #     - nginx
+  #   restart: always
+  #   expose:
+  #     - "5555"
+  #   ports:
+  #     - "5555:5555" # 与配置文件保持一致
+  #   networks:
+  #     - nginx_network
+  #     - db_network  
+  #     - redis_network
+
+  flower:
+    build: ./myproject
+    command: celery -A myproject worker flower --port=5556 --basic_auth=${FLOWER_USER}:${FLOWER_PASSWORD}
+    # volumes_from:  # 继承web容器的卷
+    #   - web
+    volumes:
+      - ./myproject:/var/www/html/myproject # 挂载项目代码
+      - ./myproject:/usr/src/app # 挂载项目代码
+      - ./compose/celery/log:/usr/src/app/logs # 挂载项目代码
+      - media_vol:/var/www/html/myproject/media # 以数据卷挂载容器内用户上传媒体文件
+      - others_vol:/var/www/html/myproject/others #  其他数据
+    environment:
+      CONTAINER_ROLE: celery
+      FLOWER_USER: admin  # 可选：设置访问用户名
+      FLOWER_PASSWORD: admin  # 可选：设置访问密码
+      CELERY_BROKER_URL: "redis://47.107.91.5:6379/0"
+      CELERY_RESULT_BACKEND: "redis://47.107.91.5:6379/0"
+      CELERY_TASK_ALWAYS_EAGER: False
+      CELERY_TASK_EAGER_PROPAGATES: False
+    expose:
+      - "5556"
+    ports:
+      - "5556:5556"
+    networks:
+      - nginx_network
+    depends_on:
+      - redis
+      # - celery
+    restart: always
+  # elasticsearch:
+  #   image: elasticsearch:7.11.1
+  #   container_name: elasticsearch
+  #   restart: on-failure
+  #   environment:
+  #     - cluster.name=docker-cluster
+  #     - bootstrap.memory_lock=true
+  #     - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+  #     - discovery.type=single-node
+  #     - xpack.security.enabled=false
+  #   ulimits:
+  #     # 取消内存相关限制 用于开启内存锁定
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   volumes:
+  #     - elasticsearch_vol:/usr/share/elasticsearch/data
+  #     - ./compose/elasticsearch/logs:/usr/share/elasticsearch/logs
+  #   ports:
+  #     - "9200:9200"
+  #     - "9300:9300"
+  #   networks:
+  #     - elasticsearch_network
+
+
+  # vueapp:
+  #   # restart: unless-stopped
+  #   build: ./compose/vue # Correct path to your Vue.js application
+  #   volumes:
+  #     - vue_vol:/usr/src/app # Correct path to your Vue.js application
+  #     - /usr/src/app/node_modules
+  #   networks:
+  #     # - vue_network
+  #     - nginx_network
+  #   ports:
+  #     - "9999:9999"
+  #   expose:
+  #     - "9999"
+
+  # Node.js general server
+  # file_server:
+  #   build: ./compose/file_server # Replace with the actual path to your Node.js server application
+  #   volumes:
+  #     - file_server_vol:/usr/src/app # Replace with the actual path
+  #     # - /usr/src/app/node_modules
+  #   networks:
+  #     # - file_server_network
+  #     - nginx_network
+  #   depends_on:
+  #     - vueapp
+  #   ports:
+  #     - "3000:3000" # Expose the service on port 3001 to avoid conflicts
+  #   expose:
+  #     - "3000"
+  #   restart: on-failure
+  # Node.js download file server
+  # download_file_server:
+  #   build: ./compose/download_file_server # Replace with the actual path
+  #   volumes:
+  #     - /mnt/Projects/ActiveLoops/file_server:/usr/src/app # Replace with the actual path
+  #     - /usr/src/app/node_modules
+  #   networks:
+  #     - download_file_server_network
+  #   ports:
+  #     - "3000:3000" # Expose the service on port 3002 to avoid conflicts
+
+
+  nginx:
+    build: ./compose/nginx
+    ports:
+      - "8888:80"
+      - "443:443"
+    # expose:
+    #   - "8888"
+    volumes:
+      - ./compose/nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf # 挂载nginx配置文件
+      - ./compose/nginx/ssl:/usr/share/nginx/ssl # 挂载ssl证书目录
+      - ./compose/nginx/log:/var/log/nginx # 挂载日志
+      - ./front_end/dist:/usr/share/nginx/html # 前端vue代码
+      - static_vol:/usr/share/nginx/html/static # 挂载静态文件
+      - media_vol:/usr/share/nginx/html/media # 挂载用户上传媒体文件
+    networks:
+      - nginx_network
+    depends_on:
+      - web
+      # - vueapp
+      # - file_server
+      # - download_file_server
+    restart: always

@@ -1,0 +1,27 @@
+asgiref==3.7.2
+certifi==2023.7.22
+crispy-forms-gds==0.2.4
+# django
+django==4.1
+# uwsgi
+uwsgi==2.0.22
+# mysql
+mysqlclient==2.2.0
+# redis
+#django-redis==4.12.1
+redis==4.4.0
+# for images
+Pillow==10.0.1
+urllib3==1.26.16
+django-cors-headers==4.2.0
+djangorestframework==3.14.0
+elasticsearch==7.17.9
+elasticsearch-dsl==7.4.1
+django-elasticsearch-dsl==7.3
+python-dateutil==2.8.2
+pytz==2023.3.post1
+six==1.16.0
+sqlparse==0.4.4
+celery==5.2.7
+celery-progress
+pandas

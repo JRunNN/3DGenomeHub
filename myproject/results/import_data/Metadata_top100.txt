@@ -1,0 +1,100 @@
+id	data_source	data_type	enzyme_linker	factor	tissue	health_status	biomaterial_type	cell_line_name
+GSM1023732	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	HGFDFN168
+GSM1023733	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	AG08470
+GSM1023734	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	HGADFN167
+GSM1023735	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	HGADFN167
+GSM1267196	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267197	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267198	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267199	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267200	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267201	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267202	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267203	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267204	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267205	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1419084	GEO	in-situ Hi-C	HindIII	NA	Blood vessel	Healthy	Tissue	
+GSM1419085	GEO	in-situ Hi-C	HindIII	NA	Heart	Healthy	Tissue	
+GSM1419086	GEO	in-situ Hi-C	HindIII	NA	Liver	Healthy	Tissue	
+GSM1519138	GEO	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lymph	Cancer	Tissue	B cell
+GSM1519139	GEO	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lymph	Cancer	Tissue	B cell
+GSM1551624	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551626	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551627	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551628	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551630	GEO	in-situ Hi-C	MobI	NA	Blood vessel	Healthy	Cell Line	HUVEC (CC-2517)
+GSM1551631	GEO	in-situ Hi-C	MobI	NA	Blood vessel	Healthy	Cell Line	HUVEC (CC-2517)
+GSM1826481	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Cell Line	SK-N-SH
+GSM1826482	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Cell Line	SK-N-SH
+GSM1847520	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4a
+GSM1847521	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847522	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847523	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847524	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847525	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847526	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847527	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847528	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847529	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847530	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847531	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847532	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM2040719	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00014
+GSM2040720	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00015
+GSM2040721	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00016
+GSM2040722	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM2040723	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM07939
+GSM2040724	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM10847 
+GSM2040725	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM12878
+GSM2040726	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM12892
+GSM2040727	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM17938
+GSM2040728	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM17942
+GSM2040729	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM18505
+GSM2040730	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	52425
+GSM2040731	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	82699
+GSM2109212	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109213	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109214	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109215	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109218	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109219	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109220	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109221	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109222	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109223	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109224	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109225	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109226	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109227	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109228	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109229	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109230	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109231	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109232	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109233	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109234	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109235	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109236	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109237	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109238	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109239	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109240	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109241	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109242	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109243	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109244	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109245	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109246	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109247	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109248	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109249	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109250	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109251	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109253	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109254	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109255	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109257	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109258	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109259	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109260	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2142399	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	CRL-2522

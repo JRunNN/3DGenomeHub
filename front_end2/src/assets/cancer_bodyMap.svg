@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 554.8 612.4" style="enable-background:new 0 0 554.8 612.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EBE9EB;}
+	.st1{fill:#E1DEDB;}
+	.st2{fill:none;stroke:#EAE3E1;stroke-width:1.14;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:1.14;}
+	.st4{fill:#FFAAB8;}
+	.st5{fill:none;stroke:#EAE3E1;stroke-width:1.14;stroke-linecap:round;}
+	.st6{opacity:0.7;}
+	.st7{opacity:0.7;fill:#CDBAA2;stroke:#000000;enable-background:new    ;}
+	.st8{opacity:0.7;fill:#CDBAA2;stroke:#000000;stroke-linecap:round;enable-background:new    ;}
+	.st9{opacity:0.7;fill:none;stroke:#000000;stroke-linecap:round;enable-background:new    ;}
+	.st10{fill:#CDBAA2;stroke:#000000;}
+	.st11{opacity:0.7;fill:#D3C868;stroke:#000000;enable-background:new    ;}
+	.st12{opacity:0.7;fill:#CDBAA2;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9996;enable-background:new    ;}
+	.st13{opacity:0.7;fill:#CDBAA2;stroke:#000000;stroke-width:1;stroke-miterlimit:4;enable-background:new    ;}
+	.st14{opacity:0.7;fill:#CDBAA2;stroke:#000000;stroke-width:1;stroke-miterlimit:4.0008;enable-background:new    ;}
+	.st15{opacity:0.7;fill:none;stroke:#000000;enable-background:new    ;}
+	.st16{fill:#948B94;stroke:#000000;}
+	.st17{fill:#B6C6DA;stroke:#000000;}
+	.st18{fill:#9C76FF;stroke:#000000;}
+	.st19{fill:#406A9F;stroke:#000000;}
+	.st20{fill:none;stroke:#000000;}
+	.st21{display:none;fill:none;stroke:#0000FF;stroke-width:4;}
+	.st22{display:none;}
+	.st23{display:inline;fill:#948B94;stroke:#000000;}
+	.st24{display:inline;fill:#B6C6DA;stroke:#000000;}
+	.st25{display:inline;fill:#9C76FF;stroke:#000000;}
+	.st26{display:inline;fill:#406A9F;stroke:#000000;}
+	.st27{display:inline;fill:none;stroke:#000000;}
+	.st28{fill:#737373;}
+	.st29{font-family:'ArialMT';}
+	.st30{font-size:11px;}
+	.st31{fill:#CDC8CD;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9994;}
+	.st32{fill:#F3E5CD;stroke:#000000;stroke-width:1;stroke-miterlimit:4;}
+	.st33{fill:#D9AF65;stroke:#E8CE9F;stroke-width:1.14;}
+	.st34{fill:#8D9DC1;stroke:#000000;}
+	.st35{fill:#92A434;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9999;}
+	.st36{fill:#92A434;stroke:#000000;}
+	.st37{fill:#92A434;stroke:#000000;stroke-width:1;stroke-miterlimit:4;}
+	.st38{display:none;fill:none;stroke:#0000FF;stroke-width:3.9996;stroke-miterlimit:3.9996;}
+	.st39{display:inline;fill:#CDC8CD;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9994;}
+	.st40{display:inline;fill:#F3E5CD;stroke:#000000;stroke-width:1;stroke-miterlimit:4;}
+	.st41{display:inline;fill:#D9AF65;stroke:#E8CE9F;stroke-width:1.14;}
+	.st42{display:inline;fill:#8D9DC1;stroke:#000000;}
+	.st43{display:inline;fill:#92A434;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9999;}
+	.st44{display:inline;fill:#92A434;stroke:#000000;}
+	.st45{display:inline;fill:#92A434;stroke:#000000;stroke-width:1;stroke-miterlimit:4;}
+	.st46{letter-spacing:34;}
+	.st47{fill:#F3E5CD;stroke:#000000;}
+	.st48{fill:#B3CDDE;stroke:#000000;}
+	.st49{fill:#D22D10;stroke:#000000;stroke-linecap:round;}
+	.st50{fill:none;stroke:#E8A1B4;stroke-linecap:round;}
+	.st51{fill:none;stroke:#9F2350;stroke-width:1.5;stroke-linecap:round;}
+	.st52{fill:#6D7FAE;}
+	.st53{display:inline;fill:#F3E5CD;stroke:#000000;}
+	.st54{display:inline;fill:#B3CDDE;stroke:#000000;}
+	.st55{display:inline;fill:#D22D10;stroke:#000000;stroke-linecap:round;}
+	.st56{display:inline;fill:none;stroke:#E8A1B4;stroke-linecap:round;}
+	.st57{display:inline;fill:none;stroke:#9F2350;stroke-width:1.5;stroke-linecap:round;}
+	.st58{display:inline;fill:#6D7FAE;}
+	.st59{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;}
+	.st60{display:none;fill:none;stroke:#FF886B;stroke-width:1.71;stroke-linecap:round;}
+	.st61{opacity:0.7;fill:#FFD29F;stroke:#FF886B;stroke-linecap:square;stroke-linejoin:round;enable-background:new    ;}
+	.st62{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linejoin:round;}
+	.st63{display:none;fill:#FFD29F;stroke:#FF886B;stroke-linecap:square;stroke-linejoin:round;}
+	.st64{fill:none;stroke:#F69296;stroke-width:1.71;stroke-linecap:round;stroke-dasharray:0,3.42;}
+	.st65{opacity:0.7;fill:#E8C775;stroke:#231F20;enable-background:new    ;}
+	.st66{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;}
+	.st67{display:none;fill:#E8C775;stroke:#231F20;}
+	.st68{fill:#A44C49;stroke:#231F20;}
+	.st69{display:none;fill:#A44C49;stroke:#231F20;}
+	.st70{fill:#FFAAB8;stroke:#FF95B8;}
+	.st71{display:inline;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;}
+	.st72{display:inline;fill:none;stroke:#D48D81;stroke-linecap:round;}
+	.st73{fill:#D3C868;stroke:#000000;stroke-linecap:round;stroke-miterlimit:7;}
+	.st74{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:7;}
+	.st75{display:none;fill:#D3C868;stroke:#000000;stroke-linecap:round;stroke-miterlimit:7;}
+	.st76{fill:#FFBFCA;stroke:#555555;stroke-linejoin:bevel;}
+	.st77{fill:#E26A8C;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9992;}
+	.st78{fill:#FF5597;stroke:#000000;}
+	.st79{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linejoin:bevel;}
+	.st80{display:none;fill:#FF98A9;stroke:#000000;stroke-linejoin:bevel;}
+	.st81{fill:#E2B48C;stroke:#000000;}
+	.st82{display:inline;}
+	.st83{display:inline;fill:#E26A8C;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9992;}
+	.st84{fill:#FF8BB8;stroke:#000000;}
+	.st85{fill:none;stroke:#000000;stroke-width:0.57;}
+	.st86{display:inline;fill:#FF8BB8;stroke:#000000;}
+	.st87{display:inline;fill:none;stroke:#000000;stroke-width:0.57;}
+	.st88{display:inline;fill:#FF5597;stroke:#000000;}
+	.st89{display:inline;fill:none;stroke:#0000FF;stroke-width:4;}
+	.st90{display:inline;fill:#CDBAA2;stroke:#000000;}
+	.st91{display:inline;fill:#CDBAA2;stroke:#000000;stroke-linecap:round;}
+	.st92{display:inline;fill:none;stroke:#000000;stroke-linecap:round;}
+	.st93{display:none;fill:#D3C868;stroke:#000000;}
+	.st94{display:inline;fill:none;stroke:#FFFFFF;stroke-width:4;}
+	.st95{display:inline;fill:#997281;stroke:#000000;}
+	.st96{display:none;fill:none;stroke:#FFFFFF;stroke-width:3;}
+	.st97{display:none;fill:#7E4979;}
+	.st98{display:none;fill:#EDCA8B;stroke:#000000;}
+	.st99{display:none;fill:#87936C;stroke:#000000;}
+	.st100{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;}
+	.st101{fill:#B5A6B5;stroke:#000000;stroke-linecap:round;}
+	.st102{display:inline;fill:#B27770;stroke:#000000;}
+	.st103{display:inline;fill:none;stroke:#966E94;stroke-linecap:round;}
+	.st104{display:none;fill:none;stroke:#FFFFFF;stroke-width:3.9996;stroke-miterlimit:3.9996;}
+	.st105{display:none;fill:#917CB1;stroke:#000000;stroke-width:1;stroke-miterlimit:3.9996;}
+	.st106{display:none;fill:#CDBAA2;stroke:#000000;}
+	.st107{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:4;}
+	.st108{display:none;fill:#D0C8D0;stroke:#000000;stroke-width:1;stroke-miterlimit:4;}
+	.st109{display:inline;fill:#B69AA3;stroke:#000000;}
+	.st110{fill:#4F4F4F;stroke:#5D6262;}
+	.st111{display:inline;fill:none;stroke:#5D6262;}
+	.st112{display:none;fill:#A9A490;}
+	.st113{display:inline;fill:#CD9D72;}
+	.st114{display:inline;fill:#DCC583;}
+	.st115{fill:none;stroke:#000000;stroke-linecap:round;}
+	.st116{fill:#CF858F;stroke:#4C4C4C;}
+	.st117{display:none;fill:#C1626F;stroke:#000000;}
+	.st118{opacity:0.7;fill:#C0192B;stroke:#000000;stroke-width:1.14;enable-background:new    ;}
+	.st119{display:none;fill:#C0192B;stroke:#000000;}
+	.st120{opacity:0.72;fill:#AE755E;stroke:#231F20;enable-background:new    ;}
+	.st121{opacity:0.5;fill:#CD9F00;stroke:#231F20;enable-background:new    ;}
+	.st122{opacity:0.51;fill:none;stroke:#231F20;enable-background:new    ;}
+	.st123{opacity:0.51;fill:#E4CCD1;stroke:#231F20;stroke-width:0.8224;stroke-linecap:round;enable-background:new    ;}
+	.st124{display:inline;fill:#AE755E;stroke:#231F20;}
+	.st125{display:inline;fill:none;stroke:#231F20;}
+	.st126{display:inline;fill:#E4CCD1;stroke:#231F20;stroke-width:0.8224;stroke-linecap:round;}
+	.st127{opacity:0.7;fill:#E0A42F;stroke:#231F20;enable-background:new    ;}
+	.st128{display:none;fill:#E0A42F;stroke:#231F20;}
+	.st129{opacity:0.84;fill:#AE5B5E;stroke:#231F20;enable-background:new    ;}
+	.st130{opacity:0.73;fill:none;stroke:#231F20;enable-background:new    ;}
+	.st131{display:inline;opacity:0.84;fill:none;stroke:#FFFFFF;stroke-width:4;enable-background:new    ;}
+	.st132{display:inline;opacity:0.84;fill:#AE5B5E;stroke:#231F20;enable-background:new    ;}
+	.st133{display:inline;opacity:0.73;fill:none;stroke:#231F20;enable-background:new    ;}
+	.st134{opacity:0.75;fill:#FFC48C;stroke:#231F20;enable-background:new    ;}
+	.st135{display:none;fill:#FFC48C;stroke:#231F20;stroke-linecap:round;}
+	.st136{opacity:0.7;fill:#C1AEB6;stroke:#231F20;enable-background:new    ;}
+	.st137{fill:#C1AEB6;}
+	.st138{fill:none;stroke:#231F20;}
+	.st139{display:none;fill:none;stroke:#231F20;}
+	.st140{opacity:0.7;fill:#E4CCD1;stroke:#231F20;enable-background:new    ;}
+	.st141{fill:none;stroke:#231F20;stroke-linecap:round;}
+	.st142{opacity:0.7;fill:none;stroke:#231F20;stroke-linecap:round;enable-background:new    ;}
+	.st143{opacity:0.7;fill:#D3C8C5;stroke:#231F20;enable-background:new    ;}
+	.st144{display:none;fill:#E4CCD1;stroke:#231F20;}
+	.st145{opacity:0.75;}
+	.st146{fill:#C1AEB6;stroke:#231F20;}
+	.st147{display:inline;fill:#C1AEB6;stroke:#231F20;}
+	.st148{opacity:0.7;fill:#CFCCE1;stroke:#231F20;enable-background:new    ;}
+	.st149{display:inline;fill:#CFCCE1;stroke:#231F20;}
+	.st150{fill:#CFCCE1;stroke:#231F20;}
+	.st151{opacity:0.7;fill:#F2BD81;stroke:#231F20;enable-background:new    ;}
+	.st152{display:none;fill:#F2BD81;stroke:#231F20;}
+	.st153{opacity:0.47;fill:#FFEEC0;stroke:#231F20;enable-background:new    ;}
+	.st154{opacity:0.7;fill:#FFEEC0;stroke:#231F20;enable-background:new    ;}
+	.st155{display:inline;fill:#FFF9D9;stroke:#231F20;}
+	.st156{display:inline;fill:#FFEEC0;stroke:#231F20;}
+	.st157{opacity:0.7;fill:none;stroke:#231F20;enable-background:new    ;}
+	.st158{opacity:0.7;fill:#FF83CE;stroke:#231F20;stroke-width:1;stroke-miterlimit:3.9996;enable-background:new    ;}
+	.st159{display:inline;fill:none;stroke:#FFFFFF;stroke-width:3.9996;stroke-linecap:round;stroke-miterlimit:3.9996;}
+	.st160{display:inline;fill:none;stroke:#231F20;stroke-linecap:round;}
+	.st161{display:inline;fill:#FF83CE;stroke:#231F20;stroke-width:1;stroke-miterlimit:3.9996;}
+	.st162{fill:#FFC4E8;stroke:#231F20;}
+	.st163{display:inline;fill:#FFC4E8;stroke:#231F20;}
+	.st164{opacity:0.68;fill:#E09CAB;enable-background:new    ;}
+	.st165{opacity:0.68;fill:none;stroke:#000000;enable-background:new    ;}
+	.st166{display:inline;fill:#E09CAB;}
+	.st167{opacity:0.7;fill:#FFC4E8;enable-background:new    ;}
+	.st168{display:inline;fill:#FFC4E8;}
+	.st169{fill:#FF8DD2;stroke:#231F20;}
+	.st170{display:inline;fill:#FF8DD2;stroke:#231F20;}
+	.st171{fill:none;stroke:#841837;stroke-linecap:round;}
+	.st172{display:inline;fill:none;stroke:#841837;stroke-linecap:round;}
+	.st173{fill:#E1DEDB;stroke:#E1DEDB;}
+	.st174{opacity:0.7;fill:#E1DEDB;stroke:#BC674B;stroke-width:1.14;stroke-linecap:round;enable-background:new    ;}
+	.st175{fill:#CFA7A2;}
+	.st176{fill:#B981A2;}
+	.st177{display:inline;fill:#E1DEDB;stroke:#BC674B;stroke-width:1.14;stroke-linecap:round;}
+	.st178{display:inline;fill:#CFA7A2;}
+	.st179{display:inline;fill:#B981A2;}
+	.st180{opacity:0.71;fill:#ECB069;stroke:#231F20;enable-background:new    ;}
+	.st181{display:none;fill:#ECB069;stroke:#231F20;}
+	.st182{opacity:0.7;fill:#9F7900;stroke:#000000;enable-background:new    ;}
+	.st183{display:none;fill:#9F7900;stroke:#000000;}
+	.st184{opacity:0.74;fill:#D3C8C5;stroke:#000000;enable-background:new    ;}
+	.st185{opacity:0.42;fill:#DEB88A;stroke:#231F20;enable-background:new    ;}
+	.st186{opacity:0.41;fill:#DEB88A;stroke:#231F20;enable-background:new    ;}
+	.st187{display:inline;fill:#DEB88A;stroke:#231F20;}
+	.st188{opacity:0.82;}
+	.st189{fill:#9F0050;stroke:#000000;}
+	.st190{fill:#A05B52;stroke:#000000;}
+	.st191{fill:#7986E7;stroke:#000000;}
+	.st192{fill:#B60D5B;stroke:#000000;}
+	.st193{fill:#903052;stroke:#000000;}
+	.st194{fill:#CD002C;stroke:#000000;}
+	.st195{display:none;fill:#903052;stroke:#000000;}
+	.st196{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:6;}
+	.st197{display:none;fill:#CD002C;stroke:#000000;}
+	.st198{display:none;fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:3;}
+	.st199{display:inline;fill:#A05B52;}
+	.st200{display:none;fill:#9F0050;stroke:#000000;}
+	.st201{opacity:0.75;fill:#E1DEDB;stroke:#C5BFB9;stroke-width:1.14;enable-background:new    ;}
+	.st202{display:none;fill:#E1DEDB;stroke:#231F20;stroke-width:1.14;}
+</style>
+<defs>
+	<link  href="../style/hgGtexTrackSettings.css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml"></link>
+</defs>
+<g id="BODY_BASE">
+	<path class="st0" d="M503.4,600.5H389.8l-2.7-3.4c0,0-1.9-3-4.9-3.4s-3,0.8-3-4.6c0-5.3-2.3-61.9,15.2-84.4
+		c17.5-22.4,27.7-33.8,33.4-34.2c5.7-0.4,17.1,0,21.3,0.8s16,0.4,17.9,0s6.1,0.8,9.1,4.6s3,7.6,9.5,11.4c6.5,3.8,5.7,10.3,5.7,10.3
+		s3.4,8,5.3,10.3s5.7,12.9,7.6,15.6c1.9,2.7,6.5,7.6,3.4,18.6c-3,11-2.3,25.1-2.3,25.1s-1.1,4.6,1.5,9.1c2.7,4.6,1.9,11,1.9,11
+		l0.8,6.1L503.4,600.5z"/>
+	<path class="st1" d="M42.1,138.6l10,7.4c-2.6,1.4-7.1,4.8-7.1,4.8s-12.5,4.1-15.1,5.2s-2.9,4.6,2,6.3c1.7,0.6,6-0.9,6-0.9l13.7-3.7
+		c1.4-0.9,8.5,2,12.3,0.9c3.7-1.1,7.4-2.6,8.3-3.4c0.9-0.9,4-0.9,6.6-0.3s66.4,8.3,66.4,8.3c1.7,1.4,4.3,2.6,7.1,1.4l63.8,4.8
+		c2.6,2.3,4.3,0.6,6,12.3l14.3,76.9c0.6,4.6-2.8,53.4-2.8,53.4l5,104.6c0.6,6,0.3,8-0.6,10.3s-0.9,2.2-0.9,6
+		c0,4.6-0.9,14.2,0.8,17.3s1.1,3.2,1.4,9.2c0.9,9.8,5.2,64.8,5.2,72.8c0,8.3-2.4,13.8-2.4,17.1c0,1.9,0.5,6.8,0.9,8.7
+		s2.3,6.2-1.5,13l-6.1,25.7c-2.9,2.7-4.9,8.3-2.6,10.1c0,0,4.2,1,6.1-2c1.1,3.4,7.7,2.2,8.5,0c2.4,2.9,6.8,3,8.9,0.2
+		c1.9,3.2,8,1.7,8.9-1.3c1,4.4,7.4,3.3,8,3c6.5-0.8,6.4-7.1,4.2-15.5l-6-24.5c-1.1-3-1.5-9.1,0.8-12.9c2.3-3.8,1.9-7.2,0.4-10.6
+		c-1.5-3.4-1.9-5.7-1.9-5.7l8.9-76.7c2.3-5.7,3.8-18.2,4.2-34.6l12.9-80.6l6.5,2.7l85.9-2.3c6.8-3,6.8,3,6.5,6.8l10.3,77.1
+		c1.9,21.7,1.5,12.5,1.1,19.4c0,0-3.4,9.9-3.8,12.2c-0.4,7.2,3.8,11.4,5.3,12.9c7.2,1.9,14.1-1.1,17.9-1.9c3.8-0.8,17.9-1.1,22,0.4
+		c4.2,1.5,13.7,1.9,18.6-1.5h9.4c6.1-2.7,4.3-7.6,2.8-9.3c0,0-3.3-0.2-10-0.5c-1.5-0.1-2.4-0.1-3.7-1l-25.6-10.2
+		c0,0-6.5-3.8-5.7-12.5l6.5-115.9c-0.4-8.7-7.6-20.5-16-22s-81.3-7.2-81.3-7.2c-3.8-1.1-3-1.5-3.8-5.7l-6.8-28.5l9.6-47.3
+		c0,0,11.9,32.1,13.6,35.5s5.9,6.1,10.3,5.3l74.3-7.2c7-1,10.6,2.1,15.4,2.8c4.8,0.8,21.3-1.9,21.3-1.9l18.4,0.4
+		c3.4,0,3.4-3.2,1.3-4l-21.1-3.4l0.2-1.5l24.3,0.8c4,0.4,4-4.4,0.9-4.7c-3-0.4-25.8-3.8-25.8-3.8l0.2-1.1h27.5
+		c4.2-0.6,2.8-4.8,0-4.9c-1.3-0.1-26.7-2.4-27.9-2.4c-0.3,0-0.1-1.3-0.1-1.3l25.9-1.7c4-0.7,3.8-4-0.3-4.7l-13.5-0.6l-22.7,0.7
+		l2.6-2.2c7.6-6.1,3.8-9.1,2.9-9.5c-1.1,1-13.7,8.2-15.6,9.1c-1.9,1-11.2,5.9-12.9,9.3c0,0-50.9-0.8-53.2-0.8
+		c-2.3,0-5.7-0.4-6.8-5.3L371,165.8c-4.7-23.8-3.6-38-26.8-40.5c0,0-18.8,0.2-19.4,0.2s-1.3,0.8-2.3-0.2l-17.1-12l-0.2-23
+		c3.2-3.6,14.1-6.3,14.1-33.1c0-26.2-29.3-32.3-39.1-31.5c-6.1,0.5-30.3,2.3-34.1,22.4c-0.7,2.7-0.3,6.3,0.3,8c0.7,2,2.3,2,0.3,4.6
+		s-6.9,8.7-8.1,9.5c-2.9,2-2,5.3,0.2,5.9c2.3,0.6,5.6,1.1,5.6,1.1l-0.7,3.9c-2.2,3.4-0.1,3.1,1.3,3.5l6.5,1l-6.2,1.4
+		c-2.8,0.4-1.7,2.8-1.7,2.8l1.9,1.1l1,2.7c-0.4,1.1-0.4,1.9-1.1,3.4c-1.6,3.5,1.6,7.4,7.4,7.2c2.1-0.1,10-0.6,10-0.6l-0.2,13.8
+		l-10.3,9.4c-13.7,0.3-26.9,3.4-28.9,4c-3.7-0.3-58,3.1-65.2,3.2c-6.9,0.1-4.8,0.3-7.4,0.3c-2.6,0-67.2,0.8-71.7,1
+		c-4.6,0.3-6.8,1.1-11.7-0.6c-4.8-1.7-20.2-4.8-22.5-5.4s-2.3-0.9-5.1,0.3C37,130.7,7.3,137,7.3,137c-0.7,3,2.9,5,6.9,4.8
+		c4-0.3,6.8-0.8,6.8-0.8l9.9-1.7l11.6-0.6"/>
+	<line class="st2" x1="264.9" y1="603.7" x2="264.9" y2="595.7"/>
+	<line class="st2" x1="256.3" y1="604.7" x2="256.7" y2="598.7"/>
+	<line class="st2" x1="247.4" y1="604.8" x2="247.8" y2="600"/>
+	<line class="st2" x1="238.8" y1="604.7" x2="239.2" y2="599.9"/>
+	<line class="st2" x1="345.9" y1="177.2" x2="342.3" y2="211.2"/>
+	<polyline class="st2" points="249.4,57.3 257,60.3 249.6,63.4 	"/>
+	<path class="st2" d="M251.3,58.4c-0.4,1.5-0.9,2.7-0.2,4.2"/>
+	<path class="st2" d="M450,232.7c6.6-1.3,12-13.7,12-16.3l2.6-2.9"/>
+	<text transform="matrix(1 0 0 1 -15.334 -122.5656)" class="st29" style="font-size:12px;">UCSC Body Map /FINAL  ART</text>
+	<text transform="matrix(1 0 0 1 126.266 -122.5656)" class="st29" style="font-size:12px;"> </text>
+	<rect x="-56.7" y="-154.5" class="st3" width="676" height="802.6"/>
+	<path class="st4" d="M204.2,86.1"/>
+	<g>
+		<line class="st2" x1="249.2" y1="137.7" x2="276.7" y2="137.5"/>
+		<path class="st2" d="M291.6,139.2c-1,2.1-2.2,4.5-5.4,4c-3.2,0.4-4.4-2-5.4-4"/>
+		<line class="st2" x1="323.3" y1="137.7" x2="295.7" y2="137.5"/>
+	</g>
+	<circle class="st2" cx="290.2" cy="271.8" r="3"/>
+	<path class="st5" d="M233.3,174.3c0.3,5.1,7.1,28.5,8,30.2s3.1,2,3.1,2l33.9,0.6"/>
+	<circle class="st5" cx="252.4" cy="195.1" r="3.2"/>
+	<path class="st5" d="M340.7,174.3c-0.3,5.1-7.1,28.5-8,30.2s-3.1,2-3.1,2l-33.9,0.6"/>
+	<circle class="st5" cx="321.6" cy="195.1" r="3.2"/>
+	<line class="st5" x1="233" y1="174.3" x2="228.2" y2="172.3"/>
+</g>
+<g id="brainBody_GROUP">
+	<g id="brain" class="st6">
+		<path class="st7" d="M289.3,31.2c0.1-0.7-0.2-1.8-1-2.1c-1.2-0.2-2.3-0.4-3.5-0.6c-0.4,0-0.7-0.1-1.1-0.1c-0.9,0-1.4,0.7-1.6,1.1
+			c0-0.5-0.6-1.3-1.2-1.3c-1.3,0-2.6,0.1-3.9,0.2c-0.7,0.1-1.5,0.6-1.5,1.4c-0.2-0.8-1.4-0.9-1.9-0.9c-1.3,0.3-2.8,0.7-4.1,1.1
+			c-0.5,0.2-0.7,0.8-0.6,1.5c-0.2-0.5-1.1-0.9-1.9-0.6c-1.1,0.4-2.3,1-3.3,1.5c-0.6,0.4-0.5,1.1-0.5,1.7c-0.7-0.6-1.4-0.7-2-0.4
+			c-1.1,0.7-2.4,1.6-3.4,2.4c-0.5,0.3-0.6,1.2-0.3,2c-0.4-0.2-1.8-0.3-2.3,0.2c-0.9,0.9-1.8,1.9-2.6,2.9c-0.5,0.8-0.3,1.8-0.1,2.2
+			c-0.4,0-1.6,0.2-2,0.7c-0.2,0.4-0.5,1-0.7,1.4c-0.4,0.7-0.8,1.6-1,2.3c-0.2,0.9,0.2,2.1,0.6,3c-0.7,0.2-1.6,1.3-1.6,1.7
+			c-0.1,1.5,0,2.9,0.2,4.3c0.2,0.9,1.4,1.5,2.2,1.4c-0.4,0.4-1.3,1.6-0.9,2.5c0.8,1.8,1.9,3.2,3,4.2c0.7,0.6,1.7,0.4,2.5,0
+			c-0.1,0.3-0.7,0.9,0.1,1.5c0.1,0,0.3,0,0.4,0h11.8c-0.7,1-2.1,4.8,1.3,7.2c4.7,3.4,12.8,1.2,16.2-3.6l1.3-1.9h22l1.3,1.3
+			c0.7,0.4,2,1.2,3.3-0.4c0.4-0.4,0.8-1.2,1.3-2.2c0.2-0.4-0.2-1.1-0.6-1.3c0.5,0.2,1.3-0.4,1.5-0.7c0.4-1.2,0.7-2.6,1-4.1
+			c0-0.5-0.6-1.1-1.3-1.2c0.7,0,1.4-1.1,1.4-1.5c0-1.1,0-2.3-0.2-3.6c-0.1-0.7-1-1.2-1.8-1.1c0.8-0.2,1.3-1.6,1.2-2.1
+			c-0.3-1.2-0.7-2.4-1.2-3.5c-0.3-0.6-1.4-1-2.1-0.7c0.7-0.5,0.8-1.8,0.6-2.3c-0.6-0.9-1.2-1.9-1.9-2.7c-0.4-0.5-1.6-0.6-2.3-0.2
+			c0.6-0.6,0.4-2,0-2.4c-1-1-2.1-2-3.3-2.9c-0.5-0.4-1.5-0.5-2,0.1c0.4-0.7-0.3-1.6-0.7-1.9c-1-0.6-2.4-1.4-3.4-1.9
+			c-0.6-0.3-1.6-0.3-2,0.4c0.3-0.8-0.6-1.5-1.1-1.8c-1.3-0.5-2.7-1-4-1.4C290.9,29.8,289.7,30,289.3,31.2z"/>
+		<path class="st8" d="M287.7,37.7c-0.1,0.3-0.1,1.2,0.5,1.4c0,0,0.6,0.3,0.8,0.4"/>
+		<path class="st8" d="M307.1,54.2c2.3,6-0.9,10.4-1.1,10.6c-0.3,0.3-0.9,0.5-1.9-0.3l-3.1-3c-0.4-0.4-0.7-1.9-0.2-2.4
+			c-0.4,0.4-1.2,1.2-2.1,0.6c0,0-2.3-2-2.7-2.3c-0.7-0.7-0.5-1.6,0.2-2.5c0.7-0.8,7.3-9.9,7.3-9.9c0.6-0.6,1-0.9,1.7-1.4s3-2,3-2"/>
+		<path class="st7" d="M297.4,43.4c0.7,0.4,1.4,0.9,2.1,1.4"/>
+		<path class="st9" d="M294,41.6c-0.3-0.2-0.5-1-0.4-1.4c-0.4,0.3-0.9,0.7-1.6,0.5c-0.1-0.1-0.3-0.1-0.4-0.2"/>
+		<path class="st9" d="M299.3,44.7c-0.3-0.2-0.3-1.1-0.2-1.4c-0.5,0.3-1,0.5-1.6,0.2"/>
+		<path class="st9" d="M304.5,49.7c0.3,0.4,0.5,0.7,0.8,1.1c0.2,0.2,0.2,0.3,0.5,0.7c-0.2-0.3,0.1-1.1,0.4-1.4
+			C305.5,50.1,305,50.2,304.5,49.7z"/>
+		<path class="st9" d="M307.7,56.2c-0.1-0.3,0.5-1.2,0.8-1.4c-0.5-0.1-1.1-0.2-1.4-0.8"/>
+		<path class="st9" d="M307.8,60.4c0-0.3,0.9-0.7,1.1-0.8c-0.4-0.2-0.8-0.3-1-0.9"/>
+		<path class="st9" d="M306.9,63.3c0.1-0.2,0.9-0.2,1.1-0.2c-0.3-0.2-0.6-0.6-0.6-1.1"/>
+		<path class="st7" d="M267.2,66.4c2.8-0.5,3.4-2.9,3.3-4.2c-0.4-3-2.2-3.5-3.2-3.7c-2.1,0-3.6-0.4-4.6-1.1c-0.5-0.3-0.9-0.2-1.3,0
+			c0.1-0.3,0.2-1,0-1.2c-0.4-0.6-0.7-1.2-0.9-1.8c-0.3-0.6-0.7-0.7-1.1-0.8c0.3-0.1,0.7-0.7,0.7-1c0-0.6,0-1.2,0.1-1.8
+			c0-0.6-0.3-0.9-0.7-1.2c0.3,0,1-0.3,1.1-0.6c0.2-0.6,0.5-1.3,0.8-1.8c0.2-0.6,0-1-0.2-1.4c0.3,0.1,1.1,0,1.3-0.2
+			c0.6-0.8,1.2-1.5,2-2.1c0.4-0.4,0.4-0.9,0.3-1.4c0.2,0.2,1,0.4,1.2,0.2c0.8-0.6,1.8-1.1,2.7-1.6l0,0c0.5-0.3,0.5-0.8,0.6-1.3
+			c0.2,0.2,0.8,0.6,1.1,0.5c0.9-0.3,1.9-0.6,2.9-0.8c0.7-0.2,0.9-0.7,1.1-1.2c0.1,0.3,0.5,0.9,1.1,0.9c0.9-0.1,1.8-0.2,2.7-0.2
+			c0.7,0,1-0.6,1.2-1.1c0.1,0.3,0.7,1,1,1c1,0,1.9,0,2.7,0.1c0.7-0.1,1.1-0.5,1.4-0.9c0.1,0.3,0.5,1.1,0.9,1.1
+			c0.1,0,0.3,0.1,0.4,0.1c1.4,0.1,1.8-0.3,2.1-0.9l1.7-6.8"/>
+		<path class="st10" d="M272.6,64.9c1.9-2.7,4.7-4.2,5.8-4.9l0.6,1.1c-0.9,0.6-3.1,1.8-4.9,3.8"/>
+		<path class="st11" d="M292.5,87c0,0,0-0.9,0-1.2s0.1-1.5-0.8-2.8l-12.2-21.3c0.3,0.9,0,1-0.2,1.2c-0.3,0.2-1,0.2-1.4-0.5
+			c-0.3-0.8-0.1-2.3,1.5-3.2s4.5-1.1,5.9,0.3l11.6,20.3c1,1.7,1.1,2.5,1.2,3.9v3.2"/>
+		<path class="st7" d="M272,62.4l1.1-4.5c0-0.7-0.4-1.2-1.3-1.2h-5.3c-1,0-3-1.5-3-4c0-2.9,3.7-8.5,15.8-8.3
+			c3.2-0.1,10.4,0.4,14.1,4c1.4,1.7,2.2,3.4,0.9,5.9c-0.9,1.5-3.3,2.4-4.8,2.5h-14c-0.8,0.1-1,0.7-1.3,1.7l-1,3.9
+			c1,0.6,1.2,1.4,1.1,1.9c-0.1,0.4-0.6,1.6-1.8,1.3C271.4,65.1,271.3,63.8,272,62.4z"/>
+		
+			<ellipse transform="matrix(0.2099 -0.9777 0.9777 0.2099 150.7206 320.152)" class="st12" cx="273.5" cy="66.8" rx="2.1" ry="1.8"/>
+		<path class="st7" d="M288.8,56.7h-13.5c-1.3-0.1-1.5-2.5,0-4s4.3-3,8.5-2s5.1,3.8,5.4,4.4C289.4,55.7,289.5,56.5,288.8,56.7z"/>
+		<path class="st9" d="M296.2,54.9c-0.4,0.3-1.6,1.9-4.3,1.8"/>
+		<path class="st7" d="M286.5,56.7l2.4,2.9c0.3,0.7,0.5,0.6,0.5,1.8v4c0,0.7,0.1,1.4,0.4,1.7c0.3,0.4,7.4,12.9,7.4,12.9l2.5-1.7h4.6
+			c4.1-0.4,7.1-5.9,4.6-9.4l-12.3-11c-2-1.5-3.2-1.4-4.2-1.4L286.5,56.7z"/>
+		<ellipse transform="matrix(0.9411 -0.3381 0.3381 0.9411 -6.6038 100.1533)" class="st13" cx="284.2" cy="69" rx="3.5" ry="5"/>
+		<path class="st7" d="M277.8,60.2L277.8,60.2c-0.6,0.5-2.6,1.7-2.6,1.7c-0.6,0.3-1.6-0.1-1.5-0.8l0.7-2.7c0.2-1,0.5-1.6,1.3-1.7
+			h3.5c0.4,0.1,0.5,0.7,0.4,1C279.2,58.3,279.3,59.2,277.8,60.2z"/>
+		<path class="st10" d="M280.2,56.7l1.9,2.8c0.3,0.4,1.1,0.7,1.8,0l2.1-2.7L280.2,56.7z"/>
+		<path class="st7" d="M292.5,54.9c0.2-0.5,0.6-1.8,1.5-1.7c0.9,0,0.9,1,0.7,1.7c-0.2,0.7-2.3,4.6-6.9,6.5c-1.4,0.6-1.6,0.9-2.3,1.7
+			c-0.7,0.9-2.5,2.8-4.1,1.5c-1.6-1.3,0.1-3.1,0.5-3.3s7.6-3.2,8.2-3.8C290.8,56.9,292,56.3,292.5,54.9z"/>
+		<path class="st7" d="M281.1,62c3-2,3.1-1.5,7.8-3.8c4.7-2.3,4.1-4.6,4.3-5.8c0.4-6.5-10.6-8-12.1-8.1s-14.7-0.7-14.8,6.2
+			c-0.1,6.9,7.1,8,10.2,8.3c7.4,0.5,8.9-5,5.8-8.9c-0.1-0.9,0.9-2.2,0.9-2.2s0.6-1,1.5-0.9c4.5,1.5,6.7,4.1,6.1,7.1
+			c-0.7,3-4.9,4.3-5.4,4.6s-3.9,1.6-4.9,2.5"/>
+		
+			<ellipse transform="matrix(6.629703e-02 -0.9978 0.9978 6.629703e-02 205.401 327.1795)" class="st13" cx="277.5" cy="53.8" rx="5.1" ry="7.4"/>
+		<ellipse transform="matrix(0.727 -0.6867 0.6867 0.727 32.4553 208.5027)" class="st14" cx="278.4" cy="63.4" rx="3" ry="2.1"/>
+		<line class="st15" x1="300.4" y1="78.5" x2="296.1" y2="78.5"/>
+		<line class="st15" x1="307.8" y1="76.5" x2="295.4" y2="76.5"/>
+		<line class="st15" x1="309.1" y1="74.3" x2="293.8" y2="74.3"/>
+		<line class="st15" x1="309.8" y1="72" x2="292.5" y2="72"/>
+		<line class="st15" x1="309.2" y1="69.7" x2="305.3" y2="69.7"/>
+		<line class="st9" x1="300.8" y1="59.1" x2="303" y2="56.7"/>
+		<line class="st9" x1="305.9" y1="50.1" x2="307.5" y2="49.1"/>
+		<line class="st9" x1="299.1" y1="43.3" x2="299.9" y2="42"/>
+		<line class="st9" x1="293.6" y1="40.2" x2="294.2" y2="38.9"/>
+		<line class="st9" x1="284.3" y1="37.7" x2="284.4" y2="35.8"/>
+		<line class="st9" x1="279.1" y1="37.5" x2="279.1" y2="35.8"/>
+		<line class="st9" x1="274.1" y1="38" x2="274.1" y2="36.2"/>
+		<line class="st9" x1="269" y1="39.4" x2="268.3" y2="37.8"/>
+		<line class="st9" x1="264.5" y1="42" x2="263.3" y2="40.7"/>
+		<line class="st9" x1="261" y1="45.7" x2="259.4" y2="44.8"/>
+		<line class="st9" x1="259.4" y1="49.5" x2="257.3" y2="49.1"/>
+		<line class="st9" x1="259.3" y1="53.5" x2="257.2" y2="54.2"/>
+		<line class="st9" x1="261.3" y1="57.4" x2="257.8" y2="59.6"/>
+		<path class="st9" d="M255,64.8l1.6-1c0.7-0.5,1.7-0.8,2.5-0.8l4.5-0.6"/>
+		<line class="st9" x1="282.1" y1="31.1" x2="282.2" y2="29.4"/>
+		<line class="st9" x1="275.8" y1="31.5" x2="275.6" y2="29.8"/>
+		<line class="st9" x1="269.5" y1="33.1" x2="269" y2="31.5"/>
+		<line class="st9" x1="264" y1="35.6" x2="263.3" y2="34.1"/>
+		<line class="st9" x1="258.8" y1="39.3" x2="257.7" y2="38.1"/>
+		<line class="st9" x1="254.5" y1="44.3" x2="252.7" y2="43.4"/>
+		<line class="st9" x1="251.7" y1="51.2" x2="249.6" y2="50.8"/>
+		<line class="st9" x1="252.3" y1="57.6" x2="250.4" y2="58.2"/>
+		<line class="st9" x1="296.1" y1="34.4" x2="296.8" y2="33.1"/>
+		<line class="st9" x1="302.1" y1="37.7" x2="302.9" y2="36.5"/>
+		<line class="st9" x1="312.3" y1="53.7" x2="313.7" y2="53.3"/>
+		<line class="st9" x1="308.6" y1="54.8" x2="310" y2="54.4"/>
+		<line class="st9" x1="308.9" y1="59.6" x2="310.2" y2="59.6"/>
+		<line class="st9" x1="313.1" y1="59.4" x2="314.5" y2="59.5"/>
+		<line class="st9" x1="311.8" y1="64.7" x2="313.2" y2="65.4"/>
+		<line class="st9" x1="307.9" y1="63.2" x2="309.3" y2="63.9"/>
+		<line class="st9" x1="310.4" y1="47.7" x2="311.8" y2="46.9"/>
+		<path class="st8" d="M293.2,72c-0.6-1.2,0-2.4,0.4-2.7c-1.5,0-2.5-0.7-3.2-1.8c-0.9-1.5-0.2-6,2.6-7.1c3.4-1.2,5.4-1.3,8.8,2.3
+			c0.8,0.7,4.7,3.5,3.2,9.4L293.2,72z"/>
+	</g>
+</g>
+<g id="Cells_GROUP">
+	<g id="xformedfibroblasts_GROUP">
+		<g id="xformedfibroblasts_Pic_Lo" class="st6">
+			<circle class="st16" cx="159.6" cy="536.4" r="27.6"/>
+			<path class="st17" d="M169,517.5c1-1.9-8.7,7.4-15.2,2.3c0.6,2,1.3,11.8-10.8,10.8c1.7,1.9,5.8,7.4-2.4,13.5
+				c6.7-2.4,14.5,1,5.6,12.5c5-1.6,10.1-2.3,14.8,2.3c-0.4-5.1,5.6-8.1,7-8.8c-5.8-0.9-3.3-10.8,7.1-12.7
+				C166.8,534.6,165.8,523.5,169,517.5z"/>
+			<circle class="st18" cx="159.6" cy="535.3" r="4.7"/>
+			<circle class="st19" cx="159.6" cy="535.3" r="2.6"/>
+			<line class="st20" x1="154.7" y1="520.5" x2="149.5" y2="510.5"/>
+			<line class="st20" x1="157.6" y1="521.3" x2="151.6" y2="509.9"/>
+			<line class="st20" x1="154" y1="524.5" x2="147.3" y2="511.6"/>
+			<line class="st20" x1="142.2" y1="542.7" x2="173.5" y2="537.1"/>
+			<line class="st20" x1="171.5" y1="538.1" x2="154.2" y2="520.6"/>
+			<line class="st20" x1="167.8" y1="518.6" x2="142.6" y2="542.8"/>
+			<line class="st20" x1="146.2" y1="530.3" x2="160.6" y2="557.7"/>
+			<line class="st20" x1="147.6" y1="555.2" x2="166.6" y2="550.4"/>
+			<line class="st20" x1="148.6" y1="554.4" x2="169.8" y2="538.4"/>
+			<line class="st20" x1="149" y1="555.2" x2="155.2" y2="521"/>
+			<line class="st20" x1="157.6" y1="544" x2="160" y2="563.8"/>
+			<line class="st20" x1="159.4" y1="544" x2="161.9" y2="563.8"/>
+			<line class="st20" x1="161.3" y1="544" x2="163.7" y2="563.8"/>
+			<line class="st20" x1="153.6" y1="528.9" x2="133.4" y2="527"/>
+			<line class="st20" x1="153" y1="530.7" x2="132.8" y2="528.9"/>
+			<line class="st20" x1="153" y1="532.6" x2="132.8" y2="530.7"/>
+			<line class="st20" x1="165.4" y1="519.9" x2="170.3" y2="511.1"/>
+			<line class="st20" x1="166.3" y1="521.9" x2="174.5" y2="513.1"/>
+			<line class="st20" x1="166.4" y1="523.8" x2="176" y2="513.9"/>
+			<line class="st20" x1="168.6" y1="517.2" x2="172.8" y2="512.1"/>
+			<line class="st20" x1="144.3" y1="540" x2="133.2" y2="544.7"/>
+			<line class="st20" x1="144.5" y1="541.3" x2="133.6" y2="546.1"/>
+			<line class="st20" x1="145.2" y1="542.7" x2="134.9" y2="548.5"/>
+			<line class="st20" x1="168.8" y1="539.3" x2="187.2" y2="538.1"/>
+			<line class="st20" x1="172" y1="536.3" x2="187.1" y2="535.4"/>
+			<line class="st20" x1="170.4" y1="534.3" x2="187.1" y2="533.4"/>
+			<line class="st20" x1="163.7" y1="546.1" x2="182.8" y2="551.4"/>
+			<line class="st20" x1="165" y1="548.4" x2="181.9" y2="553"/>
+			<line class="st20" x1="166" y1="550.5" x2="180.7" y2="554.5"/>
+			<line class="st20" x1="164.6" y1="552.1" x2="179.2" y2="556.1"/>
+		</g>
+		<circle id="xformedfibroblasts_Aura_Hi" class="st21" cx="159.4" cy="536.3" r="27.6"/>
+		<g id="xformedfibroblasts_Pic_Hi" class="st22">
+			<circle class="st23" cx="159.6" cy="536.4" r="27.6"/>
+			<path class="st24" d="M169,517.5c1-1.9-8.7,7.4-15.2,2.3c0.6,2,1.3,11.8-10.8,10.8c1.7,1.9,5.8,7.4-2.4,13.5
+				c6.7-2.4,14.5,1,5.6,12.5c5-1.6,10.1-2.3,14.8,2.3c-0.4-5.1,5.6-8.1,7-8.8c-5.8-0.9-3.3-10.8,7.1-12.7
+				C166.8,534.6,165.8,523.5,169,517.5z"/>
+			<circle class="st25" cx="159.6" cy="535.3" r="4.7"/>
+			<circle class="st26" cx="159.6" cy="535.3" r="2.6"/>
+			<line class="st27" x1="154.7" y1="520.5" x2="149.5" y2="510.5"/>
+			<line class="st27" x1="157.6" y1="521.3" x2="151.6" y2="509.9"/>
+			<line class="st27" x1="154" y1="524.5" x2="147.3" y2="511.6"/>
+			<line class="st27" x1="142.2" y1="542.7" x2="173.5" y2="537.1"/>
+			<line class="st27" x1="171.5" y1="538.1" x2="154.2" y2="520.6"/>
+			<line class="st27" x1="167.8" y1="518.6" x2="142.6" y2="542.8"/>
+			<line class="st27" x1="146.2" y1="530.3" x2="160.6" y2="557.7"/>
+			<line class="st27" x1="147.6" y1="555.2" x2="166.6" y2="550.4"/>
+			<line class="st27" x1="148.6" y1="554.4" x2="169.8" y2="538.4"/>
+			<line class="st27" x1="149" y1="555.2" x2="155.2" y2="521"/>
+			<line class="st27" x1="157.6" y1="544" x2="160" y2="563.8"/>
+			<line class="st27" x1="159.4" y1="544" x2="161.9" y2="563.8"/>
+			<line class="st27" x1="161.3" y1="544" x2="163.7" y2="563.8"/>
+			<line class="st27" x1="153.6" y1="528.9" x2="133.4" y2="527"/>
+			<line class="st27" x1="153" y1="530.7" x2="132.8" y2="528.9"/>
+			<line class="st27" x1="153" y1="532.6" x2="132.8" y2="530.7"/>
+			<line class="st27" x1="165.4" y1="519.9" x2="170.3" y2="511.1"/>
+			<line class="st27" x1="166.3" y1="521.9" x2="174.5" y2="513.1"/>
+			<line class="st27" x1="166.4" y1="523.8" x2="176" y2="513.9"/>
+			<line class="st27" x1="168.6" y1="517.2" x2="172.8" y2="512.1"/>
+			<line class="st27" x1="144.3" y1="540" x2="133.2" y2="544.7"/>
+			<line class="st27" x1="144.5" y1="541.3" x2="133.6" y2="546.1"/>
+			<line class="st27" x1="145.2" y1="542.7" x2="134.9" y2="548.5"/>
+			<line class="st27" x1="168.8" y1="539.3" x2="187.2" y2="538.1"/>
+			<line class="st27" x1="172" y1="536.3" x2="187.1" y2="535.4"/>
+			<line class="st27" x1="170.4" y1="534.3" x2="187.1" y2="533.4"/>
+			<line class="st27" x1="163.7" y1="546.1" x2="182.8" y2="551.4"/>
+			<line class="st27" x1="165" y1="548.4" x2="181.9" y2="553"/>
+			<line class="st27" x1="166" y1="550.5" x2="180.7" y2="554.5"/>
+			<line class="st27" x1="164.6" y1="552.1" x2="179.2" y2="556.1"/>
+		</g>
+		<text transform="matrix(1 0 0 1 136.8315 585.5643)" class="st28 st29 st30">Cultured</text>
+		<text transform="matrix(1 0 0 1 131.5315 600.5643)" class="st28 st29 st30">fibroblasts</text>
+	</g>
+	<g id="xformedlymphocytes_GROUP">
+		<g id="xformedlymphocytes_Pic_Lo" class="st6">
+			
+				<ellipse transform="matrix(2.308397e-02 -0.9997 0.9997 2.308397e-02 -478.2542 583.8799)" class="st31" cx="59.6" cy="536.7" rx="27.6" ry="27.6"/>
+			
+				<ellipse transform="matrix(0.7034 -0.7108 0.7108 0.7034 -363.7623 201.5213)" class="st32" cx="59.6" cy="536.6" rx="21.7" ry="16.7"/>
+			<circle class="st33" cx="54.2" cy="541.7" r="10.3"/>
+			<circle class="st34" cx="54.2" cy="541.8" r="6.5"/>
+			
+				<ellipse transform="matrix(9.968716e-02 -0.995 0.995 9.968716e-02 -464.4595 541.098)" class="st35" cx="66.8" cy="527.2" rx="3.2" ry="3.2"/>
+			<line class="st20" x1="66.8" y1="524" x2="66.8" y2="521.9"/>
+			<ellipse class="st36" cx="66.8" cy="521.3" rx="1.1" ry="0.7"/>
+			<line class="st20" x1="64.6" y1="524.9" x2="63.1" y2="523.5"/>
+			
+				<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -351.4798 197.5359)" class="st37" cx="62.7" cy="523" rx="1.1" ry="0.7"/>
+			<line class="st20" x1="63.6" y1="527.2" x2="61.6" y2="527.2"/>
+			<ellipse class="st36" cx="61" cy="527.2" rx="0.7" ry="1.1"/>
+			<line class="st20" x1="64.6" y1="529.4" x2="63.1" y2="530.9"/>
+			
+				<ellipse transform="matrix(0.7073 -0.7069 0.7069 0.7073 -357.2586 199.8396)" class="st37" cx="62.7" cy="531.3" rx="0.7" ry="1.1"/>
+			<line class="st20" x1="66.8" y1="530.4" x2="66.8" y2="532.4"/>
+			<ellipse class="st36" cx="66.8" cy="533" rx="1.1" ry="0.7"/>
+			<line class="st20" x1="69.1" y1="529.4" x2="70.5" y2="530.9"/>
+			
+				<ellipse transform="matrix(0.7069 -0.7073 0.7073 0.7069 -355.0164 205.8788)" class="st37" cx="70.9" cy="531.3" rx="1.1" ry="0.7"/>
+			<line class="st20" x1="70" y1="527.2" x2="72" y2="527.2"/>
+			<ellipse class="st36" cx="72.7" cy="527.2" rx="0.7" ry="1.1"/>
+			<line class="st20" x1="69.1" y1="524.9" x2="70.5" y2="523.5"/>
+			
+				<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -349.0564 203.3324)" class="st37" cx="70.9" cy="523" rx="0.7" ry="1.1"/>
+		</g>
+		
+			<ellipse id="xformedlymphocytes_Aura_Hi" transform="matrix(2.678594e-03 -1 1 2.678594e-03 -477.2552 594.7787)" class="st38" cx="59.6" cy="536.7" rx="27.6" ry="27.6"/>
+		<g id="xformedlymphocytes_Pic_Hi" class="st22">
+			
+				<ellipse transform="matrix(2.308397e-02 -0.9997 0.9997 2.308397e-02 -478.2542 583.8799)" class="st39" cx="59.6" cy="536.7" rx="27.6" ry="27.6"/>
+			
+				<ellipse transform="matrix(0.7034 -0.7108 0.7108 0.7034 -363.7623 201.5213)" class="st40" cx="59.6" cy="536.6" rx="21.7" ry="16.7"/>
+			<circle class="st41" cx="54.2" cy="541.7" r="10.3"/>
+			<circle class="st42" cx="54.2" cy="541.8" r="6.5"/>
+			
+				<ellipse transform="matrix(9.968716e-02 -0.995 0.995 9.968716e-02 -464.4595 541.098)" class="st43" cx="66.8" cy="527.2" rx="3.2" ry="3.2"/>
+			<line class="st27" x1="66.8" y1="524" x2="66.8" y2="521.9"/>
+			<ellipse class="st44" cx="66.8" cy="521.3" rx="1.1" ry="0.7"/>
+			<line class="st27" x1="64.6" y1="524.9" x2="63.1" y2="523.5"/>
+			
+				<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -351.4798 197.5359)" class="st45" cx="62.7" cy="523" rx="1.1" ry="0.7"/>
+			<line class="st27" x1="63.6" y1="527.2" x2="61.6" y2="527.2"/>
+			<ellipse class="st44" cx="61" cy="527.2" rx="0.7" ry="1.1"/>
+			<line class="st27" x1="64.6" y1="529.4" x2="63.1" y2="530.9"/>
+			
+				<ellipse transform="matrix(0.7073 -0.7069 0.7069 0.7073 -357.2586 199.8396)" class="st45" cx="62.7" cy="531.3" rx="0.7" ry="1.1"/>
+			<line class="st27" x1="66.8" y1="530.4" x2="66.8" y2="532.4"/>
+			<ellipse class="st44" cx="66.8" cy="533" rx="1.1" ry="0.7"/>
+			<line class="st27" x1="69.1" y1="529.4" x2="70.5" y2="530.9"/>
+			
+				<ellipse transform="matrix(0.7069 -0.7073 0.7073 0.7069 -355.0164 205.8788)" class="st45" cx="70.9" cy="531.3" rx="1.1" ry="0.7"/>
+			<line class="st27" x1="70" y1="527.2" x2="72" y2="527.2"/>
+			<ellipse class="st44" cx="72.7" cy="527.2" rx="0.7" ry="1.1"/>
+			<line class="st27" x1="69.1" y1="524.9" x2="70.5" y2="523.5"/>
+			
+				<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -349.0564 203.3324)" class="st45" cx="70.9" cy="523" rx="0.7" ry="1.1"/>
+		</g>
+		<text transform="matrix(1 0 0 1 12.9897 585.5633)" class="st28 st29 st30">EBV-transformed</text>
+		<text transform="matrix(1 0 0 1 22.8897 600.5633)" class="st28 st29 st30">lymphocytes</text>
+		<text transform="matrix(1 0 0 1 36.6897 615.5633)" class="st28 st29 st30 st46"> </text>
+	</g>
+</g>
+<g id="wholeBlood_GROUP">
+	<g id="wholeBlood_Pic_Lo" class="st6">
+		<circle class="st47" cx="323.4" cy="537.5" r="27.6"/>
+		<polygon class="st48" points="327.7,522.3 325.6,524.8 326.9,526.4 327,529.4 329.3,526.8 329.3,525.5 330,524.1 		"/>
+		<polygon class="st48" points="309.8,553.2 308.4,555 309.2,556.1 309.3,558.2 310.9,556.4 310.9,555.5 311.4,554.5 		"/>
+		<polygon class="st48" points="334.7,524 335.3,521.1 336.7,518.4 339.7,518.6 340.4,519.7 338.9,521.7 338,521.5 337.4,522.4 		
+			"/>
+		<polygon class="st48" points="325.7,543.4 323,547.3 326.6,546.9 326.2,544.3 		"/>
+		<polygon class="st48" points="319.9,554 316.9,554.7 316.3,556.7 319.2,557.9 		"/>
+		<circle class="st48" cx="312.2" cy="541.3" r="8.7"/>
+		<path class="st49" d="M323.7,518.1c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C317.5,514.7,322.2,515.2,323.7,518.1z"/>
+		<path class="st50" d="M320.1,519.1c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st51" d="M311.9,522.4c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st49" d="M343.3,530.5c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C337.1,527.1,341.9,527.6,343.3,530.5z"/>
+		<path class="st50" d="M339.8,531.5c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st51" d="M331.5,534.8c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st49" d="M341.5,548.3c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C335.3,544.9,340.1,545.4,341.5,548.3z"/>
+		<path class="st50" d="M337.9,549.3c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st51" d="M329.7,552.6c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st52" d="M309.9,535.2c1.8,0,0.8,2.5,0.8,3.2c0,0.8,0.6,1.3,1.8,1c1.1-0.2,1-0.6,2.9-0.4c1.5,0.2,2.6,1.9,2.6,3.5
+			c0,1.5-0.9,4.1-4.7,5.1c-3.8,1-6.6-2-7.5-4.4c-1-2.3,0.4-6.2,1.5-6.8C307.3,536.6,308.1,535.2,309.9,535.2z"/>
+		<polyline class="st47" points="314,549.8 313.2,551.7 312.2,550 		"/>
+		<circle class="st47" cx="307.4" cy="545.3" r="0.9"/>
+		<circle class="st47" cx="306.6" cy="540.9" r="0.9"/>
+		<circle class="st47" cx="313.9" cy="536" r="0.8"/>
+		<circle class="st47" cx="318" cy="536.6" r="0.8"/>
+		<circle class="st47" cx="315.3" cy="542" r="0.8"/>
+		<circle class="st47" cx="317.2" cy="544.9" r="0.9"/>
+		<circle class="st47" cx="308.3" cy="536.3" r="0.8"/>
+		<polyline class="st47" points="306.6,548 304.7,548.6 305.4,546.8 		"/>
+		<polyline class="st47" points="303.7,543.8 301.8,543.2 303.4,542 		"/>
+		<polyline class="st47" points="304.5,536.8 303.6,535 305.6,535.4 		"/>
+		<polyline class="st47" points="309.2,532.9 309.7,531 310.9,532.5 		"/>
+		<polyline class="st47" points="316.2,533.5 317.9,532.6 317.6,534.5 		"/>
+		<polyline class="st47" points="320.5,539 322.4,539.7 320.8,540.8 		"/>
+		<polyline class="st47" points="319.4,546 320.1,547.9 318.2,547.4 		"/>
+		<ellipse class="st47" cx="313.5" cy="535.1" rx="0.8" ry="0.8"/>
+	</g>
+	<circle id="wholeBlood_Aura_Hi" class="st21" cx="323.3" cy="537.4" r="27.6"/>
+	<g id="wholeBlood_Pic_Hi" class="st22">
+		<circle class="st53" cx="323.4" cy="537.5" r="27.6"/>
+		<polygon class="st54" points="327.7,522.3 325.6,524.8 326.9,526.4 327,529.4 329.3,526.8 329.3,525.5 330,524.1 		"/>
+		<polygon class="st54" points="309.8,553.2 308.4,555 309.2,556.1 309.3,558.2 310.9,556.4 310.9,555.5 311.4,554.5 		"/>
+		<polygon class="st54" points="334.7,524 335.3,521.1 336.7,518.4 339.7,518.6 340.4,519.7 338.9,521.7 338,521.5 337.4,522.4 		
+			"/>
+		<polygon class="st54" points="325.7,543.4 323,547.3 326.6,546.9 326.2,544.3 		"/>
+		<polygon class="st54" points="319.9,554 316.9,554.7 316.3,556.7 319.2,557.9 		"/>
+		<circle class="st54" cx="312.2" cy="541.3" r="8.7"/>
+		<path class="st55" d="M323.7,518.1c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C317.5,514.7,322.2,515.2,323.7,518.1z"/>
+		<path class="st56" d="M320.1,519.1c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st57" d="M311.9,522.4c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st55" d="M343.3,530.5c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C337.1,527.1,341.9,527.6,343.3,530.5z"/>
+		<path class="st56" d="M339.8,531.5c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st57" d="M331.5,534.8c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st55" d="M341.5,548.3c1.4,2.9-0.8,7.5-5.3,9.7s-9.5,1.1-10.9-1.7c-1.4-2.9,1.1-7,5.5-9.2
+			C335.3,544.9,340.1,545.4,341.5,548.3z"/>
+		<path class="st56" d="M337.9,549.3c0.1,1.8-1.3,4.1-3.7,5.3c-2.4,1.2-5.1,0.9-6.4-0.3"/>
+		<path class="st57" d="M329.7,552.6c0.2-1.1,1.2-2.4,2.8-3.1c1-0.5,2.1-0.7,3-0.6"/>
+		<path class="st58" d="M309.9,535.2c1.8,0,0.8,2.5,0.8,3.2c0,0.8,0.6,1.3,1.8,1c1.1-0.2,1-0.6,2.9-0.4c1.5,0.2,2.6,1.9,2.6,3.5
+			c0,1.5-0.9,4.1-4.7,5.1c-3.8,1-6.6-2-7.5-4.4c-1-2.3,0.4-6.2,1.5-6.8C307.3,536.6,308.1,535.2,309.9,535.2z"/>
+		<polyline class="st53" points="314,549.8 313.2,551.7 312.2,550 		"/>
+		<circle class="st53" cx="307.4" cy="545.3" r="0.9"/>
+		<circle class="st53" cx="306.6" cy="540.9" r="0.9"/>
+		<circle class="st53" cx="313.9" cy="536" r="0.8"/>
+		<circle class="st53" cx="318" cy="536.6" r="0.8"/>
+		<circle class="st53" cx="315.3" cy="542" r="0.8"/>
+		<circle class="st53" cx="317.2" cy="544.9" r="0.9"/>
+		<circle class="st53" cx="308.3" cy="536.3" r="0.8"/>
+		<polyline class="st53" points="306.6,548 304.7,548.6 305.4,546.8 		"/>
+		<polyline class="st53" points="303.7,543.8 301.8,543.2 303.4,542 		"/>
+		<polyline class="st53" points="304.5,536.8 303.6,535 305.6,535.4 		"/>
+		<polyline class="st53" points="309.2,532.9 309.7,531 310.9,532.5 		"/>
+		<polyline class="st53" points="316.2,533.5 317.9,532.6 317.6,534.5 		"/>
+		<polyline class="st53" points="320.5,539 322.4,539.7 320.8,540.8 		"/>
+		<polyline class="st53" points="319.4,546 320.1,547.9 318.2,547.4 		"/>
+		<ellipse class="st53" cx="313.5" cy="535.1" rx="0.8" ry="0.8"/>
+	</g>
+	<text id="wholeBlood_Text_Hi" transform="matrix(1 0 0 1 294.4277 585.5633)" class="st28 st29 st30">Whole Blood</text>
+</g>
+<g id="skinExposed_GROUP">
+	<line id="skinExposed_Aura_Hi" class="st59" x1="435.9" y1="397.7" x2="437.6" y2="369.2"/>
+	<line id="skinExposed_Pic_Hi" class="st60" x1="435.9" y1="397.7" x2="437.6" y2="369.2"/>
+</g>
+<g id="adiposeSubcut_GROUP">
+	<path id="adiposeSubcut_Pic_Lo" class="st61" d="M240.7,474.3c-0.5-6.5-0.9-11.4-1.1-13.8c-0.3-6,0.3-6.1-1.4-9.2
+		c-1.7-3.1-0.8-12.7-0.8-17.3c0-3.8,0.1-3.8,1-6c-0.9,2.3,0.6,1.5,0.6,5.3c0,4.6-0.9,14.2,0.8,17.3s1.1,3.2,1.4,9.2
+		C241.2,461.4,241.5,469.7,240.7,474.3z"/>
+	<path id="adiposeSubcut_Aura_Hi" class="st62" d="M240.7,474.2c-0.5-6.5-0.9-11.4-1.1-13.8c-0.3-6,0.3-6.1-1.4-9.2
+		c-1.7-3.1-0.8-12.7-0.8-17.3c0-3.8,0.1-3.8,1-6c-0.9,2.3,0.6,1.5,0.6,5.3c0,4.6-0.9,14.2,0.8,17.3s1.1,3.2,1.4,9.2
+		C241.2,461.3,241.6,469.6,240.7,474.2z"/>
+	<path id="adiposeSubcut_Pic_Hi" class="st63" d="M240.7,474.2c-0.5-6.5-0.9-11.4-1.1-13.8c-0.3-6,0.3-6.1-1.4-9.2
+		c-1.7-3.1-0.8-12.7-0.8-17.3c0-3.8,0.1-3.8,1-6c-0.9,2.3,0.6,1.5,0.6,5.3c0,4.6-0.9,14.2,0.8,17.3s1.1,3.2,1.4,9.2
+		C241.2,461.3,241.5,469.6,240.7,474.2z"/>
+	<text id="adiposeSubcut_Text_Hi" transform="matrix(1 0 0 1 59.8828 441.3074)" class="st28 st29 st30">Adipose - Subcutaneous</text>
+	<line id="adiposeSubcut_Lead_Hi" class="st64" x1="187.7" y1="436.4" x2="236.9" y2="436.4"/>
+</g>
+<g id="adrenalGland_GROUP">
+	<path id="adrenalGland_Pic_Lo_1_" class="st65" d="M299.5,242.4l0.4-10.5c0.4-1.3,0.2-2.5,3.2-1.5s7,3,7.2,4.4
+		C310.5,236.1,304.5,233.1,299.5,242.4z"/>
+	<path id="adrenalGland_Pic_Lo" class="st65" d="M276,242.4l-0.4-10.5c-0.4-1.3-0.2-2.5-3.2-1.5s-7,3-7.2,4.4
+		C264.9,236.1,271,233.1,276,242.4z"/>
+	<path id="adrenalGland_Aura_Hi" class="st66" d="M276,242.4l-0.4-10.5c-0.4-1.3-0.2-2.5-3.2-1.5s-7,3-7.2,4.4S271,233.1,276,242.4z
+		"/>
+	<path id="adrenalGland_Pic_Hi" class="st67" d="M276,242.4l-0.4-10.5c-0.4-1.3-0.2-2.5-3.2-1.5s-7,3-7.2,4.4
+		C264.9,236.1,271,233.1,276,242.4z"/>
+	<text id="adrenalGland_Text_Hi" transform="matrix(1 0 0 1 110.3711 225.0116)" class="st28 st29 st30">Adrenal Gland</text>
+	<polyline id="adrenalGland_Lead_Hi" class="st64" points="188,219.9 229.5,219.9 274.2,233.6 	"/>
+</g>
+<g id="kidneyCortex_GROUP">
+	<path class="st68" d="M304.8,249v4.9c-3.8,2.5-6.3,8.7-0.8,12.9s16.9,0.4,16.9-16.3c0.2-7.4-4.4-13.2-9.5-15.6
+		C302.9,231,293.6,244.1,304.8,249z"/>
+	<path id="kidneyCortex_Pic_Lo" class="st68" d="M270.6,249v4.9c3.8,2.5,6.3,8.7,0.8,12.9c-5.5,4.2-16.9,0.4-16.9-16.3
+		c-0.2-7.4,4.4-13.2,9.5-15.6C272.5,231,281.8,244.1,270.6,249z"/>
+	<path id="kidneyCortex_Aura_Hi" class="st66" d="M270.6,249v4.9c3.8,2.5,6.3,8.7,0.8,12.9c-5.5,4.2-16.9,0.4-16.9-16.3
+		c-0.2-7.4,4.4-13.2,9.5-15.6C272.5,231,281.8,244.1,270.6,249z"/>
+	<path id="kidneyCortex_Pic_Hi" class="st69" d="M270.6,249v4.9c3.8,2.5,6.3,8.7,0.8,12.9c-5.5,4.2-16.9,0.4-16.9-16.3
+		c-0.2-7.4,4.4-13.2,9.5-15.6C272.6,231,281.9,244.1,270.6,249z"/>
+	<polyline id="kidneyCortex_Lead_Hi" class="st64" points="187.3,234.6 228.2,234.6 261.8,244.4 	"/>
+	<text id="kidneyCortex_Text_Hi" transform="matrix(1 0 0 1 106.9154 239.952)" class="st28 st29 st30">Kidney - Cortex</text>
+</g>
+<g id="minorSalivGland_GROUP">
+	<path id="minorSalivGland_Pic_Lo" class="st70" d="M288.3,111.4c-0.1-3.6-1.3-6-2.2-7.9l-4.6-7.6c-0.4-0.6-1.7-1.1-3.1-1.1
+		c-1.8,0-3.2,0.6-3.2,1.4v-6.9c0,0-0.1-1.2,0.7-0.7l2.4,3.2c0.7,0.9,1.5,1.6,1.6,1c0,0-2.7-5-4.7-6.9s-5.9-4.1-9.9-4
+		s-16.8,2.4-17.1,4.6c-0.3,3.1,2.7,3.7,4.7,4l7.2,0.1c1,0,1,0.7,1,1s-0.5,0.5-1,0.5h-11.4c-0.9,0-1.1-0.4-1.3-0.9s-1.2-3-1.2-3
+		c-0.2-0.3-1.2-1-1.7-1l3.9-1l0,0c0,0,0.6-0.6,1.4-1l0,0l-5.8-0.9c1-2.6,3.6-6.7,9.7-6.5h15.1c0.9,0,1.9,0,1.3-1.1s-6-2.4-6.8-2.1
+		l-16-0.1c-1.9,0-3.3,0.4-3.7,0.9l-1.1,1.5l-3.6-0.8c0,0,0.8-2.3,1.8-4s1.9-4,6.8-4.3H265c3.3,0,6.7,1.7,8.5,5.3l17.7,28.6
+		c1.1,2.1,2.8,4,3,7.7l0.2,3.4h-6L288.3,111.4z"/>
+	<g id="minorSalivGland_Aura_Hi" class="st22">
+		<path class="st71" d="M243.7,84.3c1-2.6,3.6-6.7,9.7-6.5h15.1c0.9,0,1.9,0,1.3-1.1"/>
+		<path class="st71" d="M275.1,85.9c-2-1.9-5.9-4.1-9.9-4s-16.8,2.4-17.1,4.6c-0.3,3.1,2.7,3.7,4.7,4l7.2,0.1c1,0,1,0.7,1,1
+			s-0.5,0.5-1,0.5h-11.4c-0.9,0-1.1-0.4-1.3-0.9s-1.2-3-1.2-3c-0.2-0.3-1.2-1-1.7-1"/>
+	</g>
+	<g id="minorSalivGland_Pic_Hi" class="st22">
+		<path class="st72" d="M243.8,84.3c1-2.6,3.6-6.7,9.7-6.5h15.1c0.9,0,1.9,0,1.3-1.1"/>
+		<path class="st72" d="M275.1,85.9c-2-1.9-5.9-4.1-9.9-4s-16.8,2.4-17.1,4.6c-0.3,3.1,2.7,3.7,4.7,4l7.2,0.1c1,0,1,0.7,1,1
+			s-0.5,0.5-1,0.5h-11.4c-0.9,0-1.1-0.4-1.3-0.9s-1.2-3-1.2-3c-0.2-0.3-1.2-1-1.7-1"/>
+	</g>
+</g>
+<g id="nerveTibial_GROUP">
+	<path id="nerveTibial_Pic_Lo" class="st73" d="M424.5,440.5c0.3,0,1.7,0.3,3.4,1.8c1.9,1.8,2.3,1.9,3.1,2c-0.4,0-1.1-0.5-2.4-1.9
+		c-1.1-1.3-3.4-2.6-4.4-2.8c-1.1-4.8-1.5-9-1.7-10.8l-3.6-38.3c0.8,1,2.3,2.5,3.2,3.1c0.9,0.6,1.7,1.2,2.4,1.9
+		c0.2,0.9,0.4,2-0.2,3.8c-0.7,1.8,0,2.5,0,2.5c0-1.1,0.1-1.6,0.7-3c0.4-1.1,0.4-2.1,0.3-2.5c1.1,1.1,2.1,2.5,3.2,4.2
+		c-0.4-2.8-3.4-5.7-4.8-6.9s-3.6-3.6-5-6.1l-4.2-44.2c0.2,0.4,1.8,2.9,5.9,7.5c-2-2.4-5.5-8.1-6.2-9.8l-0.6-6
+		c-1.1-8.4-4.9-13.7-15.2-13.7l-69.7,0.4c-2.6,0-5.6-3.4-5.6-3.4l-2.6,3.1c0,0,3.2,4.1,6.8,4.3l68.9-0.6c6.3,2.7,6.5,6.9,4.8,11.8
+		c4-6.1,0.2-10.7-1.8-11.8c8.4,0.4,9.3,5.8,10.6,11l4,32.2c-0.2,1.5-0.8,3.6-2.6,6.6c-2.8,4.8-0.6,8.5-0.4,9.2
+		c-0.5-1.9-1.5-4.8,0.9-8.6c1.4-2.2,2.1-3.6,2.5-4.5l4.7,37.3c-0.1,2.7-0.2,7.5-5.1,11.3c3.3-1.9,4.8-4.4,5.7-6.7l1.7,13.3
+		c-0.2,3.1-1.1,7.7-3.5,13.2c-2.8,6.4-3.7,12-4,14.5c0.4-2.1,1.8-8.2,3.6-12.6c0.1,1.7,0.6,5.5,1.3,7.7c-0.3-1.4-1-7-0.9-8.6
+		c0.1-0.3,0.2-0.6,0.4-0.9c2-4.3,3.2-7.8,3.7-9.8c0.4,2.8,1.5,8.1,3.6,13.9c0,0.8-0.2,1.9-0.6,2.6c-0.6,0.9-1,2.7-1,3.6
+		c0-0.6,0.4-2.1,0.9-2.9c1-1.4,1-2.5,1-2.5c1.2,3.1,2.6,6.2,4.4,9.1C427.2,449.6,425.6,444.8,424.5,440.5z"/>
+	<path id="nerveTibial_Aura_Hi" class="st74" d="M424.5,440.5c0.3,0,1.7,0.3,3.4,1.8c1.9,1.8,2.3,1.9,3.1,2c-0.4,0-1.1-0.5-2.4-1.9
+		c-1.1-1.3-3.4-2.6-4.4-2.8c-1.1-4.8-1.5-9-1.7-10.8l-3.6-38.3c0.8,1,2.3,2.5,3.2,3.1c0.9,0.6,1.7,1.2,2.4,1.9
+		c0.2,0.9,0.4,2-0.2,3.8c-0.7,1.8,0,2.5,0,2.5c0-1.1,0.1-1.6,0.7-3c0.4-1.1,0.4-2.1,0.3-2.5c1.1,1.1,2.1,2.5,3.2,4.2
+		c-0.4-2.8-3.4-5.7-4.8-6.9s-3.6-3.6-5-6.1l-4.2-44.2c0.2,0.4,1.8,2.9,5.9,7.5c-2-2.4-5.5-8.1-6.2-9.8l-0.6-6
+		c-1.1-8.4-4.9-13.7-15.2-13.7l-69.7,0.4c-2.6,0-5.6-3.4-5.6-3.4l-2.6,3.1c0,0,3.2,4.1,6.8,4.3l68.9-0.6c6.3,2.7,6.5,6.9,4.8,11.8
+		c4-6.1,0.2-10.7-1.8-11.8c8.4,0.4,9.3,5.8,10.6,11l4,32.2c-0.2,1.5-0.8,3.6-2.6,6.6c-2.8,4.8-0.6,8.5-0.4,9.2
+		c-0.5-1.9-1.5-4.8,0.9-8.6c1.4-2.2,2.1-3.6,2.5-4.5l4.7,37.3c-0.1,2.7-0.2,7.5-5.1,11.3c3.3-1.9,4.8-4.4,5.7-6.7l1.7,13.3
+		c-0.2,3.1-1.1,7.7-3.5,13.2c-2.8,6.4-3.7,12-4,14.5c0.4-2.1,1.8-8.2,3.6-12.6c0.1,1.7,0.6,5.5,1.3,7.7c-0.3-1.4-1-7-0.9-8.6
+		c0.1-0.3,0.2-0.6,0.4-0.9c2-4.3,3.2-7.8,3.7-9.8c0.4,2.8,1.5,8.1,3.6,13.9c0,0.8-0.2,1.9-0.6,2.6c-0.6,0.9-1,2.7-1,3.6
+		c0-0.6,0.4-2.1,0.9-2.9c1-1.4,1-2.5,1-2.5c1.2,3.1,2.6,6.2,4.4,9.1C427.2,449.6,425.6,444.8,424.5,440.5z"/>
+	<path id="nerveTibial_Pic_Hi" class="st75" d="M424.5,440.4c0.3,0,1.7,0.3,3.4,1.8c1.9,1.8,2.3,1.9,3.1,2c-0.4,0-1.1-0.5-2.4-1.9
+		c-1.1-1.3-3.4-2.6-4.4-2.8c-1.1-4.8-1.5-9-1.7-10.8l-3.6-38.3c0.8,1,2.3,2.5,3.2,3.1c0.9,0.6,1.7,1.2,2.4,1.9
+		c0.2,0.9,0.4,2-0.2,3.8c-0.7,1.8,0,2.5,0,2.5c0-1.1,0.1-1.6,0.7-3c0.4-1.1,0.4-2.1,0.3-2.5c1.1,1.1,2.1,2.5,3.2,4.2
+		c-0.4-2.8-3.4-5.7-4.8-6.9s-3.6-3.6-5-6.1l-4.2-44.2c0.2,0.4,1.8,2.9,5.9,7.5c-2-2.4-5.5-8.1-6.2-9.8l-0.6-6
+		c-1.1-8.4-4.9-13.7-15.2-13.7l-69.7,0.4c-2.6,0-5.6-3.4-5.6-3.4l-2.6,3.1c0,0,3.2,4.1,6.8,4.3l68.9-0.6c6.3,2.7,6.5,6.9,4.8,11.8
+		c4-6.1,0.2-10.7-1.8-11.8c8.4,0.4,9.3,5.8,10.6,11l4,32.2c-0.2,1.5-0.8,3.6-2.6,6.6c-2.8,4.8-0.6,8.5-0.4,9.2
+		c-0.5-1.9-1.5-4.8,0.9-8.6c1.4-2.2,2.1-3.6,2.5-4.5l4.7,37.3c-0.1,2.7-0.2,7.5-5.1,11.3c3.3-1.9,4.8-4.4,5.7-6.7l1.7,13.3
+		c-0.2,3.1-1.1,7.7-3.5,13.2c-2.8,6.4-3.7,12-4,14.5c0.4-2.1,1.8-8.2,3.6-12.6c0.1,1.7,0.6,5.5,1.3,7.7c-0.3-1.4-1-7-0.9-8.6
+		c0.1-0.3,0.2-0.6,0.4-0.9c2-4.3,3.2-7.8,3.7-9.8c0.4,2.8,1.5,8.1,3.6,13.9c0,0.8-0.2,1.9-0.6,2.6c-0.6,0.9-1,2.7-1,3.6
+		c0-0.6,0.4-2.1,0.9-2.9c1-1.4,1-2.5,1-2.5c1.2,3.1,2.6,6.2,4.4,9.1C427.2,449.5,425.6,444.7,424.5,440.4z"/>
+	<text id="nerveTibial_Text_Hi" transform="matrix(1 0 0 1 464.1201 365.8582)" class="st28 st29 st30">Nerve - Tibial</text>
+	<line id="nerveTibial_Lead_Hi" class="st64" x1="415.2" y1="362.5" x2="460.8" y2="362.5"/>
+</g>
+<g id="Esophagus_GROUP">
+	<g id="esophagusMucosa_GROUP">
+		<g id="esophagusMucosa_Pic_Lo">
+			<path class="st76" d="M294.5,129.7v70.2c-0.1,5,0.2,7.4,3.1,10.3l9.4,9l-3.9,4.6L292,213c-3.2-3.2-3.3-5.7-3.4-11.4v-71.9
+				L294.5,129.7L294.5,129.7z"/>
+			
+				<ellipse transform="matrix(0.6387 -0.7694 0.7694 0.6387 -60.2748 314.8971)" class="st77" cx="305.2" cy="221.6" rx="3" ry="1.4"/>
+			<ellipse class="st78" cx="291.6" cy="129.7" rx="3" ry="1.4"/>
+		</g>
+		<path id="esophagusMucosa_Aura_Hi" class="st79" d="M294.5,129.7v70.2c-0.1,5,0.2,7.4,3.1,10.3l9.4,9l-3.9,4.6L292,213
+			c-3.2-3.2-3.3-5.7-3.4-11.4v-71.9L294.5,129.7L294.5,129.7z"/>
+		<path id="esophagusMucosa_Pic_Hi" class="st80" d="M294.5,129.7v70.2c-0.1,5,0.2,7.4,3.1,10.3l9.4,9l-3.9,4.6L292,213
+			c-3.2-3.2-3.3-5.7-3.4-11.4v-71.9L294.5,129.7L294.5,129.7z"/>
+	</g>
+	<g id="esophagusJunction_GROUP">
+		<g id="esophagusJunction_Pic_Lo">
+			<g>
+				<path class="st81" d="M308.7,220.7L307,219c-0.6-0.5-1.9,0.2-3,1.4c-1.1,1.3-1.4,2.7-0.9,3.2l1.7,1.7"/>
+			</g>
+			
+				<ellipse transform="matrix(0.6387 -0.7694 0.7694 0.6387 -60.7518 316.6201)" class="st77" cx="306.8" cy="223" rx="3" ry="1.4"/>
+		</g>
+		<path id="esophagusJunction_Aura_Hi" class="st66" d="M308.7,220.7L308.7,220.7L308.7,220.7L307,219c-0.6-0.5-1.9,0.2-3,1.4
+			c-1.1,1.3-1.4,2.7-0.9,3.2l1.7,1.7c0.6,0.5,1.9-0.2,3-1.4C308.9,222.6,309.3,221.2,308.7,220.7z"/>
+		<g id="esophagusJunction_Pic_Hi" class="st22">
+			<g class="st82">
+				<path class="st81" d="M308.7,220.7L307,219c-0.6-0.5-1.9,0.2-3,1.4c-1.1,1.3-1.4,2.7-0.9,3.2l1.7,1.7"/>
+			</g>
+			<ellipse transform="matrix(0.6387 -0.7694 0.7694 0.6387 -60.759 316.6253)" class="st83" cx="306.8" cy="223" rx="3" ry="1.4"/>
+		</g>
+	</g>
+	<g id="esophagusMuscular_GROUP">
+		<g id="esophagusMuscular_Pic_Lo">
+			<path class="st84" d="M288.5,112.5v17.2c0,0.8,1.3,1.4,3,1.4s3-0.6,3-1.4v-17.2"/>
+			<path class="st85" d="M293.8,113.4c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st85" d="M292.4,114c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st85" d="M291.1,114c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st85" d="M289.6,113.7c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<ellipse class="st78" cx="291.5" cy="112.5" rx="3" ry="1.4"/>
+		</g>
+		<path id="esophagusMuscular_Aura_Hi" class="st66" d="M291.5,111.1c-1.7,0-3,0.6-3,1.4v17.2c0,0.8,1.3,1.4,3,1.4s3-0.6,3-1.4
+			v-17.2C294.5,111.8,293.2,111.1,291.5,111.1z"/>
+		<g id="esophagusMuscular_Pic_Hi" class="st22">
+			<path class="st86" d="M288.5,112.5v17.2c0,0.8,1.3,1.4,3,1.4s3-0.6,3-1.4v-17.2"/>
+			<path class="st87" d="M293.8,113.4c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st87" d="M292.4,113.9c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st87" d="M291.1,113.9c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<path class="st87" d="M289.6,113.7c-0.2,0.7-0.3,4.8,0,5.8c0.3,1.3,0.1,4.1-0.2,5.3c-0.3,1.5-0.1,4.6,0.4,5.9"/>
+			<ellipse class="st88" cx="291.5" cy="112.5" rx="3" ry="1.4"/>
+		</g>
+		<text id="esophagusMuscular_Text_Hi" transform="matrix(1 0 0 1 389.084 104.0193)" class="st28 st29 st30">Esophagus (ESCA)</text>
+		<text id="esophagusMuscular_Text_Hi_1_" transform="matrix(1 0 0 1 386.1031 57.0129)" class="st28 st29 st30">Brain (GMB|LGG)</text>
+		<polyline id="esophagusMuscular_Lead_Hi" class="st64" points="384.2,98.9 340.1,98.9 296.1,132 		"/>
+		<line id="esophagusMuscular_Lead_Hi_2_" class="st64" x1="378.6" y1="53.4" x2="315.3" y2="53.4"/>
+	</g>
+</g>
+<g id="brainDetail_GROUP">
+	<g id="brainCortex_GROUP">
+		<g id="brainCortex_Aura_Hi" class="st22">
+			<path class="st89" d="M296.4-92.1c0.2-1.4-0.4-3.6-1.9-4.1c-2.3-0.5-4.6-0.9-6.8-1.2c-0.7-0.1-1.4-0.2-2.1-0.2
+				c-1.8,0.1-2.8,1.4-3.1,2.2c0.1-1.1-1.2-2.5-2.3-2.5c-2.6,0-5.1,0.1-7.7,0.4c-1.3,0.1-3,1.2-2.9,2.7c-0.4-1.6-2.7-1.9-3.7-1.7
+				c-2.6,0.5-5.5,1.3-8,2.1c-1,0.4-1.4,1.6-1.2,2.9c-0.4-1-2.1-1.7-3.6-1.2c-2.2,0.9-4.4,1.9-6.6,2.9c-1.2,0.9-1,2.1-1,3.4
+				c-1.4-1.2-2.7-1.3-3.8-0.7c-2.2,1.3-4.8,3.1-6.8,4.6c-0.9,0.7-1.1,2.4-0.6,4c-0.7-0.4-3.5-0.6-4.5,0.3c-1.7,1.7-3.6,3.8-5.1,5.6
+				c-1,1.6-0.6,3.4-0.2,4.3c-0.7,0-3.1,0.4-3.9,1.4c-0.5,0.8-1,1.9-1.4,2.7c-0.7,1.5-1.5,3.1-2,4.5c-0.4,1.9,0.4,4.1,1.2,5.9
+				c-1.3,0.4-3.1,2.5-3.1,3.3c-0.2,2.9,0,5.8,0.5,8.4c0.4,1.7,2.7,3,4.2,2.7c-0.9,0.7-2.5,3.1-1.8,4.9c1.6,3.5,3.8,6.3,5.9,8.3
+				c1.4,1.1,3.4,0.9,4.9,0c-0.3,0.6-1.4,1.7,0.2,2.9c0.2,0,0.5,0.1,0.7,0.1h23.3c-1.3,1.9-4.2,9.3,2.5,14.2
+				c9.3,6.7,25.1,2.4,31.7-7.1l2.5-3.7l43.1,0.1l2.6,2.5c1.4,0.9,4,2.3,6.6-0.9c0.7-0.9,1.6-2.4,2.5-4.3c0.4-0.7-0.3-2.1-1.2-2.7
+				c1,0.4,2.6-0.7,2.9-1.3c0.8-2.3,1.5-5,1.9-8.1c0.1-1-1.2-2.1-2.5-2.3c1.3-0.1,2.8-2.1,2.8-2.9c0-2.2-0.1-4.6-0.4-7.1
+				c-0.2-1.3-2-2.3-3.6-2.2c1.6-0.5,2.5-3.2,2.4-4.2c-0.6-2.4-1.4-4.7-2.4-6.9c-0.5-1.2-2.7-2-4.2-1.4c1.4-0.9,1.6-3.6,1.2-4.5
+				c-1.1-1.8-2.4-3.7-3.7-5.3c-0.8-1-3.2-1.2-4.5-0.3c1.1-1.2,0.7-3.9,0.1-4.6c-2-2-4.2-4-6.4-5.7c-1-0.8-2.9-1.1-3.9,0.1
+				c0.8-1.4-0.6-3.2-1.4-3.8c-2-1.2-4.6-2.7-6.7-3.7c-1.1-0.6-3-0.6-3.9,0.8c0.5-1.5-1.2-3-2.1-3.5c-2.6-1-5.3-2-7.9-2.8
+				C299.5-94.8,297.3-94.4,296.4-92.1z"/>
+		</g>
+		<g id="brainCortex_Pic_Hi" class="st22">
+			<path class="st90" d="M296.4-92.1c0.2-1.4-0.4-3.6-1.9-4.1c-2.3-0.5-4.6-0.9-6.8-1.2c-0.7-0.1-1.4-0.2-2.1-0.2
+				c-1.8,0.1-2.8,1.4-3.1,2.2c0.1-1.1-1.2-2.5-2.3-2.5c-2.6,0-5.1,0.1-7.7,0.4c-1.3,0.1-3,1.2-2.9,2.7c-0.4-1.6-2.7-1.9-3.7-1.7
+				c-2.6,0.5-5.5,1.3-8,2.1c-1,0.4-1.4,1.6-1.2,2.9c-0.4-1-2.1-1.7-3.6-1.2c-2.2,0.9-4.4,1.9-6.6,2.9c-1.2,0.9-1,2.1-1,3.4
+				c-1.4-1.2-2.7-1.3-3.8-0.7c-2.2,1.3-4.8,3.1-6.8,4.6c-0.9,0.7-1.1,2.4-0.6,4c-0.7-0.4-3.5-0.6-4.5,0.3c-1.7,1.7-3.6,3.8-5.1,5.6
+				c-1,1.6-0.6,3.4-0.2,4.3c-0.7,0-3.1,0.4-3.9,1.4c-0.5,0.8-1,1.9-1.4,2.7c-0.7,1.5-1.5,3.1-2,4.5c-0.4,1.9,0.4,4.1,1.2,5.9
+				c-1.3,0.4-3.1,2.5-3.1,3.3c-0.2,2.9,0,5.8,0.5,8.4c0.4,1.7,2.7,3,4.2,2.7c-0.9,0.7-2.5,3.1-1.8,4.9c1.6,3.5,3.8,6.3,5.9,8.3
+				c1.4,1.1,3.4,0.9,4.9,0c-0.3,0.6-1.4,1.7,0.2,2.9c0.2,0,0.5,0.1,0.7,0.1h23.3c-1.3,1.9-4.2,9.3,2.5,14.2
+				c9.3,6.7,25.1,2.4,31.7-7.1l2.5-3.7l43.1,0.1l2.6,2.5c1.4,0.9,4,2.3,6.6-0.9c0.7-0.9,1.6-2.4,2.5-4.3c0.4-0.7-0.3-2.1-1.2-2.7
+				c1,0.4,2.6-0.7,2.9-1.3c0.8-2.3,1.5-5,1.9-8.1c0.1-1-1.2-2.1-2.5-2.3c1.3-0.1,2.8-2.1,2.8-2.9c0-2.2-0.1-4.6-0.4-7.1
+				c-0.2-1.3-2-2.3-3.6-2.2c1.6-0.5,2.5-3.2,2.4-4.2c-0.6-2.4-1.4-4.7-2.4-6.9c-0.5-1.2-2.7-2-4.2-1.4c1.4-0.9,1.6-3.6,1.2-4.5
+				c-1.1-1.8-2.4-3.7-3.7-5.3c-0.8-1-3.2-1.2-4.5-0.3c1.1-1.2,0.7-3.9,0.1-4.6c-2-2-4.2-4-6.4-5.7c-1-0.8-2.9-1.1-3.9,0.1
+				c0.8-1.4-0.6-3.2-1.4-3.8c-2-1.2-4.6-2.7-6.7-3.7c-1.1-0.6-3-0.6-3.9,0.8c0.5-1.5-1.2-3-2.1-3.5c-2.6-1-5.3-2-7.9-2.8
+				C299.5-94.8,297.3-94.4,296.4-92.1z"/>
+			<path class="st91" d="M293.3-79.2c-0.1,0.7-0.1,2.3,1,2.8c0,0,1.2,0.5,1.6,0.8"/>
+			<path class="st91" d="M331.4-46.9c4.5,11.7-1.7,20.4-2.2,20.9c-0.6,0.6-1.9,1-3.8-0.7l-6.1-5.8c-0.8-0.8-1.4-3.8-0.3-4.7
+				c-0.8,0.8-2.4,2.4-4.2,1.2c0,0-4.5-3.9-5.3-4.6c-1.3-1.3-0.9-3.2,0.5-4.8c1.4-1.6,14.2-19.4,14.2-19.4c1.1-1.1,2-1.8,3.4-2.8
+				s5.8-3.9,5.8-3.9"/>
+			<path class="st90" d="M312.3-68c1.4,0.8,2.7,1.8,4,2.8"/>
+			<path class="st92" d="M305.7-71.7c-0.6-0.3-1-2-0.9-2.7c-0.8,0.7-1.8,1.3-3.2,1c-0.3-0.1-0.6-0.2-0.9-0.3"/>
+			<path class="st92" d="M316.1-65.4c-0.5-0.4-0.6-2.2-0.3-2.8c-0.9,0.5-1.9,1-3.2,0.4"/>
+			<path class="st92" d="M326.2-55.7c0.6,0.8,0.9,1.3,1.5,2.1c0.3,0.4,0.4,0.6,0.9,1.4c-0.3-0.6,0.2-2.2,0.7-2.8
+				C328.3-54.8,327.2-54.7,326.2-55.7z"/>
+			<path class="st92" d="M332.5-42.8c-0.2-0.7,1-2.4,1.6-2.8c-1.1-0.1-2.1-0.3-2.8-1.6"/>
+			<path class="st92" d="M332.8-34.7c0-0.6,1.7-1.3,2.2-1.5c-0.8-0.3-1.6-0.6-1.9-1.7"/>
+			<path class="st92" d="M330.9-28.9c0.2-0.4,1.7-0.4,2.1-0.4c-0.5-0.5-1.2-1.1-1.1-2.1"/>
+			<path class="st90" d="M253.1-23c5.4-1,6.7-5.7,6.4-8.3c-0.7-6-4.3-6.8-6.3-7.3c-4.1,0.1-7-0.8-9.1-2.1c-1-0.6-1.8-0.3-2.6,0
+				c0.3-0.5,0.4-2,0-2.4c-0.8-1.1-1.4-2.4-1.8-3.6c-0.5-1.1-1.4-1.3-2.2-1.5c0.5-0.3,1.4-1.4,1.3-2c0-1.2,0.1-2.4,0.2-3.5
+				c0.1-1.2-0.6-1.8-1.3-2.4c0.6,0,1.9-0.6,2.1-1.2c0.4-1.2,1-2.5,1.6-3.6c0.4-1.1,0-1.9-0.4-2.7c0.6,0.2,2.1,0,2.5-0.4
+				c1.1-1.5,2.4-2.9,3.9-4.2c0.8-0.9,0.7-1.8,0.5-2.7c0.5,0.4,1.9,0.7,2.4,0.4c1.6-1.1,3.5-2.2,5.4-3.1l0,0c1-0.7,1.1-1.6,1.1-2.5
+				c0.4,0.5,1.6,1.2,2.2,1c1.7-0.6,3.7-1.1,5.7-1.5c1.4-0.4,1.8-1.4,2.2-2.4c0.3,0.6,1,1.8,2.2,1.8c1.8-0.2,3.5-0.3,5.3-0.4
+				c1.3-0.1,1.9-1.1,2.3-2.1c0.2,0.7,1.3,2,2,2c2,0,3.8,0,5.4,0.1c1.4-0.1,2.2-0.9,2.8-1.9c0.1,0.7,1,2.1,1.7,2.2
+				c0.2,0,0.6,0.1,0.7,0.1c2.7,0.3,3.5-0.5,4.1-1.7l3.3-13.4"/>
+			<path class="st92" d="M310-45.4c-0.7,0.6-3.1,3.8-8.4,3.5"/>
+			<line class="st92" x1="319" y1="-37.2" x2="323.3" y2="-41.9"/>
+			<line class="st92" x1="329.1" y1="-54.9" x2="332.3" y2="-56.8"/>
+			<line class="st92" x1="315.8" y1="-68.3" x2="317.3" y2="-70.8"/>
+			<line class="st92" x1="304.8" y1="-74.4" x2="306.1" y2="-76.9"/>
+			<line class="st92" x1="286.6" y1="-79.3" x2="286.8" y2="-83"/>
+			<line class="st92" x1="276.4" y1="-79.6" x2="276.4" y2="-83"/>
+			<line class="st92" x1="266.6" y1="-78.7" x2="266.6" y2="-82.1"/>
+			<line class="st92" x1="256.6" y1="-76" x2="255.2" y2="-79"/>
+			<line class="st92" x1="247.8" y1="-70.7" x2="245.4" y2="-73.3"/>
+			<line class="st92" x1="241" y1="-63.5" x2="237.7" y2="-65.4"/>
+			<line class="st92" x1="237.7" y1="-56.1" x2="233.7" y2="-56.8"/>
+			<line class="st92" x1="237.5" y1="-48.1" x2="233.5" y2="-46.8"/>
+			<line class="st92" x1="241.5" y1="-40.5" x2="234.5" y2="-36.2"/>
+			<path class="st92" d="M229-26l3.1-2c1.4-0.9,3.4-1.6,4.8-1.6l8.8-1.2"/>
+			<line class="st92" x1="282.2" y1="-92.1" x2="282.4" y2="-95.5"/>
+			<line class="st92" x1="270" y1="-91.3" x2="269.5" y2="-94.7"/>
+			<line class="st92" x1="257.5" y1="-88.3" x2="256.6" y2="-91.5"/>
+			<line class="st92" x1="246.8" y1="-83.4" x2="245.4" y2="-86.3"/>
+			<line class="st92" x1="236.5" y1="-76" x2="234.3" y2="-78.4"/>
+			<line class="st92" x1="228.1" y1="-66.3" x2="224.6" y2="-68.1"/>
+			<line class="st92" x1="222.6" y1="-52.8" x2="218.5" y2="-53.5"/>
+			<line class="st92" x1="223.9" y1="-40.2" x2="220.1" y2="-39"/>
+			<line class="st92" x1="309.8" y1="-85.7" x2="311.1" y2="-88.3"/>
+			<line class="st92" x1="321.6" y1="-79.2" x2="323.1" y2="-81.6"/>
+			<line class="st92" x1="341.6" y1="-47.8" x2="344.4" y2="-48.6"/>
+			<line class="st92" x1="334.2" y1="-45.6" x2="337.1" y2="-46.5"/>
+			<line class="st92" x1="334.9" y1="-36.3" x2="337.6" y2="-36.2"/>
+			<line class="st92" x1="343.2" y1="-36.5" x2="345.8" y2="-36.4"/>
+			<line class="st92" x1="340.6" y1="-26.3" x2="343.5" y2="-24.9"/>
+			<line class="st92" x1="332.9" y1="-29.2" x2="335.8" y2="-27.8"/>
+			<line class="st92" x1="338" y1="-59.6" x2="340.7" y2="-61.2"/>
+		</g>
+	</g>
+	<g id="brainSpinalcord_GROUP">
+		<path id="brainSpinalcord_Aura_Hi" class="st66" d="M313.3,16.3v-4.9c-0.1-2.8-0.4-4.3-2.3-7.6l-22.7-39.9
+			c-2.7-2.7-8.4-2.4-11.5-0.6s-3.6,4.8-2.9,6.4c0.7,1.5,2.1,1.5,2.7,1s1.1-0.6,0.5-2.4l24.3,42.4c1.1,1.6,1.5,2.9,1.5,3.6v1.9"/>
+		<path id="brainSpinalcord_Pic_Hi" class="st93" d="M313.3,16.3v-4.9c-0.1-2.8-0.4-4.3-2.3-7.6l-22.7-39.9
+			c-2.7-2.7-8.4-2.4-11.5-0.6s-3.6,4.8-2.9,6.4c0.7,1.5,2.1,1.5,2.7,1s1.1-0.6,0.5-2.4l24.3,42.4c1.1,1.6,1.5,2.9,1.5,3.6v1.9"/>
+	</g>
+	<g id="brainCerebellum_GROUP">
+		<g id="brainCerebellum_Aura_Hi" class="st22">
+			<path class="st94" d="M290.7-41.3l4.7,5.7c0.6,1.3,1,1.1,1,3.6v7.9c0,1.4,0.2,2.7,0.8,3.4c0.6,0.7,14.5,25.4,14.5,25.4l4.9-3.3
+				h9.1c8-0.7,13.9-11.5,9.1-18.4l-24.2-21.5c-3.9-2.9-6.3-2.7-8.3-2.8L290.7-41.3z"/>
+		</g>
+		<g id="brainCerebellum_Pic_Hi" class="st22">
+			<path class="st95" d="M290.7-41.3l4.7,5.7c0.6,1.3,1,1.1,1,3.6v7.9c0,1.4,0.2,2.7,0.8,3.4c0.6,0.7,14.5,25.4,14.5,25.4l4.9-3.3
+				h9.1c8-0.7,13.9-11.5,9.1-18.4l-24.2-21.5c-3.9-2.9-6.3-2.7-8.3-2.8L290.7-41.3z"/>
+			<line class="st27" x1="317.9" y1="1.4" x2="309.6" y2="1.4"/>
+			<line class="st27" x1="331.7" y1="-1.2" x2="308.3" y2="-1.2"/>
+			<line class="st27" x1="334" y1="-3.8" x2="306.8" y2="-3.8"/>
+			<line class="st27" x1="335.4" y1="-6.3" x2="305.3" y2="-6.3"/>
+			<line class="st27" x1="336.2" y1="-8.8" x2="303.9" y2="-8.8"/>
+			<line class="st27" x1="336.5" y1="-11.3" x2="302.5" y2="-11.3"/>
+			<line class="st27" x1="336.1" y1="-13.8" x2="301.2" y2="-13.8"/>
+			<line class="st27" x1="335" y1="-16.3" x2="299.7" y2="-16.3"/>
+		</g>
+	</g>
+	<g id="pituitary_GROUP">
+		<path id="pituitary_Aura_Hi" class="st96" d="M264.7-29.7c1.4,1.1,1.8,2.3,1.7,3c-0.2,0.7-1,2.4-2.9,2c-1.5-0.3-2.2-2.1-1.1-4.4
+			C262.8-29.7,264.1-30.2,264.7-29.7z"/>
+		<path id="pituitary_Pic_Hi" class="st97" d="M264.7-29.7c1.4,1.1,1.8,2.3,1.7,3c-0.2,0.7-1,2.4-2.9,2c-1.5-0.3-2.2-2.1-1.1-4.4
+			C262.8-29.7,264.1-30.2,264.7-29.7z"/>
+	</g>
+	<g id="brainHypothalamus_GROUP">
+		<path id="brainHypothalamus_Aura_Hi" class="st66" d="M273.7-34.5C273.6-34.4,273.7-34.5,273.7-34.5c-1.1,1-5.1,3.3-5.1,3.3
+			c-1.2,0.6-3.2-0.2-2.9-1.6l1.4-5.3c0.5-1.9,1-3.1,2.5-3.3h6.8c0.8,0.2,1,1.3,0.7,1.9C276.5-38.1,276.5-36.3,273.7-34.5z"/>
+		<path id="brainHypothalamus_Pic_Hi" class="st98" d="M273.6-34.5C273.5-34.4,273.6-34.5,273.6-34.5c-1.1,1-5.1,3.3-5.1,3.3
+			c-1.2,0.6-3.2-0.2-2.9-1.6l1.4-5.3c0.5-1.9,1-3.1,2.5-3.3h6.8c0.8,0.2,1,1.3,0.7,1.9C276.4-38.1,276.5-36.3,273.6-34.5z"/>
+	</g>
+	<g id="brainSubstanNigra_GROUP">
+		<path id="brainSubstanNigra_Aura_Hi" class="st66" d="M278.4-41.4l3.8,5.5c0.7,0.9,2.2,1.4,3.6-0.1l4.1-5.3L278.4-41.4z"/>
+		<path id="brainSubstanNigra_Pic_Hi" class="st99" d="M278.4-41.4l3.8,5.5c0.7,0.9,2.2,1.4,3.6-0.1l4.1-5.3L278.4-41.4z"/>
+	</g>
+	<g id="brainCaudate_GROUP">
+		<g id="brainCaudate_Aura_Hi" class="st22">
+			<g class="st82">
+				<path class="st100" d="M282.4-54.2c-0.1-1.9,1.7-4.5,1.7-4.5s1.2-2,2.8-1.7c8.8,3,13.3,8.1,12,14c-1.3,5.8-9.6,8.5-10.6,9
+					c-1.1,0.5-7.6,3.1-9.6,4.9l1.3,1.6c5.8-4,6.1-2.8,15.4-7.4s7.6-9.3,7.9-11.6c-2-13.7-21.4-16.5-24.3-16.9
+					c-3.9-0.5-26.2-0.4-28,13.6c-1.8,13.4,14,15.7,20.1,16.4c0.3,0,0.7,0.1,1,0.1c-7.8-0.7-13.8-5.5-13.4-11s7.2-9.6,15.2-9.1
+					C277.3-56.7,280-55.8,282.4-54.2z"/>
+			</g>
+			<path class="st94" d="M281.9-60.5c-1.4-0.2-1.5-0.2-2.1-0.2c-0.6,0.1-1.2,0.8-1.2,1.3c-0.1,0.4-0.3,1.9-0.3,1.9
+				c-0.1,0.3,0.1,0.6,0.6,0.8c0.5,0.1,0.8,0.3,0.8,0.3c0.2,0.1,0.8-0.1,1.2-1c0.3-0.8,1-1.8,1.3-2.1
+				C282.8-60.2,281.9-60.5,281.9-60.5z"/>
+			<path class="st94" d="M276.5-61c-1.1,0-1.5-0.1-2.1,0.1s-0.6,0.9-0.5,1.4c0,0.5,0.1,1.1,0.1,1.1c0,0.3,0.3,0.6,0.8,0.6
+				s1.5,0.1,1.5,0.1c0.5-0.1,0.6-0.2,0.7-1.1s0.2-0.8,0.2-1.3C277.2-60.8,276.5-61,276.5-61z"/>
+			<path class="st94" d="M271.7-60.9c-1,0.1-1.2,0.1-1.7,0.2c-0.6,0.1-0.6,0.5-0.6,1s0,1.5,0,1.5c0.1,0.3,0.3,0.6,0.9,0.5
+				c0.5-0.1,1.4-0.2,1.4-0.2c0.2,0,0.6,0,0.6-0.9s0-0.6-0.1-1.1C272.3-60.9,271.7-60.9,271.7-60.9z"/>
+		</g>
+		<g id="brainCaudate_Pic_Hi" class="st22">
+			<g class="st82">
+				<path class="st101" d="M282.4-54.2c-0.1-1.9,1.7-4.5,1.7-4.5s1.2-2,2.8-1.7c8.8,3,13.3,8.1,12,14c-1.3,5.8-9.6,8.5-10.6,9
+					c-1.1,0.5-7.6,3.1-9.6,4.9l1.3,1.6c5.8-4,6.1-2.8,15.4-7.4s7.6-9.3,7.9-11.6c-2-13.7-21.4-16.5-24.3-16.9
+					c-3.9-0.5-26.2-0.4-28,13.6c-1.8,13.4,14,15.7,20.1,16.4c0.3,0,0.7,0.1,1,0.1c-7.8-0.7-13.8-5.5-13.4-11s7.2-9.6,15.2-9.1
+					C277.3-56.7,280-55.8,282.4-54.2z"/>
+			</g>
+			<path class="st102" d="M281.9-60.5c-1.4-0.2-1.5-0.2-2.1-0.2c-0.6,0.1-1.2,0.8-1.2,1.3c-0.1,0.4-0.3,1.9-0.3,1.9
+				c-0.1,0.3,0.1,0.6,0.6,0.8c0.5,0.1,0.8,0.3,0.8,0.3c0.2,0.1,0.8-0.1,1.2-1c0.3-0.8,1-1.8,1.3-2.1
+				C282.8-60.2,281.9-60.5,281.9-60.5z"/>
+			<path class="st102" d="M276.5-61c-1.1,0-1.5-0.1-2.1,0.1s-0.6,0.9-0.5,1.4c0,0.5,0.1,1.1,0.1,1.1c0,0.3,0.3,0.6,0.8,0.6
+				s1.5,0.1,1.5,0.1c0.5-0.1,0.6-0.2,0.7-1.1s0.2-0.8,0.2-1.3C277.2-60.8,276.5-61,276.5-61z"/>
+			<path class="st102" d="M271.7-60.9c-1,0.1-1.2,0.1-1.7,0.2c-0.6,0.1-0.6,0.5-0.6,1s0,1.5,0,1.5c0.1,0.3,0.3,0.6,0.9,0.5
+				c0.5-0.1,1.4-0.2,1.4-0.2c0.2,0,0.6,0,0.6-0.9s0-0.6-0.1-1.1C272.3-60.9,271.7-60.9,271.7-60.9z"/>
+			<path class="st103" d="M258-55.9c2.6-3,8.6-8.3,25.2-5.5"/>
+		</g>
+	</g>
+	<g id="brainAmygdala_GROUP">
+		
+			<ellipse id="brainAmygdala_Aura_Hi" transform="matrix(0.7269 -0.6867 0.6867 0.7269 94.3148 181.0374)" class="st104" cx="274.8" cy="-28.1" rx="6" ry="4.2"/>
+		
+			<ellipse id="brainAmygdala_Pic_Hi" transform="matrix(0.7269 -0.6867 0.6867 0.7269 94.3148 181.0374)" class="st105" cx="274.8" cy="-28.1" rx="6" ry="4.2"/>
+	</g>
+	<g id="brainHippocampus_GROUP">
+		<path id="brainHippocampus_Aura_Hi" class="st66" d="M302.5-44.8c0.4-1,1.2-3.5,3-3.4s1.7,1.9,1.3,3.3c-0.4,1.4-4.5,9.1-13.6,12.7
+			c-2.7,1.1-3.2,1.7-4.6,3.4c-1.3,1.7-4.9,5.4-8.1,2.8c-3.1-2.6,0.3-6.1,1-6.5c0.8-0.4,14.9-6.4,16.1-7.4
+			C299.1-40.9,301.5-42.2,302.5-44.8z"/>
+		<path id="brainHippocampus_Pic_Hi" class="st106" d="M302.5-44.8c0.4-1,1.2-3.5,3-3.4s1.7,1.9,1.3,3.3c-0.4,1.4-4.5,9.1-13.6,12.7
+			c-2.7,1.1-3.2,1.7-4.6,3.4c-1.3,1.7-4.9,5.4-8.1,2.8c-3.1-2.6,0.3-6.1,1-6.5c0.8-0.4,14.9-6.4,16.1-7.4
+			C299.1-40.9,301.5-42.2,302.5-44.8z"/>
+	</g>
+	<g id="brainPutamen_GROUP">
+		
+			<ellipse id="brainPutamen_Aura_Hi" transform="matrix(6.628427e-02 -0.9978 0.9978 6.628427e-02 301.8197 228.8947)" class="st107" cx="273.2" cy="-46.8" rx="10.1" ry="14.5"/>
+		
+			<ellipse id="brainPutamen_Pic_Hi" transform="matrix(6.628427e-02 -0.9978 0.9978 6.628427e-02 301.8197 228.8947)" class="st108" cx="273.2" cy="-46.8" rx="10.1" ry="14.5"/>
+	</g>
+	<g id="brainCerebelHemi_GROUP">
+		<path id="brainCerebelHemi_Aura_Hi" class="st66" d="M303.9-11.4c-1.2-2.4-0.1-4.7,0.8-5.3c-2.9-0.1-5-1.4-6.3-3.6
+			c-1.7-2.9-0.4-11.9,5.1-13.9c6.6-2.4,10.6-2.6,17.2,4.5c1.6,1.3,9.3,6.8,6.2,18.4L303.9-11.4z"/>
+		<g id="brainCerebelHemi_Pic_Hi" class="st22">
+			<path class="st109" d="M303.9-11.4c-1.2-2.4-0.1-4.7,0.8-5.3c-2.9-0.1-5-1.4-6.3-3.6c-1.7-2.9-0.4-11.9,5.1-13.9
+				c6.6-2.4,10.6-2.6,17.2,4.5c1.6,1.3,9.3,6.8,6.2,18.4L303.9-11.4z"/>
+			<g class="st82">
+				<polygon class="st110" points="314.5,-22.4 309.3,-31.1 313.7,-22 				"/>
+				<polygon class="st110" points="314.8,-22 314.2,-21.7 320.5,-25.5 307.6,-18.8 308,-18 314,-21.6 319.2,-12.9 				"/>
+			</g>
+			<polyline class="st111" points="312,-25.6 306.6,-26 303.6,-28.9 			"/>
+			<line class="st111" x1="306.4" y1="-26" x2="302.9" y2="-24.8"/>
+			<line class="st111" x1="313.3" y1="-24.4" x2="316.6" y2="-30.7"/>
+			<line class="st111" x1="314.9" y1="-27.4" x2="318" y2="-27.4"/>
+			<path class="st92" d="M301.5-17.5c0.4-0.4,0.8-0.7,1.4-1c2.1-1.2,4.3-1.1,4.9,0c0.7,1.2-0.4,3.1-2.5,4.3c-0.7,0.4-1.3,0.6-2,0.7"
+				/>
+			<line class="st111" x1="316.3" y1="-19.1" x2="322.1" y2="-18"/>
+			<line class="st111" x1="315.9" y1="-18.4" x2="313" y2="-15.3"/>
+			<line class="st111" x1="317.1" y1="-23.4" x2="323.6" y2="-22.1"/>
+		</g>
+	</g>
+	<g id="brainNucAccumbens_GROUP">
+		<path id="brainNucAccumbens_Aura_Hi" class="st96" d="M254.1-29.7c0.7,1.9,5.3,1.7,5.1-1.6c-0.7-6-3.8-6.7-5.8-7.2
+			c-1.8,0-3.4-0.2-4.8-0.4c-4,0.7-3.6,4.9-0.2,6C249.1-32.6,252.9-31.8,254.1-29.7z"/>
+		<path id="brainNucAccumbens_Pic_Hi" class="st112" d="M254.1-29.7c0.7,1.9,5.3,1.7,5.1-1.6c-0.7-6-3.8-6.7-5.8-7.2
+			c-1.8,0-3.4-0.2-4.8-0.4c-4,0.7-3.6,4.9-0.2,6C249.1-32.6,252.9-31.8,254.1-29.7z"/>
+	</g>
+	<g id="brainAnCinCortex_GROUP">
+		<path id="brainAnCinCortex_Aura_Hi" class="st59" d="M276.5-68.4v-11c-0.5,1-1,1.9-2.3,2c-1.7,0.1-3.5,0.2-5.3,0.4
+			c-1.1,0.1-1.9-1.1-2.2-1.8c-0.4,1-0.8,1.9-2.2,2.4c-2,0.4-4,0.9-5.7,1.5c-0.5,0.2-1.8-0.5-2.2-1c0,0.9-0.1,1.9-1.1,2.5l0,0
+			c-1.9,0.9-3.7,1.9-5.4,3.1c-0.5,0.3-1.9,0-2.4-0.4c0.2,0.9,0.3,1.8-0.5,2.7c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4
+			c0.5,0.8,0.9,1.6,0.4,2.7c-0.6,1.1-1.2,2.4-1.6,3.6c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4c-0.2,1.1-0.3,2.3-0.2,3.5
+			c0.1,0.6-0.8,1.7-1.3,2c0.9,0.2,1.7,0.4,2.2,1.5c0.4,1.2,1,2.5,1.8,3.6c0.3,0.3,0.3,1,0.2,1.6h9.7c-2,0-5.8-2.9-5.8-7.8
+			C245.7-54.8,253.8-68.1,276.5-68.4z"/>
+		<g id="brainAnCinCortex_Pic_Hi" class="st22">
+			<path class="st113" d="M276.5-68.4v-11c-0.5,1-1,1.9-2.3,2c-1.7,0.1-3.5,0.2-5.3,0.4c-1.1,0.1-1.9-1.1-2.2-1.8
+				c-0.4,1-0.8,1.9-2.2,2.4c-2,0.4-4,0.9-5.7,1.5c-0.5,0.2-1.8-0.5-2.2-1c0,0.9-0.1,1.9-1.1,2.5l0,0c-1.9,0.9-3.7,1.9-5.4,3.1
+				c-0.5,0.3-1.9,0-2.4-0.4c0.2,0.9,0.3,1.8-0.5,2.7c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4c0.5,0.8,0.9,1.6,0.4,2.7
+				c-0.6,1.1-1.2,2.4-1.6,3.6c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4c-0.2,1.1-0.3,2.3-0.2,3.5c0.1,0.6-0.8,1.7-1.3,2
+				c0.9,0.2,1.7,0.4,2.2,1.5c0.4,1.2,1,2.5,1.8,3.6c0.3,0.3,0.3,1,0.2,1.6h9.7c-2,0-5.8-2.9-5.8-7.8
+				C245.6-54.8,253.7-68.1,276.5-68.4z"/>
+			<path class="st92" d="M276.5-79.4c-0.5,1-1,1.9-2.3,2c-1.7,0.1-3.5,0.2-5.3,0.4c-1.1,0.1-1.9-1.1-2.2-1.8c-0.4,1-0.8,1.9-2.2,2.4
+				c-2,0.4-4,0.9-5.7,1.5c-0.5,0.2-1.8-0.5-2.2-1c0,0.9-0.1,1.9-1.1,2.5l0,0c-1.9,0.9-3.7,1.9-5.4,3.1c-0.5,0.3-1.9,0-2.4-0.4
+				c0.2,0.9,0.3,1.8-0.5,2.7c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4c0.5,0.8,0.9,1.6,0.4,2.7c-0.6,1.1-1.2,2.4-1.6,3.6
+				c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4c-0.2,1.1-0.3,2.3-0.2,3.5c0.1,0.6-0.8,1.7-1.3,2c0.9,0.2,1.7,0.4,2.2,1.5
+				c0.4,1.2,1,2.5,1.8,3.6c0.3,0.3,0.3,1,0.2,1.6"/>
+			<path class="st92" d="M251.4-41.4c-2,0-5.8-2.9-5.8-7.8c0-5.6,8.1-18.9,30.9-19.1"/>
+		</g>
+	</g>
+	<g id="brainFrontCortex_GROUP">
+		<g id="brainFrontCortex_Aura_Hi" class="st22">
+			<path class="st71" d="M238.9-50.3l-20.4-3.3c-0.7-1.9-1.6-4.1-1.2-5.9c0.5-1.4,1.3-3.1,2-4.5c0.4-0.8,0.9-1.9,1.4-2.7
+				c0.7-1,3.1-1.4,3.9-1.4c-0.4-0.9-0.8-2.7,0.2-4.3c1.5-1.8,3.3-4,5.1-5.6c1-0.9,3.8-0.8,4.5-0.3c-0.6-1.6-0.3-3.3,0.6-4
+				c2-1.5,4.6-3.3,6.8-4.6c1.2-0.6,2.4-0.5,3.8,0.7l7.1,14.4c-0.8,0.5-1.6,1-2.4,1.6c-0.5,0.3-1.9,0-2.4-0.4
+				c0.2,0.9,0.3,1.8-0.5,2.7c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4c0.5,0.8,0.9,1.6,0.4,2.7c-0.6,1.1-1.2,2.4-1.6,3.6
+				c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4C238.9-52.6,238.9-51.5,238.9-50.3z"/>
+		</g>
+		<g id="brainFrontCortex_Pic_Hi" class="st22">
+			<path class="st114" d="M238.9-50.3l-20.4-3.3c-0.7-1.9-1.6-4.1-1.2-5.9c0.5-1.4,1.3-3.1,2-4.5c0.4-0.8,0.9-1.9,1.4-2.7
+				c0.7-1,3.1-1.4,3.9-1.4c-0.4-0.9-0.8-2.7,0.2-4.3c1.5-1.8,3.3-4,5.1-5.6c1-0.9,3.8-0.8,4.5-0.3c-0.6-1.6-0.3-3.3,0.6-4
+				c2-1.5,4.6-3.3,6.8-4.6c1.2-0.6,2.4-0.5,3.8,0.7l7.1,14.4c-0.8,0.5-1.6,1-2.4,1.6c-0.5,0.3-1.9,0-2.4-0.4
+				c0.2,0.9,0.3,1.8-0.5,2.7c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4c0.5,0.8,0.9,1.6,0.4,2.7c-0.6,1.1-1.2,2.4-1.6,3.6
+				c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4C238.9-52.6,238.9-51.5,238.9-50.3z"/>
+			<line class="st92" x1="247.8" y1="-70.7" x2="245.4" y2="-73.4"/>
+			<line class="st92" x1="241" y1="-63.6" x2="237.7" y2="-65.4"/>
+			<line class="st92" x1="237.7" y1="-56.1" x2="233.7" y2="-56.9"/>
+			<line class="st92" x1="236.5" y1="-76.1" x2="234.3" y2="-78.5"/>
+			<line class="st92" x1="228.1" y1="-66.3" x2="224.7" y2="-68.2"/>
+			<g class="st82">
+				<path class="st115" d="M218.5-53.6c-0.7-1.9-1.6-4.1-1.2-5.9c0.5-1.4,1.3-3.1,2-4.5c0.4-0.8,0.9-1.9,1.4-2.7
+					c0.7-1,3.1-1.4,3.9-1.4c-0.4-0.9-0.8-2.7,0.2-4.3c1.5-1.8,3.3-4,5.1-5.6c1-0.9,3.8-0.8,4.5-0.3c-0.6-1.6-0.3-3.3,0.6-4
+					c2-1.5,4.6-3.3,6.8-4.6c1.2-0.6,2.4-0.5,3.8,0.7"/>
+				<path class="st115" d="M252.6-72c-0.8,0.5-1.6,1-2.4,1.6c-0.5,0.3-1.9,0-2.4-0.4c0.2,0.9,0.3,1.8-0.5,2.7
+					c-1.4,1.3-2.8,2.7-3.9,4.2c-0.3,0.5-1.9,0.6-2.5,0.4c0.5,0.8,0.9,1.6,0.4,2.7c-0.6,1.1-1.2,2.4-1.6,3.6
+					c-0.2,0.5-1.5,1.2-2.1,1.2c0.7,0.6,1.3,1.2,1.3,2.4c-0.2,1.1-0.2,2.3-0.2,3.5"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="muscleSkeletal">
+	<g id="muscleSkeletal_Pic_Lo">
+		<path class="st116" d="M281.2,438c0.2-4.4,0.2-8.6-0.2-14.1c-0.9,0.4-2.3,0.7-3.9,0.1c-0.6-0.2-1.2-0.5-1.7-0.9
+			c-6.9-5.3-23.3-3.8-28.1-1.1c-0.4,0.3-1,0.5-1.8,0.5c-2,0-3.4-0.9-4.6-4.3c-1.1-3.4-3.4-48-3.4-50.3c-0.2-1.7-1.9-22.6-1.2-28.7
+			c0.1-0.6,1.7-16.7,3.6-25.5l54.3,31.4c0,0-5.2,38.8-6,42.5c-0.5,2.1-2.1,12.5-3.4,20.8c0.1,2.4,0.1,5.5,0,8.3
+			C284.9,416.8,283.5,430.4,281.2,438z"/>
+		<path class="st116" d="M243.6,354.1c-2.3,10,0.3,35.5,6.3,57.9c1.4,2.3,0.9,5.1-0.6,7.1c-1.4,2-1.7,2.9-3.7,2.9s-3.4-0.9-4.6-4.3
+			c-1.1-3.4-3.1-48.7-3.1-51C237.9,364.4,243.6,354.1,243.6,354.1z"/>
+		<path class="st116" d="M289,342.1c-0.4,3.5-8.7,39.1-17.5,51.9c-8.8,12.8-4.6,18.2-3.7,19.4c0.9,1.1,4.8,8.3,9.4,10s5.7-2,5.7-4
+			c0,0,4.6-28.5,5.4-32.2c0.9-3.7,5.9-42,5.9-42L289,342.1z"/>
+		<path class="st116" d="M242,315c0,4-3.4,19.9-5.1,23.6c-1.7,3.6,0.4,27.9,0.6,29.6c1.9-6.8,16.5-33.1,14.4-47.7L242,315z"/>
+		<path class="st116" d="M243.4,377.5c2.7-6.8,25.9-35,24.8-47.4l17.1,9.9c-0.4,1.6-22.5,35.2-23.8,36.9s-12.2,14.3-14.2,24.1
+			L243.4,377.5z"/>
+		<path class="st116" d="M246.3,317.3l6.5,4c-0.2,14.4,5.1,25.5,9.5,31.7c4.3,6.2,14.4,15.8,18,27.7c3.6,12,4.9,20.3,4.6,35.5
+			c0,0-1.3,14.2-3.6,21.8c0.8-15-1.9-39.3-10.6-52.4c-8.2-12.3-12.7-22.1-17.1-31.3C249.6,345.9,244.8,329,246.3,317.3z"/>
+	</g>
+	<path id="muscleSkeletal_Aura_Hi" class="st66" d="M243.4,377.5c2.7-6.8,25.9-35,24.8-47.4l17.1,9.9c-0.4,1.6-22.5,35.2-23.8,36.9
+		s-12.2,14.3-14.2,24.1L243.4,377.5z"/>
+	<path id="muscleSkeletal_Pic_Hi" class="st117" d="M243.4,377.5c2.7-6.8,25.9-35,24.8-47.4l17.1,9.9c-0.4,1.6-22.5,35.2-23.8,36.9
+		s-12.2,14.3-14.2,24.1L243.4,377.5z"/>
+	<text id="muscleSkeletal_Text_Hi" transform="matrix(0.9951 0 0 1 59.1182 381.0942)" class="st28 st29 st30">Muscle - Skeletal (UCEC)</text>
+	<line id="muscleSkeletal_Lead_Hi" class="st64" x1="187.7" y1="376.1" x2="254" y2="376.4"/>
+</g>
+<g id="arteryTibial_GROUP">
+	<path id="arteryTibial_Pic_Lo" class="st118" d="M265.5,499.5c1,1.1,4.8,5.1,6.5,8.5c0.2-3-4.4-7.8-5.5-11c-1-2.8-1.4-6.9-1.2-9.2
+		c1.3-4.4,2.8-8.8,4.5-13.4c4.6-12.5,3.3-20,1.9-26.5l-1.2,2.1l-1.5,2.6c1.3,6.5,0.3,9.9-2.4,19.6c-3.6,12.9-8,25.8-8.7,33.6
+		c-0.8,7.8-0.6,18.4,2.5,28.3c0.1,0.4,0.3,0.9,0.4,1.4c0.1,2-0.8,7-3.7,10.6c-3,3.7-5.7,8.4-7.8,14.8c0.9-2.1,5.6-10,7.3-11.8
+		c1.7-1.9,5.3-6.8,5.4-9.7l0.7,2c3.2,9.6,6.5,16.9,2.1,26.4c4.8-10.3,2.7-18.6-0.4-28.5c-3-9.9-4.6-20.3-4-28.1
+		c0.5-7.1,0.8-7.5,2.7-14.3l0.7-2.8C263.6,495.8,264.6,498.3,265.5,499.5z"/>
+	<path id="arteryTibial_Aura_Hi" class="st66" d="M265.5,499.5c1,1.1,4.8,5.1,6.5,8.5c0.2-3-4.4-7.8-5.5-11c-1-2.8-1.4-6.9-1.2-9.2
+		c1.3-4.4,2.8-8.8,4.5-13.4c4.6-12.5,3.3-20,1.9-26.5l-1.2,2.1l-1.5,2.6c1.3,6.5,0.3,9.9-2.4,19.6c-3.6,12.9-8,25.8-8.7,33.6
+		c-0.8,7.8-0.6,18.4,2.5,28.3c0.1,0.4,0.3,0.9,0.4,1.4c0.1,2-0.8,7-3.7,10.6c-3,3.7-5.7,8.4-7.8,14.8c0.9-2.1,5.6-10,7.3-11.8
+		c1.7-1.9,5.3-6.8,5.4-9.7l0.7,2c3.2,9.6,6.5,16.9,2.1,26.4c4.8-10.3,2.7-18.6-0.4-28.5c-3-9.9-4.6-20.3-4-28.1
+		c0.5-7.1,0.8-7.5,2.7-14.3l0.7-2.8C263.6,495.8,264.6,498.3,265.5,499.5z"/>
+	<path id="arteryTibial_Pic_Hi" class="st119" d="M265.5,499.5c1,1.1,4.8,5.1,6.5,8.5c0.2-3-4.4-7.8-5.5-11c-1-2.8-1.4-6.9-1.2-9.2
+		c1.3-4.4,2.8-8.8,4.5-13.4c4.6-12.5,3.3-20,1.9-26.5l-1.2,2.1l-1.5,2.6c1.3,6.5,0.3,9.9-2.4,19.6c-3.6,12.9-8,25.8-8.7,33.6
+		c-0.8,7.8-0.6,18.4,2.5,28.3c0.1,0.4,0.3,0.9,0.4,1.4c0.1,2-0.8,7-3.7,10.6c-3,3.7-5.7,8.4-7.8,14.8c0.9-2.1,5.6-10,7.3-11.8
+		c1.7-1.9,5.3-6.8,5.4-9.7l0.7,2c3.2,9.6,6.5,16.9,2.1,26.4c4.8-10.3,2.7-18.6-0.4-28.5c-3-9.9-4.6-20.3-4-28.1
+		c0.5-7.1,0.8-7.5,2.7-14.3l0.7-2.8C263.6,495.8,264.6,498.3,265.5,499.5z"/>
+	<text id="arteryTibial_Text_Hi" transform="matrix(1 0 0 1 115.7451 469.6521)" class="st28 st29 st30">Artery - Tibial</text>
+	<polyline id="arteryTibial_Lead_Hi" class="st64" points="187.7,463.6 229.3,463.8 261.4,484.5 	"/>
+</g>
+<g id="liver_GROUP">
+	<g id="liver_Pic_Lo">
+		<path class="st120" d="M243.1,256.7c-2.1-3.1-8-17.1,3.9-30.9c12-13.8,26-8.7,26.6-8.3c0.6,0.4,1.2,1.1,1,2
+			c-0.2,0.6,0.8-1.6,5-1.4s16.2,6.6,17,8.6s3.6,5.2-3.6,7.2s-31.3,17-33.7,19.4C256.9,255.7,246.1,261.1,243.1,256.7z"/>
+		<path class="st121" d="M268,238.7c-0.7-0.4-1.6-0.1-2,0.7c-0.4,0.7-0.1,1.6,0.7,2l5.2,2.5c0.7,0.4,1.6,0.1,2-0.7
+			c0.4-0.7,0.1-1.6-0.7-2L268,238.7z"/>
+		<path class="st122" d="M248.4,256.9c2.4-0.9,3-2.8,3.7-4.3c3.3-6.3,9.3-11.5,16.7-15.1c0.7-0.7,0.7-0.4,1.2-2"/>
+		<path class="st122" d="M295,231.4c-1.5,0.7-1.9,1-3.1,0.9c-7.1,0-14.1,1.5-20.4,4.1c-0.8,0-1.4-0.1-1.7-1.5
+			c-0.6-2.9,1.9-12.6,4.9-15.3"/>
+		<path class="st123" d="M277.3,240.4c-1.2-1-4.3-2.7-6-3.3"/>
+	</g>
+	<g id="liver_Aura_Hi" class="st22">
+		<path class="st94" d="M243.2,256.7c-2.1-3.1-8-17.1,3.9-30.9c12-13.8,26-8.7,26.6-8.3c0.6,0.4,1.2,1.1,1,2c-0.2,0.6,0.8-1.6,5-1.4
+			s16.2,6.6,17,8.6s3.6,5.2-3.6,7.2s-31.3,17-33.7,19.4C256.9,255.7,246.2,261.1,243.2,256.7z"/>
+	</g>
+	<g id="liver_Pic_Hi" class="st22">
+		<path class="st124" d="M243.2,256.7c-2.1-3.1-8-17.1,3.9-30.9c12-13.8,26-8.7,26.6-8.3c0.6,0.4,1.2,1.1,1,2
+			c-0.2,0.6,0.8-1.6,5-1.4s16.2,6.6,17,8.6s3.6,5.2-3.6,7.2s-31.3,17-33.7,19.4C257,255.7,246.2,261.1,243.2,256.7z"/>
+		<path class="st125" d="M248.4,256.9c2.4-0.9,3-2.8,3.7-4.3c3.3-6.3,9.3-11.5,16.7-15.1c0.7-0.7,0.7-0.4,1.2-2"/>
+		<path class="st125" d="M295.1,231.4c-1.5,0.7-1.9,1-3.1,0.9c-7.1,0-14.1,1.5-20.4,4.1c-0.8,0-1.4-0.1-1.7-1.5
+			c-0.6-2.9,1.9-12.6,4.9-15.3"/>
+		<path class="st126" d="M277.4,240.4c-1.2-1-4.3-2.7-6-3.3"/>
+	</g>
+	<text id="liver_Text_Hi" transform="matrix(1 0 0 1 124.0378 209.9329)" class="st28 st29 st30">Liver (LIHC)</text>
+	<polyline id="liver_Lead_Hi" class="st64" points="188,205.3 229.2,205.3 266.3,223.1 	"/>
+</g>
+<g id="pancreas_GROUP">
+	<path id="pancreas_Pic_Lo" class="st127" d="M285.9,258.7c-1.6-3-1.5-9.2,4.5-11.8c7.3-3.1,6.1-1.2,13.4-2.9
+		c5.8-1.4,16.7-5.7,19.1-8.1c3.8-3.7,9.2,2.4-1.6,10.9c-6.1,4.8-15.2,7.5-16.2,8.4c-1,0.9-3.2,2.5-4.9,5
+		C299.1,261.9,290.1,266.3,285.9,258.7z"/>
+	<path id="pancreas_Aura_Hi" class="st66" d="M285.9,258.7c-1.6-3-1.5-9.2,4.5-11.8c7.3-3.1,6.1-1.2,13.4-2.9
+		c5.8-1.4,16.7-5.7,19.1-8.1c3.8-3.7,9.2,2.4-1.6,10.9c-6.1,4.8-15.2,7.5-16.2,8.4c-1,0.9-3.2,2.5-4.9,5
+		C299.1,261.9,290.1,266.3,285.9,258.7z"/>
+	<path id="pancreas_Pic_Hi" class="st128" d="M285.9,258.7c-1.6-3-1.5-9.2,4.5-11.8c7.3-3.1,6.1-1.2,13.4-2.9
+		c5.8-1.4,16.7-5.7,19.1-8.1c3.8-3.7,9.2,2.4-1.6,10.9c-6.1,4.8-15.2,7.5-16.2,8.4c-1,0.9-3.2,2.5-4.9,5
+		C299.1,261.9,290.1,266.3,285.9,258.7z"/>
+	<text id="pancreas_Text_Hi" transform="matrix(1 0 0 1 138.1689 254.9603)" class="st28 st29 st30">Pancreas</text>
+	<line id="pancreas_Lead_Hi" class="st64" x1="187.7" y1="250.6" x2="293.3" y2="250.6"/>
+</g>
+<g id="spleen_GROUP">
+	<g id="spleen_Pic_Lo">
+		<path class="st129" d="M333.3,228.1c1.2,7.1-2.4,13.7-7.7,15.5c-4.4,1.5-9.6-8.6-10.4-13.7c-1.2-7.1,0.6-12.3,6.1-13.2
+			C326.8,215.9,332.2,221,333.3,228.1z"/>
+		<path class="st130" d="M326.2,241.6c6.5-3.6,1.1-18,0-18.6c-1.3-1.9-5.9-5.3-9.3-2.1"/>
+	</g>
+	<g id="spleen_Aura_Hi" class="st22">
+		<path class="st131" d="M333.3,228.1c1.2,7.1-2.4,13.7-7.7,15.5c-4.4,1.5-9.6-8.6-10.4-13.7c-1.2-7.1,0.6-12.3,6.1-13.2
+			C326.8,215.9,332.2,221,333.3,228.1z"/>
+	</g>
+	<g id="spleen_Pic_Hi" class="st22">
+		<path class="st132" d="M333.3,228.1c1.2,7.1-2.4,13.7-7.7,15.5c-4.4,1.5-9.6-8.6-10.4-13.7c-1.2-7.1,0.6-12.3,6.1-13.2
+			C326.8,215.9,332.2,221,333.3,228.1z"/>
+		<path class="st133" d="M326.2,241.6c6.5-3.6,1.1-18,0-18.6c-1.3-1.9-5.9-5.3-9.3-2.1"/>
+	</g>
+	<path id="spleen_Lead_Hi_2_" class="st64" d="M332,240"/>
+</g>
+<g id="stomach_GROUP">
+	<path id="stomach_Pic_Lo" class="st134" d="M299.1,268.1c-18-4.8-15.2-14.2-14.2-17.3c0.9-3,6.1-6.4,11-3.6c3.6,2.1,2.3,2.7,11,3.8
+		c16.7,1.1,22.4-10.8,23.2-20.5c0.8-9.7-6.8-15.4-13.9-15.2c-5.3,1-9.7,2.2-14.2,13.7c-1.7,4.4-6.3,8-12.3,10.5
+		c-2.1,1-8,2.1-11,11.4c-1,6.5,1.9,16,13.3,19.6"/>
+	<path id="stomach_Aura_Hi" class="st59" d="M299,268.1c-18-4.8-15.2-14.2-14.2-17.3c0.9-3,6.1-6.4,11-3.6c3.6,2.1,2.3,2.7,11,3.8
+		c16.7,1.1,22.4-10.8,23.2-20.5c0.8-9.7-6.8-15.4-13.9-15.2c-5.3,1-9.7,2.2-14.2,13.7c-1.7,4.4-6.3,8-12.3,10.5
+		c-2.1,1-8,2.1-11,11.4c-1,6.5,1.9,16,13.3,19.6"/>
+	<path id="stomach_Pic_Hi" class="st135" d="M299,268.1c-18-4.8-15.2-14.2-14.2-17.3c0.9-3,6.1-6.4,11-3.6c3.6,2.1,2.3,2.7,11,3.8
+		c16.7,1.1,22.4-10.8,23.2-20.5c0.8-9.7-6.8-15.4-13.9-15.2c-5.3,1-9.7,2.2-14.2,13.7c-1.7,4.4-6.3,8-12.3,10.5
+		c-2.1,1-8,2.1-11,11.4c-1,6.5,1.9,16,13.3,19.6"/>
+	<text id="stomach_Text_Hi" transform="matrix(1 0 0 1 389.084 205.2747)" class="st28 st29 st30">Stomach (STAD)</text>
+	<polyline id="stomach_Lead_Hi" class="st64" points="384.5,200.7 340.4,200.7 314.9,227.1 	"/>
+</g>
+<g id="intestine_GROUP">
+	<g id="colonSigmoid_GROUP">
+		<path id="colonSigmoid_Pic_Lo" class="st136" d="M318.4,267v1.2c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3
+			c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.4,2.4,3.4c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3c-1.3,0-2.4,1.5-2.4,3.3
+			s1.1,3.4,2.4,3.4c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.4,2.4,3.4
+			c-1.3,0-2.4,1.5-2.4,3.4c0,1.3,0.5,2.6,1.3,3.1c-1-0.2-2.2,0.4-3.2,1.6c-0.8,1.1-1.2,2.5-0.8,3.4c-0.5-0.8-1.8-1.4-3.2-1.4
+			c-1.5,0-2.8,0.7-3.3,1.6c0.2-1-0.1-2.1-1.1-3c-1.4-1.2-3.5-1.7-4.3-0.7c0.5-1.2-0.5-2.8-2.2-3.5s-3.4-0.5-3.9,0.7
+			c0-0.8-1.2-1.4-1.5-1.4c-5.7-0.2-11.5,4.7-9.8,14.7s7.7,14,8.7,15.4c0.6,0.3,1.6,1.1,2.7,0.1s1.1-1.9,0.7-2.9s-3.5-7.3-3.6-11.3
+			c-0.1-3.5,0.8-4.1,1.9-4.1c1.3,1.3,3.7,1.6,4.6,0.7c-1,1.5-0.1,4,2,5.4c2.2,1.5,4.9,0.9,6-0.6c0.3,1.8,2.6,3.2,5.1,2.8
+			c2.6-0.4,4.5-2.5,4.2-4.3c1.1,1.3,3.7,1.5,5.5-0.1c1.8-1.5,2.6-3.9,1.5-5.2c1.4,0.8,3.4,0.1,4.6-1.9s1.3-5.2-0.1-6.1v-0.1
+			c1.3,0,2.4-1.2,2.4-3.1c0-1.8-1.1-3.4-2.4-3.4c1.3,0,2.3-1.6,2.3-3.4c0-1.9-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.3
+			s-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.4c0-1.8-1.1-3.3-2.4-3.3c1.3,0,2.4-1.5,2.4-3.3s-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.4
+			s-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.3s-1.1-3.4-2.4-3.4"/>
+		<path id="colonSigmoid_Aura_Hi" class="st66" d="M327.9,315L327.9,315c1.4,0.8,1.3,4.1,0.1,6.1c-1.2,2-3.2,2.7-4.6,1.9
+			c1.1,1.3,0.3,3.6-1.5,5.2c-1.8,1.5-4.4,1.3-5.5,0.1c0.3,1.8-1.6,3.9-4.2,4.3s-4.9-1-5.1-2.8c-1,1.5-3.8,2.1-6,0.6s-3.1-3.9-2-5.4
+			c-0.9,0.9-3.3,0.6-4.6-0.7c-0.3,0-0.6,0-0.8,0.1c-0.5,0.1-1,0.2-1.5,0.2c-3.3,0-6-2.7-6-6c0-2.5,1.6-4.8,3.8-5.6
+			c1.2-0.5,2.6-0.7,3.9-0.7c0.3,0,1.5,0.6,1.5,1.4c0.5-1.2,2.2-1.4,3.9-0.7c1.7,0.7,2.7,2.3,2.2,3.5c0.9-1,3-0.5,4.3,0.7
+			c1,0.9,1.3,2,1.1,3c0.5-0.9,1.8-1.6,3.3-1.6c1.4,0,2.7,0.5,3.2,1.4c-0.4-0.9,0-2.3,0.8-3.4c0.9-1.2,2.1-1.9,3.2-1.6
+			C319.3,313.2,325.3,312.4,327.9,315z"/>
+		<g id="colonSigmoid_Pic_Hi_2_">
+			<path id="colonSigmoid_path" class="st137" d="M327.9,315L327.9,315c1.4,0.8,1.3,4.1,0.1,6.1c-1.2,2-3.2,2.7-4.6,1.9
+				c1.1,1.3,0.3,3.6-1.5,5.2c-1.8,1.5-4.4,1.3-5.5,0.1c0.3,1.8-1.6,3.9-4.2,4.3s-4.9-1-5.1-2.8c-1,1.5-3.8,2.1-6,0.6s-3.1-3.9-2-5.4
+				c-0.9,0.9-3.3,0.6-4.6-0.7c-0.3,0-0.6,0-0.8,0.1c-0.5,0.1-1,0.2-1.5,0.2c-3.3,0-6-2.7-6-6c0-2.5,1.6-4.8,3.8-5.6
+				c1.2-0.5,2.6-0.7,3.9-0.7c0.3,0,1.5,0.6,1.5,1.4c0.5-1.2,2.2-1.4,3.9-0.7c1.7,0.7,2.7,2.3,2.2,3.5c0.9-1,3-0.5,4.3,0.7
+				c1,0.9,1.3,2,1.1,3c0.5-0.9,1.8-1.6,3.3-1.6c1.4,0,2.7,0.5,3.2,1.4c-0.4-0.9,0-2.3,0.8-3.4c0.9-1.2,2.1-1.9,3.2-1.6
+				C319.3,313.2,325.3,312.4,327.9,315z"/>
+			<g>
+				<path id="colonSigmoid_Pic_Hi_3_" class="st138" d="M290.1,313c1.2-0.5,2.6-0.7,3.9-0.7c0.3,0,1.5,0.6,1.5,1.4
+					c0.5-1.2,2.2-1.4,3.9-0.7c1.7,0.7,2.7,2.3,2.2,3.5c0.9-1,3-0.5,4.3,0.7c1,0.9,1.3,2,1.1,3c0.5-0.9,1.8-1.6,3.3-1.6
+					c1.4,0,2.7,0.5,3.2,1.4c-0.4-0.9,0-2.3,0.8-3.4c0.9-1.2,2.1-1.9,3.2-1.6"/>
+				<path id="colonSigmoid_Pic_Hi" class="st139" d="M327.9,315L327.9,315c1.4,0.8,1.3,4.1,0.1,6.1c-1.2,2-3.2,2.7-4.6,1.9
+					c1.1,1.3,0.3,3.6-1.5,5.2c-1.8,1.5-4.4,1.3-5.5,0.1c0.3,1.8-1.6,3.9-4.2,4.3s-4.9-1-5.1-2.8c-1,1.5-3.8,2.1-6,0.6
+					s-3.1-3.9-2-5.4c-0.9,0.9-3.3,0.6-4.6-0.7c-0.3,0-0.6,0-0.8,0.1c-0.5,0.1-1,0.2-1.5,0.2"/>
+			</g>
+		</g>
+	</g>
+	<path class="st136" d="M246.4,263.4v3.8c0,1.8,1.1,3.4,2.4,3.4c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3
+		c-1.3,0-2.4,1.5-2.4,3.3s1.1,3.4,2.4,3.4c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3c-1.3,0-2.4,1.5-2.4,3.3s1.1,3.4,2.4,3.4
+		c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.3,2.4,3.3c-1.3,0-2.4,1.5-2.4,3.4c0,1.8,1.1,3.4,2.4,3.4c-1.3,0-2.4,1.5-2.4,3.4
+		c0,1.4,0.6,2.7,1.5,3.2c-0.8,1.1-1.2,2.6-1.2,4c0,3.9,3.2,7,7,7c1.3,0,2.1-0.2,3.2-0.8h0.1c0.5,0.9,2,3.5,4.5,4.2
+		c0.4,0.1,0.8-0.1,1-0.6c0.1-0.4-0.1-0.9-0.6-1c-2-0.5-3-2.7-3.5-3.6c1.5-1.3,2.4-3.2,2.4-5.3c0-1.6-0.6-3-1.5-4.2
+		c0.8-0.5,1.2-1.7,1.2-3.1c0-1.8-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.4c0-1.8-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.3
+		s-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.4c0-1.8-1.1-3.3-2.4-3.3c1.3,0,2.4-1.5,2.4-3.3s-1.1-3.4-2.4-3.4c1.3,0,2.4-1.5,2.4-3.4
+		s-1.1-3.3-2.4-3.3c1.3,0,2.4-1.5,2.4-3.3s-1.1-3.4-2.4-3.4v-1.2"/>
+	<g id="smallIntestine_GROUP">
+		<g id="smallIntestine_Pic_Lo">
+			<path class="st140" d="M305.3,270.3c-2.2,0-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-3.8,1.9-3.5,4.2
+				c-0.3-2.3-2.4-4.2-4.6-4.2s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-3.8,1.8-3.5,4.1c-0.3-2.3-2.4-4.2-4.6-4.2
+				s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-4.2,1.7-4.7,4.3l-3,14c-0.3,2.3,1.3,4.2,3.5,4.2s4.3-1.9,4.6-4.2
+				c-0.3,2.3,1.2,4.2,3.5,4.2c2.2,0,4.3-1.9,4.6-4.2c-0.3,2.3,1.3,4.2,3.5,4.2s4.2-1.9,4.6-4.2c-0.3,2.3,1.2,4.2,3.5,4.2
+				c2.2,0,4.3-1.9,4.6-4.2c-0.3,2.3,1.3,4.1,3.5,4.1s4.2-1.9,4.6-4.2c-0.3,2.3,1.2,4.2,3.5,4.2c2.2,0,4.3-1.9,4.6-4.2
+				c-0.3,2.3,1.3,4.2,3.5,4.2c0.8,0,1.7-0.2,2.4-0.6c-1.3,0.7-2,2.2-1.7,3.8c-0.3-2.3-2.4-4.2-4.6-4.2s-3.8,1.9-3.5,4.2
+				c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-3.8,1.9-3.5,4.2c-0.3-2.3-2.4-4.2-4.6-4.2s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2
+				c-2.2,0-3.8,1.8-3.5,4.1c-0.3-2.3-2.4-4.2-4.6-4.2s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-4.1,2.1-4.7,4.3l-3,14
+				c-0.3,2.3,1.3,4.2,3.5,4.2s4.3-1.9,4.6-4.2c-0.3,2.3,1.2,4.2,3.5,4.2c2.2,0,4.3-1.9,4.6-4.2c-0.3,2.3,1.3,4.2,3.5,4.2
+				s4.2-1.9,4.6-4.2c-0.3,2.3,1.2,4.2,3.5,4.2c2.2,0,4.3-1.9,4.6-4.2c-0.3,2.3,1.3,4.1,3.5,4.1s4.2-1.9,4.6-4.2
+				c-0.3,2.3,1.2,4.2,3.5,4.2c2.2,0,4.3-1.9,4.6-4.2c-0.3,2.3,1.3,4.2,3.5,4.2c0.8,0,1.6-0.2,2.3-0.7c-1.2,0.7-1.8,2.1-1.6,3.7
+				c-0.3-2.3-2.4-4.2-4.6-4.2s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-3.8,1.9-3.5,4.2c-0.3-2.3-2.4-4.2-4.6-4.2
+				s-3.8,1.9-3.5,4.2c-0.3-2.3-2.3-4.2-4.6-4.2c-2.2,0-3.8,1.8-3.5,4.1c-0.3-2.3-2.4-4.2-4.6-4.2s-5,2-4.7,4.3l0.7,2.6h-8.4
+				c0.3,1,0.4,3.3-0.7,4.9h10.9c2.2,0,3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2c2.2,0,3.8-1.8,3.5-4.1c0.3,2.3,2.4,4.2,4.6,4.2
+				s3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2c2.2,0,3.8-1.9,3.5-4.2c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2
+				c0.3,2.3,2.3,4.2,4.6,4.2c3.8,0,4.3-3.7,4.7-5.4l2.7-12.9c0.3-2.3-1.2-4.1-3.5-4.1c-2.2,0-4.3,1.9-4.6,4.2
+				c0.3-2.3-1.3-4.2-3.5-4.2s-4.3,1.9-4.6,4.2c0.3-2.3-1.2-4.2-3.5-4.2c-2.2,0-4.3,1.9-4.6,4.2c0.3-2.3-1.3-4.1-3.5-4.1
+				s-4.2,1.9-4.6,4.2c0.3-2.3-1.2-4.2-3.5-4.2c-2.2,0-4.3,1.9-4.6,4.2c0.3-2.3-1.3-4.2-3.5-4.2s-4.2,1.9-4.6,4.2
+				c0.3-2.3-1.2-4.2-3.5-4.2c-0.5,0-1.1,0.2-1.5,0.3c0.9-0.8,1.3-1.9,1.1-3.3c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2
+				c0.3,2.3,2.3,4.2,4.6,4.2c2.2,0,3.8-1.8,3.5-4.1c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2
+				c2.2,0,3.8-1.9,3.5-4.2c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2c3.8,0,4.2-3.7,4.7-5.4l2.7-13
+				c0.3-2.3-1.2-4.2-3.5-4.2c-2.2,0-4.3,1.9-4.6,4.2c0.3-2.3-1.3-4.2-3.5-4.2s-4.3,1.9-4.6,4.2c0.3-2.3-1.2-4.2-3.5-4.2
+				c-2.2,0-4.3,1.9-4.6,4.2c0.3-2.3-1.3-4.1-3.5-4.1s-4.2,1.9-4.6,4.2c0.3-2.3-1.2-4.2-3.5-4.2c-2.2,0-4.3,1.9-4.6,4.2
+				c0.3-2.3-1.3-4.2-3.5-4.2s-4.2,1.9-4.6,4.2c0.3-2.3-1.2-4.2-3.5-4.2c-0.5,0-1.1,0.2-1.5,0.3c0.9-0.8,1.3-1.9,1.1-3.3
+				c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2c2.2,0,3.8-1.8,3.5-4.1c0.3,2.3,2.4,4.2,4.6,4.2
+				s3.8-1.9,3.5-4.2c0.3,2.3,2.3,4.2,4.6,4.2c2.2,0,3.8-1.9,3.5-4.2c0.3,2.3,2.4,4.2,4.6,4.2s3.8-1.9,3.5-4.2
+				c0.3,2.3,2.3,3.9,4.6,4.2c2.2,0.3,5.1-2.9,4.7-5.4c-0.1-1.8-0.2-5.3-5-7.5"/>
+			<g>
+				<g class="st6">
+					<path class="st138" d="M309.9,274.5c-0.3-2.3-2.3-4.2-4.6-4.2"/>
+					<line class="st141" x1="310.4" y1="276.4" x2="309.9" y2="274.5"/>
+				</g>
+				<line class="st142" x1="274.3" y1="277.9" x2="273.8" y2="276"/>
+				<line class="st142" x1="266.2" y1="278" x2="265.7" y2="276.1"/>
+				<path class="st143" d="M262.4,282.2c0.9,0,1.7-0.3,2.3-0.8"/>
+				<path class="st143" d="M262.5,285.1c0.2-1.6,1.3-3,2.7-3.7"/>
+				<line class="st142" x1="306.5" y1="277.9" x2="306" y2="276"/>
+				<line class="st142" x1="302.4" y1="276.4" x2="301.9" y2="274.5"/>
+				<line class="st142" x1="290.4" y1="278" x2="289.9" y2="276.1"/>
+				<line class="st142" x1="286.3" y1="276.4" x2="285.8" y2="274.5"/>
+				<line class="st142" x1="298.4" y1="278" x2="297.9" y2="276.1"/>
+				<line class="st142" x1="294.3" y1="276.4" x2="293.8" y2="274.5"/>
+				<line class="st142" x1="270.2" y1="276.4" x2="269.7" y2="274.5"/>
+				<line class="st142" x1="282.3" y1="277.9" x2="281.8" y2="276"/>
+				<line class="st142" x1="278.2" y1="276.4" x2="277.7" y2="274.5"/>
+				<line class="st142" x1="265.5" y1="288.6" x2="266" y2="286.7"/>
+				<line class="st142" x1="269.6" y1="287" x2="270.1" y2="285.1"/>
+				<line class="st142" x1="281.6" y1="288.6" x2="282.1" y2="286.7"/>
+				<line class="st142" x1="285.7" y1="287.1" x2="286.2" y2="285.2"/>
+				<line class="st142" x1="273.6" y1="288.6" x2="274.1" y2="286.7"/>
+				<line class="st142" x1="277.7" y1="287.1" x2="278.2" y2="285.2"/>
+				<line class="st142" x1="297.7" y1="288.6" x2="298.2" y2="286.7"/>
+				<line class="st142" x1="301.8" y1="287" x2="302.3" y2="285.1"/>
+				<line class="st142" x1="289.7" y1="288.6" x2="290.2" y2="286.7"/>
+				<line class="st142" x1="293.8" y1="287" x2="294.3" y2="285.1"/>
+				<line class="st142" x1="305.8" y1="288.6" x2="306.3" y2="286.7"/>
+				<line class="st142" x1="309.9" y1="287.1" x2="310.4" y2="285.2"/>
+				<line class="st142" x1="306.5" y1="299.5" x2="306" y2="297.5"/>
+				<line class="st142" x1="302.4" y1="297.9" x2="301.9" y2="296"/>
+				<line class="st142" x1="310.4" y1="297.9" x2="309.9" y2="296"/>
+				<line class="st142" x1="290.4" y1="299.5" x2="289.9" y2="297.6"/>
+				<line class="st142" x1="286.3" y1="298" x2="285.8" y2="296"/>
+				<line class="st142" x1="298.4" y1="299.5" x2="297.9" y2="297.6"/>
+				<line class="st142" x1="294.3" y1="298" x2="293.8" y2="296"/>
+				<line class="st142" x1="274.3" y1="299.5" x2="273.8" y2="297.5"/>
+				<line class="st142" x1="270.2" y1="297.9" x2="269.7" y2="296"/>
+				<line class="st142" x1="282.3" y1="299.5" x2="281.8" y2="297.5"/>
+				<line class="st142" x1="278.2" y1="297.9" x2="277.7" y2="296"/>
+				<path class="st142" d="M262.8,303.3c0.9,0.1,1.7-0.1,2.4-0.5"/>
+				<line class="st142" x1="266.2" y1="299.5" x2="265.7" y2="297.6"/>
+				<g class="st6">
+					<line class="st141" x1="265.5" y1="310.1" x2="266" y2="308.2"/>
+					<line class="st141" x1="269.6" y1="308.5" x2="270.1" y2="306.6"/>
+					<line class="st141" x1="281.6" y1="310.2" x2="282.1" y2="308.3"/>
+					<line class="st141" x1="285.7" y1="308.6" x2="286.2" y2="306.7"/>
+					<line class="st141" x1="273.6" y1="310.2" x2="274.1" y2="308.3"/>
+					<line class="st141" x1="277.7" y1="308.6" x2="278.2" y2="306.7"/>
+					<line class="st141" x1="297.7" y1="310.1" x2="298.2" y2="308.2"/>
+					<line class="st141" x1="301.8" y1="308.5" x2="302.3" y2="306.6"/>
+					<line class="st141" x1="289.7" y1="310.1" x2="290.2" y2="308.2"/>
+					<line class="st141" x1="293.8" y1="308.5" x2="294.3" y2="306.6"/>
+					<path class="st141" d="M262.4,306.5c0.2-1.6,1.3-3,2.7-3.7"/>
+					<line class="st141" x1="305.8" y1="310.2" x2="306.3" y2="308.3"/>
+					<line class="st141" x1="309.9" y1="308.6" x2="310.4" y2="306.7"/>
+				</g>
+				<path class="st142" d="M313.3,291.8c-0.6,0-1.1,0.1-1.6,0.3c1.2-0.7,2.1-2.1,2.3-3.6l0.5-1.9"/>
+				<line class="st142" x1="306.5" y1="320.8" x2="306" y2="318.8"/>
+				<line class="st142" x1="302.4" y1="319.2" x2="301.9" y2="317.3"/>
+				<line class="st142" x1="310.4" y1="319.2" x2="309.9" y2="317.3"/>
+				<line class="st142" x1="290.4" y1="320.8" x2="289.9" y2="318.9"/>
+				<line class="st142" x1="286.3" y1="319.3" x2="285.8" y2="317.4"/>
+				<line class="st142" x1="298.4" y1="320.8" x2="297.9" y2="318.9"/>
+				<line class="st142" x1="294.3" y1="319.3" x2="293.8" y2="317.4"/>
+				<line class="st142" x1="274.3" y1="320.8" x2="273.8" y2="318.8"/>
+				<line class="st142" x1="282.3" y1="320.8" x2="281.8" y2="318.8"/>
+				<line class="st142" x1="278.2" y1="319.2" x2="277.7" y2="317.3"/>
+				<path class="st142" d="M313.3,313.2c-0.7,0-1.3,0.2-1.8,0.5l0,0c1.2-0.7,2.5-2.3,2.7-3.8l0,0l0.1-1.7"/>
+			</g>
+		</g>
+		<path id="smallIntestine_Aura_Hi" class="st66" d="M269.1,320c1.4,0,2.6,1.1,2.6,2.5s-1.2,2.5-2.5,2.5H260c1.1-1.7,1-3.9,0.7-4.9
+			L269.1,320z"/>
+		<path id="smallIntestine_Pic_Hi" class="st144" d="M269.1,320c1.4,0,2.6,1.1,2.6,2.5s-1.2,2.5-2.5,2.5H260c1.1-1.7,1-3.9,0.7-4.9
+			L269.1,320z"/>
+		<text id="smallIntestine_Text_Hi" transform="matrix(1 0 0 1 27.521 329.0886)" class="st28 st29 st30">Small Intestine - Terminal Ileum</text>
+		<polyline id="smallIntestine_Lead_Hi" class="st64" points="187.7,324.6 229.1,324.6 266.2,322.9 		"/>
+	</g>
+	<g id="colonTransverse_GROUP">
+		<g id="colonTransverse_Pic_Lo" class="st145">
+			<path class="st146" d="M322.9,256.1c-2,0-3.7,0.8-5,2.1c-0.1-1.2-1.6-2.2-3.3-2.2c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4
+				s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4
+				c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4
+				c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.4,0-2.7,0.6-3.2,1.5c-1.1-0.8-2.6-1.2-4-1.2c-3.9,0-7,3.2-7,7
+				c0,3.9,3.2,7,7,7c1.6,0,3-0.6,4.2-1.5c0.5,0.8,1.7,1.2,3.1,1.2c1.8,0,3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4
+				c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4
+				c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4
+				c0,1.3,1.5,2.4,3.4,2.4s3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4c1.7,0,3.2-0.9,3.3-2.1c1.3,1.3,3.1,2.1,5,2.1c3.9,0,7-3.2,7-7
+				C329.9,259.3,326.8,256.1,322.9,256.1z"/>
+		</g>
+		<g id="colonTransverse_Aura_Hi" class="st22">
+			<path class="st94" d="M322.9,256.1c-2,0-3.7,0.8-5,2.1c-0.1-1.2-1.6-2.2-3.3-2.2c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4
+				s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4
+				c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4
+				c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.4,0-2.7,0.6-3.2,1.5c-1.1-0.8-2.6-1.2-4-1.2c-3.9,0-7,3.2-7,7
+				c0,3.9,3.2,7,7,7c1.6,0,3-0.6,4.2-1.5c0.5,0.8,1.7,1.2,3.1,1.2c1.8,0,3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4
+				c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4
+				c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4
+				c0,1.3,1.5,2.4,3.4,2.4s3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4c1.7,0,3.2-0.9,3.3-2.1c1.3,1.3,3.1,2.1,5,2.1c3.9,0,7-3.2,7-7
+				C329.9,259.3,326.8,256.1,322.9,256.1z"/>
+		</g>
+		<g id="colonTransverse_Pic_Hi" class="st22">
+			<path class="st147" d="M323,256.1c-2,0-3.7,0.8-5,2.1c-0.1-1.2-1.6-2.2-3.3-2.2c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4
+				s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4
+				c-1.8,0-3.3,1.1-3.3,2.4c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.8,0-3.3,1.1-3.3,2.4
+				c0-1.3-1.5-2.4-3.3-2.4s-3.4,1.1-3.4,2.4c0-1.3-1.5-2.4-3.4-2.4c-1.4,0-2.7,0.6-3.2,1.5c-1.1-0.8-2.6-1.2-4-1.2c-3.9,0-7,3.2-7,7
+				c0,3.9,3.2,7,7,7c1.6,0,3-0.6,4.2-1.5c0.5,0.8,1.7,1.2,3.1,1.2c1.8,0,3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4
+				c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4
+				c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4c0,1.3,1.5,2.4,3.4,2.4c1.8,0,3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4s3.4-1.1,3.4-2.4
+				c0,1.3,1.5,2.4,3.4,2.4s3.3-1.1,3.3-2.4c0,1.3,1.5,2.4,3.3,2.4c1.7,0,3.2-0.9,3.3-2.1c1.3,1.3,3.1,2.1,5,2.1c3.9,0,7-3.2,7-7
+				C330.1,259.3,326.9,256.1,323,256.1z"/>
+		</g>
+		<text id="colonTransverse_Text_Hi" transform="matrix(1 0 0 1 112.5831 269.8342)" class="st28 st29 st30">Colon (COAD)</text>
+		<line id="colonTransverse_Lead_Hi" class="st64" x1="187.7" y1="264.3" x2="276.7" y2="264.3"/>
+	</g>
+</g>
+<g id="lung_GROUP">
+	<g id="lung_Pic_Lo_3_">
+		<path class="st148" d="M298.1,207.4l-0.1-58.8c0.2-3.5,2.9-7,6.8-7.9c3.9-1,16.6-3.8,27.5,25.4c6.6,17.6,7.6,38,7.9,44.8
+			c0.4,6.8-2.1,17.6-12,15.5C316.3,223.8,299.9,215.2,298.1,207.4z"/>
+		<path id="lung_Pic_Lo" class="st148" d="M273.1,206.2l0.1-57.7c-0.2-3.4-2.9-6.8-6.7-7.8c-3.8-1-16.3-3.7-27,24.9
+			c-6.5,17.3-7.4,37.2-7.8,43.9c-0.4,6.7,2.1,17.3,11.8,15.2C255.2,222.2,271.3,213.8,273.1,206.2z"/>
+	</g>
+	<g id="lung_Aura_Hi" class="st22">
+		<path class="st94" d="M298.1,207.4l-0.1-58.8c0.2-3.5,2.9-7,6.8-7.9c3.9-1,16.6-3.8,27.5,25.4c6.6,17.6,7.6,38,7.9,44.8
+			c0.4,6.8-2.1,17.6-12,15.5C316.3,223.8,299.9,215.2,298.1,207.4z"/>
+		<path id="lung_Pic_Lo_1_" class="st94" d="M273.1,206.2l0.1-57.7c-0.2-3.4-2.9-6.8-6.7-7.8c-3.8-1-16.3-3.7-27,24.9
+			c-6.5,17.3-7.4,37.2-7.8,43.9c-0.4,6.7,2.1,17.3,11.8,15.2C255.2,222.2,271.3,213.8,273.1,206.2z"/>
+	</g>
+	<g id="lung_Pic_Hi" class="st22">
+		<path class="st149" d="M298.1,207.4l-0.1-58.8c0.2-3.5,2.9-7,6.8-7.9c3.9-1,16.6-3.8,27.5,25.4c6.6,17.6,7.6,38,7.9,44.8
+			c0.4,6.8-2.1,17.6-12,15.5C316.3,223.8,299.9,215.2,298.1,207.4z"/>
+		<path id="lung_Pic_Lo_2_" class="st149" d="M273.1,206.2l0.1-57.7c-0.2-3.4-2.9-6.8-6.7-7.8c-3.8-1-16.3-3.7-27,24.9
+			c-6.5,17.3-7.4,37.2-7.8,43.9c-0.4,6.7,2.1,17.3,11.8,15.2C255.2,222.2,271.3,213.8,273.1,206.2z"/>
+	</g>
+	<g>
+		<path class="st150" d="M275.3,96.2c0,0.7,0.1,1.2,1.1,2.6l3.2,5.5c0.3,0.5,1,2.1,1,3.2v37.4c-0.2,2.6,0.1,3-1.3,4.1l-7.7,4.5
+			c-0.1,0.6-1.6,4.9,1.2,6.6l6.9-3.9c1-0.6,1-0.7,1.8-0.5l3.1-0.1l3.1,0.1c0.8-0.2,0.8-0.1,1.8,0.5l9.1,5.3c2.8-1.7,1.3-6,1.2-6.6
+			l-10-6c-1.4-1.1-1.1-1.6-1.3-4.1l-0.1-33.6c-0.1-3.6-1.3-6-2.2-7.9l-4.6-7.6"/>
+		<path class="st20" d="M288.5,111.2c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<ellipse class="st150" cx="278.5" cy="96" rx="3.2" ry="1.5"/>
+		<path class="st20" d="M288.6,131.7c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,128.8c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,125.9c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,123c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,120.1c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,117.1c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+		<path class="st20" d="M288.6,114.2c0,1-1.8,1.8-4,1.8s-4-0.8-4-1.8"/>
+	</g>
+	<g id="lung_Text_Hi">
+		<text transform="matrix(1 0 0 1 86.0526 179.7229)" class="st28 st29 st30">Lung (LUAD|LUSC)</text>
+	</g>
+	<line id="lung_Lead_Hi" class="st64" x1="187.7" y1="176.3" x2="241" y2="176.3"/>
+</g>
+<g id="thyroid_GROUP">
+	<path id="thyroid_Pic_Lo" class="st151" d="M280.5,110.9c-1.4,0.4-2.3,1.8-2.9,4.1c-0.5,1.8,1.1,4.5,2.9,4.3
+		c1.4-0.1,2.4-1.1,4.9-0.9c2.1,0.2,4.3-1.6,2.2-3.7c-2.1-2.1-2.6-2.7-4.5-2.7S280.5,110.9,280.5,110.9z"/>
+	<path id="thyroid_Aura_Hi" class="st66" d="M280.6,110.9c-1.4,0.4-2.3,1.8-2.9,4.1c-0.5,1.8,1.1,4.5,2.9,4.3
+		c1.4-0.1,2.4-1.1,4.9-0.9c2.1,0.2,4.3-1.6,2.2-3.7s-2.6-2.7-4.5-2.7C281.3,112,280.6,110.9,280.6,110.9z"/>
+	<path id="thyroid_Pic_Hi" class="st152" d="M280.5,110.9c-1.4,0.4-2.3,1.8-2.9,4.1c-0.5,1.8,1.1,4.5,2.9,4.3
+		c1.4-0.1,2.4-1.1,4.9-0.9c2.1,0.2,4.3-1.6,2.2-3.7s-2.6-2.7-4.5-2.7C281.3,112,280.5,110.9,280.5,110.9z"/>
+</g>
+<g id="adiposeVisceral_GROUP">
+	<g id="adiposeVisceral_Pic_Lo">
+		<path class="st153" d="M290.8,323.1h23.7c3.2,0,5.7-2.6,5.7-5.7v-44.2c0-3.2-2.6-5.7-5.7-5.7h-23.7V323.1z"/>
+		<path class="st154" d="M289.8,274.8c-1.5,1.3-0.1,3.5,0.3,5.9c0.7,4.2-1.4,6-0.4,9.3c0.9,3.2,1.2,5.3,1.3,7.5c0,0.9-0.7,2.1-0.8,3
+			c-0.1,0.5-0.7,1.4-0.6,1.8c0.2,0.9,1.4,0.9,1.3,2.3c-1.9,5.5,0.7,6.6,0.8,11c-2.2,0.4,1.6,5.7,2.8,1.6c0.4-1.3,0.4-3.7,0-5
+			c-1-3.6,0.7-5.2,0-7.5c-1.3-4.5,0.2-5.7-0.4-8c-0.2-0.7-0.8-0.9-0.9-1.7c0-0.3,0.4-1.8,0.4-2.3c0-0.6-0.1-1.3,0-1.9
+			s0.6-1.2,0.6-1.6c0.1-2-1.1-3.7-1.4-5.8c1.5-0.3,1.4-6.6,1.1-8.3C293.4,272.4,290,270.8,289.8,274.8z"/>
+		<path class="st154" d="M299.6,274.4c-0.9-0.1-1.8,0.6-1.7,1.5c0.1,0.6,0.3,1.2,0.4,1.8c0.2,0.7,0.2,1.1,0.1,1.9
+			c-0.1,1.7,0.7,3,1.2,4.6c0.3,0.9,0.7,1.7,0.6,2.7c-0.1,0.8-0.3,1.5-0.3,2.3c0.1,1.3,0.9,2.3,0.7,3.7c-0.2,1.2-1.7,2.7-1.4,4
+			c0.1,0.5,0.7,0.9,1,1.3c0.3,0.5,0.7,1,0.9,1.6c0.5,1.3,0.2,2.8,0.5,4.1c0.2,0.8,0.9,1.5,0.9,2.2c0.1,0.8-0.4,1.6-0.2,2.5
+			c0.1,0.8,0.7,1.5,0.8,2.3c0.1,0.5-0.1,1-0.2,1.5c-0.1,0.7-0.2,1.8,0,2.5c0.2,0.6,0.7,1.1,1,1.7c0.2,0.3,0.2,0.7,0.4,0.9
+			c0.2,0.1,1.2,0.2,1.5,0.1c0-0.5-0.2-0.9-0.2-1.3c-0.1-0.8,0-1.8,0-2.7c0.1-1.6-0.3-2.8-0.6-4.4c-0.3-1.6-0.7-3.2-0.6-4.8
+			c0.1-1.7,0.1-3.3,0.1-5c0-1-0.2-1.6-0.4-2.5c-0.1-0.4,0-0.4,0-0.8c-0.1-0.9-0.8-1.8-1.1-2.7c-0.4-1.3,0.1-2.9-0.1-4.3
+			c-0.1-1.3-0.1-2.6-0.2-3.9c-0.1-0.6-0.3-1-0.5-1.5c-0.2-0.9-0.1-1.9-0.2-2.8c-0.1-1.2-0.6-2.4-0.6-3.5c0-0.4,0.1-0.7,0-1.1
+			c-0.1-0.8-0.3-0.5-0.9-0.9c-0.2-0.1-0.2-0.4-0.4-0.6c-0.2-0.1-0.6-0.2-0.9-0.2"/>
+		<path class="st154" d="M307.8,274.5c-0.6,0.4-1.1,1.2-1.7,1.6c0.1,0.5,0.4,0.9,0.6,1.3c0.2,0.2,0.4,0.4,0.5,0.6
+			c0.4,0.6,0.3,0.7,0.3,1.5c0,1.5,0.3,2.8,0.9,4.2c0.1,0.3,0.4,0.7,0.4,1.1s-0.3,0.6-0.5,1.1c-0.4,1.4,0.8,2.7,0.9,4.1
+			c0.1,1.5,0.3,2.8,0.7,4.3c0.2,0.9,0.3,1.8,0.5,2.8c0.1,0.8,0.6,1.7,0.6,2.4c0,0.9-0.6,1.5-0.2,2.5c0.4,0.8,1.1,1,1.3,1.9
+			c0.2,1.1,0.3,2.2,0.4,3.3c0.1,0.6,0.1,1.2,0.2,1.8c0.1,0.7,0.3,0.6,0.8,1.2c0.4,0.6,0,1-0.1,1.6c-0.2,0.9,0.2,1.7,0.6,2.5
+			c0.2,0.5,0.7,1.1,0.8,1.6c0.1,0.5-0.1,1.1,0.2,1.5c0.2,0.3,0.4,0.5,0.7,0.1c0.6-0.9-0.4-2.4-0.5-3.3s0.6-1.3,0.7-2.1
+			c0.1-0.6-0.1-1.3-0.2-1.9s-0.2-1-0.4-1.6c-0.3-1-0.2-2.2-0.2-3.3c0-1,0.1-2.1,0.1-3.2c0-0.5,0-1.2-0.2-1.7
+			c-0.1-0.4-0.4-0.5-0.6-0.9c-0.4-0.7-0.4-1.9-0.6-2.8c-0.2-1.1-0.6-2.1-0.8-3.2c-0.5-2.1-0.9-4-1.5-6.1c-0.3-1-0.7-2-0.7-3
+			c0-0.9,0.3-1.7,0.1-2.5c-0.2-1.4-0.6-3-1.1-4.4c-0.2-0.7-0.7-1.4-0.8-2.1C308.4,275.5,308.4,274.9,307.8,274.5z"/>
+	</g>
+	<g id="adiposeVisceral_Aura_Hi" class="st22">
+		<path class="st94" d="M290.5,323.1h23.7c3.2,0,5.7-2.6,5.7-5.7v-44.2c0-3.2-2.6-5.7-5.7-5.7h-23.7V323.1z"/>
+	</g>
+	<g id="adiposeVisceral_Pic_Hi" class="st22">
+		<path class="st155" d="M290.8,323.1h23.7c3.2,0,5.7-2.6,5.7-5.7v-44.2c0-3.2-2.6-5.7-5.7-5.7h-23.7V323.1z"/>
+		<path class="st156" d="M289.8,274.8c-1.5,1.3-0.1,3.5,0.3,5.9c0.7,4.2-1.4,6-0.4,9.3c0.9,3.2,1.2,5.3,1.3,7.5c0,0.9-0.7,2.1-0.8,3
+			c-0.1,0.5-0.7,1.4-0.6,1.8c0.2,0.9,1.4,0.9,1.3,2.3c-1.9,5.5,0.7,6.6,0.8,11c-2.2,0.4,1.6,5.7,2.8,1.6c0.4-1.3,0.4-3.7,0-5
+			c-1-3.6,0.7-5.2,0-7.5c-1.3-4.5,0.2-5.7-0.4-8c-0.2-0.7-0.8-0.9-0.9-1.7c0-0.3,0.4-1.8,0.4-2.3c0-0.6-0.1-1.3,0-1.9
+			s0.6-1.2,0.6-1.6c0.1-2-1.1-3.7-1.4-5.8c1.5-0.3,1.4-6.6,1.1-8.3C293.4,272.4,290,270.8,289.8,274.8z"/>
+		<path class="st156" d="M299.6,274.4c-0.9-0.1-1.8,0.6-1.7,1.5c0.1,0.6,0.3,1.2,0.4,1.8c0.2,0.7,0.2,1.1,0.1,1.9
+			c-0.1,1.7,0.7,3,1.2,4.6c0.3,0.9,0.7,1.7,0.6,2.7c-0.1,0.8-0.3,1.5-0.3,2.3c0.1,1.3,0.9,2.3,0.7,3.7c-0.2,1.2-1.7,2.7-1.4,4
+			c0.1,0.5,0.7,0.9,1,1.3c0.3,0.5,0.7,1,0.9,1.6c0.5,1.3,0.2,2.8,0.5,4.1c0.2,0.8,0.9,1.5,0.9,2.2c0.1,0.8-0.4,1.6-0.2,2.5
+			c0.1,0.8,0.7,1.5,0.8,2.3c0.1,0.5-0.1,1-0.2,1.5c-0.1,0.7-0.2,1.8,0,2.5c0.2,0.6,0.7,1.1,1,1.7c0.2,0.3,0.2,0.7,0.4,0.9
+			c0.2,0.1,1.2,0.2,1.5,0.1c0-0.5-0.2-0.9-0.2-1.3c-0.1-0.8,0-1.8,0-2.7c0.1-1.6-0.3-2.8-0.6-4.4c-0.3-1.6-0.7-3.2-0.6-4.8
+			c0.1-1.7,0.1-3.3,0.1-5c0-1-0.2-1.6-0.4-2.5c-0.1-0.4,0-0.4,0-0.8c-0.1-0.9-0.8-1.8-1.1-2.7c-0.4-1.3,0.1-2.9-0.1-4.3
+			c-0.1-1.3-0.1-2.6-0.2-3.9c-0.1-0.6-0.3-1-0.5-1.5c-0.2-0.9-0.1-1.9-0.2-2.8c-0.1-1.2-0.6-2.4-0.6-3.5c0-0.4,0.1-0.7,0-1.1
+			c-0.1-0.8-0.3-0.5-0.9-0.9c-0.2-0.1-0.2-0.4-0.4-0.6c-0.2-0.1-0.6-0.2-0.9-0.2"/>
+		<path class="st156" d="M307.9,274.5c-0.6,0.4-1.1,1.2-1.7,1.6c0.1,0.5,0.4,0.9,0.6,1.3c0.2,0.2,0.4,0.4,0.5,0.6
+			c0.4,0.6,0.3,0.7,0.3,1.5c0,1.5,0.3,2.8,0.9,4.2c0.1,0.3,0.4,0.7,0.4,1.1s-0.3,0.6-0.5,1.1c-0.4,1.4,0.8,2.7,0.9,4.1
+			c0.1,1.5,0.3,2.8,0.7,4.3c0.2,0.9,0.3,1.8,0.5,2.8c0.1,0.8,0.6,1.7,0.6,2.4c0,0.9-0.6,1.5-0.2,2.5c0.4,0.8,1.1,1,1.3,1.9
+			c0.2,1.1,0.3,2.2,0.4,3.3c0.1,0.6,0.1,1.2,0.2,1.8c0.1,0.7,0.3,0.6,0.8,1.2c0.4,0.6,0,1-0.1,1.6c-0.2,0.9,0.2,1.7,0.6,2.5
+			c0.2,0.5,0.7,1.1,0.8,1.6c0.1,0.5-0.1,1.1,0.2,1.5c0.2,0.3,0.4,0.5,0.7,0.1c0.6-0.9-0.4-2.4-0.5-3.3s0.6-1.3,0.7-2.1
+			c0.1-0.6-0.1-1.3-0.2-1.9s-0.2-1-0.4-1.6c-0.3-1-0.2-2.2-0.2-3.3c0-1,0.1-2.1,0.1-3.2c0-0.5,0-1.2-0.2-1.7
+			c-0.1-0.4-0.4-0.5-0.6-0.9c-0.4-0.7-0.4-1.9-0.6-2.8c-0.2-1.1-0.6-2.1-0.8-3.2c-0.5-2.1-0.9-4-1.5-6.1c-0.3-1-0.7-2-0.7-3
+			c0-0.9,0.3-1.7,0.1-2.5c-0.2-1.4-0.6-3-1.1-4.4c-0.2-0.7-0.7-1.4-0.8-2.1C308.4,275.5,308.4,274.9,307.9,274.5z"/>
+	</g>
+</g>
+<g id="female_GROUP">
+	<g id="ovary_GROUP">
+		<g id="ovary_Pic_Lo">
+			<path class="st157" d="M304.5,314.4c-0.6-1.1-2.4-4.2-5.1-5"/>
+			
+				<ellipse transform="matrix(0.3131 -0.9497 0.9497 0.3131 -112.1996 472.2517)" class="st158" cx="270.4" cy="313.7" rx="3.4" ry="4.7"/>
+			<path class="st157" d="M274.9,314.4c0.6-1.1,2.4-4.2,5.1-5"/>
+			
+				<ellipse transform="matrix(0.9497 -0.3131 0.3131 0.9497 -82.6568 112.5488)" class="st158" cx="309.1" cy="313.6" rx="4.7" ry="3.4"/>
+		</g>
+		<g id="ovary_Aura_Hi" class="st22">
+			<path class="st71" d="M304.5,314.5c-0.6-1.1-2.4-4.2-5.1-5"/>
+			
+				<ellipse transform="matrix(0.3131 -0.9497 0.9497 0.3131 -112.097 472.1414)" class="st159" cx="270.3" cy="313.6" rx="3.4" ry="4.7"/>
+			<path class="st71" d="M274.9,314.5c0.6-1.1,2.4-4.2,5.1-5"/>
+			
+				<ellipse transform="matrix(0.9497 -0.3131 0.3131 0.9497 -82.6569 112.549)" class="st159" cx="309.1" cy="313.6" rx="4.7" ry="3.4"/>
+		</g>
+		<g id="ovary_Pic_Hi" class="st22">
+			<path class="st160" d="M304.5,314.4c-0.6-1.1-2.4-4.2-5.1-5"/>
+			
+				<ellipse transform="matrix(0.3131 -0.9497 0.9497 0.3131 -112.1572 471.9884)" class="st161" cx="270.2" cy="313.5" rx="3.4" ry="4.7"/>
+			<path class="st160" d="M274.9,314.4c0.6-1.1,2.4-4.2,5.1-5"/>
+			
+				<ellipse transform="matrix(0.9497 -0.3131 0.3131 0.9497 -82.6256 112.544)" class="st161" cx="309.1" cy="313.5" rx="4.7" ry="3.4"/>
+		</g>
+		<text id="ovary_Text_Hi" transform="matrix(1 0 0 1 153.5195 314.4353)" class="st28 st29 st30">Ovary</text>
+		<polyline id="ovary_Lead_Hi" class="st64" points="187.7,309.3 229.3,309.3 269.4,313.6 		"/>
+	</g>
+	<g id="fallopianTube_GROUP">
+		<g id="fallopianTube_Pic_Lo" class="st6">
+			<path class="st162" d="M280.5,302.8c-1.2,0.2-4,0.3-6.8-1.4c-2.9-1.6-5.5-3.9-9.6-3.4c-3.8,0.5-6.6,4.7-4.9,8.9l3.6,6.6
+				c0.1,0.1,0.2,0.2,0.4,0.1c0.1-0.1,0.2-0.2,0.1-0.4l-1.5-2.6c-0.1-0.4,0.7-0.7,0.8-0.4l1.8,2.3c0.1,0.1,0.3,0.1,0.4,0
+				s0.1-0.3,0-0.4l-1.8-2.3c-0.2-0.4,0.3-0.8,0.6-0.6l2.2,2.1c0.1,0.1,0.3,0.1,0.4,0s0.1-0.3,0-0.4l-2.2-2c-0.2-0.3,0.2-0.8,0.6-0.6
+				l2.4,1.7c0.1,0.1,0.3,0.1,0.4-0.1c0.1-0.1,0.1-0.3-0.1-0.4l-2.4-1.7c-0.3-0.1,0-0.9,0.4-0.8l2.7,1.3c0.1,0.1,0.3,0,0.3-0.1
+				c0.1-0.1,0-0.3-0.1-0.3l-5.4-2.8c-0.8-0.3-1.2-1.3-1.1-2.5c0.1-1.1,1.2-2.2,2.6-2.6c2.3-0.6,4.3-0.1,6.6,1.5
+				c2.3,1.6,6.2,3,8.9,2.7"/>
+			<path class="st162" d="M299,302.8c1.2,0.2,4,0.3,6.8-1.4c2.9-1.6,5.5-3.9,9.6-3.4c3.8,0.5,6.6,4.7,4.9,8.9l-3.6,6.6
+				c-0.1,0.1-0.2,0.2-0.4,0.1c-0.1-0.1-0.2-0.2-0.1-0.4l1.5-2.6c0.1-0.4-0.7-0.7-0.8-0.4l-1.8,2.3c-0.1,0.1-0.3,0.1-0.4,0
+				s-0.1-0.3,0-0.4l1.8-2.3c0.2-0.4-0.3-0.8-0.6-0.6l-2.2,2.1c-0.1,0.1-0.3,0.1-0.4,0s-0.1-0.3,0-0.4l2.2-2c0.2-0.3-0.2-0.8-0.6-0.6
+				l-2.4,1.7c-0.1,0.1-0.3,0.1-0.4-0.1c-0.1-0.1-0.1-0.3,0.1-0.4l2.4-1.7c0.3-0.1,0-0.9-0.4-0.8l-2.7,1.3c-0.1,0.1-0.3,0-0.3-0.1
+				c-0.1-0.1,0-0.3,0.1-0.3l5.4-2.8c0.8-0.3,1.2-1.3,1.1-2.5c-0.1-1.1-1.2-2.2-2.6-2.6c-2.3-0.6-4.3-0.1-6.6,1.5
+				c-2.3,1.6-6.2,3-8.9,2.7"/>
+		</g>
+		<g id="fallopianTube_Aura_Hi" class="st22">
+			<path class="st94" d="M280.5,302.7c-1.2,0.2-4,0.3-6.8-1.4c-2.9-1.6-5.5-3.9-9.6-3.4c-3.8,0.5-6.6,4.7-4.9,8.9l3.6,6.6
+				c0.1,0.1,0.2,0.2,0.4,0.1c0.1-0.1,0.2-0.2,0.1-0.4l-1.5-2.6c-0.1-0.4,0.7-0.7,0.8-0.4l1.8,2.3c0.1,0.1,0.3,0.1,0.4,0
+				s0.1-0.3,0-0.4l-1.8-2.3c-0.2-0.4,0.3-0.8,0.6-0.6l2.2,2.1c0.1,0.1,0.3,0.1,0.4,0s0.1-0.3,0-0.4l-2.2-2c-0.2-0.3,0.2-0.8,0.6-0.6
+				l2.4,1.7c0.1,0.1,0.3,0.1,0.4-0.1c0.1-0.1,0.1-0.3-0.1-0.4l-2.4-1.7c-0.3-0.1,0-0.9,0.4-0.8l2.7,1.3c0.1,0.1,0.3,0,0.3-0.1
+				c0.1-0.1,0-0.3-0.1-0.3l-5.4-2.8c-0.8-0.3-1.2-1.3-1.1-2.5c0.1-1.1,1.2-2.2,2.6-2.6c2.3-0.6,4.3-0.1,6.6,1.5
+				c2.3,1.6,6.2,3,8.9,2.7"/>
+			<path class="st94" d="M299,302.7c1.2,0.2,4,0.3,6.8-1.4c2.9-1.6,5.5-3.9,9.6-3.4c3.8,0.5,6.6,4.7,4.9,8.9l-3.6,6.6
+				c-0.1,0.1-0.2,0.2-0.4,0.1c-0.1-0.1-0.2-0.2-0.1-0.4l1.5-2.6c0.1-0.4-0.7-0.7-0.8-0.4l-1.8,2.3c-0.1,0.1-0.3,0.1-0.4,0
+				s-0.1-0.3,0-0.4l1.8-2.3c0.2-0.4-0.3-0.8-0.6-0.6l-2.2,2.1c-0.1,0.1-0.3,0.1-0.4,0s-0.1-0.3,0-0.4l2.2-2c0.2-0.3-0.2-0.8-0.6-0.6
+				l-2.4,1.7c-0.1,0.1-0.3,0.1-0.4-0.1c-0.1-0.1-0.1-0.3,0.1-0.4l2.4-1.7c0.3-0.1,0-0.9-0.4-0.8l-2.7,1.3c-0.1,0.1-0.3,0-0.3-0.1
+				c-0.1-0.1,0-0.3,0.1-0.3l5.4-2.8c0.8-0.3,1.2-1.3,1.1-2.5c-0.1-1.1-1.2-2.2-2.6-2.6c-2.3-0.6-4.3-0.1-6.6,1.5
+				c-2.3,1.6-6.2,3-8.9,2.7"/>
+		</g>
+		<g id="fallopianTube_Pic_Hi" class="st22">
+			<path class="st163" d="M280.5,302.7c-1.2,0.2-4,0.3-6.8-1.4c-2.9-1.6-5.5-3.9-9.6-3.4c-3.8,0.5-6.6,4.7-4.9,8.9l3.6,6.6
+				c0.1,0.1,0.2,0.2,0.4,0.1c0.1-0.1,0.2-0.2,0.1-0.4l-1.5-2.6c-0.1-0.4,0.7-0.7,0.8-0.4l1.8,2.3c0.1,0.1,0.3,0.1,0.4,0
+				s0.1-0.3,0-0.4l-1.8-2.3c-0.2-0.4,0.3-0.8,0.6-0.6l2.2,2.1c0.1,0.1,0.3,0.1,0.4,0s0.1-0.3,0-0.4l-2.2-2c-0.2-0.3,0.2-0.8,0.6-0.6
+				l2.4,1.7c0.1,0.1,0.3,0.1,0.4-0.1c0.1-0.1,0.1-0.3-0.1-0.4l-2.4-1.7c-0.3-0.1,0-0.9,0.4-0.8l2.7,1.3c0.1,0.1,0.3,0,0.3-0.1
+				c0.1-0.1,0-0.3-0.1-0.3l-5.4-2.8c-0.8-0.3-1.2-1.3-1.1-2.5c0.1-1.1,1.2-2.2,2.6-2.6c2.3-0.6,4.3-0.1,6.6,1.5
+				c2.3,1.6,6.2,3,8.9,2.7"/>
+			<path class="st163" d="M299,302.7c1.2,0.2,4,0.3,6.8-1.4c2.9-1.6,5.5-3.9,9.6-3.4c3.8,0.5,6.6,4.7,4.9,8.9l-3.6,6.6
+				c-0.1,0.1-0.2,0.2-0.4,0.1c-0.1-0.1-0.2-0.2-0.1-0.4l1.5-2.6c0.1-0.4-0.7-0.7-0.8-0.4l-1.8,2.3c-0.1,0.1-0.3,0.1-0.4,0
+				s-0.1-0.3,0-0.4l1.8-2.3c0.2-0.4-0.3-0.8-0.6-0.6l-2.2,2.1c-0.1,0.1-0.3,0.1-0.4,0s-0.1-0.3,0-0.4l2.2-2c0.2-0.3-0.2-0.8-0.6-0.6
+				l-2.4,1.7c-0.1,0.1-0.3,0.1-0.4-0.1c-0.1-0.1-0.1-0.3,0.1-0.4l2.4-1.7c0.3-0.1,0-0.9-0.4-0.8l-2.7,1.3c-0.1,0.1-0.3,0-0.3-0.1
+				c-0.1-0.1,0-0.3,0.1-0.3l5.4-2.8c0.8-0.3,1.2-1.3,1.1-2.5c-0.1-1.1-1.2-2.2-2.6-2.6c-2.3-0.6-4.3-0.1-6.6,1.5
+				c-2.3,1.6-6.2,3-8.9,2.7"/>
+		</g>
+		<text id="fallopianTube_Text_Hi" transform="matrix(1 0 0 1 108.666 299.7678)" class="st28 st29 st30">Fallopian Tube</text>
+		<polyline id="fallopianTube_Lead_Hi" class="st64" points="187.3,294.1 229.5,294 261.1,302 		"/>
+	</g>
+	<g id="vagina_GROUP">
+		<g id="vagina_Pic_Lo">
+			<path id="vagina_1_" class="st164" d="M293.1,319.4v13.8l5.7,10.5h-3.2l-1.5,2.3l-8-13v-13.7C289,322,290.4,322,293.1,319.4"/>
+			<polyline id="vagina_3_" class="st165" points="293.1,319.4 293.1,333.3 298.8,343.8 295.6,343.8 294.1,346.1 286.2,333.1 
+				286.2,319.4 			"/>
+		</g>
+		<g id="vagina_Aura_Hi" class="st22">
+			<path id="vagina_4_" class="st94" d="M293,319.4l0.1,13.8l5.7,10.5h-3.2l-1.5,2.3l-8-13l-0.1-13.7l0,0
+				C289,322,290.4,322,293,319.4z"/>
+		</g>
+		<g id="vagina_Pic_Hi" class="st22">
+			<path id="vagina_6_" class="st166" d="M293.1,319.4v13.8l5.7,10.5h-3.2l-1.5,2.3l-8-13v-13.7C289,322,290.4,322,293.1,319.4"/>
+			<polyline id="vagina_5_" class="st27" points="293.1,319.4 293.1,333.2 298.8,343.7 295.6,343.7 294.1,346 286.2,333 
+				286.1,319.4 			"/>
+		</g>
+		<text id="vagina_Text_Hi" transform="matrix(1 0 0 1 328.0088 361.7449)" class="st28 st29 st30">Vagina</text>
+		<polyline id="vagina_Lead_Hi" class="st64" points="325.8,358 315,357.9 293,337.6 		"/>
+	</g>
+	<g id="uterus_GROUP">
+		<g id="uterus_Pic_Lo">
+			<path id="uterus_2_" class="st167" d="M291.3,320.7c0.4-0.4,1.9-0.9,2.2-2.4c0.2-1,1-2.7,2.4-4.2c0.8-0.9,4-3.6,4.1-7.2
+				c-0.2-7.2-8.5-7.4-10.4-7.4s-10.2,0.2-10.4,7.4c0.1,3.6,3.3,6.3,4.1,7.2c1.4,1.5,2.2,3.2,2.4,4.2c0.3,1.7,1.4,2,1.8,2.4
+				C289.4,321.6,290.2,321.4,291.3,320.7z"/>
+			<path id="uterus_3_" class="st157" d="M291.4,320.7c0.4-0.4,1.9-0.9,2.2-2.4c0.2-1,1-2.7,2.4-4.2c0.8-0.9,4-3.6,4.1-7.2
+				c-0.2-7.2-8.5-7.4-10.4-7.4s-10.2,0.2-10.4,7.4c0.1,3.6,3.3,6.3,4.1,7.2c1.4,1.5,2.2,3.2,2.4,4.2c0.3,1.7,1.4,2,1.8,2.4"/>
+		</g>
+		<path id="uterus_Aura_Hi" class="st66" d="M291.4,320.7c0.4-0.4,1.9-0.9,2.2-2.4c0.2-1,1-2.7,2.4-4.2c0.8-0.9,4-3.6,4.1-7.2
+			c-0.2-7.2-8.5-7.4-10.4-7.4s-10.2,0.2-10.4,7.4c0.1,3.6,3.3,6.3,4.1,7.2c1.4,1.5,2.2,3.2,2.4,4.2c0.3,1.7,1.4,2,1.8,2.4
+			C289.4,321.6,290.3,321.4,291.4,320.7z"/>
+		<g id="uterus_Pic_Hi" class="st22">
+			<path id="uterus_6_" class="st168" d="M291.3,320.7c0.4-0.4,1.9-0.9,2.2-2.4c0.2-1,1-2.7,2.4-4.2c0.8-0.9,4-3.6,4.1-7.2
+				c-0.2-7.2-8.5-7.4-10.4-7.4s-10.2,0.2-10.4,7.4c0.1,3.6,3.3,6.3,4.1,7.2c1.4,1.5,2.2,3.2,2.4,4.2c0.3,1.7,1.4,2,1.8,2.4
+				C289.4,321.6,290.2,321.4,291.3,320.7z"/>
+			<path id="uterus_5_" class="st125" d="M291.3,320.7c0.4-0.4,1.9-0.9,2.2-2.4c0.2-1,1-2.7,2.4-4.2c0.8-0.9,4-3.6,4.1-7.2
+				c-0.2-7.2-8.5-7.4-10.4-7.4s-10.2,0.2-10.4,7.4c0.1,3.6,3.3,6.3,4.1,7.2c1.4,1.5,2.2,3.2,2.4,4.2c0.3,1.7,1.4,2,1.8,2.4"/>
+		</g>
+		<text id="uterus_Text_Hi" transform="matrix(1 0 0 1 109.9999 284.4377)" class="st28 st29 st30">Uterus (UCEC)</text>
+		<polyline id="uterus_Lead_Hi" class="st64" points="187.7,278.9 229.5,278.9 289.1,306.8 		"/>
+	</g>
+	<g id="endocervix_GROUP">
+		<g id="endocervix_Pic_Lo" class="st6">
+			<path class="st169" d="M288.9,321.2v3.7c0,0-0.3,0.9-0.1,2.6c0,0.2,0.2,1,0.2,1.3s-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2
+				l-0.1-7.6C287,320.3,287.4,320.4,288.9,321.2z"/>
+			<path class="st169" d="M290.2,321.3l0.1,3.7c0,0,0.3,0.9,0.1,2.6c0,0.2-0.2,1-0.2,1.3s0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2
+				l0.1-7.6C292.2,320.3,291.6,320.7,290.2,321.3z"/>
+		</g>
+		<g id="endocervix_Aura_Hi" class="st22">
+			<path class="st94" d="M288.9,321.2v3.7c0,0-0.3,0.9-0.1,2.6c0,0.2,0.2,1,0.2,1.3s-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2
+				l-0.1-7.6C287,320.3,287.5,320.4,288.9,321.2z"/>
+			<path class="st94" d="M290.2,321.3l0.1,3.7c0,0,0.3,0.9,0.1,2.6c0,0.2-0.2,1-0.2,1.3s0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2
+				l0.1-7.6C292.2,320.3,291.6,320.7,290.2,321.3z"/>
+		</g>
+		<g id="endocervix_Pic_Hi" class="st22">
+			<path class="st170" d="M288.9,321.2v3.7c0,0-0.3,0.9-0.1,2.6c0,0.2,0.2,1,0.2,1.3s-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2
+				l-0.1-7.6C287,320.3,287.4,320.4,288.9,321.2z"/>
+			<path class="st170" d="M290.2,321.3l0.1,3.7c0,0,0.3,0.9,0.1,2.6c0,0.2-0.2,1-0.2,1.3s0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2
+				l0.1-7.6C292.2,320.3,291.6,320.7,290.2,321.3z"/>
+		</g>
+		<text id="endocervix_Text_Hi" transform="matrix(1 0 0 1 0.4084 348.3009)" class="st28 st29 st30">Cervix-Endocervix/Ectocervix (CESC) </text>
+		<polyline id="endocervix_Lead_Hi" class="st64" points="186.9,345.7 228.1,345.5 288,326.8 		"/>
+	</g>
+	<g id="ectocervix_GROUP">
+		<g id="ectocervix_Pic_Lo" class="st6">
+			<path class="st171" d="M289.1,328.8c0,0.3-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2"/>
+			<path class="st171" d="M290.2,328.8c0,0.3,0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2"/>
+		</g>
+		<g id="ectocervix_Aura_Hi" class="st22">
+			<path class="st71" d="M289.1,328.8c0,0.3-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2"/>
+			<path class="st71" d="M290.2,328.8c0,0.3,0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2"/>
+		</g>
+		<g id="ectocervix_Pic_Hi" class="st22">
+			<path class="st172" d="M289.1,328.8c0,0.3-0.5,0.7-1.3,0.3c-0.8-0.4-1.4-0.8-1.6-2.2"/>
+			<path class="st172" d="M290.2,328.8c0,0.3,0.5,0.7,1.3,0.3c0.8-0.4,1.4-0.8,1.6-2.2"/>
+		</g>
+	</g>
+	<path id="hair_2_" class="st173" d="M304.6,100.5V89.7c3.3-3.7,13.6-6.1,13.6-32.1c0-26.6-29-32.9-39.1-32.1
+		c-4.8,0.4-21,2.2-29.7,12.5c-8.3-5.3,1.5-22.2,14-19c6.7,1.7,11.5,4.8,16.8,1c4.2-3,19.7-3.4,21.8,4c1.2,4,6,5.1,11,5.2
+		c8.8,0.2,12.1,12.2,11.1,17.9c-3.2,6.1-1,17-0.9,19.5c1.4,5.3,1.9,22.8-17.6,32.9"/>
+	<g id="breastMamTissue_GROUP">
+		<g id="breastMamTissue_Pic_Lo" class="st6">
+			<path class="st174" d="M276.9,188.5c0,13-10.5,23.6-23.6,23.6c-13,0-23.6-10.5-23.6-23.6c0-3.3,0.7-6.4,1.9-9.2"/>
+			<ellipse class="st175" cx="250.2" cy="194.4" rx="6.8" ry="6.6"/>
+			<circle class="st176" cx="249.9" cy="194.4" r="2.6"/>
+		</g>
+		<g id="breastMamTissue_Pic_Hi" class="st22">
+			<path id="breastMamTissue_Aura_Hi" class="st71" d="M276.9,188.5c0,13-10.5,23.6-23.6,23.6c-13,0-23.6-10.5-23.6-23.6
+				c0-3.3,0.7-6.4,1.9-9.2"/>
+			<path class="st177" d="M276.9,188.5c0,13-10.5,23.6-23.6,23.6c-13,0-23.6-10.5-23.6-23.6c0-3.3,0.7-6.4,1.9-9.2"/>
+			<ellipse class="st178" cx="250.2" cy="194.4" rx="6.8" ry="6.6"/>
+			<circle class="st179" cx="249.9" cy="194.4" r="2.6"/>
+		</g>
+		<text id="breastMamTissue_Text_Hi" transform="matrix(1 0 0 1 20.1226 195.4343)" class="st28 st29 st30">Breast - Mammary tissue (BRCA)</text>
+		<line id="breastMamTissue_Lead_Hi" class="st64" x1="187.3" y1="191.4" x2="231.4" y2="191.4"/>
+	</g>
+</g>
+<g id="badder_GROUP">
+	<ellipse id="bladder_Pic_Lo" class="st180" cx="290.8" cy="320.8" rx="10.6" ry="6.7"/>
+	<ellipse id="bladder_Aura_Hi" class="st66" cx="290.7" cy="320.8" rx="10.6" ry="6.7"/>
+	<ellipse id="bladder_Pic_Hi" class="st181" cx="290.7" cy="320.8" rx="10.6" ry="6.7"/>
+	<text id="bladder_Text_Hi" transform="matrix(1 0 0 1 462.9805 322.0349)" class="st28 st29 st30">Bladder</text>
+	<line id="bladder_Lead_Hi" class="st64" x1="459.8" y1="317.3" x2="295.4" y2="317.3"/>
+</g>
+<g id="Male_GROUP">
+	<g id="prostate_GROUP">
+		<circle id="prostate_Pic_Lo" class="st182" cx="294" cy="331.8" r="3"/>
+		<circle id="prostate_Aura_Hi" class="st66" cx="294" cy="331.8" r="3"/>
+		<circle id="prostate_Pic_Hi" class="st183" cx="294" cy="331.8" r="3"/>
+		<text id="prostate_Text_Hi" transform="matrix(1 0 0 1 462.9561 352.1912)" class="st28 st29 st30">Prostate (PRAD)</text>
+		<polyline id="prostate_Lead_Hi" class="st64" points="459.8,347.1 324.8,347.1 294.7,332.4 		"/>
+	</g>
+	<g id="testis_GROUP">
+		<path class="st184" d="M287.3,333.4v6.1c-2.1,1.2-3.6,3.9-3.6,7.2c0,4.3,2.6,7.8,5.8,7.8c1.3,0,2.5-0.6,3.5-1.5
+			c0.7-0.7,2.8-1,3.7,0c1,1,2.2,1.5,3.5,1.5c3.2,0,5.8-3.5,5.8-7.8c0-3.2-1.5-6-3.6-7.2v-6.1"/>
+		<g id="testis_Pic_Lo">
+			<ellipse id="testi_right_Pic_Lo" class="st185" cx="300.3" cy="346.7" rx="4.4" ry="5.9"/>
+			<ellipse id="testis_left_Pic_Lo" class="st186" cx="289.6" cy="346.7" rx="4.4" ry="5.9"/>
+		</g>
+		<g id="testis_Aura_Hi" class="st22">
+			<ellipse id="testi_right_Aura_Hi" class="st94" cx="300.3" cy="346.7" rx="4.4" ry="5.9"/>
+			<ellipse id="testis_left_Aura_Hi" class="st94" cx="289.6" cy="346.7" rx="4.4" ry="5.9"/>
+		</g>
+		<g id="testis_Pic_Hi" class="st22">
+			<ellipse id="testi_right_Pic_Hi" class="st187" cx="300.3" cy="346.7" rx="4.4" ry="5.9"/>
+			<ellipse id="testis_left_Pic_Hi" class="st187" cx="289.6" cy="346.7" rx="4.4" ry="5.9"/>
+		</g>
+		<polyline id="testis_Lead_Hi" class="st64" points="326.7,371.4 315.4,371.4 293,349.6 		"/>
+		<text id="testis_Text_Hi" transform="matrix(1 0 0 1 328.0088 376.7517)" class="st28 st29 st30">Testis</text>
+	</g>
+</g>
+<g id="heart_GROUP">
+	<g id="heart_Pic_Lo" class="st188">
+		<path class="st189" d="M301.2,157.8v5.5c0,1.3-2.5,3.1-3.4,3.2c-1.9,0.2-3.5,0-3.5-2.3v-7.7"/>
+		<path class="st190" d="M304.3,173.9l0.1,17.7c-1.1,7.8-11.1,11.4-20.5,4.1c-10.7-8.3-20.7-20.2-9-34.2c7.8-9.3,27.1-2,28.4,2.4
+			c0,0,0.6,2.9,1.1,3.8c1.1,1.8,3.4,4.2,2.7,5.5c-0.7,1.3-2.4,0.1-2.4,0.1L304.3,173.9z"/>
+		<path class="st191" d="M293.9,161.9v2.1c0,1.3-1.6,2.3-3.5,2.3s-3.5-1-3.5-2.3v-3.6c-0.2-1.9-0.7-5.4-5.4-5.7h-11v-6h12
+			c3.9-0.5,8.1,2.6,8.6,6.2c0.2-0.2,1.4-1.1,1.8-1.2"/>
+		<path class="st192" d="M269.8,157v13.8c-0.1,2.3,1,3.7,3.8,1.6c0.8-0.6,2.6-2.7,2.5-4v-11.6"/>
+		<ellipse class="st192" cx="272.9" cy="156.8" rx="3.1" ry="1.4"/>
+		<path id="heartLeftVentricl_Pic_Lo" class="st193" d="M301.5,176.3l0.4,13.1c0,1.9-1.9,4.1-5.6,1.9c-3.7-2.3-8.4-7.4-9-11.3
+			c-0.6-3.8,1-8,5.3-7.6s7.4,1.9,8,2.3C301.2,175.2,301.5,176.3,301.5,176.3z"/>
+		<path class="st194" d="M277.2,177c1.1,0.3,2.4,1.6,2.8,2.3c0.5,0.8,2.4,2.2,3.5,2.2c-1.1-0.4-1.9-1.3-2.4-2.1
+			c-1.3-2.3-3.1-3.1-3.8-3.6c0-0.2,0-0.3,0-0.5c0.3-2.5,0.5-1.6,0.6-5.8c0.1-2.6-1.9-5.2-1.9-5.2l-0.1,2.1c0.1,0.8,1.1,2.8,0.5,6.2
+			c0,0.2-0.1,0.3-0.1,0.5v-0.2c-0.3,0.7-1.9,3.8-4.3,4.8c1.4-0.2,3.3-1.6,4.1-3.1c-0.4,3.9-0.2,10.7,4.1,14.7
+			C278.5,186.3,276.8,183.4,277.2,177z"/>
+		<path id="arteryCoronary_Pic_Lo" class="st194" d="M284.4,160.9c0.3,0.9,2.1,4.6,4.9,6.2c2.1,1.2,3.5,2.1,4.7,3.8
+			c0.9,0.3,3.6,0.2,5.2-0.9s2.5-0.3,2.5-0.3c-1.7,0.3-2.4,1.1-2.9,1.4c-1.2,0.8-2.5,1-4,0.9c0.2,0.3,0.3,0.5,0.5,0.8
+			c1.6,3,1.8,7,1.2,10.1v0.1c0.7,0.6,1.4,2.4,1.1,5.1c-0.1,1.2-0.2,2.1,1.9,4.6c-1.6-1.4-2.6-2.1-2.6-4.7c0-3.1-0.3-3.1-0.7-3.9
+			l-0.2,0.5c-0.4,1.4-1.1,2.6-3,4.9c-1.5,1.8-1.3,4.2-1.3,4.2c-0.6-2.4,0-3.5,1.8-5.8c1.6-2.1,2.8-7.5,1.9-10.8
+			c-0.8-3-1.9-4.7-3.2-6c0.3,1,0.8,3.3-0.7,5.4c-0.9,1-3.1,1.8-4.6,5.8c0.1-2.5,1.6-4.3,3.1-5.7s1.8-4.3,0.6-6.6l-0.2-0.2
+			c-1.1-0.8-1.5-0.9-2.7-1.6c-3.1-1.9-4.5-4.8-4.8-5.6C282.7,161.6,283.6,160.5,284.4,160.9z"/>
+		<ellipse class="st191" cx="270.4" cy="151.8" rx="1.6" ry="3"/>
+		<path id="arteryAorta_Pic_Lo" class="st189" d="M301.4,156.8c0-6.6-5.3-11.9-11.9-11.9s-11.9,5.3-11.9,11.9v7.4
+			c-0.1,2.3,1.6,2.5,3.5,2.3c0.9-0.1,3.4-1.9,3.4-3.2v-6.7c0-2.7,2.2-4.9,5-4.9c2.7,0,4.9,2.2,4.9,4.9"/>
+		<path class="st191" d="M290.6,166.4c2.3,0,3.3-1.5,3.4-2.3l-0.1-2.3c-0.2-1.9,2.7-3.3,3.9-3.3h4.8v-5.8h-6c0,0-3.3,0.2-5.5,2.3
+			c-0.1-0.6-0.5-1.7-0.5-1.7"/>
+		<ellipse class="st191" cx="302.9" cy="155.7" rx="1.5" ry="2.9"/>
+	</g>
+	<g id="heartLeftVentricl_Hi_GROUP">
+		<path id="heartLeftVentricl_Aura_Hi" class="st66" d="M301.5,176.3l0.4,13.1c0,1.9-1.9,4.1-5.6,1.9c-3.7-2.3-8.4-7.4-9-11.3
+			c-0.6-3.8,1-8,5.3-7.6s7.4,1.9,8,2.3C301.2,175.2,301.5,176.3,301.5,176.3z"/>
+		<path id="heartLeftVentricl_Pic_Hi" class="st195" d="M301.5,176.3l0.4,13.1c0,1.9-1.9,4.1-5.6,1.9c-3.7-2.3-8.4-7.4-9-11.3
+			c-0.6-3.8,1-8,5.3-7.6s7.4,1.9,8,2.3C301.2,175.2,301.5,176.3,301.5,176.3z"/>
+		<polyline id="heartLeftVentricl_Lead_Hi" class="st64" points="384.5,173.1 340.3,173.1 301.6,184.5 		"/>
+		<text id="heartLeftVentricl_Text_Hi" transform="matrix(1 0 0 1 389.084 175.9353)" class="st28 st29 st30">Heart - Left Ventricle</text>
+	</g>
+	<g id="arteryCoronary_Hi_GROUP">
+		<path id="arteryCoronary_Aura_Hi" class="st196" d="M284.4,160.9c0.3,0.9,2.1,4.6,4.9,6.2c2.1,1.2,3.5,2.1,4.7,3.8
+			c0.9,0.3,3.6,0.2,5.2-0.9s2.5-0.3,2.5-0.3c-1.7,0.3-2.4,1.1-2.9,1.4c-1.2,0.8-2.5,1-4,0.9c0.2,0.3,0.3,0.5,0.5,0.8
+			c1.6,3,1.8,7,1.2,10.1v0.1c0.7,0.6,1.4,2.4,1.1,5.1c-0.1,1.2-0.2,2.1,1.9,4.6c-1.6-1.4-2.6-2.1-2.6-4.7c0-3.1-0.3-3.1-0.7-3.9
+			l-0.2,0.5c-0.4,1.4-1.1,2.6-3,4.9c-1.5,1.8-1.3,4.2-1.3,4.2c-0.6-2.4,0-3.5,1.8-5.8c1.6-2.1,2.8-7.5,1.9-10.8
+			c-0.8-3-1.9-4.7-3.2-6c0.3,1,0.8,3.3-0.7,5.4c-0.9,1-3.1,1.8-4.6,5.8c0.1-2.5,1.6-4.3,3.1-5.7c1.5-1.4,1.8-4.3,0.6-6.6l-0.2-0.2
+			c-1.1-0.8-1.5-0.9-2.7-1.6c-3.1-1.9-4.5-4.8-4.8-5.6C282.7,161.6,283.6,160.5,284.4,160.9z"/>
+		<path id="arteryCoronary_Pic_Hi" class="st197" d="M284.4,160.9c0.3,0.9,2.1,4.6,4.9,6.2c2.1,1.2,3.5,2.1,4.7,3.8
+			c0.9,0.3,3.6,0.2,5.2-0.9s2.5-0.3,2.5-0.3c-1.7,0.3-2.4,1.1-2.9,1.4c-1.2,0.8-2.5,1-4,0.9c0.2,0.3,0.3,0.5,0.5,0.8
+			c1.6,3,1.8,7,1.2,10.1v0.1c0.7,0.6,1.4,2.4,1.1,5.1c-0.1,1.2-0.2,2.1,1.9,4.6c-1.6-1.4-2.6-2.1-2.6-4.7c0-3.1-0.3-3.1-0.7-3.9
+			l-0.2,0.5c-0.4,1.4-1.1,2.6-3,4.9c-1.5,1.8-1.3,4.2-1.3,4.2c-0.6-2.4,0-3.5,1.8-5.8c1.6-2.1,2.8-7.5,1.9-10.8
+			c-0.8-3-1.9-4.7-3.2-6c0.3,1,0.8,3.3-0.7,5.4c-0.9,1-3.1,1.8-4.6,5.8c0.1-2.5,1.6-4.3,3.1-5.7c1.5-1.4,1.8-4.3,0.6-6.6l-0.2-0.2
+			c-1.1-0.8-1.5-0.9-2.7-1.6c-3.1-1.9-4.5-4.8-4.8-5.6C282.7,161.6,283.6,160.5,284.4,160.9z"/>
+		<polyline id="arteryCoronary_Lead_Hi" class="st64" points="384.5,141.5 340.4,141.5 291.9,168.3 		"/>
+		<text id="arteryCoronary_Text_Hi" transform="matrix(1 0 0 1 388.584 145.4349)" class="st28 st29 st30">Artery - Coronary</text>
+	</g>
+	<g id="heartAtrialAppend_Hi_GROUP">
+		<text id="heartAtrialAppend_Text_Hi" transform="matrix(1 0 0 1 388.417 161.4353)" class="st28 st29 st30">Heart - Atrial Appendage</text>
+		<polyline id="heartAtrialAppend_Lead_Hi" class="st64" points="384.5,156.6 340.4,156.6 306.1,171.4 		"/>
+		<path id="heartAtrialAppend_Aura_Hi" class="st198" d="M303.3,163.9c0,0,0.6,2.9,1.1,3.8c1.1,1.8,3.4,4.2,2.7,5.5
+			c-0.7,1.3-2.4,0.1-2.4,0.1l-0.5,0.5C303.3,172.9,301.2,167.4,303.3,163.9z"/>
+		<g id="heartAtrialAppend_Pic_Hi" class="st22">
+			<path class="st199" d="M303.3,163.9c0,0,0.6,2.9,1.1,3.8c1.1,1.8,3.4,4.2,2.7,5.5c-0.7,1.3-2.4,0.1-2.4,0.1l-0.5,0.5
+				C303.3,172.9,301.2,167.4,303.3,163.9z"/>
+			<path class="st92" d="M303.3,163.9c0,0,0.6,2.9,1.1,3.8c1.1,1.8,3.4,4.2,2.7,5.5c-0.7,1.3-2.4,0.1-2.4,0.1l-0.5,0.5"/>
+		</g>
+	</g>
+	<g id="arteryAorta_Hi_GROUP">
+		<polyline id="arteryAorta_Lead_Hi" class="st64" points="386.9,126.8 342.8,126.8 288.9,149.6 		"/>
+		<path id="arteryAorta_Aura_Hi" class="st66" d="M293.3,153.6c1.8-0.8,3.4-0.9,3.4-0.9h4c-1.7-4.6-6-7.8-11.2-7.8
+			c-6.6,0-11.9,5.3-11.9,11.9v7.4c-0.1,2.3,1.6,2.5,3.5,2.3c0.9-0.1,3.4-1.9,3.4-3.2v-6.7c0-2.7,2.2-4.9,5-4.9
+			C291,151.8,292.4,152.5,293.3,153.6z"/>
+		<path id="arteryAorta_Pic_Hi" class="st200" d="M293.2,153.6c1.8-0.8,3.4-0.9,3.4-0.9h4c-1.7-4.6-6-7.8-11.2-7.8
+			c-6.6,0-11.9,5.3-11.9,11.9v7.4c-0.1,2.3,1.6,2.5,3.5,2.3c0.9-0.1,3.4-1.9,3.4-3.2v-6.7c0-2.7,2.2-4.9,5-4.9
+			C290.9,151.8,292.3,152.5,293.2,153.6z"/>
+		<g id="arteryAorta_Text_Hi">
+			<text transform="matrix(1 0 0 1 389.251 131.2972)" class="st28 st29 st30">Artery - Aorta</text>
+		</g>
+	</g>
+</g>
+<g id="skinNotExposed_GROUP">
+	<path id="skinNotExposed_Pic_Lo" class="st201" d="M290.7,299.2h7.6c3.2,0,5.7,2.6,5.7,5.7v4.9c0,3.2-2.6,5.7-5.7,5.7h-7.6V299.2z"
+		/>
+	<path id="skinNotExposed_Aura_Hi" class="st66" d="M290.8,299.1h7.6c3.2,0,5.7,2.6,5.7,5.7v4.9c0,3.2-2.6,5.7-5.7,5.7h-7.6V299.1z"
+		/>
+	<path id="skinNotExposed_Pic_Hi" class="st202" d="M290.7,299.2h7.6c3.2,0,5.7,2.6,5.7,5.7v4.9c0,3.2-2.6,5.7-5.7,5.7h-7.6V299.2z"
+		/>
+</g>
+</svg>

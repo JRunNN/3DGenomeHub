@@ -1,0 +1,1362 @@
+id	data_source	data_type	enzyme_linker	factor	tissue	health_status	biomaterial_type	cell_line_name
+GSM1023732	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	HGFDFN168
+GSM1023733	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	AG08470
+GSM1023734	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	HGADFN167
+GSM1023735	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	HGADFN167
+GSM1267196	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267197	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267198	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267199	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267200	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267201	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267202	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267203	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267204	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1267205	GEO	in-situ Hi-C	HindIII	NA	hESC derived	Healthy	Cell Line	hESC
+GSM1419084	GEO	in-situ Hi-C	HindIII	NA	Blood vessel	Healthy	Tissue	
+GSM1419085	GEO	in-situ Hi-C	HindIII	NA	Heart	Healthy	Tissue	
+GSM1419086	GEO	in-situ Hi-C	HindIII	NA	Liver	Healthy	Tissue	
+GSM1519138	GEO	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lymph	Cancer	Tissue	B cell
+GSM1519139	GEO	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lymph	Cancer	Tissue	B cell
+GSM1551624	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551626	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551627	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551628	GEO	in-situ Hi-C	MobI	NA	Bone marrow	Cancer	Cell Line	KBM7
+GSM1551630	GEO	in-situ Hi-C	MobI	NA	Blood vessel	Healthy	Cell Line	HUVEC (CC-2517)
+GSM1551631	GEO	in-situ Hi-C	MobI	NA	Blood vessel	Healthy	Cell Line	HUVEC (CC-2517)
+GSM1826481	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Cell Line	SK-N-SH
+GSM1826482	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Cell Line	SK-N-SH
+GSM1847520	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4a
+GSM1847521	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847522	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847523	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847524	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847525	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847526	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847527	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1 WT
+GSM1847528	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847529	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847530	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847531	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM1847532	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE1-deltaDXZ4i
+GSM2040719	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00014
+GSM2040720	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00015
+GSM2040721	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	ID00016
+GSM2040722	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM2040723	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM07939
+GSM2040724	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM10847 
+GSM2040725	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM12878
+GSM2040726	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM12892
+GSM2040727	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM17938
+GSM2040728	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM17942
+GSM2040729	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM18505
+GSM2040730	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	52425
+GSM2040731	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	82699
+GSM2109212	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109213	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109214	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109215	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109218	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109219	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109220	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109221	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109222	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109223	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109224	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109225	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109226	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109227	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109228	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109229	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109230	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109231	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109232	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109233	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109234	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109235	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109236	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109237	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109238	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109239	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109240	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109241	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109242	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109243	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109244	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109245	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109246	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109247	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109248	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109249	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109250	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109251	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109253	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109254	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109255	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109257	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109258	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109259	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2109260	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	iPSC/iPSC derived	
+GSM2142399	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	CRL-2522
+GSM2142400	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	CRL-2522
+GSM2176962	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	
+GSM2176963	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	DD1618
+GSM2176965	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	FY1199
+GSM2176966	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	NA
+GSM2176967	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	NA
+GSM2176968	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	NA
+GSM2176969	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	NA
+GSM2176970	GEO	in-situ Hi-C	HindIII	NA	Brain	Cancer	Tissue	NA
+GSM2176971	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM07017
+GSM2334832	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	RPMI-8226
+GSM2334833	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	RPMI-8226
+GSM2334834	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	U266
+GSM2334835	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	U266
+GSM2360367	GEO	in-situ Hi-C	MboI	NA	Lung	Healthy	Cell Line	IMR90 (CCL-186)
+GSM2360368	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360369	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360370	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360371	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360372	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360373	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360374	GEO	in-situ Hi-C	MboI	NA	Breast	Healthy	Primary Cell	HMEC (CC-2551)
+GSM2360375	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Primary Cell	NHEK (192627)
+GSM2360376	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Primary Cell	NHEK (192627)
+GSM2360378	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Primary Cell	NHEK (192627)
+GSM2409710	GEO	in-situ Hi-C	MboI	NA	Soft tissue	Cancer	Cell Line	 VA-ES-BJ
+GSM2409711	GEO	in-situ Hi-C	MboI	NA	Soft tissue	Cancer	Cell Line	 VA-ES-BJ
+GSM2572593	ChromLoops	HiChIP	MboI	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-231
+GSM2572594	ChromLoops	HiChIP	MboI	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-232
+GSM2572595	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-231
+GSM2572596	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-231
+GSM2572597	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-231
+GSM2572598	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-231
+GSM2587487	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	Daudi
+GSM2587488	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	Daudi
+GSM2587489	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	KemIII
+GSM2587490	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	KemIII
+GSM2587491	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	RaeI
+GSM2587492	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	RaeI
+GSM2587494	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	Raji
+GSM2587495	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	Namalwa
+GSM2587496	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	Namalwa
+GSM2587497	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	BC-1 cells
+GSM2587498	GEO	in-situ Hi-C	MboI	NA	Lymph	Cancer	Cell Line	BC-1 cells
+GSM2587499	GEO	in-situ Hi-C	MboI	NA	Uterus	Cancer	Cell Line	20863 cells
+GSM2587500	GEO	in-situ Hi-C	MboI	NA	Uterus	Cancer	Cell Line	20863 cells
+GSM2587501	GEO	in-situ Hi-C	MboI	NA	Uterus	Non-Cancer Disease	Cell Line	keratinocyte cell line
+GSM2692023	GEO	in-situ Hi-C	DNase Hi-C	NA	Heart	Healthy	Cell Line	WA09 (H9)
+GSM2692024	GEO	in-situ Hi-C	DNase Hi-C	NA	Heart	Healthy	Cell Line	WA09 (H9)
+GSM2705046	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Cancer	Cell Line	My-La
+GSM2705047	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Cancer	Cell Line	My-La
+GSM2705048	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705049	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705050	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705051	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705052	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705053	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705054	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705055	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705056	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705057	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705058	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705059	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Healthy	Primary Cell	
+GSM2705062	ChromLoops	HiChIP	MBol	H3K27ac	Artery	Healthy	Primary Cell	
+GSM2705063	ChromLoops	HiChIP	MBol	H3K27ac	Artery	Healthy	Primary Cell	
+GSM2705064	ChromLoops	HiChIP	MBol	H3K27ac	Artery	Healthy	Primary Cell	
+GSM2816607	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Healthy	Cell Line	H9 
+GSM2816608	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Healthy	Cell Line	H9 
+GSM2824366	ENCODE	in-situ Hi-C	HindIII	NA	Brain	Healthy	Primary Cell	
+GSM2824367	ENCODE	in-situ Hi-C	HindIII	NA	Brain	Healthy	Primary Cell	
+GSM2825105	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	 G401
+GSM2825106	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	 G401
+GSM2827127	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	Caki2
+GSM2827128	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	Caki2
+GSM2827188	ENCODE	in-situ Hi-C	HindIII	NA	Skin	Cancer	Cell Line	SK-MEL-5
+GSM2827189	ENCODE	in-situ Hi-C	HindIII	NA	Skin	Cancer	Cell Line	SK-MEL-5
+GSM2827225	ENCODE	in-situ Hi-C	HindIII	NA	Brain	Healthy	Primary Cell	
+GSM2827226	ENCODE	in-situ Hi-C	HindIII	NA	Brain	Healthy	Primary Cell	
+GSM2827278	ENCODE	in-situ Hi-C	HindIII	NA	Blood vessel	Healthy	Primary Cell	
+GSM2827279	ENCODE	in-situ Hi-C	HindIII	NA	Blood vessel	Healthy	Primary Cell	
+GSM2827296	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	ACHN
+GSM2827297	ENCODE	in-situ Hi-C	HindIII	NA	Kidney	Cancer	Cell Line	ACHN
+GSM2827298	ENCODE	in-situ Hi-C	HindIII	NA	Prostate	Cancer	Cell Line	LNCaP clone FGC
+GSM2827299	ENCODE	in-situ Hi-C	HindIII	NA	Prostate	Cancer	Cell Line	LNCaP clone FGC
+GSM2827554	ENCODE	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	NCI-H460
+GSM2827555	ENCODE	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	NCI-H460
+GSM2828825	ENCODE	in-situ Hi-C	HindIII	NA	Spinal cord	Healthy	Primary Cell	
+GSM2828826	ENCODE	in-situ Hi-C	HindIII	NA	Spinal cord	Healthy	Primary Cell	
+GSM2828914	ENCODE	in-situ Hi-C	HindIII	NA	Muscle	Cancer	Cell Line	SJCRH30
+GSM2828915	ENCODE	in-situ Hi-C	HindIII	NA	Muscle	Cancer	Cell Line	SJCRH30
+GSM2828922	ENCODE	in-situ Hi-C	HindIII	NA	Skin	Cancer	Cell Line	RPMI-7951
+GSM2828923	ENCODE	in-situ Hi-C	HindIII	NA	Skin	Cancer	Cell Line	RPMI-7951
+GSM2845448	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845449	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845450	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845451	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845452	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845453	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845454	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845455	GEO	in-situ Hi-C	DNase Hi-C	NA	hESC derived	Others	Cell Line	RUES2
+GSM2845456	GEO	in-situ Hi-C	DNase Hi-C	NA	Heart	Others	Cell Line	RUES2 hESCs
+GSM2845457	GEO	in-situ Hi-C	DNase Hi-C	NA	Heart	Others	Cell Line	RUES2 hESCs
+GSM2973923	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973924	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973925	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973927	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973928	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973929	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973930	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973931	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973932	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM2973933	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	iPSC/iPSC derived	
+GSM3139738	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3139739	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3139742	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3139743	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3177700	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	Cell Line	NA
+GSM3177704	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	Cell Line	NA
+GSM3179300	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Cell Line	NALM6
+GSM3211391	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	Nalm6
+GSM3212919	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs000379
+GSM3212920	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs101645
+GSM3212921	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs102580
+GSM3212922	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs102943
+GSM3212923	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs301315
+GSM3212924	ChromLoops	HiChIP	MboI	H3K27ac	Lymph	Non-Cancer Disease	Cell Line	lgs301283
+GSM3289771	ChromLoops	ChIA-PET	GTTGGATAAGATATCGC;GTTGGAATGTATATCGC	H3K27ac	Blood	Cancer	Cell Line	BJAB
+GSM3289772	ChromLoops	ChIA-PET	GTTGGATAAGATATCGC;GTTGGAATGTATATCGC	H3K27ac	Blood	Cancer	Cell Line	BJAB
+GSM3333325	GEO	in-situ Hi-C	Arima	NA	Stomach	Cancer	Tissue	NA
+GSM3333915	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Pancreas	Healthy	Cell Line	EndoC-BH1
+GSM3335732	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	22Rv1
+GSM3335733	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	22Rv1
+GSM3336890	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3336892	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3336894	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3336895	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3336896	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3356360	GEO	in-situ Hi-C	Arima	NA	Stomach	Cancer	Tissue	NA
+GSM3358191	GEO	in-situ Hi-C	DNase Hi-C	NA	Prostate	Cancer	Cell Line	22Rv1
+GSM3358192	GEO	in-situ Hi-C	DNase Hi-C	NA	Prostate	Cancer	Cell Line	22Rv1
+GSM3380627	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3380628	GEO	in-situ Hi-C	HindIII	NA	Bone marrow	Cancer	Cell Line	 K562
+GSM3394773	GEO	in-situ Hi-C	HindIII	NA	NA	Healthy	Cell Line	NA
+GSM3395108	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395109	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395110	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395111	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395112	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395113	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395114	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395115	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395116	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3395117	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3417098	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	
+MCF10
+GSM3417102	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	BT474
+GSM3417109	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	SKBR3
+GSM3423997	ChromLoops	ChIA-PET	CGCGATATCTTATCTGACT;GTCAGATAAGATATCGCGT	RNAPII	Prostate	Cancer	Cell Line	VCaP
+GSM3423998	ChromLoops	ChIA-PET	CGCGATATCTTATCTGACT;GTCAGATAAGATATCGCGT	RNAPII	Prostate	Cancer	Cell Line	LNCAP
+GSM3423999	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Prostate	Cancer	Cell Line	DU_145
+GSM3424000	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Prostate	Healthy	Cell Line	RWPE-1
+GSM3438650	GEO	in-situ Hi-C	MboI	NA	Blood vessel	Healthy	Cell Line	HUVECs
+GSM3438651	GEO	in-situ Hi-C	MboI	NA	Blood vessel	Healthy	Cell Line	HUVECs
+GSM3444790	ChromLoops	HiChIP	NlaIII	H3K27ac	Kidney	Healthy	Cell Line	Podocyte
+GSM3444791	ChromLoops	HiChIP	NlaIII	H3K27ac	Kidney	Healthy	Cell Line	Podocyte
+GSM3452717	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452718	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452719	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452720	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452721	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452722	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452723	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3452724 	GEO	in-situ Hi-C	DNase Hi-C	NA	NA	Healthy	Cell Line	WTC-11
+GSM3456996	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	UWB1.289+BRCA1
+GSM3456997	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	UWB1.289+BRCA1
+GSM3478956	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Tissue	
+GSM3478957	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Tissue	
+GSM3478958	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Tissue	
+GSM3489136	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	Jurkat
+GSM3489137	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	Jurkat
+GSM3532128	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	MDA-MB-231
+GSM3532129	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	MDA-MB-231
+GSM3553626	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Cancer	Primary Cell	
+GSM3553627	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Cancer	Primary Cell	
+GSM3553628	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Cancer	Primary Cell	
+GSM3553629	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Cancer	Primary Cell	
+GSM3553630	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Cancer	Primary Cell	
+GSM3560407	GEO	in-situ Hi-C	Arima	NA	Blood	Others	Primary Cell	WBC
+GSM3560408	GEO	in-situ Hi-C	Arima	NA	Blood	Others	Primary Cell	WBC
+GSM3560409	GEO	in-situ Hi-C	Arima	NA	Blood	Others	Primary Cell	SH-SY5Y cells
+GSM3564252	GEO	in-situ Hi-C	MboI	NA	Prostate	Healthy	Cell Line	RWPE1
+GSM3564253	GEO	in-situ Hi-C	MboI	NA	Prostate	Healthy	Cell Line	RWPE1
+GSM3564254	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM3564255	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM3564256	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM3567145	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	U251
+GSM3567146	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	U251
+GSM3567147	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	U251
+GSM3567148	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	U251
+GSM3611747	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Primary Cell	GM23916
+GSM3611748	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Primary Cell	GM17879
+GSM3611749	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Primary Cell	GM12878
+GSM3611750	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Primary Cell	ID00016
+GSM3619326	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3619327	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3619328	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3619329	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3619330	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3619331	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	THP-1
+GSM3639702	ChromLoops	HiChIP	MBol	H3K27ac	Heart	Healthy	Primary Cell	
+GSM3639703	ChromLoops	HiChIP	MBol	H3K27ac	Heart	Healthy	Primary Cell	
+GSM3682155	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM3682157	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	ZR75-1
+GSM3682165	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18486
+GSM3682166	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18505
+GSM3682167	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18505
+GSM3682168	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18507
+GSM3682169	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18507
+GSM3682170	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18508
+GSM3682171	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18508
+GSM3682172	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18516
+GSM3682173	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18516
+GSM3682174	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18522
+GSM3682175	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM18522
+GSM3682178	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19141
+GSM3682179	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19141
+GSM3682180	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19193
+GSM3682181	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19193
+GSM3682182	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19204
+GSM3682186	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19239
+GSM3682188	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19240
+GSM3682189	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	GM19240
+GSM3682190	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00512
+GSM3682191	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00512
+GSM3682192	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00513
+GSM3682193	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00513
+GSM3682194	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00514
+GSM3682195	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00514
+GSM3682196	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00731
+GSM3682197	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00731
+GSM3682198	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00732
+GSM3682199	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00732
+GSM3682200	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00733
+GSM3682201	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	HG00733
+GSM3721083	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Primary Cell	SH-SY5Y cells
+GSM3721084	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Primary Cell	SH-SY5Y cells
+GSM3756149	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3756150	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3756151	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3756152	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3756153	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3756154	GEO	in-situ Hi-C	NcolI	NA	Breast	Cancer	Cell Line	MCF7
+GSM3762825	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Cell Line	HUDEP-2
+GSM3769103	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Blood	Healthy	Primary Cell	erythroblast
+GSM3902814	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Muscle	Cancer	Cell Line	A673
+GSM3902815	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Muscle	Cancer	Cell Line	A673
+GSM3902816	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Muscle	Cancer	Cell Line	A673
+GSM3902817	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Muscle	Cancer	Cell Line	A673
+GSM3902829	ChromLoops	HiChIP	MboI	H3K27ac	Bone	Cancer	Cell Line	TC71-cell-line
+GSM3902830	ChromLoops	HiChIP	MboI	H3K27ac	Bone	Cancer	Cell Line	TC71-cell-line
+GSM3905152	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905153	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905154	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905155	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905156	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905157	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905158	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905159	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905160	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3905161	GEO	in-situ Hi-C	MboI	NA	Skin	Healthy	Cell Line	human diploid BJ fibroblasts
+GSM3967114	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	NA
+GSM3967115	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	NA
+GSM3967116	GEO	in-situ Hi-C	Arima	NA	Blood	Healthy	Cell Line	NA
+GSM3967118	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967119	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967120	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967122	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967123	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967125	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Primary Cell	NA
+GSM3967126	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	CUTLL1
+GSM3967127	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	CUTLL1
+GSM3967128	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	Jurkat
+GSM3967131	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	CUTLL1
+GSM3967132	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	CUTLL1
+GSM3967135	ChromLoops	HiChIP	MBol	H3K27ac	Lymph	Cancer	Cell Line	CUTLL1-cell-line
+GSM3985256	GEO	in-situ Hi-C	HindIII	NA	Lung	Healthy	Cell Line	IMR90
+GSM4006837	GEO	in-situ Hi-C	Arima	NA	Blood vessel	Healthy	Cell Line	HUVEC
+GSM4006838	GEO	in-situ Hi-C	Arima	NA	Blood vessel	Healthy	Cell Line	HUVEC
+GSM4040941	ChromLoops	HiChIP	MBol	H3K27ac	Pleural effusion	Cancer	Cell Line	BC3
+GSM4040942	ChromLoops	HiChIP	MBol	H3K27ac	Lymph	Cancer	Cell Line	BCBL1
+GSM4040943	ChromLoops	HiChIP	MBol	H3K27ac	Lymph	Cancer	Cell Line	BC1
+GSM4040944	ChromLoops	HiChIP	MBol	H3K27ac	Lymph	Cancer	Cell Line	JSC
+GSM4052980	GEO	in-situ Hi-C	MobI	NA	Blood	Cancer	Cell Line	HAP2
+GSM4052982	GEO	in-situ Hi-C	MobI	NA	Blood	Cancer	Cell Line	HAP1
+GSM4052984	GEO	in-situ Hi-C	MobI	NA	Blood	Cancer	Cell Line	HAP3
+GSM4053397	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Colon	Cancer	Cell Line	HCT116
+GSM4053398	ChromLoops	HiChIP	MboI	H3K27ac	Colon	Cancer	Cell Line	LS513
+GSM4053399	ChromLoops	HiChIP	MboI	H3K27ac	Colon	Cancer	Cell Line	SW480
+GSM4053400	ChromLoops	HiChIP	MboI	H3K27ac	Colon	Cancer	Cell Line	SW620
+GSM4061345	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	ATMhTERT
+GSM4061346	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	ATMhTERT
+GSM4061354	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	BJ5ta
+GSM4061359	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	GM02052
+GSM4061367	GEO	in-situ Hi-C	HindIII	NA	Lung	Healthy	Cell Line	MRC5
+GSM4072698	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072699	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072700	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072701	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072702	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072703	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072704	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072705	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072706	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072707	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072708	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072709	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072711	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072712	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072713	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072714	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072715	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072716	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072717	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072718	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072719	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072720	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072721	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072722	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072723	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072724	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072725	GEO	in-situ Hi-C	MboI	NA	Colon	Healthy	Tissue	NA
+GSM4072727	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072728	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072729	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072730	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072731	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072732	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072735	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072736	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072738	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072739	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072741	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072742	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072743	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072744	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072745	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4072746	GEO	in-situ Hi-C	MboI	NA	Colon	Cancer	Tissue	NA
+GSM4077751	GEO	in-situ Hi-C	DpnII	NA	Blood	Cancer	Cell Line	
+GSM4077752	GEO	in-situ Hi-C	DpnII	NA	Blood	Cancer	Cell Line	
+GSM4077755	GEO	in-situ Hi-C	DpnII	NA	Blood	Cancer	Cell Line	HAP1
+GSM4077756	GEO	in-situ Hi-C	DpnII	NA	Blood	Cancer	Cell Line	HAP1
+GSM4083889	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Blood	Cancer	Cell Line	U937-PR9
+GSM4093597	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	HaCaT
+GSM4093605	ChromLoops	HiChIP	MBol	H3K27ac	Skin	Healthy	Cell Line	HaCaT-Keratinocyte-cells
+GSM4093606	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lymph	Cancer	Tissue	T cell
+GSM4094644	ChromLoops	HiChIP	DpnII	H3K27ac	Uterus	Healthy	Cell Line	Immortalized-endometrial-cells
+GSM4094645	ChromLoops	HiChIP	DpnII	H3K27ac	Uterus	Cancer	Cell Line	ARK-1
+GSM4094646	ChromLoops	HiChIP	DpnII	H3K27ac	Uterus	Cancer	Cell Line	JHUEM-14
+GSM4094647	ChromLoops	HiChIP	DpnII	H3K27ac	Uterus	Cancer	Cell Line	Ishikawa
+GSM4106788	GEO	in-situ Hi-C	MobI	NA	Uterus	Cancer	Cell Line	HeLa
+GSM4119020	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119021	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119022	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119023	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119024	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119025	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119026	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119027	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4119028	GEO	in-situ Hi-C	HindIII	NA	Thymus	Non-Cancer Disease	Primary Cell	Primary CD4+ T-cells
+GSM4142027	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Cancer	Cell Line	KBM7
+GSM4142028	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Cancer	Cell Line	KBM7
+GSM4198745	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	BLaER
+GSM4198755	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	BLaER
+GSM4222614	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Bone marrow	Cancer	Cell Line	NB4
+GSM4340725	GEO	in-situ Hi-C	MboI	NA	Bone marrow	Healthy	Cell Line	hMSC-TERT5
+GSM4340726	GEO	in-situ Hi-C	MboI	NA	Bone marrow	Healthy	Cell Line	hMSC-TERT4
+GSM4349541	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349542	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349543	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349544	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349545	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349546	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4349547	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	PDX	NA
+GSM4407988	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	BJ5ta
+GSM4407989	GEO	in-situ Hi-C	HindIII	NA	Skin	Others	Cell Line	BJ5ta
+GSM4417580	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	DU4475
+GSM4417581	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC1187
+GSM4417582	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC1599
+GSM4417583	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC1806
+GSM4417584	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC1937
+GSM4417585	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC2218
+GSM4417586	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC38
+GSM4417587	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC70
+GSM4417588	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	MDA-MB-468
+GSM4417589	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	MDA-MD-231
+GSM4417590	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC1569
+GSM4417591	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	HCC2157
+GSM4417592	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	MDA-MD-436
+GSM4417593	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	BT-549
+GSM4417594	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	Hs578T
+GSM4417595	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	BT-20
+GSM4417596	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	Caov-3
+GSM4417597	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	SW626
+GSM4417598	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	SK-OV-3
+GSM4417599	GEO	in-situ Hi-C	MboI	NA	Lymph node	Cancer	Cell Line	A2058
+GSM4417600	GEO	in-situ Hi-C	MboI	NA	Pancreas	Cancer	Cell Line	Capan-1
+GSM4417601	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	A172
+GSM4417602	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SW1088
+GSM4417603	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	U118-MG
+GSM4417604	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	U87-MG
+GSM4417605	GEO	in-situ Hi-C	MboI	NA	Bone	Cancer	Cell Line	MG63
+GSM4417606	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	MOLM13
+GSM4417607	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	MV411
+GSM4417608	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	ML2
+GSM4417610	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	Granta
+GSM4417611	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417612	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	Maver-1
+GSM4417613	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	Mino-1
+GSM4417614	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	HL-60
+GSM4417615	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417616	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417617	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417618	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	RPMI-8402
+GSM4417619	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417620	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	NCI-H596
+GSM4417621	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417622	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417623	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	NCI-H1573
+GSM4417624	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417625	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	DU-145
+GSM4417626	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	TT
+GSM4417627	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	
+GSM4417628	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417629	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417630	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417631	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417632	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417633	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417634	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417635	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417636	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417637	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417638	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417639	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417640	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417641	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417642	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417643	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417644	GEO	in-situ Hi-C	MboI	NA	Brain	Cancer	Cell Line	SK-N-DZ
+GSM4417645	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	SK-N-DZ
+GSM4417646	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	SK-N-DZ
+GSM4417647	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Cell Line	SK-N-DZ
+GSM4437223	ChromLoops	HiChIP	MBol	H3K27ac	Kidney	Healthy	Cell Line	Kidney-tubule-HK2-cells
+GSM4437224	ChromLoops	HiChIP	MBol	H3K27ac	Kidney	Healthy	Cell Line	Kidney-tubule-HK2-cells
+GSM4441830	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441831	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441832	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441833	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441834	ChromLoops	HiChIP	MBol	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441835	ChromLoops	HiChIP	MBol	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441836	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Healthy	Primary Cell	
+GSM4441837	ChromLoops	ChIA-PET	ACGCGATATCTTATCTGACT;AGTCAGATAAGATATCGCGT	RNAPII	Brain	Healthy	Primary Cell	
+GSM4441838	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441839	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441840	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4441841	ChromLoops	HiChIP	MboI	H3K27ac	Brain	Healthy	Primary Cell	
+GSM4447215	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	HARA-cell-line
+GSM4447216	ChromLoops	HiChIP	MBol	H3K27ac	Colon	Cancer	Cell Line	HT55-cell-line
+GSM4453811	GEO	in-situ Hi-C	Arima	NA	Bladder	Cancer	Cell Line	RT4
+GSM4453812	GEO	in-situ Hi-C	Arima	NA	Bladder	Cancer	Cell Line	SCaBER
+GSM4453813	GEO	in-situ Hi-C	Arima	NA	Bladder	Cancer	Cell Line	SW780
+GSM4453814	GEO	in-situ Hi-C	Arima	NA	Bladder	Cancer	Cell Line	HT-1376
+GSM4490488	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Cell Line	HPNE
+GSM4490489	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Cell Line	HPNE
+GSM4490490	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Cell Line	HPNE
+GSM4490491	GEO	in-situ Hi-C	MboI	NA	Pancreas	Healthy	Cell Line	HPNE
+GSM4490510	GEO	in-situ Hi-C	MboI	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM4490511	GEO	in-situ Hi-C	MboI	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM4490512	GEO	in-situ Hi-C	MboI	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM4490513	GEO	in-situ Hi-C	MboI	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM4490532	GEO	in-situ Hi-C	MboI	NA	Liver	Cancer	Cell Line	Capan-1
+GSM4490533	GEO	in-situ Hi-C	MboI	NA	Liver	Cancer	Cell Line	Capan-1
+GSM4490534	GEO	in-situ Hi-C	MboI	NA	Liver	Cancer	Cell Line	Capan-1
+GSM4490535	GEO	in-situ Hi-C	MboI	NA	Liver	Cancer	Cell Line	Capan-1
+GSM455133	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM455134	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM455135	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM455136	GEO	in-situ Hi-C	HindIII	NA	Blood	Healthy	Cell Line	GM06990
+GSM455137	GEO	in-situ Hi-C	NcoI	NA	Blood	Healthy	Cell Line	GM06990
+GSM455138	GEO	in-situ Hi-C	NcoI	NA	Blood	Healthy	Cell Line	GM06990
+GSM4563951	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	CORL279
+GSM4563952	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	CORL88
+GSM4563953	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	DMS273
+GSM4563954	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H1105
+GSM4563955	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H146
+GSM4563956	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H1694
+GSM4563957	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H1836
+GSM4563958	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H1876
+GSM4563959	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H2029
+GSM4563960	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H2066
+GSM4563961	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H2171
+GSM4563962	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H446
+GSM4563963	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H524
+GSM4563964	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H69
+GSM4563965	ChromLoops	HiChIP	MboI	H3K27ac	Lung	Cancer	Cell Line	SHP77
+GSM4568361	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	HaCaT
+GSM4568362	GEO	in-situ Hi-C	HindIII	NA	Skin	Healthy	Cell Line	HaCaT
+GSM4568363	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	My-La
+GSM4568375	ChromLoops	HiChIP	MBol	H3K27ac	Skin	Healthy	Cell Line	HaCaT-Keratinocyte-cells
+GSM4568376	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lymph	Cancer	Cell Line	T cell
+GSM4604272	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	Cell Line	NA
+GSM4604273	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	Cell Line	NA
+GSM4604274	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604275	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604276	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604277	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604279	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604280	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604281	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604282	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604284	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604285	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604287	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604288	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604289	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4604290	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM4613669	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa
+GSM4633102	ChromLoops	HiChIP	MboI	H3K27ac	Artery	Healthy	Cell Line	PAEC
+GSM4633103	ChromLoops	HiChIP	MboI	H3K27ac	Artery	Healthy	Cell Line	PAEC
+GSM4633104	ChromLoops	HiChIP	MboI	H3K27ac	Artery	Healthy	Cell Line	PAEC
+GSM4672364	ChromLoops	HiChIP	MboI	H3K27ac	Blood vessel	Healthy	Primary Cell	NA
+GSM4696930	ChromLoops	HiChIP	MboI,DpnII,HinfI	H3K27ac	Esophagus	Cancer	Cell Line	KYSE180
+GSM4696931	ChromLoops	HiChIP	MboI,DpnII,HinfI	H3K27ac	Esophagus	Cancer	Cell Line	KYSE180
+GSM4699187	ChromLoops	HiChIP	DpnII	H3K27ac	Ovary	Healthy	Cell Line	Normal-immortalized-ovarian-surface-epithelial-cells
+GSM4763885	ChromLoops	HiChIP	MboI	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-453
+GSM4763886	ChromLoops	HiChIP	MboI	H3K27ac	Breast	Cancer	Cell Line	MDA-MB-453
+GSM4798671	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	iPSC/iPSC derived	
+GSM4798672	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	iPSC/iPSC derived	
+GSM4798673	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	iPSC/iPSC derived	
+GSM4798674	GEO	in-situ Hi-C	MboI	NA	NA	Healthy	iPSC/iPSC derived	
+GSM4802000	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	Su-DIPG-VI
+GSM4802001	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	G477
+GSM4802002	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	pcGBM2
+GSM4804907	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4804908	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4804909	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4804910	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4804911	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4804912	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Skin	Healthy	Primary Cell	
+GSM4847912	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Cell Line	GM12878
+GSM4847913	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Cell Line	GM12878
+GSM4847914	GEO	in-situ Hi-C	MboI	NA	Blood	Healthy	Cell Line	GM12878
+GSM4852164	ChromLoops	HiChIP	MBol	H3K27ac	Colon	Cancer	Cell Line	COLO320-DM-cells
+GSM4852165	ChromLoops	HiChIP	MboI	H3K27ac	Stomach	Cancer	Cell Line	SNU16-cells
+GSM4872656	GEO	in-situ Hi-C	DNase Hi-C	NA	Bone	Healthy	Primary Cell	NA
+GSM4875358	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM4875359	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM4875360	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM4875381	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM4908718	GEO	in-situ Hi-C	Arima	NA	Prostate	Cancer	Cell Line	LNCaP
+GSM4942838	GEO	in-situ Hi-C	MboI	NA	Adipose	Healthy	Tissue	NA
+GSM4942839	GEO	in-situ Hi-C	MboI	NA	Adipose	Healthy	Tissue	NA
+GSM4942840	GEO	in-situ Hi-C	MboI	NA	Adipose	Healthy	Tissue	NA
+GSM4948219	ChromLoops	HiChIP	DpnII	H3K27ac	Soft tissue	Cancer	Cell Line	SMS-CTR
+GSM4977752	GEO	in-situ Hi-C	Arima	NA	Brain	Healthy	Cell Line	HBEC
+GSM4977753	GEO	in-situ Hi-C	Arima	NA	Brain	Healthy	Cell Line	HBEC
+GSM4981503	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981504	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981505	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981507	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981508	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981509	GEO	in-situ Hi-C	HindIII	NA	Arthritis	Others	Primary Cell	NA
+GSM4981512	GEO	in-situ Hi-C	MboI	NA	Bronchus	Non-Cancer Disease	Primary Cell	NA
+GSM4982783	GEO	in-situ Hi-C	MboI	NA	Blood	Others	Cell Line	H1
+GSM4983062	GEO	in-situ Hi-C	MboI	NA	Bone marrow	Cancer	Cell Line	HAP1
+GSM4983063	GEO	in-situ Hi-C	MboI	NA	Bone marrow	Cancer	Cell Line	HAP1
+GSM5009040	GEO	in-situ Hi-C	Arima	NA	Blood	Others	Primary Cell	NA
+GSM5028224	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Primary Cell	
+GSM5028225	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Primary Cell	
+GSM5028226	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Primary Cell	
+GSM5028227	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Primary Cell	
+GSM5028228	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Primary Cell	
+GSM5028229	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Cancer	Cell Line	DND41
+GSM5028230	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Cancer	Cell Line	DND41
+GSM5028231	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Cancer	Cell Line	Jurkat
+GSM5028232	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5029737	GEO	in-situ Hi-C	Arima	NA	Heart	Healthy	Tissue	NA
+GSM5029738	GEO	in-situ Hi-C	Arima	NA	Heart	Healthy	Tissue	NA
+GSM5029739	GEO	in-situ Hi-C	Arima	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM5029740	GEO	in-situ Hi-C	Arima	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM5066586	ChromLoops	HiChIP	MBol	H3K27ac	Esophagus	Cancer	Cell Line	KYSE140
+GSM5066587	ChromLoops	HiChIP	MBol	H3K27ac	Esophagus	Cancer	Cell Line	KYSE141
+GSM5066588	ChromLoops	HiChIP	MboI	H3K27ac	Esophagus	Cancer	Cell Line	KYSE70
+GSM5066589	ChromLoops	HiChIP	MboI	H3K27ac	Esophagus	Cancer	Cell Line	TT
+GSM5066590	ChromLoops	HiChIP	MboI	H3K27ac	Lung	Cancer	Cell Line	LK2
+GSM5066591	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	H520
+GSM5066592	ChromLoops	HiChIP	MBol	H3K27ac	Lung	Cancer	Cell Line	HCC15-cell-line
+GSM5066593	ChromLoops	HiChIP	MboI	H3K27ac	Lung	Cancer	Cell Line	RERFLCAI
+GSM5066594	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Esophagus	Cancer	Cell Line	KYSE-140
+GSM5066595	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Esophagus	Cancer	Cell Line	KYSE-140
+GSM5066596	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Esophagus	Cancer	Cell Line	KYSE-140
+GSM5066597	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Esophagus	Cancer	Cell Line	KYSE-140
+GSM5066598	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lung	Cancer	Cell Line	SKMES1
+GSM5066599	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lung	Cancer	Cell Line	SKMES1
+GSM5066600	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lung	Cancer	Cell Line	SKMES1
+GSM5066601	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lung	Cancer	Cell Line	SKMES1
+GSM5098062	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Cell Line	NA
+GSM5098063	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Cell Line	NA
+GSM5098064	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098065	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098066	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098068	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098069	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098070	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098071	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	NA
+GSM5098072	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	BT549
+GSM5098073	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	BT549
+GSM5098074	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Tissue	NA
+GSM5098075	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Tissue	NA
+GSM5098076	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Tissue	NA
+GSM5098077	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Tissue	NA
+GSM5098078	GEO	in-situ Hi-C	Arima	NA	Breast	Healthy	Tissue	NA
+GSM5098079	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Tissue	NA
+GSM5098080	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Tissue	NA
+GSM5098082	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Tissue	NA
+GSM5159894	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Cell Line	HUDEP-2
+GSM5171868	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5171869	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5171870	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5171871	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5171872	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5171873	ChromLoops	HiChIP	MBol	H3K27ac	Blood	Healthy	Primary Cell	
+GSM5266524	GEO	in-situ Hi-C	HindⅢ	NA	Skin	Healthy	Tissue	NA
+GSM5266525	GEO	in-situ Hi-C	HindⅢ	NA	Lung	Healthy	Tissue	NA
+GSM5266526	GEO	in-situ Hi-C	HindⅢ	NA	Lung	Healthy	Tissue	NA
+GSM5277132	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Colon	Cancer	Cell Line	HCT116
+GSM5277133	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Colon	Cancer	Cell Line	HCT116
+GSM5333781	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	TR-14
+GSM5333782	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	TR-14
+GSM5333783	GEO	in-situ Hi-C	DpnII	NA	Brain	Cancer	Cell Line	TR-14
+GSM5350050	GEO	in-situ Hi-C	MboI	NA	Bronchus	Healthy	Cell Line	BEP2D
+GSM5350051	GEO	in-situ Hi-C	MboI	NA	Bronchus	Healthy	Cell Line	BEP2D
+GSM5350052	GEO	in-situ Hi-C	MboI	NA	Bronchus	Healthy	Cell Line	BEP2D
+GSM5369933	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Brain	Cancer	Cell Line	SK-N-SH
+GSM5369934	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Brain	Cancer	Cell Line	SK-N-SH
+GSM5369938	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Colon	Cancer	Cell Line	HCT116
+GSM5369939	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Colon	Cancer	Cell Line	HCT116
+GSM5370011	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lung	Cancer	Cell Line	A549
+GSM5370012	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lung	Cancer	Cell Line	A549
+GSM5370154	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Breast	Cancer	Cell Line	MCF-7
+GSM5370155	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Breast	Cancer	Cell Line	MCF-7
+GSM5370442	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood vessel	Others	Primary Cell	
+GSM5370443	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood vessel	Others	Primary Cell	
+GSM5374056	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	Cell Line	AG04450
+GSM5374057	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	Cell Line	AG04450
+GSM5374774	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Breast	Non-Cancer Disease	Cell Line	MCF 10A
+GSM5374775	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Breast	Non-Cancer Disease	Cell Line	MCF 10A
+GSM5375309	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Cell Line	AG04449
+GSM5375310	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Cell Line	AG04449
+GSM5378673	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Embryo	Others	Cell Line	HEK293
+GSM5378674	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Embryo	Others	Cell Line	HEK293
+GSM5378787	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Liver	Cancer	Cell Line	HepG2
+GSM5379062	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Cell Line	GM10248
+GSM5379063	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Cell Line	GM10248
+GSM5379108	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Embryo	Healthy	Cell Line	HEK293
+GSM5379109	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Embryo	Healthy	Cell Line	HEK293
+GSM5379364	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Liver	Cancer	Cell Line	HepG2
+GSM5379365	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Liver	Cancer	Cell Line	HepG2
+GSM5379463	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Bone marrow	Cancer	Cell Line	K562
+GSM5379464	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Bone marrow	Cancer	Cell Line	K562
+GSM5379465	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Bone marrow	Cancer	Cell Line	K562
+GSM5379698	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Cell Line	THP-1-cells
+GSM5431866	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Cell Line	Ramos-B-cells
+GSM5431868	ChromLoops	HiChIP	MboI	H3K27ac	Blood	Cancer	Cell Line	Ramos-B-cells
+GSM5534674	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND46
+GSM5534675	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND45
+GSM5534676	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND44
+GSM5534677	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND43
+GSM5534678	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND42
+GSM5534679	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	DND41
+GSM5534876	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534877	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534878	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534879	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534880	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534881	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534882	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534883	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534884	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5534885	GEO	in-situ Hi-C	HindIII	NA	Blood	Non-Cancer Disease	Cell Line	H9
+GSM5551867	GEO	in-situ Hi-C	Arima	NA	NA	Healthy	Cell Line	WTC11
+GSM5551868	GEO	in-situ Hi-C	Arima	NA	NA	Healthy	Cell Line	HS1
+GSM5551869	GEO	in-situ Hi-C	Arima	NA	NA	Healthy	Cell Line	HS1
+GSM5571212	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lymph	Cancer	Cell Line	OCI-Ly7
+GSM5571213	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lymph	Cancer	Cell Line	OCI-Ly7
+GSM5571214	GEO	HiChIP	ACGCGATATCTTATCTGACT	H3K27ac	Lymph	Cancer	Cell Line	OCI-Ly7
+GSM5605646	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	BxPC-3
+GSM5605647	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	BxPC-3
+GSM5605648	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	BxPC-3
+GSM5605651	GEO	in-situ Hi-C	Arima	NA	Pancreas	Healthy	Cell Line	HPDE6C7
+GSM5605652	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM5605653	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM5605654	GEO	in-situ Hi-C	Arima	NA	Pancreas	Cancer	Cell Line	PANC-1
+GSM5617588	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617589	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617590	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617592	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG05397
+GSM5617594	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617595	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617596	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	AG05397
+GSM5617597	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG05397
+GSM5617598	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG05397
+GSM5617599	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG05397
+GSM5617600	GEO	in-situ Hi-C	Arima	NA	NA	Healthy	Cell Line	CS-0020-01
+GSM5617601	GEO	in-situ Hi-C	Arima	NA	NA	Healthy	Cell Line	CS-0020-01
+GSM5617602	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG06922
+GSM5617603	GEO	in-situ Hi-C	Arima	NA	Skin	Non-Cancer Disease	Cell Line	AG06922
+GSM5667233	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5667236	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5667359	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5667427	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5667445	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5667497	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5667537	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Primary Cell	NA
+GSM5667643	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5667655	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5667669	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5667862	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	B cell
+GSM5668622	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5668623	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5668666	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5668667	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669181	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Prostate	Healthy	Cell Line	RWPE1
+GSM5669182	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Prostate	Healthy	Cell Line	RWPE1
+GSM5669406	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Primary Cell	
+GSM5669562	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669563	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669643	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Healthy	Primary Cell	
+GSM5669699	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5669700	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM5669715	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669872	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669981	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5669982	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM5671612	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Skin	Healthy	Cell Line	BJ
+GSM5671613	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Skin	Healthy	Cell Line	BJ
+GSM5671614	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Skin	Healthy	Cell Line	BJ
+GSM5688515	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688516	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688517	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688518	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688519	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688520	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688521	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5688522	GEO	in-situ Hi-C	MboI	NA	Blood	Cancer	Cell Line	NA (HL60, Kasumi-1)
+GSM5692139	GEO	in-situ Hi-C	Arima	NA	Blood	Healthy	Primary Cell	NA
+GSM5692140	GEO	in-situ Hi-C	Arima	NA	Blood	Healthy	Primary Cell	NA
+GSM5695760	GEO	in-situ Hi-C	MobI	NA	Blood	Non-Cancer Disease	Cell Line	Jurkat
+GSM5695765	GEO	in-situ Hi-C	MobI	NA	NA	Non-Cancer Disease	Cell Line	Jlat 8.4
+GSM5732826	GEO	in-situ Hi-C	Arima	NA	Bone marrow	Cancer	Cell Line	697
+GSM5732828	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	NALM6
+GSM5732830	GEO	in-situ Hi-C	Arima	NA	Blood	Cancer	Cell Line	Reh
+GSM5753534	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Primary Cell	NA
+GSM5753535	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Primary Cell	NA
+GSM5839924	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839925	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839926	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839927	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839928	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839929	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839930	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839931	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839932	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839933	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839934	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839935	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5839936	GEO	in-situ Hi-C	HindIII, DpnII	NA	Pancreas	Healthy	Primary Cell	NA
+GSM5847959	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	OVCAR-3
+GSM5847960	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	OVCAR-3
+GSM5847961	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	OVCAR-3
+GSM5847962	GEO	in-situ Hi-C	MboI	NA	Ovary	Cancer	Cell Line	OVCAR-3
+GSM5858314	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858315	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858316	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858317	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858318	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858319	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858320	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858321	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858322	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858323	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858324	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858325	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858326	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858328	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858329	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858330	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858332	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858333	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858334	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858335	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858336	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858337	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858338	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858339	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858340	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858341	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858342	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5858344	GEO	in-situ Hi-C	MboI	NA	Eye	Healthy	Cell Line	RPE-1 
+GSM5953515	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953516	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953517	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953518	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953519	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953520	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953521	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953522	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953523	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953524	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953525	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953526	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953527	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953528	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953529	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953530	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953531	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953532	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953533	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953534	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953535	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953536	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953537	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953538	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953539	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953540	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953541	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953542	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953543	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953544	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953545	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953546	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953547	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953548	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953549	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953550	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953551	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953552	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953553	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953554	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953555	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953556	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953557	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953558	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953559	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953560	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953561	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953562	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953563	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953564	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953565	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953566	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953567	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953568	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953569	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953570	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953571	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953572	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953573	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953574	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953575	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953576	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953577	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953578	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953579	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953580	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953581	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953582	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953583	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953584	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953585	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953586	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953587	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953588	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953589	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953590	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953591	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953592	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953593	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953594	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953595	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953596	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953597	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953598	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953599	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953600	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM5953601	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953602	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953603	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953604	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953605	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953606	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953607	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953608	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953609	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953610	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953611	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953612	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953613	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953614	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953615	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953616	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953617	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953618	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953619	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953620	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953621	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953622	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953623	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM5953624	GEO	in-situ Hi-C	DpnII	NA	Colon	Cancer	Cell Line	HCT116
+GSM6031776	GEO	in-situ Hi-C	MboI	NA	Rib	Healthy	Cell Line	C-28/I2
+GSM6031777	GEO	in-situ Hi-C	MboI	NA	Rib	Healthy	Cell Line	C-28/I2
+GSM6031778	GEO	in-situ Hi-C	MboI	NA	Rib	Healthy	Cell Line	C-28/I2
+GSM6031779	GEO	in-situ Hi-C	MboI	NA	Rib	Healthy	Cell Line	C-28/I2
+GSM6063558	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	PDX	Basal-like triple-negative breast cancer patient-derived xenograft; UCD52
+GSM6063559	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	PDX	
+GSM6077546	GEO	in-situ Hi-C	HindIII	NA	Ovary	Cancer	Cell Line	PEO1
+GSM6077547	GEO	in-situ Hi-C	HindIII	NA	Ovary	Cancer	Cell Line	PEO1
+GSM6077548	GEO	in-situ Hi-C	HindIII	NA	Ovary	Cancer	Cell Line	HEY A8
+GSM6077549	GEO	in-situ Hi-C	HindIII	NA	Ovary	Cancer	Cell Line	HEY A8 
+GSM6122972	GEO	in-situ Hi-C	Arima	NA	Eye	Healthy	Tissue	NA
+GSM6122973	GEO	in-situ Hi-C	Arima	NA	Eye	Healthy	Tissue	NA
+GSM6122974	GEO	in-situ Hi-C	Arima	NA	Eye	Healthy	Tissue	NA
+GSM6122975	GEO	in-situ Hi-C	Arima	NA	Eye	Healthy	Tissue	NA
+GSM6122976	GEO	in-situ Hi-C	Arima	NA	Colon	Cancer	Cell Line	HCT116
+GSM6203839	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM6203840	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM6203841	GEO	in-situ Hi-C	MboI	NA	Prostate	Cancer	Cell Line	C42B
+GSM6261020	GEO	in-situ Hi-C	DpnII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261021	GEO	in-situ Hi-C	DpnII	NA	Skin	Healthy	Cell Line	NA
+GSM6261022	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	NA
+GSM6261023	GEO	in-situ Hi-C	Arima	NA	Skin	Healthy	Cell Line	NA
+GSM6261024	GEO	in-situ Hi-C	DpnII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261025	GEO	in-situ Hi-C	DpnII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261026	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261027	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261028	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6261029	GEO	in-situ Hi-C	HindIII	NA	Skin	Non-Cancer Disease	Cell Line	NA
+GSM6281483	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A-375
+GSM6281485	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281486	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A-375
+GSM6281487	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281488	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281489	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A-375
+GSM6281490	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281492	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A-375
+GSM6281493	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281494	GEO	in-situ Hi-C	Arima	NA	Skin	Cancer	Cell Line	A375
+GSM6281495	GEO	in-situ Hi-C	Arima	NA	Breast	Cancer	Cell Line	MDA-MB-231
+GSM6326568	GEO	in-situ Hi-C	NA	NA	Colon	Cancer	Tissue	NA
+GSM6326575	GEO	in-situ Hi-C	NA	NA	Colon	Cancer	Tissue	NA
+GSM6431765	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431766	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431767	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431768	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431769	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431770	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431771	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431773	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431774	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6431776	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H9
+GSM6459678	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459679	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459680	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459681	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459682	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459683	GEO	in-situ Hi-C	MboI	NA	Brain	Healthy	Tissue	NA
+GSM6459684	GEO	in-situ Hi-C	MboI	NA	Brain	Non-Cancer Disease	Tissue	NA
+GSM6459685	GEO	in-situ Hi-C	MboI	NA	Brain	Non-Cancer Disease	Tissue	NA
+GSM6459687	GEO	in-situ Hi-C	MboI	NA	Brain	Non-Cancer Disease	Tissue	NA
+GSM6459688	GEO	in-situ Hi-C	MboI	NA	Brain	Non-Cancer Disease	Tissue	NA
+GSM6519806	GEO	in-situ Hi-C	DpnI	NA	NA	Healthy	Primary Cell	NA
+GSM6519807	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6519808	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6519809	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6519810	GEO	in-situ Hi-C	DpnI	NA	NA	Healthy	Primary Cell	NA
+GSM6519811	GEO	in-situ Hi-C	DpnI	NA	NA	Healthy	Primary Cell	NA
+GSM6519812	GEO	in-situ Hi-C	DpnI	NA	NA	Healthy	Primary Cell	NA
+GSM6519813	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6519814	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6519815	GEO	in-situ Hi-C	DpnI	NA	NA	Non-Cancer Disease	Primary Cell	NA
+GSM6585553	GEO	in-situ Hi-C	Arima	NA	hESC derived	Others	Cell Line	HUES9
+GSM6585554	GEO	in-situ Hi-C	Arima	NA	hESC derived	Others	Cell Line	HUES8
+GSM6597328	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H7
+GSM6597329	GEO	in-situ Hi-C	DpnII	NA	hESC derived	Healthy	Cell Line	H7
+GSM6658908	GEO	in-situ Hi-C	HindIII	NA	Uterus	Cancer	Cell Line	C33A
+GSM6658909	GEO	in-situ Hi-C	HindIII	NA	pharynx	Cancer	Cell Line	C666-1
+GSM6658910	GEO	in-situ Hi-C	HindIII	NA	Uterus	Cancer	Cell Line	CaSki
+GSM6658911	GEO	in-situ Hi-C	HindIII	NA	Embryo	Healthy	Cell Line	HEK293T
+GSM6658912	GEO	in-situ Hi-C	HindIII	NA	Uterus	Cancer	Cell Line	HeLa
+GSM6658913	GEO	in-situ Hi-C	HindIII	NA	Blood	Cancer	Cell Line	Raji
+GSM6658914	GEO	in-situ Hi-C	HindIII	NA	Uterus	Non-Cancer Disease	Cell Line	S12
+GSM6658915	GEO	in-situ Hi-C	HindIII	NA	Uterus	Cancer	Cell Line	SiHa
+GSM6671998	GEO	in-situ Hi-C	MboI	NA	Embryo	Healthy	Cell Line	HEK293T
+GSM6734786	GEO	in-situ Hi-C	MboI	NA	Kidney	Cancer	Organoids	MRT organoids P103
+GSM6919591	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919593	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919596	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919598	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919599	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919601	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919604	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6919606	GEO	in-situ Hi-C	DNase	NA	hESC derived	Others	Cell Line	RUES2
+GSM6928080	GEO	in-situ Hi-C	DpnII	NA	Bone	Healthy	Tissue	U2OS
+GSM6928081	GEO	in-situ Hi-C	DpnII	NA	Bone	Healthy	Tissue	U2OS
+GSM7306457	GEO	HiChIP	Arima	H3K27ac	Blood	Cancer	Cell Line	Jurkat
+GSM7306458	GEO	HiChIP	Arima	H3K27ac	Blood	Cancer	Cell Line	RPMI-8402
+GSM7306459	GEO	HiChIP	Arima	H3K27ac	Blood	Cancer	Cell Line	RPMI-8402
+GSM7445526	GEO	in-situ Hi-C	DpnII	NA	Bone	Cancer	Cell Line	U2OS
+GSM7597684_GSM7597683	ENCODE	intact Hi-C	NA	NA	Uterus	Healthy	Tissue	
+GSM7597758_GSM7597757	ENCODE	intact Hi-C	NA	NA	Pancreas	Healthy	Tissue	
+GSM7598120_GSM7598119	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	
+GSM7598125_GSM7598124	ENCODE	intact Hi-C	NA	NA	Esophagus	Healthy	Tissue	
+GSM7605326_GSM7605325	ENCODE	intact Hi-C	NA	NA	Thyroid gland	Healthy	Tissue	
+GSM7605576_GSM7605575	ENCODE	intact Hi-C	NA	NA	Muscle	Healthy	Tissue	
+GSM7605939_GSM7605938	ENCODE	intact Hi-C	NA	NA	Kidney	Non-Cancer Disease	Tissue	
+GSM7610211_GSM7610210	ENCODE	intact Hi-C	NA	NA	Lung	Non-Cancer Disease	Tissue	
+GSM7610214_GSM7610213_GSM7610212	ENCODE	intact Hi-C	NA	NA	Ovary	Healthy	Tissue	
+GSM7610344_GSM7610343	ENCODE	intact Hi-C	NA	NA	Ovary	Healthy	Tissue	
+GSM7610350_GSM7610349	ENCODE	intact Hi-C	NA	NA	Placenta	Healthy	Tissue	
+GSM7610352_GSM7610351	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	activated naive CD4-positive, alpha-beta T cell
+GSM7610354_GSM7610353	ENCODE	intact Hi-C	NA	NA	Brain	Healthy	Tissue	
+GSM7610365_GSM7610364_GSM7610363_GSM7610362_GSM7610361_GSM7610360	ENCODE	intact Hi-C	NA	NA	Lung	Healthy	Cell Line	IMR-90
+GSM7610369_GSM7610368	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	NA
+GSM7610371_GSM7610370	ENCODE	intact Hi-C	NA	NA	Pancreas	Non-Cancer Disease	Tissue	
+GSM7610375_GSM7610374_GSM7610373_GSM7610372	ENCODE	intact Hi-C	NA	NA	Blood	Cancer	Cell Line	OCI-LY7
+GSM7610377_GSM7610376	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	
+GSM7610380_GSM7610379_GSM7610378	ENCODE	intact Hi-C	NA	NA	Colon	Non-Cancer Disease	Tissue	
+GSM7610382_GSM7610381	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	
+GSM7610384_GSM7610383	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	
+GSM7610388_GSM7610387_GSM7610386_GSM7610385	ENCODE	intact Hi-C	NA	NA	Lung	Cancer	Cell Line	Calu3
+GSM7610394_GSM7610393_GSM7610392_GSM7610391_GSM7610390_GSM7610389	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7610443_GSM7610442_GSM7610441_GSM7610440	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7610484_GSM7610483	ENCODE	intact Hi-C	NA	NA	Lung	Healthy	Tissue	
+GSM7610486_GSM7610485	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7610543_GSM7610542	ENCODE	intact Hi-C	NA	NA	Nerve	Healthy	Tissue	
+GSM7610667_GSM7610666_GSM7610665_GSM7610664	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	
+GSM7610697_GSM7610696_GSM7610695_GSM7610694	ENCODE	intact Hi-C	NA	NA	Muscle	Healthy	Tissue	
+GSM7610833_GSM7610832	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7610849_GSM7610848	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7611114_GSM7611112_GSM7611110_GSM7611108_GSM7611106_GSM7611104_GSM7611103	ENCODE	intact Hi-C	NA	NA	Breast	Non-Cancer Disease	Cell Line	MCF 10A
+GSM7611231_GSM7611230_GSM7611229_GSM7611228	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7611931_GSM7611930_GSM7611929_GSM7611928	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7615393_GSM7615392	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7616044_GSM7616043	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	
+GSM7616812_GSM7616811_GSM7616810	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7618749_GSM7618748_GSM7618747	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	
+GSM7621494_GSM7621493	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7622001_GSM7622000	ENCODE	intact Hi-C	NA	NA	Esophagus	Healthy	Tissue	
+GSM7622003_GSM7622002	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	
+GSM7622006_GSM7622005_GSM7622004	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7622010_GSM7622009_GSM7622008_GSM7622007	ENCODE	intact Hi-C	NA	NA	Breast	Healthy	Tissue	
+GSM7622032_GSM7622031_GSM7622030_GSM7622029	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7622034_GSM7622033	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7622037	ENCODE	intact Hi-C	NA	NA	Lung	Non-Cancer Disease	Tissue	NA
+GSM7622041_GSM7622040_GSM7622039_GSM7622038	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7622043_GSM7622042	ENCODE	intact Hi-C	NA	NA	Pancreas	Non-Cancer Disease	Tissue	NA
+GSM7622047_GSM7622046_GSM7622045_GSM7622044	ENCODE	intact Hi-C	NA	NA	Colon	Cancer	Cell Line	NA
+GSM7622049_GSM7622048	ENCODE	intact Hi-C	NA	NA	Stomach	Healthy	Tissue	NA
+GSM7622051_GSM7622050	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Tissue	NA
+GSM7622053_GSM7622052	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	 T-helper 2 primary cell 
+GSM7622056_GSM7622055_GSM7622054	ENCODE	intact Hi-C	NA	NA	Muscle	Cancer	Cell Line	A673
+GSM7622058_GSM7622057	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7622061_GSM7622060_GSM7622059	ENCODE	intact Hi-C	NA	NA	Pancreas	Cancer	Cell Line	Panc1
+GSM7622063_GSM7622062	ENCODE	intact Hi-C	NA	NA	Adrenal gland	Healthy	Tissue	NA
+GSM7622065_GSM7622064	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7622067_GSM7622066	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7622069_GSM7622068	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7645475_GSM7645474	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Tissue	NA
+GSM7645486_GSM7645485	ENCODE	intact Hi-C	NA	NA	Brain	Healthy	Tissue	NA
+GSM7646112_GSM7646111	ENCODE	intact Hi-C	NA	NA	Thymus	Healthy	Primary Cell	NA
+GSM7646183_GSM7646180_GSM7646181_GSM7646182	ENCODE	intact Hi-C	NA	NA	Colon	Cancer	Cell Line	HCT116
+GSM7646187_GSM7646186_GSM7646185_GSM7646184	ENCODE	intact Hi-C	NA	NA	Breast	Cancer	Cell Line	MCF7
+GSM7656139_GSM7656138_GSM7656137	ENCODE	intact Hi-C	NA	NA	Vagina	Healthy	Tissue	NA
+GSM7656185_GSM7656184_GSM7656183_GSM7656182	ENCODE	intact Hi-C	NA	NA	Lung	Non-Cancer Disease	Tissue	NA
+GSM7656192_GSM7656191_GSM7656190_GSM7656189_GSM7656188_GSM7656187_GSM7656186	ENCODE	intact Hi-C	NA	NA	Blood	Cancer	Cell Line	K562
+GSM7656195_GSM7656194_GSM7656193	ENCODE	intact Hi-C	NA	NA	Liver	Cancer	Cell Line	HepG2
+GSM7656197_GSM7656196	ENCODE	intact Hi-C	NA	NA	Spleen	Healthy	Tissue	NA
+GSM7656209_GSM7656208_GSM7656207_GSM7656206	ENCODE	intact Hi-C	NA	NA	Mammary gland	Healthy	Primary Cell	NA
+GSM7656211_GSM7656210	ENCODE	intact Hi-C	NA	NA	Lung	Healthy	Tissue	NA
+GSM7656213_GSM7656212	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7656215_GSM7656214	ENCODE	intact Hi-C	NA	NA	Skin	Healthy	Tissue	NA
+GSM7656536_GSM7656535	ENCODE	intact Hi-C	NA	NA	Lung	Non-Cancer Disease	Tissue	NA
+GSM7656562_GSM7656561	ENCODE	intact Hi-C	NA	NA	Adrenal gland 	Healthy	Tissue	NA
+GSM7656637_GSM7656636	ENCODE	intact Hi-C	NA	NA	Pancreas	Healthy	Tissue	NA
+GSM7657206_GSM7657205	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7657233_GSM7657232_GSM7657231	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7657710_GSM7657709	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7657844_GSM7657843	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7657945_GSM7657944_GSM7657943_GSM7657942_GSM7657941_GSM7657940	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Cell Line	GM12878
+GSM7657947_GSM7657946	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7657950_GSM7657949_GSM7657948	ENCODE	intact Hi-C	NA	NA	Ovary	Non-Cancer Disease	Tissue	NA
+GSM7657953_GSM7657952_GSM7657951	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7657955_GSM7657954	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7657959_GSM7657958_GSM7657957_GSM7657956	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Primary Cell	NA
+GSM7657961_GSM7657960	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7657969_GSM7657968	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Tissue	NA
+GSM7657972_GSM7657971_GSM7657970	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Tissue	NA
+GSM7657974_GSM7657973	ENCODE	intact Hi-C	NA	NA	Muscle	Healthy	Tissue	NA
+GSM7657980_GSM7657979_GSM7657978_GSM7657977_GSM7657976_GSM7657975	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7657982_GSM7657981	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7657987_GSM7657986_GSM7657985_GSM7657984_GSM7657983	ENCODE	intact Hi-C	NA	NA	Lung	Cancer	Cell Line	PC-9
+GSM7657989_GSM7657988	ENCODE	intact Hi-C	NA	NA	Blood vessel	Healthy	Tissue	NA
+GSM7657991_GSM7657990	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7657993_GSM7657992	ENCODE	intact Hi-C	NA	NA	Testis	Healthy	Tissue	NA
+GSM7657995_GSM7657994	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7657997_GSM7657996	ENCODE	intact Hi-C	NA	NA	Ovary	Healthy	Tissue	NA
+GSM7657999_GSM7657998	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7658000	ENCODE	intact Hi-C	NA	NA	Liver	Healthy	Tissue	NA
+GSM7658002_GSM7658001	ENCODE	intact Hi-C	NA	NA	Brain	Healthy	Tissue	NA
+GSM7658004_GSM7658003	ENCODE	intact Hi-C	NA	NA	Prostate gland	Healthy	Tissue	NA
+GSM7658007_GSM7658006_GSM7658005	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	NA
+GSM7658010_GSM7658009_GSM7658008	ENCODE	intact Hi-C	NA	NA	Blood	Healthy	Primary Cell	NA
+GSM7658012_GSM7658011	ENCODE	intact Hi-C	NA	NA	Colon	Healthy	Tissue	NA
+GSM7658014_GSM7658013	ENCODE	intact Hi-C	NA	NA	Heart	Non-Cancer Disease	Tissue	NA
+GSM7658016_GSM7658015	ENCODE	intact Hi-C	NA	NA	Heart	Healthy	Tissue	NA
+GSM7697636	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697637	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697638	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697639	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697640	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697641	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697642	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697643	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697644	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697645	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697646	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697647	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697648	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697649	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Tissue	NA
+GSM7697651	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	Cell Line	D458
+GSM7697652	GEO	in-situ Hi-C	Arima	NA	Brain	Cancer	PDX	RCMB56
+GSM7766159	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lung	Cancer	Cell Line	PC-9
+GSM7766181	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766182	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766219	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	Cell Line	H1
+GSM7766220	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	Cell Line	H1
+GSM7766277	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Prostate	Cancer	Cell Line	PC-3
+GSM7766349	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Muscle	Cancer	Cell Line	A673
+GSM7766350	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Muscle	Cancer	Cell Line	A673
+GSM7766359	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Cancer	Cell Line	OCI-LY7
+GSM7766360	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Cancer	Cell Line	OCI-LY7
+GSM7766375	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM7766378	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Pancreas	Cancer	Cell Line	Panc1
+GSM7766379	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Pancreas	Cancer	Cell Line	Panc1
+GSM7766383	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM7766420	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM7766421	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	T cell
+GSM7766434	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Colon	Cancer	Cell Line	Caco-2
+GSM7766435	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Colon	Cancer	Cell Line	Caco-2
+GSM7766436	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766437	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766442	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM7766457	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Lung	Healthy	Cell Line	 IMR-90
+GSM7766462	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766463	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	hESC derived	Healthy	iPSC/iPSC derived	WTC11
+GSM7766472	ENCODE	ChIA-PET	ACGCGATATCTTATCTGACT	RNAPII	Blood	Others	Primary Cell	
+GSM7843998	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa S3
+GSM7843999	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa S3
+GSM7844000	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa S3
+GSM7844001	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7844002	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7844003	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7844004	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7844005	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7844006	GEO	in-situ Hi-C	DpnII	NA	Uterus	Cancer	Cell Line	HeLa-S3
+GSM7900696	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM7900697	GEO	in-situ Hi-C	MboI	NA	Breast	Cancer	Cell Line	T47D
+GSM8025456	GEO	in-situ Hi-C	Arima	NA	Lung	Cancer	Cell Line	NCI-H528
+GSM8067773	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	Ak1
+GSM8067775	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	Ak1
+GSM8067777	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	Ak1
+GSM8067778	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	Ak1
+GSM8067779	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	Ak1
+GSM8067782	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12891
+GSM8067783	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12891
+GSM8067784	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12891
+GSM8067785	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12891
+GSM8067786	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12892
+GSM8067787	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12892
+GSM8067788	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM12892
+GSM8067789	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067790	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067791	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067792	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067793	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067794	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067795	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067796	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067797	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067798	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067799	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067800	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067801	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067802	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067803	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067804	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13976
+GSM8067805	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067806	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067807	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067808	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067809	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067811	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067812	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067813	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067815	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067816	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067818	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067819	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067820	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM13977
+GSM8067821	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067822	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067823	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067824	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067825	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067826	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067827	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067828	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067829	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067830	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067831	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067832	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067833	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067834	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067835	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067836	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067837	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067838	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067839	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM18526
+GSM8067840	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067841	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067842	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067843	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067844	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067845	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067846	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067847	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067848	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067849	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067850	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067851	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067852	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067853	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067854	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067855	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067856	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067857	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067858	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067859	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067860	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067861	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067862	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
+GSM8067863	GEO	in-situ Hi-C	MboI	NA	Lymph	Healthy	Cell Line	GM19239
