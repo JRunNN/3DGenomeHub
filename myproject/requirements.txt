@@ -4,7 +4,7 @@ crispy-forms-gds==0.2.4
 # django
 django==4.1
 # uwsgi
-uwsgi==2.0.22
+# uwsgi==2.0.22
 # mysql
 mysqlclient==2.2.0
 # redis

@@ -89,15 +89,25 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     # 'ENGINE': 'django.db.backends.sqlite3',
+    #     # 'NAME': BASE_DIR / 'db.sqlite3',
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': '3dannotate',
+    #     'USER': 'dbuser',
+    #     'PASSWORD': 'As87s_@65jdsa',
+    #     'HOST': '47.107.91.5',
+    #     'PORT':'3307', # 端口
+    # }
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': '3dannotate',
-        'USER': 'dbuser',
-        'PASSWORD': 'As87s_@65jdsa',
-        'HOST': '47.107.91.5',
-        'PORT':'3307', # 端口
+        'USER': 'postgres',
+        'PASSWORD': 'wsljr1222999',
+        'HOST': 'localhost',
+        'PORT':'5432', # 端口
     }
 }
 

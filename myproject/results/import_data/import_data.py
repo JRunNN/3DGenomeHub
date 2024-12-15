@@ -109,20 +109,23 @@ def import_domain_bound_samples():
         if i >= 100:
             break
         i += 1
-        try:
-            # 查找外键引用的 Sample 对象
-            sample = Samples.objects.get(sample=row['B_samples'])
-        except Samples.DoesNotExist:
-            print(f"Sample '{row['B_samples']}' 不存在，跳过此条记录。")
-            continue
+        samples = row['B_samples'].split(',')
+        for sample_name in samples:
+            sample_name = sample_name.strip()  # 去除首尾空格
+            try:
+                # 查找外键引用的 Sample 对象
+                sample = Samples.objects.get(sample=sample_name)  # 假设 `name` 字段匹配
+            except Samples.DoesNotExist:
+                print(f"Sample '{sample_name}' 不存在，跳过此条记录。")
+                continue
 
-        domain = DomainBound(
-            sample_name=sample,  # 外键对象
-            chrom=row['chrom'],
-            start=row['start'],
-            end=row['end']
-        )
-        domain.save()
+            domain = DomainBound(
+                sample_name=sample,  # 外键对象
+                chrom=row['chrom'],
+                start=row['start'],
+                end=row['end']
+            )
+            domain.save()
 
     print("Successfully import domain_bound_samples!")
 

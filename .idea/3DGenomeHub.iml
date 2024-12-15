@@ -21,7 +21,7 @@
       <excludeFolder url="file://$MODULE_DIR$/front_end/dist" />
       <excludeFolder url="file://$MODULE_DIR$/front_end/src/assets/js/dist" />
     </content>
-    <orderEntry type="jdk" jdkName="$USER_HOME$/miniconda3" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="3DGenomeHub" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
