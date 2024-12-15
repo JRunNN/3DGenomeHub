@@ -7,7 +7,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")  # 替换�
 # 初始化 Django
 django.setup()
 import pandas as pd
-from results.models import Samples, Loop, Stripe, DomainBound
+from results.models import Samples, Loop, Stripe, DomainBound, Compartment
 
 
 def import_samples():
@@ -86,7 +86,6 @@ def import_stripe():
             chrom2=row['chrom2'],
             pos3=row['pos3'],
             pos4=row['pos4'],
-            id=row['id'],
             pvalue=row['pvalue'],
             gene_anno_1=row.get('gene_anno_1', None),
             gene_anno_2=row.get('gene_anno_2', None),
@@ -102,11 +101,43 @@ def import_stripe():
 def import_domain_bound_samples():
     # Step 1: 读取文件
     file_path = "./Domain_reformat_4col.txt"  # 替换为实际路径
-    # TODO: cut domain_re into top 100
     data = pd.read_csv(file_path, sep="\t")
 
     # Step 2: 遍历 DataFrame 并插入到数据库
+    i = 0
     for _, row in data.iterrows():
+        if i >= 100:
+            break
+        i += 1
+        try:
+            # 查找外键引用的 Sample 对象
+            sample = Samples.objects.get(sample=row['B_samples'])
+        except Samples.DoesNotExist:
+            print(f"Sample '{row['B_samples']}' 不存在，跳过此条记录。")
+            continue
+
+        domain = DomainBound(
+            sample_name=sample,  # 外键对象
+            chrom=row['chrom'],
+            start=row['start'],
+            end=row['end']
+        )
+        domain.save()
+
+    print("Successfully import domain_bound_samples!")
+
+
+def import_compartment():
+    # Step 1: 读取文件
+    file_path = "./Compartment_top100_cleaned.txt"  # 替换为实际路径
+    data = pd.read_csv(file_path, sep="\t")
+
+    # Step 2: 遍历 DataFrame 并插入到数据库
+    i = 0
+    for _, row in data.iterrows():
+        if i >= 100:
+            break
+        i += 1
         try:
             # 查找外键引用的 Sample 对象
             sample = Samples.objects.get(sample=row['sample_name'])
@@ -114,22 +145,29 @@ def import_domain_bound_samples():
             print(f"Sample '{row['sample_name']}' 不存在，跳过此条记录。")
             continue
 
-        domain = DomainBound(
+        compartment = Compartment(
             sample_name=sample,  # 外键对象
-            # TODO: implement this part
+            chrom=row['chrom'],
+            start=row['start'],
+            end=row['end'],
+            value=row['value']
         )
-        domain.save()
+        compartment.save()
 
-    print("Successfully import domain_bound_samples!")
+    print("Successfully import compartment!")
 
 
 def main():
-    # Samples.objects.all().delete()
-    # Loop.objects.all().delete()
+    Samples.objects.all().delete()
+    Loop.objects.all().delete()
     Stripe.objects.all().delete()
-    # import_samples()
-    # import_loop()
+    DomainBound.objects.all().delete()
+    Compartment.objects.all().delete()
+    import_samples()
+    import_loop()
     import_stripe()
+    import_domain_bound_samples()
+    import_compartment()
     # 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
 
 

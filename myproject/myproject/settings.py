@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'results',
+    'drf_yasg',  # Swagger 支持
     'corsheaders',
     'rest_framework',
     # 'django_elasticsearch_dsl',

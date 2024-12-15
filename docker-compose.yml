@@ -111,7 +111,7 @@ services:
     expose:
       - "8080"
     ports:
-      - "8080:8000"
+      - "8080:8080"
     volumes:
       - ./myproject:/var/www/html/myproject # 挂载项目代码
       - static_vol:/var/www/html/myproject/static # 以数据卷挂载容器内static文件
