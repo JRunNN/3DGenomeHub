@@ -1,0 +1,5 @@
+*.log
+
+compose/nginx/log/access.log
+compose/uwsgi/myproject-uwsgi.log
+myproject/results/import_data/Domain_reformat_4col.txt
