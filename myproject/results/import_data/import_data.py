@@ -63,6 +63,7 @@ def import_loop():
 
     print("Successfully import loop!")
 
+
 def import_stripe():
     # Step 1: 读取文件
     file_path = "./Stripe_top100.txt"  # 替换为实际路径
@@ -129,6 +130,7 @@ def main():
     # import_samples()
     # import_loop()
     import_stripe()
+    # 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
 
 
 if __name__ == "__main__":
