@@ -15,6 +15,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/myproject" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/compose" />
+      <excludeFolder url="file://$MODULE_DIR$/compose/nginx/ssl" />
+      <excludeFolder url="file://$MODULE_DIR$/front_end/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/front_end/src/assets/js/dist" />
     </content>
     <orderEntry type="jdk" jdkName="$USER_HOME$/miniconda3" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
