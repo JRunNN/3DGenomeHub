@@ -6,7 +6,7 @@ from rest_framework.decorators import api_view
 from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
 
-from results.models import Enhancer, Loop, Stripe, Compartment, DomainBound
+from results.models import Enhancer, Loop, Stripe, Compartment, DomainBound, Overview
 
 # 定义查询参数
 id_param = openapi.Parameter(
@@ -594,3 +594,106 @@ def get_domain_bound_samples(request):
     }
 
     return JsonResponse({"enhancers": data})
+
+
+# 定义 Swagger 参数
+chrom_param = openapi.Parameter(
+    name='chrom',
+    in_=openapi.IN_QUERY,
+    description="染色体名称，例如：chr1",
+    type=openapi.TYPE_STRING,
+    required=True
+)
+start_param = openapi.Parameter(
+    name='start',
+    in_=openapi.IN_QUERY,
+    description="区间的起始位置，例如：10000",
+    type=openapi.TYPE_INTEGER,
+    required=True
+)
+end_param = openapi.Parameter(
+    name='end',
+    in_=openapi.IN_QUERY,
+    description="区间的结束位置，例如：20000",
+    type=openapi.TYPE_INTEGER,
+    required=True
+)
+
+
+@swagger_auto_schema(
+    method='get',
+    operation_description="根据 chrom、start 和 end 参数查询有重叠带有 bound 的 overview 数据",
+    manual_parameters=[chrom_param, start_param, end_param],
+    responses={200: "成功返回数据"}
+)
+@api_view(['GET'])
+def get_overview(request):
+    # 获取输入参数
+    chrom = request.GET.get('chrom')
+    start = request.GET.get('start')
+    end = request.GET.get('end')
+
+    # 校验参数
+    if not chrom or not start or not end:
+        return JsonResponse({"error": "缺少必要的参数 chrom, start 或 end"}, status=400)
+
+    try:
+        start = int(start)
+        end = int(end)
+    except ValueError:
+        return JsonResponse({"error": "start 和 end 必须是整数"}, status=400)
+
+    if start > end:
+        return JsonResponse({"error": "start 不能大于 end"}, status=400)
+
+    # 查询满足条件的数据
+    all_overview = Overview.objects.filter(
+        chrom=chrom,  # 确保 chrom 相等
+        start__lte=end,  # start <= 参数的 end
+        end__gte=start  # end >= 参数的 start
+    )
+
+    overviews = all_overview[:1000]
+
+    # 分页设置
+    page = request.GET.get('page', 1)  # 获取当前页码，默认为第 1 页
+    per_page = 10  # 每页显示的数据条数
+
+    paginator = Paginator(overviews, per_page)
+
+    try:
+        page = paginator.page(page)
+    except PageNotAnInteger:
+        # 如果页码不是整数，返回第一页数据
+        page = paginator.page(1)
+    except EmptyPage:
+        # 如果页码超出范围，返回最后一页数据
+        page = paginator.page(paginator.num_pages)
+
+    # 构造 JSON 返回数据
+    data = {
+        "overview": [
+            {
+                "id": overview.id,
+                "chrom": overview.chrom,
+                "start": overview.start,
+                "end": overview.end,
+                "A_compartment": overview.A_compartment,
+                "B_compartment" : overview.B_compartment,
+                "NA_compartment": overview.NA_compartment,
+                "IS_lower_bound": overview.IS_lower_bound,
+                "IS_average": overview.IS_average,
+                "IS_higher_bound": overview.IS_higher_bound
+            }
+            for overview in overviews
+        ],
+        "pagination": {
+            "current_page": page.number,
+            "total_pages": paginator.num_pages,
+            "total_items": paginator.count,
+            "has_previous": page.has_previous(),
+            "has_next": page.has_next(),
+        },
+    }
+
+    return JsonResponse({"overview": data})

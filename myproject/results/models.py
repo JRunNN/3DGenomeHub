@@ -124,4 +124,26 @@ class Enhancer(models.Model):
 
     def __str__(self):
         return f"{self.chrom}:{self.start}-{self.end} {self.file_id}"
+
+
+class Overview(models.Model):
+    chrom = models.CharField(max_length=50)
+    start = models.PositiveIntegerField()
+    end = models.PositiveIntegerField()
+    A_compartment = models.FloatField()
+    B_compartment = models.FloatField()
+    NA_compartment = models.FloatField()
+    IS_lower_bound = models.FloatField()
+    IS_average = models.FloatField()
+    IS_higher_bound = models.FloatField()
+
+    class Meta:
+        verbose_name = "Genomic Feature"
+        verbose_name_plural = "Genomic Features"
+        indexes = [
+            models.Index(fields=["chrom", "start", "end"], name="genomic_feature_index")
+        ]
+
+    def __str__(self):
+        return f"{self.chrom}:{self.start}-{self.end}"
 # 只有重新migrate，每张表中id才能从1开始

@@ -8,7 +8,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")  # 替换�
 # 初始化 Django
 django.setup()
 import pandas as pd
-from results.models import Samples, Loop, Stripe, DomainBound, Compartment, Enhancer
+from results.models import Samples, Loop, Stripe, DomainBound, Compartment, Enhancer, Overview
 
 
 def import_samples():
@@ -188,6 +188,34 @@ def import_enhancer():
     print("Successfully imported enhancer data!")
 
 
+def import_overview():
+    # Step 1: 读取文件
+    file_path = "./overview_datasets_top100.txt"
+    data = pd.read_csv(file_path, sep="\t")
+
+    # Step 2: 遍历 DataFrame 并插入到数据库
+    for _, row in data.iterrows():
+        try:
+            # 创建 Enhancer 实例
+            overview = Overview(
+                chrom=row['chrom'],
+                start=row['start'],
+                end=row['end'],
+                A_compartment=float(row["A_compartment"]),
+                B_compartment=float(row["B_compartment"]),
+                NA_compartment=float(row["NA_compartment"]),
+                IS_lower_bound=float(row["IS_lower_bound"]),
+                IS_average=float(row["IS_average"]),
+                IS_higher_bound=float(row["IS_higher_bound"]),
+            )
+            overview.save()
+        except Exception as e:
+            print(f"导入记录失败，错误信息：{e}, 数据：{row.to_dict()}")
+            continue
+
+    print("Successfully imported overview data!")
+
+
 def main():
     # Samples.objects.all().delete()
     # Loop.objects.all().delete()
@@ -196,12 +224,13 @@ def main():
     # Compartment.objects.all().delete()
     # Enhancer.objects.all().delete()
 
-    import_samples()
-    import_loop()
-    import_stripe()
-    import_domain_bound_samples()
-    import_compartment()
-    import_enhancer()
+    # import_samples()
+    # import_loop()
+    # import_stripe()
+    # import_domain_bound_samples()
+    # import_compartment()
+    # import_enhancer()
+    import_overview()
     # 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
 
 
