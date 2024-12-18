@@ -13,16 +13,33 @@ const router = createRouter({
 			component: () => import("@/views/Home/index.vue"),
 			meta: { title: "Home" }
 		},
-    {
-      path: "/browse",
-      name: "browse",
-      component: () => import("@/views/Browse/index.vue"),
-      meta: { title: "Home" }
-    },
+		{
+			path: "/browse",
+			name: "browse",
+			redirect: "/browse/human",
+			meta: { title: "Home" },
+			children: [
+				{
+					path: "human",
+					name: "Human",
+					component: () => import("@/views/Browse/index.vue"),
+				},
+				{
+					path: "mouse",
+					name: "Mouse",
+					component: () => import("@/views/Browse/mouse.vue"),
+					// props: true,  // Enable props for route params
+					meta: {
+						title: "Loop annotation details",
+						showBreadCrumb: false
+					}
+				}
+			]
+		},
 		{
 			path: "/annotation",
 			name: "Annotation",
-			redirect: { name: "Upload" },
+			redirect: { name: "Input" },
 			component: () => import("@/views/Annotate/index.vue"),
 			meta: {
 				title: "Loop annotation",
@@ -30,9 +47,9 @@ const router = createRouter({
 			},
 			children: [
 				{
-					path: "upload",
-					name: "Upload",
-					component: () => import("@/views/Annotate/Upload.vue"),
+					path: "input",
+					name: "Input",
+					component: () => import("@/views/Annotate/Input.vue"),
 					meta: {
 						title: "Upload Files",
 						showBreadCrumb: false

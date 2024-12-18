@@ -124,4 +124,4 @@ class Enhancer(models.Model):
 
     def __str__(self):
         return f"{self.chrom}:{self.start}-{self.end} {self.file_id}"
-# TODO: 每张表中id不是从0开始
+# 只有重新migrate，每张表中id才能从1开始

@@ -7,16 +7,10 @@
         <div class="text-sm text-gray-500">Started: {{ startTime }}</div>
         <div class="text-sm text-gray-500">Elapsed Time: {{ elapsedTime }}</div>
       </div>
-      
+
       <!-- Progress Bar -->
       <div class="progress-bar-container bg-white p-4 rounded-lg shadow">
-        <n-progress
-          type="line"
-          :percentage="progressBarContent.percent"
-          processing
-          :height="40"
-          :border-radius="8"
-        />
+        <n-progress type="line" :percentage="progressBarContent.percent" processing :height="40" :border-radius="8" />
         <div class="mt-2 text-center font-medium">
           {{ progressBarContent.notation }}
         </div>
@@ -24,19 +18,17 @@
           Current Step: {{ progressBarContent.current_step }}
         </div>
       </div>
-      
+
       <!-- Processing Steps -->
       <div class="steps-container bg-white p-4 rounded-lg shadow">
         <h3 class="text-lg font-semibold mb-4">Processing Steps</h3>
         <div class="space-y-2">
-          <div v-for="(step, index) in processingSteps" 
-               :key="index"
-               class="step-item flex items-center p-2 rounded"
-               :class="{
-                 'bg-green-50': step.completed,
-                 'bg-blue-50': step.current,
-                 'bg-gray-50': !step.completed && !step.current
-               }">
+          <div v-for="(step, index) in processingSteps" :key="index" class="step-item flex items-center p-2 rounded"
+            :class="{
+              'bg-green-50': step.completed,
+              'bg-blue-50': step.current,
+              'bg-gray-50': !step.completed && !step.current
+            }">
             <!-- Step Icon -->
             <!-- <div class="step-icon mr-3">
               <n-icon v-if="step.completed" class="text-green-500">
@@ -83,7 +75,7 @@
           Total Time: {{ processingTime }}
         </div>
       </div>
-      
+
       <!-- Results Section -->
       <div class="result-content bg-white p-4 rounded-lg shadow">
         <h3 class="text-lg font-semibold mb-4">Processing Results</h3>
@@ -97,7 +89,7 @@
               <div class="font-medium">{{ stat }}</div>
             </div>
           </div> -->
-          
+
           <!-- Detailed Results -->
           <!-- <div class="detailed-results">
             <n-collapse>
@@ -107,9 +99,9 @@
             </n-collapse>
           </div> -->
           <div class="box-bottom">
-				<div class="flex flex-col gap-5">
-					<!-- <CardCombo5 v-if="isSwitchChartHorizontal" size="large" /> -->
-					<!-- <CardWrapper v-slot="{ expand, isExpand, reload }" class="h-full w-full">
+            <div class="flex flex-col gap-5">
+              <!-- <CardCombo5 v-if="isSwitchChartHorizontal" size="large" /> -->
+              <!-- <CardWrapper v-slot="{ expand, isExpand, reload }" class="h-full w-full">
 						<CardExtra6
 							class="h-full"
 							:expand="expand"
@@ -122,9 +114,9 @@
 
 						/>
 					</CardWrapper> -->
-				</div>
-			</div>
-      <!-- <n-data-table
+            </div>
+          </div>
+          <!-- <n-data-table
       :columns="columns"
       :data="processedData"
       :pagination="pagination"
@@ -133,13 +125,7 @@
 
       class="custom-table"
     /> -->
-    <TableBase 
-              :bordered="false" 
-              :show-actions="false" 
-              :data="result.processed_data" 
-              v-model="showDetailTable"
-
-            />
+          <TableBase :bordered="false" :show-actions="false" :data="summaryData" v-model="showSummaryTable" />
         </div>
       </div>
     </div>
@@ -166,15 +152,10 @@
     </div>
   </div>
 
-  <n-modal 
-  v-model:show="showDetailTable"
-  preset="card"
-  size="huge"
+  <n-modal v-model:show="showDetailTable" preset="card" size="huge">
+    <AnnotationDetail></AnnotationDetail>
 
-  >
- <AnnotationDetail></AnnotationDetail>
-     
-       </n-modal>
+  </n-modal>
 </template>
 
 <script setup>
@@ -183,11 +164,11 @@ import { useRoute, useRouter } from 'vue-router'
 import { NButton, NIcon, NProgress, NCollapse, NCollapseItem, useMessage } from 'naive-ui'
 // import { CheckCircleOutlined, LoadingOutlined, ClockCircleOutlined, CloseCircleOutlined } from '@vicons/antd'
 import axios from 'axios'
-import CardWrapper from './AnnotationResultTable/CardWrapper.vue'
-import CardExtra6 from "./AnnotationResultTable/CardExtra6.vue"
+import CardWrapper from '../ResultsSummary/CardWrapper.vue'
+import CardExtra6 from "../ResultsSummary/CardExtra6.vue"
 
-import TableBase from "./AnnotationResultTable/Base.vue"
-import AnnotationDetail from './AnnotationDetailTable/index.vue'
+import TableBase from "../ResultsSummary/Base.vue"
+import AnnotationDetail from '../ResultsDetail/index.vue'
 const route = useRoute()
 const router = useRouter()
 const message = useMessage()
@@ -200,12 +181,12 @@ const startTime = ref(new Date().toLocaleString())
 const endTime = ref(null)
 const errorTime = ref(null)
 
-const datatmp =  ref(createData())
+const datatmp = ref(createData())
 //const columns =  ref(createCols())
-const pagination =  ref({
-        pageSize: 10
-      })
-
+const pagination = ref({
+  pageSize: 10
+})
+const showSummaryTable = ref(true)
 //       function createCols() {
 //   return [
 //     {
@@ -292,191 +273,250 @@ const pagination =  ref({
 //     }
 //   ]
 // }
-const showDetailTable = ref(true)
+const showDetailTable = ref(false)
 
-const createCols = function() {
 
-return([
-{
-title: 'Location',
-key: 'location',
-children: [
-  {
-    title: 'Chrom',
-    key: 'bed_region.chrom',
-    minWidth: 10,
-    maxWidth: 20,
-    width: 60
-  },
-  {
-    title: 'Start',
-    key: 'bed_region.start',
-    // width: 15
-    width: 120
-  },
-  {
-    title: 'End',
-    key: 'bed_region.end',
-    width: 120
-  }
-]
-},
-{
-title: 'Genomic context',
-key: 'context',
-children: [
-  {
-    title: 'Nearest gene',
-    key: 'nearest_gene',
-    minWidth: 10,
-    maxWidth: 20,
-    width: 60
-  },
-  {
-    title: 'Nearest gene',
-    key: 'nearest_gene',
-    minWidth: 10,
-    maxWidth: 20,
-    width: 60
-  }
-]
-},
-{
-title: 'Human 3D genome organization',
-key: '3d_genome',
-children: [
-  {
-    title: 'Compartment',
-    key: 'compartment',
-    width: 120, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'Domain',
-    key: 'domain',
-    width: 80, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'Stripe',
-    key: 'stripe',
-    width: 60,        
-    render: (row) => renderDonut(row, 'stripes')
-  },
-  {
-    title: 'Loop',
-    key: 'loops',
-    width: 60,        
-    render: (row) => renderDonut(row, 'hic')
-  }
-]
-},
-{
-title: 'Cross-species comparative 3D genome',
-key: 'comparative_3d',
-children: [
-  {
-    title: 'Sequence',
-    key: 'sequence',
-    width: 120, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'Enhancer',
-    key: 'enhancer_comp',
-    width: 120, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'Domain',
-    key: 'domain_comp',
-    width: 70,        
-    render: (row) => renderDonut(row, 'domain_comp')
-  },
-  {
-    title: 'Loop',
-    key: 'loop_comp',
-    width: 60,        
-    render: (row) => renderDonut(row, 'loop_comp')
-  }
-]
-},
-{
-title: 'Cis regulatory landscape',
-key: 'cis_regulatory',
-children: [
-  {
-    title: 'Enhancer',
-    key: 'enhancer_cis',
-    width: 120, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'Cancer CRE',
-    key: 'cancer_cre',
-    width: 120, 
-    // render: (row) => renderStackedBar(row)
-  },
-  {
-    title: 'GWAS',
-    key: 'gwas',
-    width: 60,        
-    render: (row) => renderDonut(row, 'gwas')
-  },
-  {
-    title: 'Eqtl',
-    key: 'eqtl',
-    width: 60,        
-    render: (row) => renderDonut(row, 'eqtl')
-  }
-]
-},
-{
-title: 'Cell specific epigenome',
-key: 'cell_specific',
-children: [
-  {
-    title: 'scATAC-seq',
-    key: 'scatac_seq',
-    width: 120,        
-    render: (row) => renderDonut(row, 'scatac_seq')
-  }
-]
-},
-{
-title: 'Actions',
-key: 'actions',
-fixed: 'right',
-// width: 100,
-// render: () => h('div', { class: 'actions flex items-center justify-end gap-2' }, [
-//   h(NButton, { secondary: true }, {
-//     icon: () => h(Icon, { name: DeleteIcon })
-//   }),
-//   h(NButton, { secondary: true }, {
-//     icon: () => h(Icon, { name: DownloadIcon })
-//   }),
-//   h(NPopselect, {
-//     options: [
-//       { label: 'Share', value: 'Share' },
-//       { label: 'View', value: 'View' }
-//     ]
-//   }, {
-//     default: () => h(NButton, { secondary: true }, {
-//       icon: () => h(Icon, { name: MenuIcon })
-//     })
-//   })
-// ])
-},
-{
-  title: 'Address',
-  key: 'address',
-  width: 200,
-  fixed: 'right'
+const renderStackedBar = (row) => {
+  return h('div', {
+    style: {
+      width: '100%',
+      height: '20px',
+      display: 'flex',
+      borderRadius: '4px',
+      overflow: 'hidden'
+    }
+  }, [
+    // 正值部分（例如：A compartment）
+    h('div', {
+      style: {
+        width: `${row.summary.portions.a_compartment * 100}%`,
+        backgroundColor: '#4CAF50',
+        transition: 'width 0.3s'
+      }
+    }),
+    // 负值部分（例如：B compartment）
+    h('div', {
+      style: {
+        width: `${(1 - row.summary.portions.a_compartment) * 100}%`,
+        backgroundColor: '#F44336',
+        transition: 'width 0.3s'
+      }
+    })
+  ])
 }
-]
-)}
 
-const columns =  ref(createCols())
+const renderDonut = (row, key) => {
+  const value = row.summary.portions[key]
+  const size = 24
+  const strokeWidth = 4
+  const radius = (size - strokeWidth) / 2
+  const circumference = 2 * Math.PI * radius
+  const dashArray = circumference
+  const dashOffset = circumference * (1 - value)
+
+  return h('div', {
+    style: {
+      width: `${size}px`,
+      height: `${size}px`,
+      position: 'relative',
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }
+  }, [
+    h('svg', {
+      width: size,
+      height: size,
+      viewBox: `0 0 ${size} ${size}`,
+      style: {
+        transform: 'rotate(-90deg)'
+      }
+    }, [
+      // Background circle
+      h('circle', {
+        cx: size / 2,
+        cy: size / 2,
+        r: radius,
+        fill: 'none',
+        stroke: '#eee',
+        'stroke-width': strokeWidth
+      }),
+      // Progress circle
+      h('circle', {
+        cx: size / 2,
+        cy: size / 2,
+        r: radius,
+        fill: 'none',
+        stroke: '#1890ff',
+        'stroke-width': strokeWidth,
+        'stroke-dasharray': dashArray,
+        'stroke-dashoffset': dashOffset,
+        style: {
+          transition: 'stroke-dashoffset 0.3s ease'
+        }
+      })
+    ]),
+    // Percentage text
+    h('span', {
+      style: {
+        position: 'absolute',
+        fontSize: '8px',
+        color: '#666'
+      }
+    }, `${(value * 100).toFixed(0)}%`)
+  ])
+}
+
+
+const createCols = function () {
+  const summaryData = ref(null)
+
+  return ([
+    {
+      title: 'Location',
+      key: 'location',
+      children: [
+        {
+          title: 'Chrom',
+          key: 'bed_region.chrom',
+          minWidth: 10,
+          maxWidth: 20,
+          width: 60
+        },
+        {
+          title: 'Start',
+          key: 'bed_region.start',
+          // width: 15
+          width: 120
+        },
+        {
+          title: 'End',
+          key: 'bed_region.end',
+          width: 120
+        }
+      ]
+    },
+    // {
+    // title: 'Genomic context',
+    // key: 'context',
+    // children: [
+    //   {
+    //     title: 'Nearest gene',
+    //     key: 'nearest_gene',
+    //     minWidth: 10,
+    //     maxWidth: 20,
+    //     width: 60
+    //   },
+    //   {
+    //     title: 'Nearest gene',
+    //     key: 'nearest_gene',
+    //     minWidth: 10,
+    //     maxWidth: 20,
+    //     width: 60
+    //   }
+    // ]
+    // },
+    {
+      title: 'Human 3D genome organization',
+      key: '3d_genome',
+      children: [
+        {
+          title: 'Compartment',
+          key: 'compartment',
+          width: 120,
+          render: (row) => renderStackedBar(row)
+        },
+        {
+          title: 'Domain',
+          key: 'domain',
+          width: 80,
+          render: (row) => renderStackedBar(row)
+        },
+        {
+          title: 'Stripe',
+          key: 'stripe',
+          width: 60,
+          render: (row) => renderDonut(row, 'stripes')
+        },
+        {
+          title: 'Loop',
+          key: 'loops',
+          width: 60,
+          render: (row) => renderDonut(row, 'loops')
+        }
+      ]
+    },
+    {
+      title: 'Cross-species comparative 3D genome',
+      key: 'comparative_3d',
+      children: [
+        {
+          title: 'Sequence',
+          key: 'sequence',
+          width: 120,
+          // render: (row) => renderStackedBar(row)
+        },
+        {
+          title: 'Enhancer',
+          key: 'enhancer_comp',
+          width: 120,
+          // render: (row) => renderStackedBar(row)
+        },
+        {
+          title: 'Domain',
+          key: 'domain_comp',
+          width: 70,
+          render: (row) => renderDonut(row, 'domain_comp')
+        },
+        {
+          title: 'Loop',
+          key: 'loop_comp',
+          width: 60,
+          render: (row) => renderDonut(row, 'loop_comp')
+        }
+      ]
+    },
+    {
+      title: 'Cis regulatory landscape',
+      key: 'cis_regulatory',
+      children: [
+        {
+          title: 'Enhancer',
+          key: 'enhancer_cis',
+          width: 120,
+          // render: (row) => renderStackedBar(row)
+        },
+      ]
+    },
+    {
+      title: 'Actions',
+      key: 'actions',
+      fixed: 'right',
+      // width: 100,
+      // render: () => h('div', { class: 'actions flex items-center justify-end gap-2' }, [
+      //   h(NButton, { secondary: true }, {
+      //     icon: () => h(Icon, { name: DeleteIcon })
+      //   }),
+      //   h(NButton, { secondary: true }, {
+      //     icon: () => h(Icon, { name: DownloadIcon })
+      //   }),
+      //   h(NPopselect, {
+      //     options: [
+      //       { label: 'Share', value: 'Share' },
+      //       { label: 'View', value: 'View' }
+      //     ]
+      //   }, {
+      //     default: () => h(NButton, { secondary: true }, {
+      //       icon: () => h(Icon, { name: MenuIcon })
+      //     })
+      //   })
+      // ])
+    },
+  ]
+  )
+}
+
+const columns = ref(createCols())
 
 function createData() {
   return Array.from({ length: 50 }).map((_, i) => {
@@ -547,15 +587,15 @@ const resultSummary = computed(() => {
 // Methods
 const updateProcessingStep = (currentStep) => {
   if (!currentStep) return;
-  
+
   console.log('Current step:', currentStep);  // 调试输出
-  
-  const stepIndex = processingSteps.value.findIndex(step => 
+
+  const stepIndex = processingSteps.value.findIndex(step =>
     step.step_key === currentStep
   )
-  
+
   console.log('Found step index:', stepIndex);  // 调试输出
-  
+
   if (stepIndex > -1) {
     processingSteps.value.forEach((step, index) => {
       step.completed = index < stepIndex
@@ -573,7 +613,7 @@ const checkTaskStatus = async () => {
 
     progressBarContent.value.percent = data.percent || 0
     progressBarContent.value.notation = data.notation || 'Processing...'
-    
+
     // 更新current_step
     if (data.current_step) {
       progressBarContent.value.current_step = data.current_step
@@ -630,10 +670,30 @@ const startStatusCheck = () => {
   statusCheckInterval.value = setInterval(checkTaskStatus, 1000)
 }
 
+const fetchRegionSummary = async () => {
+  try {
+    const response = await axios.get('/api/region-summary', {
+      params: {
+        chrom: route.params.chrom,
+        start: route.params.start,
+        end: route.params.end
+      }
+    });
+
+    if (response.data.code === 200) {
+      summaryData.value = response.data.data;
+    }
+  } catch (error) {
+    console.error('Error fetching region summary:', error);
+    message.error('Failed to fetch region summary data');
+  }
+};
+
 // Lifecycle hooks
 onMounted(() => {
   startTime.value = new Date().toLocaleString()
   startStatusCheck()
+  fetchRegionSummary();
 })
 
 onUnmounted(() => {
@@ -666,7 +726,7 @@ onUnmounted(() => {
   /* position: relative; */
   padding: 18px 18px;
   /* background-color: #f5f7fa; */
-  border-right: none; 
+  border-right: none;
   /* border-bottom: 1px solid #ebeef5; */
 }
 
@@ -677,7 +737,8 @@ onUnmounted(() => {
   right: 0;
   /* 计算中间50%的位置 */
   top: 25%;
-  height: 50%; /* 高度减半 */
+  height: 50%;
+  /* 高度减半 */
   width: 2px;
   background-color: #ebeef5;
 }
@@ -708,5 +769,4 @@ onUnmounted(() => {
   font-size: 14px;
   color: #606266;
 } */
-
 </style>

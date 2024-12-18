@@ -5,19 +5,20 @@
 			:class="[`theme-${themeName}`, `layout-${layoutComponentName}`, themeName, { 'opacity-0': loading }]"
 		>
 			<RouterView v-slot="{ Component }">
-				<transition :name="`router-${routerTransition}`" mode="out-in" appear>
+				<!-- <transition :name="`router-${routerTransition}`" mode="out-in" appear> -->
 					<component
 						:is="Component"
 						:key="forceRefresh"
 						:class="[`theme-${themeName}`, `layout-${layoutComponentName}`, themeName]"
 					/>
-				</transition>
+				<!-- </transition> -->
 			</RouterView>
 		</component>
 
 		<!-- <SplashScreen :show="loading" /> -->
 		<!-- <SearchDialog v-if="isLogged" /> -->
-		<LayoutSettings />
+		<!-- <LayoutSettings /> -->
+		<!-- <AnnotationPanel></AnnotationPanel> -->
 	</Provider>
 </template>
 
@@ -36,6 +37,7 @@ import SearchDialog from "@/components/common/SearchDialog.vue"
 import { Layout, RouterTransition, type ThemeName } from "@/types/theme.d"
 import { type RouteLocationNormalized, useRouter, useRoute } from "vue-router"
 import "@/assets/scss/index.scss"
+import AnnotationPanel from '@/views/Annotate/AnnotationDetailTable/AnnotationPanel.vue'
 
 const router = useRouter()
 const loading = ref(true)

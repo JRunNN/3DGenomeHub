@@ -54,7 +54,7 @@
       </ul>
 
     </n-card>
-    <div class="flex flex-wrap pt-1 pb-4 border-t dark:border-gray-700">
+    <!-- <div class="flex flex-wrap pt-1 pb-4 border-t dark:border-gray-700">
       <div class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
         Input Type:
       </div>
@@ -82,13 +82,12 @@
           </label>
         </div>
       </div>
-    </div>
-    
+    </div> -->
     <router-view></router-view>
 
   </div>
 
-  <n-modal v-model:show="showModal1" class="custom-card" preset="card" title="Screenshot of sample data output 1"
+  <!-- <n-modal v-model:show="showModal1" class="custom-card" preset="card" title="Screenshot of sample data output 1"
     size="huge" :bordered="false">
     <img class="mb-4 w-full lg:mb-0 rounded-lg" src="../../assets/sample_annotation_result_1.png" alt="feature image">
   </n-modal>
@@ -96,7 +95,7 @@
     size="huge" :bordered="false">
     <img class="mb-4 w-full lg:mb-0 rounded-lg" src="../../assets/sample_annotation_result_2.png" alt="feature image">
 
-  </n-modal>
+  </n-modal> -->
 </template>
 
 <script setup lang="ts">

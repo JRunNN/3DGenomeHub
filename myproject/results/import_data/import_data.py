@@ -1,5 +1,6 @@
 import os
 import django
+from django.db import connection
 
 # 设置环境变量，指向 Django 的 settings 模块
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")  # 替换为你的项目名称
@@ -7,7 +8,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")  # 替换�
 # 初始化 Django
 django.setup()
 import pandas as pd
-from results.models import Samples, Loop, Stripe, DomainBound, Compartment
+from results.models import Samples, Loop, Stripe, DomainBound, Compartment, Enhancer
 
 
 def import_samples():
@@ -160,17 +161,47 @@ def import_compartment():
     print("Successfully import compartment!")
 
 
+def import_enhancer():
+    # Step 1: 读取文件
+    file_path = "./Enhancer_top100.txt"
+    data = pd.read_csv(file_path, sep="\t")
+
+    # Step 2: 遍历 DataFrame 并插入到数据库
+    for _, row in data.iterrows():
+        try:
+            # 创建 Enhancer 实例
+            enhancer = Enhancer(
+                chrom=row['chrom'],
+                start=row['start'],
+                end=row['end'],
+                log_pvalue=row['log_pvalue'],
+                file_id=row['file_id'],
+                experiment=row['experiment'],
+                subtissue=row['subtissue'],
+                tissue=row['tissue']
+            )
+            enhancer.save()
+        except Exception as e:
+            print(f"导入记录失败，错误信息：{e}, 数据：{row.to_dict()}")
+            continue
+
+    print("Successfully imported enhancer data!")
+
+
 def main():
-    Samples.objects.all().delete()
-    Loop.objects.all().delete()
-    Stripe.objects.all().delete()
-    DomainBound.objects.all().delete()
-    Compartment.objects.all().delete()
+    # Samples.objects.all().delete()
+    # Loop.objects.all().delete()
+    # Stripe.objects.all().delete()
+    # DomainBound.objects.all().delete()
+    # Compartment.objects.all().delete()
+    # Enhancer.objects.all().delete()
+
     import_samples()
     import_loop()
     import_stripe()
     import_domain_bound_samples()
     import_compartment()
+    import_enhancer()
     # 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
 
 

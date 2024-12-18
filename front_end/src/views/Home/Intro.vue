@@ -26,11 +26,9 @@
 								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
 									stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
 							</svg>
-							<span><span class="font-semibold text-gray-900 dark:text-white">Multi-omics datasets:
+							<span><span class="font-semibold text-gray-900 dark:text-white">Unique data sources:
 								</span>
-								Collection of 1360 3D genomic datasets (Hi-C, ChIA-PET, HiChIP) from public
-								repositories, and 842 1D datasets (RNA-seq, CTCF/H3K27ac/H3K27me3 ChIP-seq, and
-								ATAC-seq) from the same studies that generated the 3D genomic datasets.
+								Annotation of genomic regions using over 1300 3D genomic datasets in human and 400 3D genomic datasets in mouse
 							</span>
 						</li>
 						<li class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -39,11 +37,9 @@
 								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
 									stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
 							</svg>
-							<span><span class="font-semibold text-gray-900 dark:text-white">Various downloadable file
-									types:
+							<span><span class="font-semibold text-gray-900 dark:text-white">Interactive navigation:
 								</span>
-								Uniform processing of all datasets, with various 3D genomic features (contact matrix,
-								compartments, contact domains, stripes, chromatin loops) available to the community.
+								Selection of genomic regions using interactive browser or upload a file
 							</span>
 						</li>
 						<li class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -52,24 +48,9 @@
 								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
 									stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
 							</svg>
-							<span><span class="font-semibold text-gray-900 dark:text-white">Development of multi-omics analyses applications</span>, including:
-								a. Investigating the associations between compartment switches and gene expression
-								variations.
-								b. Assessing the characteristics of active and repressed stripes.
-								c. Identifying transcription factors that mediate chromatin loops. </span>
-						</li>
-
-
-						<li class="flex items-center space-x-3 rtl:space-x-reverse">
-							<svg class=" flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-									stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
-							</svg>
-							<span><span class="font-semibold text-gray-900 dark:text-white">Custom data visualization:
-								</span>
-								Interactive visualization of all 3D genomic features using an in-house genome browser.
-							</span>
+							<span><span class="font-semibold text-gray-900 dark:text-white">Meta Tracks:</span>
+							Access Meta 3D genomic tracks ensembled from over 1000 Hi-C datasets, as well as over 5000 individual data tracks 
+						</span>
 						</li>
 						<li class="flex items-center space-x-3 rtl:space-x-reverse">
 							<svg class="-mt-10 flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400" aria-hidden="true"
@@ -78,8 +59,7 @@
 									stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
 							</svg>
 							<span><span class="font-semibold text-gray-900 dark:text-white">Easy API access: </span>
-								Development of a REST API to allow programmatic access to most functionalities, in
-								addition to interactive data exploration on the website. </span>
+							Access of our annotation resources through command line tools</span>
 						</li>
 
 					</ul>

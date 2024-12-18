@@ -8,6 +8,12 @@
 						<GlobalListener>
 							<slot />
 						</GlobalListener>
+						<n-modal v-model:show="modalStore.showModal" size = 'huge' :bordered = 'false' preset='card' >     
+               <div v-if="modalStore.modalData">
+				   <AnnotationDetail :modalData="modalStore.modalData"></AnnotationDetail>
+                </div>
+            
+            </n-modal>
 					</n-modal-provider>
 					</n-dialog-provider>
 				</n-notification-provider>
@@ -15,6 +21,7 @@
 		</n-loading-bar-provider>
 		<n-global-style />
 	</n-config-provider>
+
 </template>
 
 <script lang="ts" setup>
@@ -32,7 +39,8 @@ import { useThemeStore } from "@/stores/theme"
 import { useWindowSize } from "@vueuse/core"
 import { computed, onBeforeMount, watch } from "vue"
 import GlobalListener from "@/app-layouts/common/GlobalListener.vue"
-
+import { useModalStore } from '@/stores/modalStore'
+import AnnotationDetail from "@/views/ResultsDetail/index.vue"
 const { width } = useWindowSize()
 
 const themeStore = useThemeStore()
@@ -40,6 +48,8 @@ const themeStore = useThemeStore()
 const theme = computed(() => themeStore.naiveTheme)
 const themeOverrides = computed<GlobalThemeOverrides>(() => themeStore.themeOverrides)
 const style = computed<CSSStyleDeclaration>(() => themeStore.style)
+
+const modalStore = useModalStore()
 
 watch(style, () => {
 	setGlobalVars()

@@ -29,6 +29,11 @@ const SearchIcon = "carbon:search"
 const AnalysisIcon = "carbon:text-link-analysis"
 const APIIcon = "carbon:api-1"
 const HomeIcon = "carbon:home"
+const BrowseIcon = "carbon:content-view"
+const HumanIcon = "mdi:head-outline"
+const MouseIcon = "mingcute:mickeymouse-line"
+const AnnotateIcon = "clarity:process-on-vm-line"
+
 
 export default function getItems(mode: "vertical" | "horizontal", collapsed: boolean): MenuMixedOption[] {
 	return [
@@ -70,8 +75,38 @@ export default function getItems(mode: "vertical" | "horizontal", collapsed: boo
 					{ default: () => "Browse" }
 				),
 				key: "browse",
-				icon: renderIcon(DashboardIcon)
-			},
+				icon: renderIcon(BrowseIcon),
+				children: [
+					{
+						icon: renderIcon(HumanIcon),
+						label: () =>
+							h(
+								RouterLink,
+								{
+									to: {
+										name: "Human"
+									}
+								},
+								{ default: () => "Human" }
+							),
+						key: "Human"
+					},
+					{
+						icon: renderIcon(MouseIcon),
+						label: () =>
+							h(
+								RouterLink,
+								{
+									to: {
+										name: "Mouse"
+									}
+								},
+								{ default: () => "Mouse" }
+							),
+						key: "Mouse"
+					}
+				]
+		},
 		{
 			label: () =>
 				h(
@@ -84,7 +119,7 @@ export default function getItems(mode: "vertical" | "horizontal", collapsed: boo
 					{ default: () => "Annotate" }
 				),
 				key: "annotate",
-				icon: renderIcon(DashboardIcon)
+				icon: renderIcon(AnnotateIcon)
 			},
 			{
 				label: () =>

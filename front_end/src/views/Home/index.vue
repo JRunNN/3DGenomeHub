@@ -6,31 +6,7 @@
 			<div class="main-col">
 				<div class="flex flex-col gap-5 h-full">
 
-					<div class="flex main-chart-wrap">
-						<n-card :bordered="true" >
-      <n-skeleton text v-if="loading" :repeat="2" />
-      <template v-else>
-		<div class="w-full px-8 md:px-8 xl:px-8 py-2 lg:py-2 ">
-			<p class="mb-2 text-l text-gray-500 dark:text-gray-400 leading-10 text-justify">
-		<span>
-			EXPRESSO has been published in <strong><em>Nucleic Acids Research</em></strong> as <strong>NAR Breakthrough Article</strong>. If you are using EXPRESSO, please cite:
-		</span>
-		</p>
-		<p class="mb-2 text-l text-gray-500 dark:text-gray-400 leading-10 text-justify">
-		<span>
-			Cai,L., Qiao,J., Zhou,R., Wang,X., Li,Y., Jiang,L., Zhou,Q., Li,G., Xu,T. and Feng,Y. (2024) EXPRESSO: a multi-omics database to explore multi-layered 3D genomic organization. Nucleic Acids Research, 10.1093/nar/gkae999.
-		</span>
-		</p>
-		<p class="mb-2 text-l text-gray-500 dark:text-gray-400 leading-10 text-justify">
-		<span>
-			We would love to hear your suggestions. Please ask your questions <a href="https://github.com/lycai05/EXPRESSO/issues"><strong>here</strong></a>, and we will respond as soon as possible.
-		</span>
-		</p>
-		</div>
-      </template>
 
-  </n-card>
-</div>
 					<!-- big chart -->
 					<div class="flex main-chart-wrap">
 						<Intro class="h-full"></Intro>
@@ -38,13 +14,18 @@
 
 
 					<div class="flex grow">
-<BodySiteBarChart></BodySiteBarChart>
+						<!-- <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+        <CellTypeSummaryChart />
+        <ChromatinInteractionSummaryChart />
+        <NoncodingMutationChart />
+        <CloudDatasetChart />
+      </div> -->
 					</div>
 
 <div class="flex justify-between gap-5 mt-6">
-	<CardAnalysis></CardAnalysis>
-		<CardVisualization></CardVisualization>
-		<CardApi></CardApi>
+	<CardNavigate></CardNavigate>
+		<CardUpload></CardUpload>
+		<!-- <CardApi></CardApi> -->
 </div>
 				</div>
 			</div>
@@ -57,9 +38,12 @@
 import { useThemeStore } from "@/stores/theme"
 import { computed } from "vue"
 import Intro from "./Intro.vue"
-import CardAnalysis from "./CardAnalysis.vue"
-import CardVisualization from "./CardVisualization.vue"
-import CardApi from "./CardApi.vue"
+import CardNavigate from "./CardNavigate.vue"
+import CardUpload from "./CardUpload.vue"
+import CellTypeSummaryChart from './CellTypeSummaryChart.vue'
+import NoncodingMutationChart from './NoncodingMutationChart.vue'
+import CloudDatasetChart from './CloudDatasetChart.vue'
+
 
 const SessionsIcon = "carbon:user-multiple"
 const UsersIcon = "carbon:user"

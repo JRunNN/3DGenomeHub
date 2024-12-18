@@ -5,10 +5,10 @@
         <div v-if="!uploading">
           <textarea id="description" v-model="inputText" rows="4"
             class="h-full bg-white block p-2.5 w-full text-sm text-gray-900 rounded-lg focus:ring-primary-500 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-            placeholder="Paste your bedpe format data here...
-  Example format:
-  chr1  1000  2000  chr1  3000  4000
-  chr2  5000  6000  chr2  7000  8000"></textarea>
+            placeholder="Paste your bed format data here...
+Example format:
+chr1  1000  2000 
+chr2  5000  6000"></textarea>
         </div>
       </div>
       <div class="mt-4 flex justify-between items-center">

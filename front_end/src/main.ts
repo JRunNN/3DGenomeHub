@@ -79,7 +79,8 @@ import { create,
 	  NInput,
 	  NProgress,
 	  NPopover,
-	  NDialog
+	  NDialog,
+	  NTable
 	} from "naive-ui";
   
   
@@ -87,7 +88,7 @@ import { create,
 	components: [NCollapse, NCheckbox, NCollapseItem, NCheckboxGroup, NSpace, NDataTable, NMessageProvider, NTag,
 	  NSelect, NCard, NDescriptionsItem, NScrollbar, NAlert, NSpin, NDropdown, NDescriptions,     NGrid,
 	  NGridItem,NIcon,NText,NSlider, NInputNumber,NTabs,NTabPane, NStatistic, NGi, NModal, NButton, NButtonGroup,NBreadcrumb,NBreadcrumbItem,NList,NListItem,NSkeleton,NDynamicTags,
-	NAutoComplete, NCascader,NTooltip, NDrawer, NDrawerContent, NDivider, NColorPicker,NSwitch, NH2, NH3, NP, NCarousel, NRadioGroup, NRadio, NForm, NFormItem, NInput, NProgress, NPopover, NDialog]
+	NAutoComplete, NCascader,NTooltip, NDrawer, NDrawerContent, NDivider, NColorPicker,NSwitch, NH2, NH3, NP, NCarousel, NRadioGroup, NRadio, NForm, NFormItem, NInput, NProgress, NPopover, NDialog, NTable]
   })
 
 

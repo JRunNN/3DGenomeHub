@@ -1,3 +1,4 @@
+chrom	start	end	log_pvalue	file_id	experiment	subtissue	tissue
 chr1	9922	10283	7.10044	ENCFF026YOC	ENCSR909ZLE	chorion	Placenta
 chr1	9933	10575	14.14643	ENCFF219SMW	ENCSR643TBI	chorionic villus	Placenta
 chr1	9943	10570	38.96418	ENCFF677BHR	ENCSR606WJA	chorionic villus	Placenta
