@@ -52,41 +52,8 @@
   import { useRouter } from 'vue-router'
   import { NButton, NDataTable, NInputGroup, NInputNumber } from 'naive-ui'
   import type { DataTableColumns } from 'naive-ui'
-  
-  // 定义类型
-  interface LoopData {
-    sample_id: string
-    tissue: string
-    health_status: string
-    chrom: string
-    start: number
-    end: number
-    mate_chrom: string
-    mate_start: number
-    mate_end: number
-    strength: number
-  }
-  
-  interface Props {
-    data?: LoopData[]
-    loading?: boolean
-    pageSize?: number
-    onAction?: (row: LoopData) => void
-    region?: {
-      chrom: string
-      start: number
-      end: number
-    }
-  }
-  
-  // Props定义
-  const props = withDefaults(defineProps<Props>(), {
-    data: () => [],
-    loading: false,
-    pageSize: 10,
-    onAction: undefined,
-    region: undefined
-  })
+
+  const props = defineProps(["loopData", "loading"]);
   
   // 状态管理
   const router = useRouter()
@@ -100,7 +67,12 @@
   
   // 计算属性
   const displayData = computed(() => {
+    console.log("44444: ", props.loopData)
+    if (!props.data || props.data.length === 0) {
+      return []; // 数据未加载时返回空数组
+    }
     let filteredData = props.data
+
     if (strengthFilter.value.min !== null || strengthFilter.value.max !== null) {
       filteredData = props.data.filter(item => {
         const matchesMin = strengthFilter.value.min === null || item.strength >= strengthFilter.value.min
@@ -112,12 +84,15 @@
   })
   
   const itemCount = computed(() => {
-    if (strengthFilter.value.min !== null || strengthFilter.value.max !== null) {
-      return props.data.filter(item => {
-        const matchesMin = strengthFilter.value.min === null || item.strength >= strengthFilter.value.min
-        const matchesMax = strengthFilter.value.max === null || item.strength <= strengthFilter.value.max
-        return matchesMin && matchesMax
-      }).length
+    // if (strengthFilter.value.min !== null || strengthFilter.value.max !== null) {
+    //   return props.data.filter(item => {
+    //     const matchesMin = strengthFilter.value.min === null || item.strength >= strengthFilter.value.min
+    //     const matchesMax = strengthFilter.value.max === null || item.strength <= strengthFilter.value.max
+    //     return matchesMin && matchesMax
+    //   }).length
+    // }
+    if (!props.data || props.data.length === 0) {
+      return []; // 数据未加载时返回空数组
     }
     return props.data.length
   })
@@ -142,7 +117,7 @@
         'a',
         {
           href: 'javascript:void(0);',
-          onClick: () => router.push(`/sample/${row.sample_id}`),
+          // onClick: () => router.push(`/sample/${row.sample_id}`),
           style: { color: 'blue', textDecoration: 'underline', cursor: 'pointer' }
         },
         row.sample_id
@@ -164,38 +139,38 @@
     {
       title: 'Anchor 2',
       key: 'anchor2',
-      render: (row) => `${row.mate_chrom}:${row.mate_start}-${row.mate_end}`
+      render: (row) => `${row.chrom}:${row.start}-${row.end}`
     },
-    {
-      title: 'Strength',
-      key: 'strength',
-      render: (row) => {
-        const strength = row.strength
-        const color = getStrengthColor(strength)
-        return h(
-          'div',
-          {
-            style: {
-              display: 'flex',
-              alignItems: 'center',
-              gap: '8px'
-            }
-          },
-          [
-            h('div', {
-              style: {
-                width: '50px',
-                height: '10px',
-                backgroundColor: color,
-                borderRadius: '5px'
-              }
-            }),
-            h('span', strength.toFixed(2))
-          ]
-        )
-      },
-      sorter: (row1, row2) => row1.strength - row2.strength
-    },
+    // {
+    //   title: 'Strength',
+    //   key: 'strength',
+    //   render: (row) => {
+    //     const strength = row.strength
+    //     const color = getStrengthColor(strength)
+    //     return h(
+    //       'div',
+    //       {
+    //         style: {
+    //           display: 'flex',
+    //           alignItems: 'center',
+    //           gap: '8px'
+    //         }
+    //       },
+    //       [
+    //         h('div', {
+    //           style: {
+    //             width: '50px',
+    //             height: '10px',
+    //             backgroundColor: color,
+    //             borderRadius: '5px'
+    //           }
+    //         }),
+    //         h('span', strength.toFixed(2))
+    //       ]
+    //     )
+    //   },
+    //   sorter: (row1, row2) => row1.strength - row2.strength
+    // },
     {
       title: 'Action',
       key: 'action',
@@ -212,12 +187,12 @@
   ]
   
   // 辅助函数
-  const getStrengthColor = (strength: number): string => {
-    // 根据强度返回不同的颜色
-    if (strength >= 0.8) return '#FF0156'
-    if (strength >= 0.5) return '#FFA500'
-    return '#00B27B'
-  }
+  // const getStrengthColor = (strength: number): string => {
+  //   // 根据强度返回不同的颜色
+  //   if (strength >= 0.8) return '#FF0156'
+  //   if (strength >= 0.5) return '#FFA500'
+  //   return '#00B27B'
+  // }
   
   // 方法定义
   const handlePageChange = (page: number) => {
@@ -241,7 +216,7 @@
   
   // 生命周期
   onMounted(() => {
-    console.log(props.data)
+    //
     if (props.region) {
       console.log(`Showing loop data for region: ${props.region.chrom}:${props.region.start}-${props.region.end}`)
     }

@@ -1,7 +1,7 @@
 <template>
     <!-- <CompartmentChart></CompartmentChart> -->
     <!-- <CompartmentBrowser></CompartmentBrowser> -->
-    <LoopTable :data="props.loopData" :loading="loading" :region="region" :page-size="10"
+    <LoopTable :data="props.loopData" :loading="props.loading" :region="region" :page-size="10"
         @action="handleAction" />
 </template>
 <script setup lang="ts">
@@ -9,7 +9,8 @@
 // import CompartmentBrowser from './CompartmentBrowser.vue';
 import LoopTable from './LoopTable.vue';
 const props = defineProps([
-    'loopData'
+    'loopData',
+    'loading'
 ])
 
 </script>

@@ -517,6 +517,8 @@ watch(showApiDoc, async (newComponent) => {
         page_size: 10
       });
       loopData.value = response.data.loops;
+      console.log("response: ", response.data.loops)
+      console.log("loopData: ", loopData.value)
     } else if (newComponent === 'Stripe') {
       const response = await queryGenomicFeatures({
         regions: [{

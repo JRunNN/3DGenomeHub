@@ -246,7 +246,7 @@ def get_loops(request):
         Q(chrom1=chrom, start1__lte=end, end1__gte=start) |
         # 条件2：chrom2 重叠
         Q(chrom2=chrom, start2__lte=end, end2__gte=start)
-    )
+    ).order_by('chrom1')
 
     # 限制最大返回记录
     loops = all_loops[:1000]
@@ -271,16 +271,11 @@ def get_loops(request):
         "loops": [
             {
                 "id": loop.id,
-                "sample_name": loop.sample_name.sample,  # 外键字段显示 sample 名称
-                "chrom1": loop.chrom1,
-                "start1": loop.start1,
-                "end1": loop.end1,
-                "chrom2": loop.chrom2,
-                "start2": loop.start2,
-                "end2": loop.end2,
-                "counts": loop.counts,
-                "gene_anno_1": loop.gene_anno_1,
-                "gene_anno_2": loop.gene_anno_2,
+                "sample_id": loop.sample_name.sample,  # 外键字段显示 sample 名称
+                "tissue": loop.sample_name.tissue,
+                "health_status": loop.sample_name.health_status,
+                "anchor1": {"chrom": loop.chrom1, "start": loop.start1, "end": loop.end1},
+                "anchor2": {"chrom": loop.chrom2, "start": loop.start2, "end": loop.end2},
             }
             for loop in loops
         ],
@@ -294,7 +289,7 @@ def get_loops(request):
         },
     }
 
-    return JsonResponse({"loops": data}, safe=False)
+    return JsonResponse({"data": data})
 
 
 # 定义 Swagger 查询参数
