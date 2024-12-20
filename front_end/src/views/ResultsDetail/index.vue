@@ -15,10 +15,14 @@
                 <span>Currently showing annotation results for region: {{ props.chrom }} : {{ props.start }} - {{ props.end }}</span>
             </template>
             <template #main-content v-show="showDetailTable">
+              <div>
+                <n-spin size="large" description="Loading..." v-if="loading" />
                 <component 
-                :is="currentCardComponent"
-                v-bind="getComponentProps(showApiDoc)"
+                    :is="currentCardComponent"
+                    v-bind="getComponentProps(showApiDoc)"
+                    v-else
                 />
+              </div>
             </template>
         </SegmentedPage>
     </div>
@@ -54,7 +58,7 @@ const loadList = ref(false)
 const showDetailTable =ref(false)
 
 // Import individual components
-const Overview = defineAsyncComponent(() => import('./Overview/index.vue'));
+const Overview = defineAsyncComponent(() => import('../ResultsSummary/index.vue'));
 const Compartment = defineAsyncComponent(() => import('./Compartment/index.vue'));
 const Domain = defineAsyncComponent(() => import('./Domain/index.vue'));
 const Loop = defineAsyncComponent(() => import('./Loop/index.vue'));
@@ -178,7 +182,7 @@ const defaultExpandedKeys = ref([
 ])
 
 const componentMap = {
-    Overview: Overview,
+  Overview: Overview,
   Compartment: Compartment,
   Domain: Domain,
   Loop: Loop,
@@ -227,6 +231,8 @@ interface GenomicFeatureResponse {
       page: number;
       page_size: number;
       total_pages: number;
+      has_previous: boolean;
+      has_next: boolean;
       data: Array<{
         sample_id: string;
         tissue: string;
@@ -266,8 +272,7 @@ interface GenomicFeatureResponse {
 
 // 创建axios实例
 const api = axios.create({
-  //TODO: baseURL: 'https://47.107.91.5:8080',
-  baseURL: '/localhost:8000',
+  baseURL: 'http://localhost:8000/api',
   timeout: 5000,
   headers: {
     'Content-Type': 'application/json'
@@ -279,7 +284,7 @@ const queryGenomicFeatures = async (params: QueryParams): Promise<GenomicFeature
   try {
     // 构建查询参数
     const queryParams = new URLSearchParams({
-      data_types: params.data_types.join(','),
+      // data_types: params.data_types.join(','),
       chrom: params.regions[0].chrom,
       start: params.regions[0].start.toString(),
       end: params.regions[0].end.toString(),
@@ -291,12 +296,11 @@ const queryGenomicFeatures = async (params: QueryParams): Promise<GenomicFeature
     if (params.filters) {
       queryParams.append('filters', encodeURIComponent(JSON.stringify(params.filters)));
     }
-
-    //TODO: index.vue是所有组件的父组件，在这里调用后端API获取数组并传入子组件
-    //TODO: 调用后端API get_compartments获取compartment
+    console.log(params.data_types) //compartments
     const response = await api.get<GenomicFeatureResponse>(
-      `/genomic-features?${queryParams.toString()}`
+      `/results/get_${params.data_types}/?${queryParams.toString()}`
     );
+    // console.log(`/api/results/get_${params.data_types}?${queryParams.toString()}`)
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error)) {
@@ -326,11 +330,11 @@ const fetchData = async () => {
     if (response.data.compartments) {
       console.log('Compartments data:', response.data.compartments);
     }
-    
+
     if (response.data.domains) {
       console.log('Domains data:', response.data.domains);
     }
-    
+
     if (response.data.loops) {
       console.log('Loops data:', response.data.loops);
     }
@@ -373,23 +377,25 @@ const testRequest = {
 };
 
 // 修改区域摘要查询函数
-const getRegionSummary = async (regions) => {
-  try {
-    // 构建查询参数
-    const queryParams = new URLSearchParams({
-      chrom: regions[0].chrom,
-      start: regions[0].start.toString(),
-      end: regions[0].end.toString()
-    });
+const getRegionSummary =  () => {
+  const chromosomes = ['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6'];
+  const data = [];
 
-    const response = await axios.get(`/api/region-summary?${queryParams.toString()}`);
-    // TODO: 调用后端API获取overview数据
-    console.log(response.data);
-    return response.data;
-  } catch (error) {
-    console.error('Failed to get region summary:', error);
-    throw error;
+  for (let i = 0; i < 20; i++) {
+    const start = Math.floor(Math.random() * 1000000);
+    data.push({
+      chrom: chromosomes[Math.floor(Math.random() * chromosomes.length)],
+      start: start,
+      end: start + 10000,
+      A_compartment: Math.floor(Math.random() * 100),
+      B_compartment: Math.floor(Math.random() * 100),
+      NA_compartment: Math.floor(Math.random() * 50),
+      IS_lower_bound: Math.random() * 2,
+      IS_average: Math.random() * 2 + 2,
+      IS_higher_bound: Math.random() * 2 + 4
+    });
   }
+  return data;
 };
 
 
@@ -399,6 +405,8 @@ const overviewData = ref(null)
 const compartmentData = ref(null)
 const domainData = ref(null)
 const loopData = ref(null)
+const loading = ref(false); // 定义 loading
+
 
 // 添加一个方法来根据组件类型返回对应的props
 const getComponentProps = (componentKey: string) => {
@@ -431,14 +439,11 @@ const getComponentProps = (componentKey: string) => {
 
 // watch 部分的修改
 watch(showApiDoc, async (newComponent) => {
+  loading.value = true;
   console.log(showApiDoc);
   try {
     if (newComponent === 'Overview') {
-      overviewData.value = await getRegionSummary([{
-        chrom: props.chrom,
-        start: props.start,
-        end: props.end
-      }]);
+      overviewData.value = await getRegionSummary();
     } else if (newComponent === 'Compartment') {
       const response = await queryGenomicFeatures({
         regions: [{
@@ -480,6 +485,8 @@ watch(showApiDoc, async (newComponent) => {
   } catch (error) {
     console.error('Error fetching data:', error);
     // 这里可以添加错误处理逻辑，比如显示错误提示
+  } finally {
+    loading.value = false;
   }
 }, { immediate: true });
 

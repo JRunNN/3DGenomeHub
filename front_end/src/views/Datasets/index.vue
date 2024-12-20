@@ -173,7 +173,7 @@ const downloadFiles_merged = ref({
 const downloadFiles_single = ref([])
 
 const fetchDownloadFiles = () => {
-  axios.get('/downloadfiles', {
+  axios.get('http://47.107.91.5:8888/api/genomehub/mousesamples', {
     responseType: 'json',
 
   })
@@ -199,37 +199,37 @@ const fetchDownloadFiles = () => {
     });
 }
 
-const downloadFiles_1d = ref([])
+// const downloadFiles_1d = ref([])
 
-const fetchDownload1DFiles = () => {
-  axios.get('/download1dfiles', {
-    responseType: 'json',
+// const fetchDownload1DFiles = () => {
+//   axios.get('/download1dfiles', {
+//     responseType: 'json',
 
-  })
-    .then(res => {
-      downloadFiles_1d.value = res.data
-    }).catch(function (error) {
-      if (error.response) {
-        // The request was made and the server responded with a status code
-        // that falls out of the range of 2xx
-        console.log(error.response.data);
-        console.log(error.response.status);
-        console.log(error.response.headers);
-      } else if (error.request) {
-        // The request was made but no response was received
-        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
-        // http.ClientRequest in node.js
-        console.log(error.request);
-      } else {
-        // Something happened in setting up the request that triggered an Error
-        console.log('Error', error.message);
-      }
-      console.log(error.config);
-    });
-}
+//   })
+//     .then(res => {
+//       downloadFiles_1d.value = res.data
+//     }).catch(function (error) {
+//       if (error.response) {
+//         // The request was made and the server responded with a status code
+//         // that falls out of the range of 2xx
+//         console.log(error.response.data);
+//         console.log(error.response.status);
+//         console.log(error.response.headers);
+//       } else if (error.request) {
+//         // The request was made but no response was received
+//         // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+//         // http.ClientRequest in node.js
+//         console.log(error.request);
+//       } else {
+//         // Something happened in setting up the request that triggered an Error
+//         console.log('Error', error.message);
+//       }
+//       console.log(error.config);
+//     });
+// }
 onMounted(() => {
   fetchDownloadFiles()
-  fetchDownload1DFiles()
+  // fetchDownload1DFiles()
 })
 </script>
 <style scoped>

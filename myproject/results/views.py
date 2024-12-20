@@ -84,7 +84,7 @@ def get_samples(request):
         },
     }
 
-    return JsonResponse(data)
+    return JsonResponse({"data": data})
 
 
 # 定义 Swagger 参数
@@ -187,7 +187,7 @@ def get_enhancers(request):
         },
     }
 
-    return JsonResponse({"enhancers": data})
+    return JsonResponse({"data": data})
 
 
 # 定义 Swagger 查询参数
@@ -455,7 +455,7 @@ def get_compartments(request):
         chrom=chrom,  # 确保 chrom 相等
         start__lte=end,  # start <= 参数的 end
         end__gte=start  # end >= 参数的 start
-    )
+    ).order_by('chrom')
 
     compartments = all_compartments[:1000]
 
@@ -482,21 +482,24 @@ def get_compartments(request):
                 "chrom": compartment.chrom,
                 "start": compartment.start,
                 "end": compartment.end,
-                "value": compartment.value,
-                "sample_name": compartment.sample_name.sample
+                "E1score": compartment.value,
+                "sample_id": compartment.sample_name.sample,
+                "tissue": compartment.sample_name.tissue,
+                "health_status": compartment.sample_name.health_status
             }
             for compartment in compartments
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
     }
 
-    return JsonResponse({"enhancers": data})
+    return JsonResponse({"data": data})
 
 # 定义 Swagger 参数
 chrom_param = openapi.Parameter(
@@ -593,7 +596,7 @@ def get_domain_bound_samples(request):
         },
     }
 
-    return JsonResponse({"enhancers": data})
+    return JsonResponse({"data": data})
 
 
 # 定义 Swagger 参数
@@ -696,4 +699,4 @@ def get_overview(request):
         },
     }
 
-    return JsonResponse({"overview": data})
+    return JsonResponse({"data": data})

@@ -37,7 +37,7 @@ import SearchDialog from "@/components/common/SearchDialog.vue"
 import { Layout, RouterTransition, type ThemeName } from "@/types/theme.d"
 import { type RouteLocationNormalized, useRouter, useRoute } from "vue-router"
 import "@/assets/scss/index.scss"
-
+import AnnotationPanel from '@/views/Annotate/AnnotationDetailTable/AnnotationPanel.vue'
 
 const router = useRouter()
 const loading = ref(true)

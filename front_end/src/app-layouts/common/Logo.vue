@@ -1,11 +1,11 @@
 <template>
 	<div class="logo  flex justify-left" v-if="isDark && !mini">
 		<!-- <img src="@/assets/images/logo_banner.png" /> -->
-		<p class="ml-12 text-2xl">EXPRESSO</p>
+		<p class="ml-12 text-2xl">CREScope</p>
 	</div>
 	<div class="logo flex justify-left" v-else-if="isLight && !mini">
 		<!-- <img src="@/assets/images/logo_banner.png" /> -->
-		 <p class="ml-12 text-2xl">EXPRESSO</p>
+		 <p class="ml-12 mt-4 text-2xl">CREScope</p>
 	</div>
 	<div class="logo" v-else-if="isDark && mini">
 		<img src="@/assets/images/logo.png" />

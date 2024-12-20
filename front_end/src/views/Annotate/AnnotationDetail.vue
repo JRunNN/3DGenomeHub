@@ -125,7 +125,7 @@
 
       class="custom-table"
     /> -->
-          <TableBase :bordered="false" :show-actions="false" :data="summaryData" v-model="showSummaryTable" />
+          <TableBase :bordered="false" :show-actions="false" :data="testSummaryData" v-model="showSummaryTable" />
         </div>
       </div>
     </div>
@@ -164,10 +164,10 @@ import { useRoute, useRouter } from 'vue-router'
 import { NButton, NIcon, NProgress, NCollapse, NCollapseItem, useMessage } from 'naive-ui'
 // import { CheckCircleOutlined, LoadingOutlined, ClockCircleOutlined, CloseCircleOutlined } from '@vicons/antd'
 import axios from 'axios'
-import CardWrapper from '../ResultsSummary/CardWrapper.vue'
-import CardExtra6 from "../ResultsSummary/CardExtra6.vue"
+// import CardWrapper from '../ResultsSummary/CardWrapper.vue'
+// import CardExtra6 from "../ResultsSummary/CardExtra6.vue"
 
-import TableBase from "../ResultsSummary/Base.vue"
+import TableBase from "../ResultsSummary/index.vue"
 import AnnotationDetail from '../ResultsDetail/index.vue'
 const route = useRoute()
 const router = useRouter()
@@ -367,6 +367,29 @@ const renderDonut = (row, key) => {
   ])
 }
 
+
+const getRegionSummary =  () => {
+  const chromosomes = ['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6'];
+  const data = [];
+  
+  for (let i = 0; i < 20; i++) {
+    const start = Math.floor(Math.random() * 1000000);
+    data.push({
+      chrom: chromosomes[Math.floor(Math.random() * chromosomes.length)],
+      start: start,
+      end: start + 10000,
+      A_compartment: Math.floor(Math.random() * 100),
+      B_compartment: Math.floor(Math.random() * 100),
+      NA_compartment: Math.floor(Math.random() * 50),
+      IS_lower_bound: Math.random() * 2,
+      IS_average: Math.random() * 2 + 2,
+      IS_higher_bound: Math.random() * 2 + 4
+    });
+  }
+  return data;
+};
+
+const testSummaryData = getRegionSummary()
 
 const createCols = function () {
   const summaryData = ref(null)

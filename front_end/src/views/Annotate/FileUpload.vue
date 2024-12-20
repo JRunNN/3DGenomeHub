@@ -210,7 +210,7 @@ const uploadFile = () => {
   const formData = new FormData();
   formData.append('file', selectedFile.value);
 
-  axios.post('http://47.107.91.5:8888/api/annotations/upload/', formData, {
+  axios.post('http://47.107.91.5:8080/api/annotations/upload/', formData, {
     headers: {
       'Content-Type': 'multipart/form-data'
     },

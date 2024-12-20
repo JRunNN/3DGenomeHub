@@ -19,7 +19,7 @@
           </n-input-group>
         </div>
       </div>
-  
+
       <n-data-table
         :bordered="false"
         :columns="columns"
@@ -30,19 +30,19 @@
       />
     </div>
   </template>
-  
+
   <script setup lang="ts">
   import { ref, computed,h } from 'vue'
   import type { DataTableColumns,  } from 'naive-ui'
   import { NDataTable, NInput, NInputGroup, NButton, NTooltip } from 'naive-ui'
 
-  
+
 
   interface CompartmentData {
     sample_id: string
     compartment: 'A' | 'B'
   }
-  
+
   const props = defineProps<{
     data: CompartmentData[],
     bedRegion?: {
@@ -51,28 +51,28 @@
     end: number
   }
   }>()
-  
+
   // Table state
   const searchQuery = ref('')
   const currentPage = ref(1)
   const pageSize = ref(10)
   const loading = ref(false)
-  
+
   // Computed values
   const offset = computed(() => (currentPage.value - 1) * pageSize.value)
-  
+
   const filteredData = computed(() => {
     let filtered = props.data
     if (searchQuery.value) {
-      filtered = filtered.filter(item => 
+      filtered = filtered.filter(item =>
         item.sample_id.toLowerCase().includes(searchQuery.value.toLowerCase())
       )
     }
     return filtered
   })
-  
+
   const itemCount = computed(() => filteredData.value.length)
-  
+
   const pagination = computed(() => ({
     page: currentPage.value,
     pageSize: pageSize.value,
@@ -81,7 +81,7 @@
     pageSizes: [10, 20, 50],
     prefix: ({ itemCount }) => `Total: ${itemCount}`
   }))
-  
+
   // Table columns
   const columns: DataTableColumns = [
     {
@@ -149,7 +149,7 @@
     }
   }
   ]
-  
+
   const addToBrowser = (row: CompartmentData) => {
   // 这里添加将数据添加到browser的逻辑
   // 可以触发一个事件让父组件处理，或者直接处理
@@ -165,12 +165,12 @@
   const handlePageChange = (page: number) => {
     currentPage.value = page
   }
-  
+
   const handleSearch = () => {
     currentPage.value = 1
   }
   </script>
-  
+
   <style scoped>
   .n-input-group {
     width: 300px;

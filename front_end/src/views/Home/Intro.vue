@@ -3,20 +3,17 @@
 		<div class="card-wrap flex flex-col">
 			<n-spin :show="!loaded" class="chart grow flex flex-col">
 				<div class="flex justify-center items-center mb-6">
-					<img alt="Expresso Logo" class="h-24 mx-auto" src="../../assets/images/logo_banner.png">
+					<img alt="Expresso Logo" class="h-24 mx-auto" src="../../assets/images/logo.png">
 				</div>
 				<div class="flex justify-center items-center mb-6 ">
 					<!-- <MultiGenomeChart></MultiGenomeChart> -->
 					<img alt="multi-genome organization" class="justify-center"
-						src="../../assets/images/multigenome.png" style="width: 800px; height: auto;">
+						src="../../assets/images/CREscope_graphical_abstract.png" style="width: 1000px; height: auto;">
 				</div>
 				<div class="w-full px-14 md:px-14 xl:px-14 py-4 lg:py-4 ">
 
 					<p class="mb-3 text-xl text-gray-500 dark:text-gray-400 leading-10 text-justify">
-						<span class="font-semibold text-gray-900 dark:text-white">EXPRESSO (Exploration of Regulatory Epigenome with Spatial and Sequence Observations)</span> is a multi-omics
-						database designed to explore and visualize multi-layered 3D genomic features and their
-						associations with the epigenome and gene expression across 46 different tissues in the human
-						genome. Key features of EXPRESSO include:
+						<span class="font-semibold text-gray-900 dark:text-white">CREScope: A comparative 3D genomic analysis web server. Key features of CRSScope include:</span>
 					</p>
 
 					<ul class="space-y-4 text-left text-gray-500 dark:text-gray-400 text-xl leading-10 text-justify">

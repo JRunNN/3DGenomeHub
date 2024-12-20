@@ -59,7 +59,6 @@ interface Props {
 
 // Props定义
 const props = withDefaults(defineProps<Props>(), {
-  //
   data: () => [],
   loading: false,
   pageSize: 10,
@@ -76,15 +75,19 @@ const typeValue = ref('')
 
 // 计算属性
 const displayData = computed(() => {
-  let filteredData = props.data
-  if (typeValue.value) {
-    filteredData = props.data.filter(item => 
-      (item.value > 0 && typeValue.value === 'A') || 
-      (item.value <= 0 && typeValue.value === 'B')
-    )
+  if (!props.data || props.data.length === 0) {
+    return []; // 数据未加载时返回空数组
   }
-  return filteredData.data.slice(offset.value, offset.value + pageSize.value)
-})
+
+  let filteredData = props.data;
+  if (typeValue.value) {
+    filteredData = props.data.filter((item) =>
+      (item.value > 0 && typeValue.value === 'A') ||
+      (item.value <= 0 && typeValue.value === 'B')
+    );
+  }
+  return filteredData.slice(offset.value, offset.value + pageSize.value); // 修正：去掉 .data
+});
 
 const itemCount = computed(() => {
   if (typeValue.value) {
@@ -93,6 +96,7 @@ const itemCount = computed(() => {
       (item.E1score <= 0 && typeValue.value === 'B')
     ).length
   }
+  console.log("22222222222222: ", props.data)
   return props.data.length
 })
 
@@ -123,10 +127,7 @@ const columns: DataTableColumns = [
       'a',
       {
         href: 'javascript:void(0);',
-        // TODO: 调用后端get_samples接口获取samples数据，并展示
-        onClick: () => {
-          router.push(`/get_samples/${row.sample_name}`)
-        },
+        onClick: () => router.push(`/sample/${row.sample_name}`),
         style: { color: 'blue', textDecoration: 'underline', cursor: 'pointer' }
       },
       row.sample_id
