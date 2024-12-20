@@ -1,7 +1,7 @@
 <template>
     <!-- <CompartmentChart></CompartmentChart> -->
     <!-- <CompartmentBrowser></CompartmentBrowser> -->
-    <DomainTable :data="props.domainData" :loading="loading" :region="region" :page-size="10"
+    <DomainTable :data="props.domainData" :loading="props.loading" :region="region" :page-size="10"
         @action="handleAction" />
 </template>
 <script setup lang="ts">
@@ -9,7 +9,8 @@
 // import CompartmentBrowser from './CompartmentBrowser.vue';
 import DomainTable from './DomainTable.vue';
 const props = defineProps([
-    'domainData'
+    'domainData',
+    'loading'
 ])
 
 </script>

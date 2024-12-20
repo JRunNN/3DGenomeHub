@@ -59,7 +59,7 @@
   const router = useRouter()
   const loadingRef = ref(props.loading)
   const currentPage = ref(1)
-  const pageSize = ref(props.pageSize)
+  const pageSize = ref(props.loopData.pageSize)
   const strengthFilter = ref({
     min: null as number | null,
     max: null as number | null

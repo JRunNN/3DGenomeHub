@@ -396,7 +396,7 @@ def get_stripes(request):
         },
     }
 
-    return JsonResponse({"data": data}, safe=False)
+    return JsonResponse({"data": data})
 
 
 # 定义 Swagger 参数
@@ -500,6 +500,7 @@ def get_compartments(request):
 
     return JsonResponse({"data": data})
 
+
 # 定义 Swagger 参数
 chrom_param = openapi.Parameter(
     name='chrom',
@@ -550,20 +551,35 @@ def get_domain_bound_samples(request):
     if start > end:
         return JsonResponse({"error": "start 不能大于 end"}, status=400)
 
-    # 查询满足条件的数据
-    all_domain_bound = DomainBound.objects.filter(
+    # 查询 domain 表中满足条件的记录
+    domain_records = DomainBound.objects.filter(
         chrom=chrom,  # 确保 chrom 相等
         start__lte=end,  # start <= 参数的 end
         end__gte=start  # end >= 参数的 start
-    )
-    all_samples = Samples.objects
-    domain_bound_samples = all_domain_bound[:1000]
+    ).values('sample_name').order_by('chrom')  # 只取 sample_name 字段
+
+    # 获取满足条件的 sample 名称列表
+    domain_sample_names = {record['sample_name'] for record in domain_records}
+
+    # 查询所有 samples
+    all_samples = Samples.objects.all()
+
+    # 构造结果，判断每个 sample 是否在 domain 中
+    sample_results = [
+        {
+            "sample_id": sample.sample,
+            "tissue": sample.tissue,
+            "health_status": sample.health_status,
+            "type": "B" if sample.sample in domain_sample_names else "D"
+        }
+        for sample in all_samples
+    ]
 
     # 分页设置
     page = request.GET.get('page', 1)  # 获取当前页码，默认为第 1 页
     per_page = 10  # 每页显示的数据条数
 
-    paginator = Paginator(domain_bound_samples, per_page)
+    paginator = Paginator(sample_results, per_page)
 
     try:
         page = paginator.page(page)
@@ -576,16 +592,7 @@ def get_domain_bound_samples(request):
 
     # 构造 JSON 返回数据
     data = {
-        "domain_bound_samples": [
-            {
-                "id": domain_bound_sample.id,
-                "chrom": domain_bound_sample.chrom,
-                "start": domain_bound_sample.start,
-                "end": domain_bound_sample.end,
-                "sample_name": domain_bound_sample.sample_name.sample
-            }
-            for domain_bound_sample in domain_bound_samples
-        ],
+        "samples": list(sample_results),
         "pagination": {
             "page": page.number,
             "page_size": paginator.per_page,
@@ -682,7 +689,7 @@ def get_overview(request):
                 "start": overview.start,
                 "end": overview.end,
                 "A_compartment": overview.A_compartment,
-                "B_compartment" : overview.B_compartment,
+                "B_compartment": overview.B_compartment,
                 "NA_compartment": overview.NA_compartment,
                 "IS_lower_bound": overview.IS_lower_bound,
                 "IS_average": overview.IS_average,

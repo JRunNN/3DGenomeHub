@@ -240,17 +240,20 @@ interface GenomicFeatureResponse {
         E1score: number;
       }>;
     };
-    domains?: {
+    samples?: {
       total: number;
       page: number;
       page_size: number;
       total_pages: number;
+      has_previous: boolean;
+      has_next: boolean;
       data: Array<{
         sample_id: string;
         tissue: string;
         health_status: string;
         domain_type: string;
-        score: number;
+        type: string;
+        // score: number;
       }>;
     };
     loops?: {
@@ -258,6 +261,8 @@ interface GenomicFeatureResponse {
       page: number;
       page_size: number;
       total_pages: number;
+      has_previous: boolean;
+      has_next: boolean;
       data: Array<{
         sample_id: string;
         tissue: string;
@@ -504,7 +509,8 @@ watch(showApiDoc, async (newComponent) => {
         page: 1,
         page_size: 10
       });
-      domainData.value = response.data.domains;
+      // console.log("66666: ", response.data.samples)
+      domainData.value = response.data.samples;
     } else if (newComponent === 'Loop') {
       const response = await queryGenomicFeatures({
         regions: [{
