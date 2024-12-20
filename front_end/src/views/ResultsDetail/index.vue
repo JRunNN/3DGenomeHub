@@ -313,38 +313,38 @@ const queryGenomicFeatures = async (params: QueryParams): Promise<GenomicFeature
 
 // 使用示例
 // 使用示例的修改
-const fetchData = async () => {
-  try {
-    const response = await queryGenomicFeatures({
-      regions: [{ chrom: "chr1", start: 1000, end: 2000 }],
-      data_types: ["compartments", "domains", "loops"],
-      filters: {
-        tissue: ["liver"],
-        health_status: ["healthy"],
-        sample_id: ["GSM12344", "GSM32422"]
-      },
-      page: 1,
-      page_size: 10
-    });
-
-    if (response.data.compartments) {
-      console.log('Compartments data:', response.data.compartments);
-    }
-
-    if (response.data.domains) {
-      console.log('Domains data:', response.data.domains);
-    }
-
-    if (response.data.loops) {
-      console.log('Loops data:', response.data.loops);
-    }
-
-    return response;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    throw error;
-  }
-};
+// const fetchData = async () => {
+//   try {
+//     const response = await queryGenomicFeatures({
+//       regions: [{ chrom: "chr1", start: 1000, end: 2000 }],
+//       data_types: ["compartments", "domains", "loops"],
+//       filters: {
+//         tissue: ["liver"],
+//         health_status: ["healthy"],
+//         sample_id: ["GSM12344", "GSM32422"]
+//       },
+//       page: 1,
+//       page_size: 10
+//     });
+//
+//     if (response.data.compartments) {
+//       console.log('Compartments data:', response.data.compartments);
+//     }
+//
+//     if (response.data.domains) {
+//       console.log('Domains data:', response.data.domains);
+//     }
+//
+//     if (response.data.loops) {
+//       console.log('Loops data:', response.data.loops);
+//     }
+//
+//     return response;
+//   } catch (error) {
+//     console.error('Error fetching data:', error);
+//     throw error;
+//   }
+// };
 
 // TypeScript类型定义
 interface GenomicRegion {
@@ -377,26 +377,26 @@ const testRequest = {
 };
 
 // 修改区域摘要查询函数
-const getRegionSummary =  () => {
-  const chromosomes = ['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6'];
-  const data = [];
-
-  for (let i = 0; i < 20; i++) {
-    const start = Math.floor(Math.random() * 1000000);
-    data.push({
-      chrom: chromosomes[Math.floor(Math.random() * chromosomes.length)],
-      start: start,
-      end: start + 10000,
-      A_compartment: Math.floor(Math.random() * 100),
-      B_compartment: Math.floor(Math.random() * 100),
-      NA_compartment: Math.floor(Math.random() * 50),
-      IS_lower_bound: Math.random() * 2,
-      IS_average: Math.random() * 2 + 2,
-      IS_higher_bound: Math.random() * 2 + 4
-    });
-  }
-  return data;
-};
+// const getRegionSummary =  () => {
+//   const chromosomes = ['chr1', 'chr2', 'chr3', 'chr4', 'chr5', 'chr6'];
+//   const data = [];
+//
+//   for (let i = 0; i < 20; i++) {
+//     const start = Math.floor(Math.random() * 1000000);
+//     data.push({
+//       chrom: chromosomes[Math.floor(Math.random() * chromosomes.length)],
+//       start: start,
+//       end: start + 10000,
+//       A_compartment: Math.floor(Math.random() * 100),
+//       B_compartment: Math.floor(Math.random() * 100),
+//       NA_compartment: Math.floor(Math.random() * 50),
+//       IS_lower_bound: Math.random() * 2,
+//       IS_average: Math.random() * 2 + 2,
+//       IS_higher_bound: Math.random() * 2 + 4
+//     });
+//   }
+//   return data;
+// };
 
 
 
@@ -443,7 +443,18 @@ watch(showApiDoc, async (newComponent) => {
   console.log(showApiDoc);
   try {
     if (newComponent === 'Overview') {
-      overviewData.value = await getRegionSummary();
+      const response = await queryGenomicFeatures({
+        regions: [{
+          chrom: props.chrom,
+          start: props.start,
+          end: props.end
+        }],
+        data_types: ['overview'],
+        page: 1,
+        page_size: 10
+      });
+      console.log("3333: ", response.data.overview)
+      overviewData.value = response.data.overview;
     } else if (newComponent === 'Compartment') {
       const response = await queryGenomicFeatures({
         regions: [{

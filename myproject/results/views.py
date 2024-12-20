@@ -6,7 +6,7 @@ from rest_framework.decorators import api_view
 from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
 
-from results.models import Enhancer, Loop, Stripe, Compartment, DomainBound, Overview
+from results.models import Enhancer, Loop, Stripe, Compartment, DomainBound, Overview, Samples
 
 # 定义查询参数
 id_param = openapi.Parameter(
@@ -76,9 +76,10 @@ def get_samples(request):
             for sample in page
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
@@ -179,9 +180,10 @@ def get_enhancers(request):
             for enhancer in enhancers
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
@@ -283,9 +285,10 @@ def get_loops(request):
             for loop in loops
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
@@ -389,9 +392,10 @@ def get_stripes(request):
             for stripe in stripes  # 假设 `stripes` 是查询结果集
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
@@ -557,7 +561,7 @@ def get_domain_bound_samples(request):
         start__lte=end,  # start <= 参数的 end
         end__gte=start  # end >= 参数的 start
     )
-
+    all_samples = Samples.objects
     domain_bound_samples = all_domain_bound[:1000]
 
     # 分页设置
@@ -588,9 +592,10 @@ def get_domain_bound_samples(request):
             for domain_bound_sample in domain_bound_samples
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
@@ -654,7 +659,7 @@ def get_overview(request):
         chrom=chrom,  # 确保 chrom 相等
         start__lte=end,  # start <= 参数的 end
         end__gte=start  # end >= 参数的 start
-    )
+    ).order_by('chrom')
 
     overviews = all_overview[:1000]
 
@@ -691,9 +696,10 @@ def get_overview(request):
             for overview in overviews
         ],
         "pagination": {
-            "current_page": page.number,
+            "page": page.number,
+            "page_size": paginator.per_page,
             "total_pages": paginator.num_pages,
-            "total_items": paginator.count,
+            "total": paginator.count,
             "has_previous": page.has_previous(),
             "has_next": page.has_next(),
         },
