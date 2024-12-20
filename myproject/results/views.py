@@ -351,7 +351,7 @@ def get_stripes(request):
         Q(chrom1=chrom, pos1__lte=end, pos2__gte=start) |
         # 条件2：chrom2 重叠
         Q(chrom2=chrom, pos3__lte=end, pos4__gte=start)
-    )
+    ).order_by('chrom1')
 
     stripes = all_stripes[:1000]
 
@@ -401,7 +401,7 @@ def get_stripes(request):
         },
     }
 
-    return JsonResponse({"stripes": data}, safe=False)
+    return JsonResponse({"data": data}, safe=False)
 
 
 # 定义 Swagger 参数

@@ -86,6 +86,7 @@ const displayData = computed(() => {
       (item.value <= 0 && typeValue.value === 'B')
     );
   }
+  // console.log("display_data: ", filteredData)
   return filteredData.slice(offset.value, offset.value + pageSize.value); // 修正：去掉 .data
 });
 
@@ -96,7 +97,7 @@ const itemCount = computed(() => {
       (item.E1score <= 0 && typeValue.value === 'B')
     ).length
   }
-  console.log("22222222222222: ", props.data)
+  // console.log("22222222222222: ", props.data)
   return props.data.length
 })
 
@@ -127,7 +128,7 @@ const columns: DataTableColumns = [
       'a',
       {
         href: 'javascript:void(0);',
-        onClick: () => router.push(`/sample/${row.sample_name}`),
+        // onClick: () => router.push(`http://127.0.0.1:8000/api/get_samples/?sample_name=${row.sample_name}`),
         style: { color: 'blue', textDecoration: 'underline', cursor: 'pointer' }
       },
       row.sample_id
@@ -196,7 +197,7 @@ watch(() => props.loading, (newVal) => {
 
 // 生命周期
 onMounted(() => {
-  console.log(props.data)
+  // console.log(props.data)
   if (props.region) {
     console.log(`Showing compartment data for region: ${props.region.chrom}:${props.region.start}-${props.region.end}`)
   }

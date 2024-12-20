@@ -267,6 +267,26 @@ interface GenomicFeatureResponse {
         strength: number;
       }>;
     };
+    stripes?: {
+      total: number;
+      page: number;
+      page_size: number;
+      total_pages: number;
+      data: Array<{
+        sample_id: string;
+        chrom1: string;
+        pos1: string;
+        pos2: string;
+        chrom2: string;
+        pos3: string;
+        pos4: string;
+        pvalue: string;
+        gene_anno_1: string;
+        gene_anno_2: string;
+        chipseq_anno_1: string;
+        chipseq_anno_2: string;
+      }>;
+    };
   };
 }
 
@@ -405,6 +425,7 @@ const overviewData = ref(null)
 const compartmentData = ref(null)
 const domainData = ref(null)
 const loopData = ref(null)
+const stripeData = ref(null)
 const loading = ref(false); // 定义 loading
 
 
@@ -431,6 +452,11 @@ const getComponentProps = (componentKey: string) => {
                 loopData: loopData.value,
                 // tissueTypes: availableTissues.value
             }
+        case 'Stripe':
+            return {
+                stripeData: stripeData.value,
+                // tissueTypes: availableTissues.value
+            }
         // 其他组件的props...
         default:
             return {}
@@ -453,7 +479,7 @@ watch(showApiDoc, async (newComponent) => {
         page: 1,
         page_size: 10
       });
-      console.log("3333: ", response.data.overview)
+      // console.log("3333: ", response.data.overview)
       overviewData.value = response.data.overview;
     } else if (newComponent === 'Compartment') {
       const response = await queryGenomicFeatures({
@@ -491,6 +517,18 @@ watch(showApiDoc, async (newComponent) => {
         page_size: 10
       });
       loopData.value = response.data.loops;
+    } else if (newComponent === 'Stripe') {
+      const response = await queryGenomicFeatures({
+        regions: [{
+          chrom: props.chrom,
+          start: props.start,
+          end: props.end
+        }],
+        data_types: ['stripes'],
+        page: 1,
+        page_size: 10
+      });
+      stripeData.value = response.data.stripes;
     }
     // 处理其他组件数据...
   } catch (error) {
