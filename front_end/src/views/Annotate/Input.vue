@@ -1,8 +1,8 @@
 <template>
     <n-tabs type="line" animated>
-        <n-tab-pane name="uploads" tab="FILE UPLOADS">
-            <FileUpload></FileUpload>
-        </n-tab-pane>
+<!--        <n-tab-pane name="uploads" tab="FILE UPLOADS">-->
+<!--            <FileUpload></FileUpload>-->
+<!--        </n-tab-pane>-->
         <n-tab-pane name="textinput" tab="TEXT INPUT">
             <TextInput></TextInput>
         </n-tab-pane>

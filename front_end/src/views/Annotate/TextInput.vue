@@ -92,7 +92,7 @@ chr2  5000  6000"></textarea>
   
     return true
   }
-  
+
   const handleSubmit = async () => {
     if (!validateInput(inputText.value)) {
       return

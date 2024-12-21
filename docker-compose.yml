@@ -103,15 +103,13 @@ services:
     environment:
       CONTAINER_ROLE: django
       DJANGO_ENV: production
-      PYTHONPATH: "/var/www/html/myproject"
-      DJANGO_SETTINGS_MODULE: "myproject.settings"
       # CELERY_BROKER_URL: "redis://:sad*$ds@Asd9@redis:6379/0"
       # CELERY_RESULT_BACKEND: "redis://:sad*$ds@Asd9@redis:6379/0"
       ANNOTATION_SCRIPT_PATH: "/var/www/html/myproject/others/loop_annotation/0.annotate_promoters.sh,/var/www/html/myproject/others/loop_annotation/1.annotate_encode_atacseq.sh,/var/www/html/myproject/others/loop_annotation/2.annotate_tcga_atacseq.sh,/var/www/html/myproject/others/loop_annotation/3.annotate_tabix.sh,/var/www/html/myproject/others/loop_annotation/4.annotate_stat.sh"
     expose:
       - "8080"
     ports:
-      - "8080:8080"
+      - "8080:8000"
     volumes:
       - ./myproject:/var/www/html/myproject # 挂载项目代码
       - static_vol:/var/www/html/myproject/static # 以数据卷挂载容器内static文件
