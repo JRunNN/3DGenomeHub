@@ -143,7 +143,7 @@ def get_enhancers(request):
         chrom=chrom,  # 确保 chrom 相等
         start__lte=end,  # start <= 参数的 end
         end__gte=start  # end >= 参数的 start
-    )
+    ).order_by('chrom')
 
     # 限制最大返回记录
     enhancers = all_enhancers[:1000]

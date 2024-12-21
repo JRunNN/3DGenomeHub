@@ -292,6 +292,23 @@ interface GenomicFeatureResponse {
         chipseq_anno_2: string;
       }>;
     };
+    enhancers?: {
+      total: number;
+      page: number;
+      page_size: number;
+      total_pages: number;
+      data: Array<{
+        sample_id: string;
+        chrom: string;
+        start: string;
+        end: string;
+        log_pvalue: string;
+        file_id: string;
+        experiment: string;
+        subtissue: string;
+        tissue: string;
+      }>;
+    };
   };
 }
 
@@ -431,6 +448,7 @@ const compartmentData = ref(null)
 const domainData = ref(null)
 const loopData = ref(null)
 const stripeData = ref(null)
+const enhancerData = ref(null)
 const loading = ref(false); // 定义 loading
 
 
@@ -460,6 +478,11 @@ const getComponentProps = (componentKey: string) => {
         case 'Stripe':
             return {
                 stripeData: stripeData.value,
+                // tissueTypes: availableTissues.value
+            }
+        case 'Enhancer':
+            return {
+                enhancerData: enhancerData.value,
                 // tissueTypes: availableTissues.value
             }
         // 其他组件的props...
@@ -537,6 +560,18 @@ watch(showApiDoc, async (newComponent) => {
         page_size: 10
       });
       stripeData.value = response.data.stripes;
+    } else if (newComponent === 'Enhancer') {
+      const response = await queryGenomicFeatures({
+        regions: [{
+          chrom: props.chrom,
+          start: props.start,
+          end: props.end
+        }],
+        data_types: ['enhancers'],
+        page: 1,
+        page_size: 10
+      });
+      enhancerData.value = response.data.enhancers;
     }
     // 处理其他组件数据...
   } catch (error) {
