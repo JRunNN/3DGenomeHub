@@ -52,8 +52,24 @@
   import { useRouter } from 'vue-router'
   import { NButton, NDataTable, NInputGroup, NInputNumber } from 'naive-ui'
   import type { DataTableColumns } from 'naive-ui'
-
-  const props = defineProps(["loopData", "loading"]);
+interface Props {
+  data?: CompartmentData[]
+  loading?: boolean
+  pageSize?: number
+  onAction?: (row: CompartmentData) => void
+  region?: {
+    chrom: string
+    start: number
+    end: number
+  }
+}
+ const props = withDefaults(defineProps<Props>(), {
+  data: () => [],
+  loading: false,
+  pageSize: 10,
+  onAction: undefined,
+  region: undefined
+})
   
   // 状态管理
   const router = useRouter()
@@ -67,7 +83,7 @@
   
   // 计算属性
   const displayData = computed(() => {
-    console.log("44444: ", props.loopData)
+    console.log("44444: ", props.data)
     if (!props.data || props.data.length === 0) {
       return []; // 数据未加载时返回空数组
     }
@@ -80,19 +96,19 @@
         return matchesMin && matchesMax
       })
     }
-    return filteredData.data.slice(offset.value, offset.value + pageSize.value)
+    return filteredData.slice(offset.value, offset.value + pageSize.value)
   })
   
   const itemCount = computed(() => {
-    // if (strengthFilter.value.min !== null || strengthFilter.value.max !== null) {
-    //   return props.data.filter(item => {
-    //     const matchesMin = strengthFilter.value.min === null || item.strength >= strengthFilter.value.min
-    //     const matchesMax = strengthFilter.value.max === null || item.strength <= strengthFilter.value.max
-    //     return matchesMin && matchesMax
-    //   }).length
-    // }
+    if (strengthFilter.value.min !== null || strengthFilter.value.max !== null) {
+      return props.data.filter(item => {
+        const matchesMin = strengthFilter.value.min === null || item.strength >= strengthFilter.value.min
+        const matchesMax = strengthFilter.value.max === null || item.strength <= strengthFilter.value.max
+        return matchesMin && matchesMax
+      }).length
+    }
     if (!props.data || props.data.length === 0) {
-      return []; // 数据未加载时返回空数组
+      return 0; // 数据未加载时返回空数组
     }
     return props.data.length
   })
@@ -141,36 +157,36 @@
       key: 'anchor2',
       render: (row) => `${row.chrom}:${row.start}-${row.end}`
     },
-    // {
-    //   title: 'Strength',
-    //   key: 'strength',
-    //   render: (row) => {
-    //     const strength = row.strength
-    //     const color = getStrengthColor(strength)
-    //     return h(
-    //       'div',
-    //       {
-    //         style: {
-    //           display: 'flex',
-    //           alignItems: 'center',
-    //           gap: '8px'
-    //         }
-    //       },
-    //       [
-    //         h('div', {
-    //           style: {
-    //             width: '50px',
-    //             height: '10px',
-    //             backgroundColor: color,
-    //             borderRadius: '5px'
-    //           }
-    //         }),
-    //         h('span', strength.toFixed(2))
-    //       ]
-    //     )
-    //   },
-    //   sorter: (row1, row2) => row1.strength - row2.strength
-    // },
+    {
+      title: 'Strength',
+      key: 'counts',
+      render: (row) => {
+        const strength = row.counts
+        const color = getStrengthColor(strength)
+        return h(
+          'div',
+          {
+            style: {
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px'
+            }
+          },
+          [
+            h('div', {
+              style: {
+                width: '50px',
+                height: '10px',
+                backgroundColor: color,
+                borderRadius: '5px'
+              }
+            }),
+            h('span', strength.toFixed(2))
+          ]
+        )
+      },
+      sorter: (row1, row2) => row1.counts - row2.counts
+    },
     {
       title: 'Action',
       key: 'action',
@@ -187,12 +203,12 @@
   ]
   
   // 辅助函数
-  // const getStrengthColor = (strength: number): string => {
-  //   // 根据强度返回不同的颜色
-  //   if (strength >= 0.8) return '#FF0156'
-  //   if (strength >= 0.5) return '#FFA500'
-  //   return '#00B27B'
-  // }
+  const getStrengthColor = (strength: number): string => {
+    // 根据强度返回不同的颜色
+    if (strength >= 0.8) return '#FF0156'
+    if (strength >= 0.5) return '#FFA500'
+    return '#00B27B'
+  }
   
   // 方法定义
   const handlePageChange = (page: number) => {

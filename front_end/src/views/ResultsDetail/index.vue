@@ -12,7 +12,7 @@
                 />
             </template>
             <template #main-toolbar>
-                <span>Currently showing annotation results for region: {{ props.chrom }} : {{ props.start }} - {{ props.end }}</span>
+                <span>Currently showing annotation results for region: {{ selectedRegion.chrom }} : {{ selectedRegion.start }} - {{ selectedRegion.end }}</span>
             </template>
             <template #main-content v-show="showDetailTable">
               <div>
@@ -34,7 +34,10 @@ import { ref, onMounted, defineAsyncComponent, computed, watch } from "vue"
 import { useHideLayoutFooter } from "@/composables/useHideLayoutFooter"
 import SegmentedPage, { type CtxSegmentedPage } from "@/components/common/SegmentedPage.vue"
 import { NCard, NSpace, NCode, NTag } from "naive-ui"
-import axios from 'axios' 
+import axios from 'axios'
+import {useModalStore} from "@/stores/modalStore";
+const modalStore = useModalStore()
+const selectedRegion = modalStore.modalData
 
 const props = withDefaults(
     defineProps<{
@@ -42,7 +45,7 @@ const props = withDefaults(
       start: number
       end: number
     }>(),
-    { 
+    {
         chrom: 'chr1',
         start: 100000,
         end: 10500000,
@@ -269,7 +272,7 @@ interface GenomicFeatureResponse {
         health_status: string;
         anchor1: GenomicRegion;
         anchor2: GenomicRegion;
-        strength: number;
+        counts: number;
       }>;
     };
     stripes?: {
@@ -457,7 +460,7 @@ const getComponentProps = (componentKey: string) => {
     switch(componentKey) {
         case 'Overview':
             return {
-                // region: { chrom: props.chrom, start: props.start, end: props.end },
+                // region: { chrom: selectedRegion.chrom, start: selectedRegion.start, end: selectedRegion.end },
                 data: overviewData.value
             }
         case 'Compartment':
@@ -495,13 +498,16 @@ const getComponentProps = (componentKey: string) => {
 watch(showApiDoc, async (newComponent) => {
   loading.value = true;
   console.log(showApiDoc);
+  console.log("123456: ", selectedRegion.chrom)
+  console.log("123456: ", selectedRegion.start)
+  console.log("123456: ", selectedRegion.end)
   try {
     if (newComponent === 'Overview') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['overview'],
         page: 1,
@@ -512,9 +518,9 @@ watch(showApiDoc, async (newComponent) => {
     } else if (newComponent === 'Compartment') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['compartments'],
         page: 1,
@@ -524,9 +530,9 @@ watch(showApiDoc, async (newComponent) => {
     } else if (newComponent === 'Domain') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['domains'],
         page: 1,
@@ -537,23 +543,23 @@ watch(showApiDoc, async (newComponent) => {
     } else if (newComponent === 'Loop') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['loops'],
         page: 1,
         page_size: 10
       });
       loopData.value = response.data.loops;
-      console.log("response: ", response.data.loops)
+      console.log("loops response: ", response.data.loops)
       console.log("loopData: ", loopData.value)
     } else if (newComponent === 'Stripe') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['stripes'],
         page: 1,
@@ -563,9 +569,9 @@ watch(showApiDoc, async (newComponent) => {
     } else if (newComponent === 'Enhancer') {
       const response = await queryGenomicFeatures({
         regions: [{
-          chrom: props.chrom,
-          start: props.start,
-          end: props.end
+          chrom: selectedRegion.chrom,
+          start: selectedRegion.start,
+          end: selectedRegion.end
         }],
         data_types: ['enhancers'],
         page: 1,

@@ -276,6 +276,7 @@ def get_loops(request):
                 "health_status": loop.sample_name.health_status,
                 "anchor1": {"chrom": loop.chrom1, "start": loop.start1, "end": loop.end1},
                 "anchor2": {"chrom": loop.chrom2, "start": loop.start2, "end": loop.end2},
+                "counts": loop.counts,
             }
             for loop in loops
         ],
