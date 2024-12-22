@@ -1,3 +1,5 @@
+import json
+
 from django.db.models import Q
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
@@ -641,37 +643,49 @@ def get_overview(request):
     return JsonResponse({"data": data})
 
 
-queries_param = openapi.Parameter(
-    name='queries',
-    in_=openapi.IN_QUERY,
-    description=(
-        "多个查询条件的列表，每个条件格式为 `chrom,start,end`，"
-        "例如：`chr1,100,200`。可以传入多个，格式如：`queries=chr1 100 200&queries=chr2 300 400`。"
-    ),
-    type=openapi.TYPE_ARRAY,  # 定义为数组类型
-    items=openapi.Items(type=openapi.TYPE_STRING),  # 每项为字符串类型
-    collection_format='multi',  # 指定为 `multi` 格式
-    required=True
+# queries_param = openapi.Parameter(
+#     name='queries',
+#     in_=openapi.IN_QUERY,
+#     description=(
+#         "多个查询条件的列表，每个条件格式为 `chrom,start,end`，"
+#         "例如：`chr1,100,200`。可以传入多个，格式如：`queries=chr1 100 200&queries=chr2 300 400`。"
+#     ),
+#     type=openapi.TYPE_ARRAY,  # 定义为数组类型
+#     items=openapi.Items(type=openapi.TYPE_STRING),  # 每项为字符串类型
+#     collection_format='multi',  # 指定为 `multi` 格式
+#     required=True
+# )
+queries_param = openapi.Schema(
+    type=openapi.TYPE_ARRAY,
+    items=openapi.Items(type=openapi.TYPE_STRING),
+    description="查询条件列表，每个字符串格式为 'chrom start end'，例如：'chr1 100 200'"
 )
-
-
+request_body = openapi.Schema(
+    type=openapi.TYPE_OBJECT,
+    properties={
+        'queries': queries_param
+    },
+    required=['queries']
+)
 @swagger_auto_schema(
-    method='get',
-    operation_description="根据 chrom、start 和 end 参数查询有重叠带有 bound 的 overview 数据",
-    manual_parameters=[queries_param],
-    responses={200: "成功返回数据"}
+    method='post',
+    operation_summary="查询基因组数据",
+    operation_description="根据用户提供的基因组位置查询对应的数据。",
+    request_body=request_body,
 )
-@api_view(['GET'])
+@api_view(['POST'])
 def get_text_input_overview(request):
-    # 获取输入参数
-    queries = request.GET.getlist('queries')  # 接收多个查询条件
-
-    if not queries:
-        return JsonResponse({"error": "缺少必要的查询条件 queries"}, status=400)
-
-    query_conditions = []
+    if request.method != 'POST':
+        return JsonResponse({"error": "仅支持 POST 请求"}, status=405)
 
     try:
+        body = json.loads(request.body)
+        queries = body.get('queries', [])
+
+        if not queries:
+            return JsonResponse({"error": "缺少必要的查询条件 queries"}, status=400)
+
+        query_conditions = []
         for query in queries:
             parts = query.split()
             if len(parts) != 3:

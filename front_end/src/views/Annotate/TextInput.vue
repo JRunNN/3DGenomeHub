@@ -34,11 +34,11 @@ chr2  5000  6000"></textarea>
   </template>
   
   <script setup lang="ts">
-  import { ref, computed } from 'vue'
+  import {computed, ref} from 'vue'
   import axios from 'axios'
-  import { useMessage } from 'naive-ui'
-  import { useRouter } from 'vue-router'
-  
+  import {useMessage} from 'naive-ui'
+  import {useRouter} from 'vue-router'
+
   const router = useRouter()
   const message = useMessage()
   
@@ -92,41 +92,34 @@ chr2  5000  6000"></textarea>
   
     return true
   }
-
   const handleSubmit = async () => {
     if (!validateInput(inputText.value)) {
       return
     }
-  
+
     state.value = 'uploading'
     uploading.value = true
-  
+
     try {
-      // Convert text input to Blob/File
-      const blob = new Blob([inputText.value], { type: 'text/plain' })
-      const file = new File([blob], 'input.bedpe', { type: 'text/plain' })
-  
-      const formData = new FormData()
-      formData.append('file', file)
-  
-      const response = await axios.post('http://47.107.91.5:8888/api/annotations/upload/', formData, {
+      const lines = inputText.value.trim().split('\n')
+      // 提取用户输入的文本数据
+      const payload = {
+        queries: lines.map(line => line.trim()), // 将输入的文本内容作为 JSON 参数
+      }
+      console.log("输入的数据为：", payload.queries)
+
+      // 发送 POST 请求，将输入数据传递到后端
+      const response = await axios.get('http://127.0.0.1:8000/api/results/get_text_input_overview/', payload.queries, {
         headers: {
-          'Content-Type': 'multipart/form-data'
+          'Content-Type': 'application/json',
         },
-        onUploadProgress: progressEvent => {
-          const uploadPercent = Math.round((progressEvent.loaded * 50) / progressEvent.total)
-          progressBarContent.value.percent = uploadPercent
-          progressBarContent.value.notation = 'Uploading data...'
-        }
       })
-  
-      state.value = 'processing'
-      taskId.value = response.data.task_id
-      router.push(`task-info/${taskId.value}`)
-  
+
+      const result = response.data // 从响应中提取数据
+      message.success('Data processed successfully!')
     } catch (error) {
-      console.error('Upload failed:', error)
-      message.error('Upload failed')
+      console.error('Request failed:', error)
+      message.error('Request failed, please try again.')
       state.value = 'start'
       uploading.value = false
     }
