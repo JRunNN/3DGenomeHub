@@ -400,30 +400,6 @@ def get_stripes(request):
     return JsonResponse({"data": data})
 
 
-# 定义 Swagger 参数
-chrom_param = openapi.Parameter(
-    name='chrom',
-    in_=openapi.IN_QUERY,
-    description="染色体名称，例如：chr1",
-    type=openapi.TYPE_STRING,
-    required=True
-)
-start_param = openapi.Parameter(
-    name='start',
-    in_=openapi.IN_QUERY,
-    description="区间的起始位置，例如：10000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
-end_param = openapi.Parameter(
-    name='end',
-    in_=openapi.IN_QUERY,
-    description="区间的结束位置，例如：20000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
-
-
 @swagger_auto_schema(
     method='get',
     operation_description="根据 chrom、start 和 end 参数查询有重叠的 compartments 数据",
@@ -502,28 +478,6 @@ def get_compartments(request):
     return JsonResponse({"data": data})
 
 
-# 定义 Swagger 参数
-chrom_param = openapi.Parameter(
-    name='chrom',
-    in_=openapi.IN_QUERY,
-    description="染色体名称，例如：chr1",
-    type=openapi.TYPE_STRING,
-    required=True
-)
-start_param = openapi.Parameter(
-    name='start',
-    in_=openapi.IN_QUERY,
-    description="区间的起始位置，例如：10000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
-end_param = openapi.Parameter(
-    name='end',
-    in_=openapi.IN_QUERY,
-    description="区间的结束位置，例如：20000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
 
 
 @swagger_auto_schema(
@@ -607,30 +561,6 @@ def get_domain_bound_samples(request):
     return JsonResponse({"data": data})
 
 
-# 定义 Swagger 参数
-chrom_param = openapi.Parameter(
-    name='chrom',
-    in_=openapi.IN_QUERY,
-    description="染色体名称，例如：chr1",
-    type=openapi.TYPE_STRING,
-    required=True
-)
-start_param = openapi.Parameter(
-    name='start',
-    in_=openapi.IN_QUERY,
-    description="区间的起始位置，例如：10000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
-end_param = openapi.Parameter(
-    name='end',
-    in_=openapi.IN_QUERY,
-    description="区间的结束位置，例如：20000",
-    type=openapi.TYPE_INTEGER,
-    required=True
-)
-
-
 @swagger_auto_schema(
     method='get',
     operation_description="根据 chrom、start 和 end 参数查询有重叠带有 bound 的 overview 数据",
@@ -697,6 +627,107 @@ def get_overview(request):
                 "IS_higher_bound": overview.IS_higher_bound
             }
             for overview in overviews
+        ],
+        "pagination": {
+            "page": page.number,
+            "page_size": paginator.per_page,
+            "total_pages": paginator.num_pages,
+            "total": paginator.count,
+            "has_previous": page.has_previous(),
+            "has_next": page.has_next(),
+        },
+    }
+
+    return JsonResponse({"data": data})
+
+
+queries_param = openapi.Parameter(
+    name='queries',
+    in_=openapi.IN_QUERY,
+    description=(
+        "多个查询条件的列表，每个条件格式为 `chrom,start,end`，"
+        "例如：`chr1,100,200`。可以传入多个，格式如：`queries=chr1 100 200&queries=chr2 300 400`。"
+    ),
+    type=openapi.TYPE_ARRAY,  # 定义为数组类型
+    items=openapi.Items(type=openapi.TYPE_STRING),  # 每项为字符串类型
+    collection_format='multi',  # 指定为 `multi` 格式
+    required=True
+)
+
+
+@swagger_auto_schema(
+    method='get',
+    operation_description="根据 chrom、start 和 end 参数查询有重叠带有 bound 的 overview 数据",
+    manual_parameters=[queries_param],
+    responses={200: "成功返回数据"}
+)
+@api_view(['GET'])
+def get_text_input_overview(request):
+    # 获取输入参数
+    queries = request.GET.getlist('queries')  # 接收多个查询条件
+
+    if not queries:
+        return JsonResponse({"error": "缺少必要的查询条件 queries"}, status=400)
+
+    query_conditions = []
+
+    try:
+        for query in queries:
+            parts = query.split()
+            if len(parts) != 3:
+                return JsonResponse({"error": f"查询格式不正确: {query}"}, status=400)
+
+            chrom, start, end = parts
+            start = int(start)
+            end = int(end)
+
+            if start > end:
+                return JsonResponse({"error": f"start 不能大于 end: {query}"}, status=400)
+
+            mid = (start + end) / 2
+            query_conditions.append(Q(chrom=chrom, start__lte=mid + 1, end__gte=mid))
+    except ValueError:
+        return JsonResponse({"error": "start 和 end 必须是整数"}, status=400)
+
+    # 构造查询条件
+    combined_query = query_conditions.pop()
+    for condition in query_conditions:
+        combined_query |= condition
+
+    # 查询满足条件的数据
+    all_overview = Overview.objects.filter(combined_query).order_by('chrom')
+
+    # 分页设置
+    page = request.GET.get('page', 1)  # 获取当前页码，默认为第 1 页
+    per_page = 10  # 每页显示的数据条数
+
+    paginator = Paginator(all_overview, per_page)
+
+    try:
+        page = paginator.page(page)
+    except PageNotAnInteger:
+        # 如果页码不是整数，返回第一页数据
+        page = paginator.page(1)
+    except EmptyPage:
+        # 如果页码超出范围，返回最后一页数据
+        page = paginator.page(paginator.num_pages)
+
+    # 构造 JSON 返回数据
+    data = {
+        "overview": [
+            {
+                "id": overview.id,
+                "chrom": overview.chrom,
+                "start": overview.start,
+                "end": overview.end,
+                "A_compartment": overview.A_compartment,
+                "B_compartment": overview.B_compartment,
+                "NA_compartment": overview.NA_compartment,
+                "IS_lower_bound": overview.IS_lower_bound,
+                "IS_average": overview.IS_average,
+                "IS_higher_bound": overview.IS_higher_bound
+            }
+            for overview in all_overview
         ],
         "pagination": {
             "page": page.number,

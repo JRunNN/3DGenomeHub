@@ -9,5 +9,6 @@ urlpatterns = [
     path('get_compartments/', get_compartments, name='get_compartments'),
     path('get_domains/', get_domain_bound_samples, name='get_domains'),
     path('get_overview/', get_overview, name='get_overview'),
+    path('get_text_input_overview/', get_text_input_overview, name='get_text_input_overview'),
     # path('task-info/<task_id>/', get_task_info, name='task_info')
 ]
